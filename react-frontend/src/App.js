@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ExampleChart from "./containers/example-chart/example-chart"
+import ExampleChart from "./components/example-chart/example-chart"
 
 import logo from './assets/logo.svg';
 import './assets/App.css';
