@@ -3,6 +3,7 @@ import ExampleChart from "./components/example-chart/example-chart"
 
 import logo from './assets/logo.svg';
 import './assets/App.css';
+import useFetch from './components/example-chart/hooks.js'
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
 			setCurrentTime(data.time);
 		})
 	}, []);
+
+	// let url = '/api/time';
+	// setCurrentTime(useFetch(url));
 
 	return (
 		<div className="App">

@@ -1,40 +1,15 @@
-import React, { useState, useEffect, Fragment } from 'react';
-import * as d3 from "d3";
+import React, { useState, Fragment } from 'react';
+// import * as d3 from "d3";
+
+import useFetch from './hooks.js';
 
 function ExampleChart() {
 
-	// const[jsonData, setJsonData] = useState(0);
-	const [status, setStatus] = useState('idle');
-	const [data, setData] = useState([]);
+	let url = '/api/data'
+	const { status, data } = useFetch(url);
 
-	// simple method with no status control
-	// useEffect(() => {
-	// 	fetch('/api/data').then(res => res.json()).then(data_retrieved => {
-	// 		setData(data_retrieved.run);
-	// 	})
-	// }, []);
+	console.log(data, status, url);
 
-	// more complicated method with status control
-	useEffect(() => {
-
-		const fetchData = async () => {
-			setStatus('fetching');
-
-			const response = await fetch(
-				'/api/data'
-			);
-
-			const data_retrieved = await response.json();
-			console.log(data_retrieved.run);
-			setData(data_retrieved.run);
-			setStatus('fetched');
-		};
-
-		fetchData();
-
-		// drawChart();
-
-	}, []);
 
 	// function drawChart() {
 	// 	const data = jsonData;
