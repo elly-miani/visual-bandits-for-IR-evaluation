@@ -1,44 +1,37 @@
-import React, { useState, useEffect } from 'react';
-import ExampleChart from "./components/example-chart/example-chart"
+import React, { useState } from 'react'
+
+// import ExampleChart from "./components/example-chart/example-chart"
+import Time from './components/time/Time'
 
 import logo from './assets/logo.svg';
 import './assets/App.css';
-import useFetch from './components/example-chart/hooks.js'
+
 
 function App() {
+	console.log("➡️ Rendering App()");
+	
+	const [state, setState] = useState(100);
 
-	const [currentTime, setCurrentTime] = useState(0);
-
-	useEffect(() => {
-		fetch('/api/time').then(res => res.json()).then(data => {
-			setCurrentTime(data.time);
-		})
-	}, []);
-
-	// let url = '/api/time';
-	// setCurrentTime(useFetch(url));
+	function updateState() {
+		setState(prevState => prevState - 1)
+	}
 
 	return (
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
+
 				<p>
-					Edit <code>src/App.js</code> and save to reload.
-        </p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-        </a>
-				<p>
-					The current time is {currentTime}.
+					Current state: {state}
 				</p>
+				<button onClick={updateState}>
+					Refresh main App()
+				</button>
+
+				<Time />
 			</header>
 
-			<ExampleChart />
+			{/* <ExampleChart /> */}
 		</div>
 	);
 }
