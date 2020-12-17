@@ -1,36 +1,35 @@
-import React, { useEffect, useState } from 'react'
-// import useFetch from '../../core/hooks/useFetch.js'
+import React, { useEffect, useState, useCallback } from 'react'
 import fetchAPI from '../../core/helper/fetchAPI.js'
 
 export default function Time() {
 	console.log("➡️ Rendering Time()");
 
 	let url = '/api/time';
-	const [currentTime, setCurrentTime] = useState(0)
-
-	useEffect(() => {
-		fetchAPI(url, res => {
-			setCurrentTime(res.time);
-			});
-
-		console.log("📬 Initial render", currentTime);
-	}, [])
-	
+	const [currentTime, setCurrentTime] = useState(0);
 	console.log("📬 Time at render is", currentTime);
-	
+
 	function updateTime() {
 		fetchAPI(url, res => {
 			setCurrentTime(res.time);
 		});
-		console.log("📬 Updated time: ", currentTime);
 	}
+
+	useEffect(() => {
+		updateTime();
+		console.log("📬 Initial render");
+	}, []);
+
+	const onButtonClick = useCallback(event => {
+		updateTime();
+	}, []);
+
 
 	return (
 		<div>
 			<p>
-				The current time is {currentTime}.
+				The current time is {currentTime}
 				</p>
-			<button onClick={updateTime}>
+			<button onClick={onButtonClick}>
 				Update time
 			</button>
 		</div>
