@@ -6,22 +6,25 @@ export default function Time() {
 
 	let url = '/api/time';
 	const [currentTime, setCurrentTime] = useState(0);
-	console.log("📬 Time at render is", currentTime);
+	console.log("📗 Time at render is", currentTime);
 
-	function updateTime() {
+	const updateTime = useCallback( () => {
 		fetchAPI(url, res => {
 			setCurrentTime(res.time);
 		});
-	}
+	}, [url]);
 
 	useEffect(() => {
 		updateTime();
-		console.log("📬 Initial render");
-	}, []);
+	}, [updateTime]);
 
-	const onButtonClick = useCallback(event => {
+	// const onButtonClick = useCallback(event => {
+	// 	updateTime();
+	// }, [updateTime]);
+
+	const onButtonClick = () => {
 		updateTime();
-	}, []);
+	};
 
 
 	return (

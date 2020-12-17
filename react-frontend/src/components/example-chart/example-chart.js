@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState, useCallback } from 'react';
 import * as d3 from "d3";
 
 import fetchAPI from '../../core/helper/fetchAPI.js'
@@ -9,25 +9,30 @@ function ExampleChart() {
 
 	let url = '/api/data'
 	const [data, setData] = useState([]);
-	console.log("📬 Data at render is", data);
+	console.log("📗 Data at render is", data);
 
-	function updateData() {
+	const updateData = useCallback(() => {
 		fetchAPI(url, res => {
 			setData(res);
 		});
-	}
+	}, [url]);
+
+	// const onButtonClick = () => {
+	// 	fetchAPI(url, res => {
+	// 		setData(res);
+	// 	});
+	// };
 
 	useEffect(() => {
 		updateData();
-		console.log("📬 Initial data fetch");
-	}, []);
+	}, [updateData]);
 
 	useEffect(() => {
+		console.log("📗 Data when drawing is ", data);
 		drawChart(data);
-		console.log("📬 Data when drawing is ", data);
-
+		
 		return () => {
-			console.log("Deleting drawirng container ");
+			console.log("🧨 Deleting drawing container ");
 			d3.select("#chart-container").selectAll("*").remove();
 		}
 	}, [data]);
@@ -36,7 +41,6 @@ function ExampleChart() {
 
 	function drawChart(chartData) {
 
-		console.log("Chart data:", chartData);
 		const newdata = chartData.map(data => (data.score))
 		var w = 700;
 		var h = 300;
@@ -70,6 +74,9 @@ function ExampleChart() {
 				}
 			</div>
 			<div id="chart-container" style={{border: "1px solid black"}}></div>
+			{/* <button onClick={onButtonClick}>
+				Update data
+			</button> */}
 		</Fragment>
 	)
 }
