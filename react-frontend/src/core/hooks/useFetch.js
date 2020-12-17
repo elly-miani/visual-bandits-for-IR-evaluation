@@ -3,26 +3,16 @@ import { useState, useEffect } from 'react'
 const useFetch = (url) => {
 
 	console.log("📥 Calling useFetch Hook for", url);
-
-	const [response, setResponse] = useState(null);
-	const [error, setError] = useState(null);
+	
+	const [data, setData] = useState([]);
 
 	useEffect(() => {
-		console.log("📥 Calling useEffect Hook inside useFetch");
-
-		const fetchData = async () => {
-			try {
-				const res = await fetch(url);
-				const json = await res.json();
-				setResponse(json);
-			} catch (error) {
-				setError(error);
-			}
-		};
-		fetchData();
+		fetch(url)
+			.then(response => response.json())
+			.then(data => setData(data));
 	}, []);
 
-	return { response, error };
+	return data;
 };
 
 export default useFetch;
