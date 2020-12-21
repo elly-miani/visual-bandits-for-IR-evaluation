@@ -13,6 +13,10 @@ def get_current_time():
 def get_data():
 	return send_file('./data/data.json')
 
+@app.route('/api/data2')
+def get_data2():
+	return send_file('./data/data2.json')
+
 @app.route('/')
 def index():
 		return app.send_static_file('index.html')

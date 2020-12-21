@@ -1,15 +1,23 @@
-import React, { Fragment, useEffect, useState, useCallback } from 'react';
+import React, { Fragment, useEffect, useState, useCallback, useRef } from 'react';
 import * as d3 from "d3";
 
 import fetchAPI from '../../core/helper/fetchAPI.js'
+import printLog from '../../core/helper/printLog.js';
 
 function ExampleChart() {
 
-	console.log("➡️ Rendering ExampleChart()");
+	const renderCount = useRef(1);
+	const verbosity = 2;
 
-	let url = '/api/data'
+	useEffect(() => {
+		renderCount.current = renderCount.current + 1;
+		printLog("RENDER", null, null, "ExampleChart()", renderCount.current, verbosity);
+	})
+	
+	const [url, setUrl] = useState('/api/data')
+	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState([]);
-	console.log("📗 Data at render is", data);
+	printLog("PRINT", "Data at render is", data, "ExampleChart()", renderCount.current, verbosity);
 
 	const updateData = useCallback(() => {
 		fetchAPI(url, res => {
@@ -17,22 +25,29 @@ function ExampleChart() {
 		});
 	}, [url]);
 
-	// const onButtonClick = () => {
-	// 	fetchAPI(url, res => {
-	// 		setData(res);
-	// 	});
-	// };
+
+	const onButtonClick = () => {
+		printLog("PRINT", "urlcontrol =", urlcontrol, "onButtonClick()", renderCount.current, verbosity);
+		if(urlcontrol) {
+			setUrlControl(0);
+			setUrl('/api/data2'); 
+		}
+		else {
+			setUrlControl(1);
+			setUrl('/api/data');
+		}
+	};
 
 	useEffect(() => {
 		updateData();
 	}, [updateData]);
 
 	useEffect(() => {
-		console.log("📗 Data when drawing is ", data);
+		// console.log("📗 Data when drawing is ", data);
 		drawChart(data);
 		
 		return () => {
-			console.log("🧨 Deleting drawing container ");
+			// console.log("🧨 Deleting drawing container ");
 			d3.select("#chart-container").selectAll("*").remove();
 		}
 	}, [data]);
@@ -65,18 +80,18 @@ function ExampleChart() {
 
 	return (
 		<Fragment>
-			<h1>Attempt</h1>
+			{/* <h1>Attempt</h1>
 			<div>
 				{
 					data.map(data => (
 						<div key={data.doc}>{data.score}</div>
 					))
 				}
-			</div>
+			</div> */}
 			<div id="chart-container" style={{border: "1px solid black"}}></div>
-			{/* <button onClick={onButtonClick}>
+			<button onClick={onButtonClick}>
 				Update data
-			</button> */}
+			</button>
 		</Fragment>
 	)
 }

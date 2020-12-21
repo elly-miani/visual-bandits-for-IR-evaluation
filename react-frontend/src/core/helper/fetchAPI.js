@@ -1,9 +1,17 @@
+import printLog from '../helper/printLog.js';
+
 export default function useAPI(url, callback) {
+	const verbosity = 2;
 
-	console.log("📥 Calling fetchAPI for 🔗", url);
+	printLog("API", "Calling fetchAPI for", url, "useAPI()", 0, verbosity);
 
-	fetch(url)
+	fetch(url, {
+		method: "GET",
+		headers: new Headers({
+			Accept: "application/json"
+		})
+	})
 		.then(res => res.json())
-		.then(callback);
-		
+		.then(callback)
+		.catch(error => console.log(error));
 }

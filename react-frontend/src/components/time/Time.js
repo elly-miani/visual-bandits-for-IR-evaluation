@@ -1,28 +1,36 @@
-import React, { useEffect, useState, useCallback } from 'react'
+import React, { useEffect, useState, useCallback, useRef } from 'react'
 import fetchAPI from '../../core/helper/fetchAPI.js'
+import printLog from '../../core/helper/printLog.js';
 
 export default function Time() {
-	console.log("➡️ Rendering Time()");
+	const renderCount = useRef(1);
+	const verbosity = 2;
+
+	useEffect(() => {
+		renderCount.current = renderCount.current +1;
+		printLog("RENDER", null, null, "Time()", renderCount.current, verbosity);
+	})
 
 	let url = '/api/time';
 	const [currentTime, setCurrentTime] = useState(0);
-	console.log("📗 Time at render is", currentTime);
+	printLog("PRINT", "Time at render is", currentTime, "Time()", renderCount.current, verbosity);
 
 	const updateTime = useCallback( () => {
+		printLog("FUNCTION_CALL", "Calling updateTime()", currentTime, "Time()", renderCount.current, verbosity);
 		fetchAPI(url, res => {
+			printLog("PRINT", "Time at updateTime() before setting state", currentTime, "Time()", renderCount.current, verbosity);
 			setCurrentTime(res.time);
+			printLog("PRINT", "Time at updateTime() after setting state", currentTime, "Time()", renderCount.current, verbosity);
 		});
 	}, [url]);
 
 	useEffect(() => {
+		printLog("FUNCTION_CALL", "Calling useEffect()", currentTime, "Time()", renderCount.current, verbosity);
 		updateTime();
 	}, [updateTime]);
 
-	// const onButtonClick = useCallback(event => {
-	// 	updateTime();
-	// }, [updateTime]);
-
 	const onButtonClick = () => {
+		printLog("FUNCTION_CALL", "Clicking button", currentTime, "Time()", renderCount.current, verbosity);
 		updateTime();
 	};
 

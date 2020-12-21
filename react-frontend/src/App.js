@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import ExampleChart from "./components/example-chart/example-chart"
+import ExampleChart from "./components/exampleChart/exampleChart"
 import Time from './components/time/Time'
 
 import logo from './assets/logo.svg';
