@@ -49,16 +49,24 @@ export default function printLog(type, message, value, renderingFunction, render
 			if (type == "RENDER") {
 				console.log(icon, "[", renderingFunction, renderNumber, "]", message);
 			}
-			else if(type == "API" || type == "PRINT") {
+			if(type == "API") {
 				console.log(icon, "[", renderingFunction, renderNumber, "]", message, value);
+			}
+			if(type == "PRINT") {
+				console.log(icon, "[", renderingFunction, renderNumber, "]", message, value);
+				// console.table(value);
 			}
 			break;
 		case 4:
 			if (type == "RENDER") {
 				console.log(icon, "[", renderingFunction, renderNumber, "]", message);
 			}
-			else if(type == "API" || type == "PRINT" || type == "FUNCTION_CALL") {
+			if(type == "API" || type == "FUNCTION_CALL") {
 				console.log(icon, "[", renderingFunction, renderNumber, "]", message, value);
+			}
+			if (type == "PRINT") {
+				console.log(icon, "[", renderingFunction, renderNumber, "]", message, value);
+				// console.table(value);
 			}
 			break;
 		default:

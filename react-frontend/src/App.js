@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 
-import ExampleChart from "./components/exampleChart/exampleChart"
-import Time from './components/time/Time'
-
 import logo from './assets/logo.svg';
 import './assets/App.css';
+
+import Time from './components/time/Time'
+import ExampleChart from "./components/exampleChart/exampleChart"
+import ExampleChart2 from './components/exampleChart2/exampleChart2';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<header className="App-header">
+			{/* <header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 
 				<p>
@@ -29,9 +30,11 @@ function App() {
 				</button>
 
 				<Time />
-			</header>
+			</header> */}
+			<br /><br /><br /><br />
+			<ExampleChart2 />
 
-			<ExampleChart />
+			{/* <ExampleChart /> */}
 		</div>
 	);
 }

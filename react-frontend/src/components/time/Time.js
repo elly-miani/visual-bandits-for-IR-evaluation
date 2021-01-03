@@ -4,7 +4,7 @@ import printLog from '../../core/helper/printLog.js';
 
 export default function Time() {
 	const renderCount = useRef(1);
-	const verbosity = 2;
+	const verbosity = 1;
 
 	useEffect(() => {
 		renderCount.current = renderCount.current +1;

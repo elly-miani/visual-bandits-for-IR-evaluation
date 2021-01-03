@@ -7,17 +7,19 @@ import printLog from '../../core/helper/printLog.js';
 function ExampleChart() {
 
 	const renderCount = useRef(1);
-	const verbosity = 2;
+	const verbosity = 1;
 
 	useEffect(() => {
 		renderCount.current = renderCount.current + 1;
 		printLog("RENDER", null, null, "ExampleChart()", renderCount.current, verbosity);
+		// console.table(data);
 	})
 	
 	const [url, setUrl] = useState('/api/data')
 	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState([]);
 	printLog("PRINT", "Data at render is", data, "ExampleChart()", renderCount.current, verbosity);
+	
 
 	const updateData = useCallback(() => {
 		fetchAPI(url, res => {
@@ -28,6 +30,7 @@ function ExampleChart() {
 
 	const onButtonClick = () => {
 		printLog("PRINT", "urlcontrol =", urlcontrol, "onButtonClick()", renderCount.current, verbosity);
+
 		if(urlcontrol) {
 			setUrlControl(0);
 			setUrl('/api/data2'); 
@@ -88,7 +91,7 @@ function ExampleChart() {
 					))
 				}
 			</div> */}
-			<div id="chart-container" style={{border: "1px solid black"}}></div>
+			<div id="chart-container"></div>
 			<button onClick={onButtonClick}>
 				Update data
 			</button>
