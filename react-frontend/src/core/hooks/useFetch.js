@@ -1,4 +1,7 @@
+// DEPRECATED
+
 import { useState, useEffect } from 'react'
+import ResizeObserver from "resize-observer-polyfill";
 
 const useFetch = (url) => {
 

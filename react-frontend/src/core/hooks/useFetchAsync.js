@@ -1,3 +1,5 @@
+// DEPRECATED
+
 import { useState, useEffect, useRef } from 'react';
 
 const useFetchAsync = (url) => {
