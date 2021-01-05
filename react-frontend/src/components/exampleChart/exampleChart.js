@@ -1,102 +1,92 @@
-import React, { Fragment, useEffect, useState, useCallback, useRef } from 'react';
-import * as d3 from "d3";
+import React, { useEffect, useRef, Fragment } from 'react'
+import { select, axisBottom, axisLeft, scaleLinear, scaleBand } from 'd3'; 
 
-import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
+import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 
-function ExampleChart() {
+function ExampleChart2({data}) {
 
+	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const renderCount = useRef(1);
-	const verbosity = 1;
+	const verbosity = 0;
 
 	useEffect(() => {
 		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "ExampleChart()", renderCount.current, verbosity);
-		// console.table(data);
+		printLog("RENDER", null, null, "ExampleChart2()", renderCount.current, verbosity);
 	})
-	
-	const [url, setUrl] = useState('/api/data')
-	const [urlcontrol, setUrlControl] = useState(1);
-	const [data, setData] = useState([]);
-	printLog("PRINT", "Data at render is", data, "ExampleChart()", renderCount.current, verbosity);
-	
+	// == == == == == == == == == == == == == == == == == == == //
 
-	const updateData = useCallback(() => {
-		fetchAPI(url, res => {
-			setData(res);
-		});
-	}, [url]);
-
-
-	const onButtonClick = () => {
-		printLog("PRINT", "urlcontrol =", urlcontrol, "onButtonClick()", renderCount.current, verbosity);
-
-		if(urlcontrol) {
-			setUrlControl(0);
-			setUrl('/api/data2'); 
-		}
-		else {
-			setUrlControl(1);
-			setUrl('/api/data');
-		}
-	};
+	const svgRef = useRef();
+	const wrapperRef = useRef();
+	const dimensions = useResizeObserver(wrapperRef);
 
 	useEffect(() => {
-		updateData();
-	}, [updateData]);
 
-	useEffect(() => {
-		// console.log("📗 Data when drawing is ", data);
-		drawChart(data);
+		const svg = select(svgRef.current)
+
+		if(!dimensions) return;
+
+		// scales
+		const xScale = scaleBand()
+			.domain(data.map((d,i) => i))
+			.range([0, dimensions.width])
+			.padding(0.2);
+
+		const yScale = scaleLinear()
+			.domain([0, Math.max(...data)])
+			.range([dimensions.height, 0]);
+
+		const colorScale = scaleLinear()
+			.domain([0, Math.max(...data) / 3, Math.max(...data)/3*2, Math.max(...data)])
+			.range(["#02DFF4", "#28EADD", "#5DF1BD", "#94F5A6"])
+			.clamp(true);
 		
-		return () => {
-			// console.log("🧨 Deleting drawing container ");
-			d3.select("#chart-container").selectAll("*").remove();
-		}
-	}, [data]);
+		// axis
+		const xAxis = axisBottom(xScale).ticks(data.length).tickFormat(i => i+1);
+		svg.select(".x-axis").style("transform", `translateY(${dimensions.height}px)`).call(xAxis);
 
-	
+		const yAxis = axisLeft(yScale);
+		svg.select(".y-axis").call(yAxis);
+		
 
-	function drawChart(chartData) {
-
-		const newdata = chartData.map(data => (data.score))
-		var w = 700;
-		var h = 300;
-
-		const svg = d3.select("#chart-container")
-			.append("svg")
-			.attr("width", w)
-			.attr("height", h)
-			.style("margin-left", 100);
-
-		svg.selectAll("rect")
-			.data(newdata)
-			.enter()
-			.append("rect")
-			.attr("x", (d, i) => i * 70)
-			.attr("y", (d, i) => h - 10 * d)
-			.attr("width", 65)
-			.attr("height", (d, i) => d * 10)
-			.attr("fill", "green")
-	}
-
+		svg			
+			.selectAll(".bar")
+			.data(data)
+			.join("rect")
+			.attr("class", "bar")
+			// tooltip on hover
+			.on("mouseenter", (event, d) => {				
+				svg
+					.selectAll(".tooltip")
+					.data([d])
+					.join(enter => enter.append("text").attr("y", yScale(d) - 20))
+					.attr("class", "tooltip")
+					.text(d)
+					.attr("x", xScale(data.indexOf(d)) + xScale.bandwidth() / 2 )
+					.transition()
+					.attr("y", yScale(d) - 5 )
+					.attr("text-anchor", "middle")
+					.attr("opacity", 1);
+			})
+			.on("mouseleave", () => {
+				svg.select(".tooltip").remove();
+			})
+			.transition()
+			.attr("x", (d, i) => xScale(i))																// distance b/w bars
+			.attr("y", (d, i) => yScale(d))																// offset from bottom
+			.attr("width", xScale.bandwidth())														// bars' width
+			.attr("height", (d, i) => dimensions.height - yScale(d))			// bars' height
+			.attr("fill", colorScale);																		// bars' color
+	}, [data, dimensions])
 
 	return (
-		<Fragment>
-			{/* <h1>Attempt</h1>
-			<div>
-				{
-					data.map(data => (
-						<div key={data.doc}>{data.score}</div>
-					))
-				}
-			</div> */}
-			<div id="chart-container"></div>
-			<button onClick={onButtonClick}>
-				Update data
-			</button>
-		</Fragment>
+		<div id="wrapper--ExampleChart" ref={wrapperRef}>
+			<svg ref={svgRef}>
+				<g className="x-axis"></g>
+				<g className="y-axis"></g>
+			</svg>
+		</div>
 	)
 }
 
-export default ExampleChart;
+export default ExampleChart2;
