@@ -1,5 +1,7 @@
 import React, { Fragment, useEffect, useState, useCallback, useRef } from 'react';
 
+import './ViewA.css';
+
 import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
 
@@ -53,18 +55,20 @@ function ViewA() {
 		<div id="container--viewA" className="offset">
 			<ExampleChart2 data={data}/>
 			<br/>
-			<button className="button--3d button--accent" onClick={onButtonClick}>
-				Update data
-			</button>
-			<button className="button--3d" onClick={() => setData(data.map(value => value + 5))}>
-				Increment data
-			</button>
-			<button className="button--3d" onClick={() => setData(data.filter(value => value < Math.max(...data) / 2))}>
-				Filter data
-			</button>
-			<button className="button--3d" onClick={() => setData([...data, Math.round(Math.random() * 100)])}>
-				Add data
-			</button>
+			<div className="controls">
+				<button className="button--3d button--accent" onClick={onButtonClick}>
+					Update data
+				</button>
+					<button className="button--3d" onClick={() => setData(data.map(value => value + 5))}>
+						Increment data
+				</button>
+					<button className="button--3d" onClick={() => setData(data.filter(value => value < Math.max(...data) / 2))}>
+						Filter data
+				</button>
+					<button className="button--3d" onClick={() => setData([...data, Math.round(Math.random() * 100)])}>
+						Add data
+				</button>
+			</div>	
 		</div>
 	)
 }

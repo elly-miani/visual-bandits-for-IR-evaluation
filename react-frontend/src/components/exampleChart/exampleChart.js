@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, Fragment } from 'react'
 import { select, axisBottom, axisLeft, scaleLinear, scaleBand } from 'd3'; 
 
+import './ExampleChart.css';
+
 import printLog from '../../core/helper/printLog.js';
 import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 

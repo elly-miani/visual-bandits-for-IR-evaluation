@@ -1,13 +1,14 @@
 import React from 'react'
 
+import './Nav.css';
+
 export default function Nav() {
 	return (
-		<nav>
+		<nav class="nav">
 			<div class="nav-links">
-				<a href="/" >Home</a>
-				<a href="/" >View A</a>
-				<a href="/" >View B</a>
-				<a href="/" >View C</a>
+					<a href="/" >Relevance Judgments</a>
+					<a href="/" >Kendall's τ Scores</a>
+					<a href="/" >Leave-Out-Unique Tests</a>
 			</div>
 		</nav>
 	)
