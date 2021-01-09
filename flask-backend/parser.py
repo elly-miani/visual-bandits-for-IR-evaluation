@@ -11,7 +11,7 @@ and outputs the corresponding csv files in a given directory.
                   [str]
 '''
 def parse_into_csv(indir_path, outdir_path):
-  print("Parsing all files in ", indir_path)
+  print("Parsing all files in ", indir_path, "...")
 
   for file in os.listdir(indir_path):
     if file.endswith(".txt"):
@@ -38,7 +38,7 @@ Load csv files in provided directory path and returns a pandas dataframe with al
                 [pd.DataFrame]
 '''
 def load_csv(dir_path, header):
-  print("Loading all csv files in ", dir_path)
+  print("Loading all csv files in ", dir_path, "...")
   data_frame = pd.DataFrame(columns=['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
 
   for file in os.listdir(dir_path):
@@ -64,4 +64,17 @@ parse_into_csv(indir_path_runs, outdir_path_runs)
 
 # load the csv files into a dataframe runs
 runs = load_csv(outdir_path_runs, ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
-print (runs)
+
+
+'''
+Some useful functions with dataframes
+'''
+
+print("\n📄 Select specific columns")
+print(runs[['DOCUMENT', 'RUN']])
+
+print("\n📄 Filter specific rows")
+print(runs[runs["RUN"] == "apl8c221"])
+
+print("\n📄 Select specific rows & columns")
+print(runs.loc[runs["RUN"] == "apl8c221", ["DOCUMENT", "RANK"]])
