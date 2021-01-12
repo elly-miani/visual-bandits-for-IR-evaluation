@@ -8,11 +8,6 @@ import './GridChart.css';
 
 function gridDataFunction(numColumn, numRow) {
 	var data = new Array();
-	var xpos = 1; //starting xpos and ypos at 1 so the stroke will show when we make the grid below
-	var ypos = 1;
-	var width = 50;
-	var height = 50;
-	var padding = 10;
 	var click = 0;
 
 	// iterate for rows	
@@ -24,19 +19,9 @@ function gridDataFunction(numColumn, numRow) {
 			data[row].push({
 				row: row,
 				column: column,
-				x: xpos,
-				y: ypos,
-				width: width,
-				height: height,
 				click: click
 			})
-			// increment the x position. I.e. move it over by 50 (width variable)
-			xpos += width + padding;
 		}
-		// reset the x position after a row is complete
-		xpos = 1;
-		// increment the y position for the next row. Move it down 50 (height variable)
-		ypos += height + padding;
 	}
 	return data;
 }
@@ -60,15 +45,14 @@ export default function GridChart() {
 	var rows = 10;
 
 	const [gridData, setGridData] = useState(gridDataFunction(columns, rows));
-	const [color, setColor] = useState(1);
 
 	useEffect(() => {
 		printLog("FUNCTION_CALL", "useEffect()", gridData, "GridChart()", renderCount.current, verbosity);
 
 		// if (!dimensions) return;
 		const grid = d3.select(svgRef.current);
-		grid.attr("height", rows * (50+10) +"px");
-		grid.attr("width", columns * (50+10) + "px");
+		grid.attr("height", rows * (50+10) + 10 + "px");
+		grid.attr("width", columns * (50+10) + 10 + "px");
 		
 		// var gridData = gridDataFunction();
 
@@ -86,12 +70,11 @@ export default function GridChart() {
 			.data(function (d) { return d; })
 			.join("rect")
 			.attr("class", "square")
-			.attr("x", function (d) { return d.x; })
-			.attr("y", function (d) { return d.y; })
-			.attr("width", function (d) { return d.width; })
-			.attr("height", function (d) { return d.height; })
+			.attr("x", function (d) { return 1 + 10 + (50 + 10) * d.column; })
+			.attr("y", function (d) { return 1 + 10 + (50 + 10) * d.row; })
+			.attr("width", "50px")
+			.attr("height", "50px")
 			.style("fill", function (d) { 
-				// console.log("Color: ", colorScale(d.click)); 
 				return colorScale(d.click); 
 			})
 			.style("stroke", "#F2F4F8")
@@ -99,7 +82,7 @@ export default function GridChart() {
 			.on("click", function (event, d) {
 				// printLog("PRINT", "Click data: ", d, "GridChart()", renderCount.current, verbosity);
 				// printLog("PRINT", "Click event: ", event, "GridChart()", renderCount.current, verbosity);
-
+				console.log("indexes = [", d.row, ",", d.column, "]");
 				// 1. Make a shallow copy of the items
 				let temp_gridData = [...gridData];
 				// console.log("temp_gridData: ", temp_gridData);
@@ -116,19 +99,9 @@ export default function GridChart() {
 				setGridData( temp_gridData );
 				// console.log("gridData: ", gridData);
 			});
-
-			// return () => {
-			// 	d3.selectAll("svg > *").remove();
-			// }
 	}, [gridData]);
 
-	useEffect(() => {
-		// gridData[0][0].click = gridData[0][0].click +2;
-		// console.log(gridData[0][0].click);
-	}, [])
-
 	return (
-		// <div className="grid"></div>
 		<div id="wrapper--GridChart" ref={wrapperRef}>
 			<svg ref={svgRef}>
 			</svg>
