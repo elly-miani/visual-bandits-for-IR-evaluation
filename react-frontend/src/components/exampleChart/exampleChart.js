@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, Fragment } from 'react'
-import { select, axisBottom, axisLeft, scaleLinear, scaleBand } from 'd3'; 
+import * as d3 from 'd3'; 
 
 import './ExampleChart.css';
 
 import printLog from '../../core/helper/printLog.js';
 import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 
-function ExampleChart2({data}) {
+function ExampleChart({data}) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const renderCount = useRef(1);
@@ -14,7 +14,7 @@ function ExampleChart2({data}) {
 
 	useEffect(() => {
 		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "ExampleChart2()", renderCount.current, verbosity);
+		printLog("RENDER", null, null, "ExampleChart()", renderCount.current, verbosity);
 	})
 	// == == == == == == == == == == == == == == == == == == == //
 
@@ -24,30 +24,30 @@ function ExampleChart2({data}) {
 
 	useEffect(() => {
 
-		const svg = select(svgRef.current)
+		const svg = d3.select(svgRef.current)
 
 		if(!dimensions) return;
 
 		// scales
-		const xScale = scaleBand()
+		const xScale = d3.scaleBand()
 			.domain(data.map((d,i) => i))
 			.range([0, dimensions.width])
 			.padding(0.2);
 
-		const yScale = scaleLinear()
+		const yScale = d3.scaleLinear()
 			.domain([0, Math.max(...data)])
 			.range([dimensions.height, 0]);
 
-		const colorScale = scaleLinear()
+		const colorScale = d3.scaleLinear()
 			.domain([0, Math.max(...data) / 3, Math.max(...data)/3*2, Math.max(...data)])
 			.range(["#02DFF4", "#28EADD", "#5DF1BD", "#94F5A6"])
 			.clamp(true);
 		
 		// axis
-		const xAxis = axisBottom(xScale).ticks(data.length).tickFormat(i => i+1);
+		const xAxis = d3.axisBottom(xScale).ticks(data.length).tickFormat(i => i+1);
 		svg.select(".x-axis").style("transform", `translateY(${dimensions.height}px)`).call(xAxis);
 
-		const yAxis = axisLeft(yScale);
+		const yAxis = d3.axisLeft(yScale);
 		svg.select(".y-axis").call(yAxis);
 		
 
@@ -91,4 +91,4 @@ function ExampleChart2({data}) {
 	)
 }
 
-export default ExampleChart2;
+export default ExampleChart;

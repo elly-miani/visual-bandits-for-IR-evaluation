@@ -6,6 +6,7 @@ import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
 
 import ExampleChart2 from '../../components/ExampleChart/ExampleChart';
+import GridChart from '../../components/GridChart/GridChart';
 
 function ViewA() {
 
@@ -52,12 +53,16 @@ function ViewA() {
 	}, [updateData]);
 
 	return (
-		<div id="container--viewA" className="offset">
-			<ExampleChart2 data={data}/>
-			<br/>
-			<div className="controls">
-				<button className="button--3d button--accent" onClick={onButtonClick}>
-					Update data
+		<Fragment>
+			<div id="container--viewA" className="offset">
+				<GridChart />
+			</div>
+			<div id="container--viewA" className="offset">
+				<ExampleChart2 data={data} />
+				<br />
+				<div className="controls">
+					<button className="button--3d button--accent" onClick={onButtonClick}>
+						Update data
 				</button>
 					<button className="button--3d" onClick={() => setData(data.map(value => value + 5))}>
 						Increment data
@@ -68,8 +73,10 @@ function ViewA() {
 					<button className="button--3d" onClick={() => setData([...data, Math.round(Math.random() * 100)])}>
 						Add data
 				</button>
-			</div>	
-		</div>
+				</div>
+			</div>
+			
+		</Fragment>
 	)
 }
 
