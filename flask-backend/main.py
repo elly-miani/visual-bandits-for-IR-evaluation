@@ -17,6 +17,11 @@ def get_data():
 def get_data2():
 	return send_file('./data/data2.json')
 
+
+@app.route('/api/json')
+def get_data_json():
+	return send_file('./data/mockdata_json/GridChart.json')
+
 @app.route('/')
 def index():
 		return app.send_static_file('index.html')

@@ -1,6 +1,8 @@
 import pandas as pd
+from tabulate import tabulate
 import re
 import os
+import json
 
 '''
 Parses space-separated files contained in a given directory
@@ -70,11 +72,55 @@ runs = load_csv(outdir_path_runs, ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE'
 Some useful functions with dataframes
 '''
 
-print("\n📄 Select specific columns")
-print(runs[['DOCUMENT', 'RUN']])
+# print("\n📄 Select specific columns")
+# print(runs[['RANK', 'DOCUMENT', 'RUN', 'SCORE']], "\n")
 
-print("\n📄 Filter specific rows")
-print(runs[runs["RUN"] == "apl8c221"])
+# print("\n📄 Filter specific rows")
+# print(runs[runs["RUN"] == "apl8c221"])
 
-print("\n📄 Select specific rows & columns")
-print(runs.loc[runs["RUN"] == "apl8c221", ["DOCUMENT", "RANK"]])
+# print("\n📄 Select specific rows & columns")
+# print(runs.loc[runs["RUN"] == "apl8c221", ["DOCUMENT", "RANK"]])
+
+print("\n📄 Trying for a multiIndex", "\n")
+filtered_runs = runs[['RANK', 'DOCUMENT', 'RUN']]
+print(filtered_runs, "\n")
+
+''' multiIndex from a dataframe '''
+# index = pd.MultiIndex.from_frame(temp_runs)
+
+''' multiIndex from two lists of elemenets '''
+# iterables = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ["att99atc", "acsys8aln2", "apl8c221"]]
+# index = pd.MultiIndex.from_product(iterables, names=["RANK", "RUN"])
+# print(index, "\n")
+# temp_runs = filtered_runs.set_index(index)
+# print(temp_runs, "\n")
+
+''' printing the dataframe with a multiIndex, but without actually using a multiIndex '''
+# temp_runs = filtered_runs.set_index(['RUN', 'RANK'])
+temp_runs = filtered_runs.set_index(['RANK', 'RUN'])
+print(temp_runs, "\n")
+print(temp_runs.unstack(), "\n")
+
+# json_runs = json.loads(temp_runs.unstack().to_json(orient="index"))
+json_runs_as_string = temp_runs.unstack().to_json(orient="records");
+json_runs = json.loads(json_runs_as_string)
+print(print(json.dumps(json_runs, indent=4)))
+
+json_path = "./data/mockdata_json/GridChart.json"
+with open(json_path, "w") as f:
+  f.write(json_runs_as_string)
+
+# print(tabulate(temp_runs.unstack(), headers='keys', tablefmt='psql'))
+
+# print(temp_runs.groupby(['RANK', 'RUN']).mean())
+
+# temp_runs.to_html('temp_runs.html')
+
+
+
+# print("\n", temp_runs.unstack(1))
+
+
+
+
+
