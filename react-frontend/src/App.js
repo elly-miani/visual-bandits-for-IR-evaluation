@@ -6,15 +6,16 @@ import './assets/App.css';
 // import Time from './components/Time/Time'
 import Nav from './components/Nav/Nav'
 import ViewA from './containers/ViewA/ViewA'
+import ViewB from './containers/ViewB/ViewB'
 
 function App() {
 	console.log("➡️ Rendering App()");
 	
-	const [state, setState] = useState(100);
+	// const [state, setState] = useState(100);
 
-	function updateState() {
-		setState(prevState => prevState - 1)
-	}
+	// function updateState() {
+	// 	setState(prevState => prevState - 1)
+	// }
 
 	return (
 		<div className="App">
@@ -31,6 +32,7 @@ function App() {
 				<Time />
 			</header> */}
 			<Nav />
+			<ViewB />
 			<ViewA />
 		</div>
 	);
