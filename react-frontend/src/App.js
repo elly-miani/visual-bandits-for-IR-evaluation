@@ -31,7 +31,9 @@ function App() {
 
 				<Time />
 			</header> */}
-			<Nav />
+			<header>
+				<Nav />
+			</header>
 			<ViewB />
 			<ViewA />
 		</div>

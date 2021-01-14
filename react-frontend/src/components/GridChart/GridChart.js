@@ -77,13 +77,15 @@ function updateGridData(data, gridData, numRows, numColumns) {
 export default function GridChart({data}) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
-	const renderCount = useRef(1);
-	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
-	const verbosity = [0, 0, 1, 1, 0];
+	const printLogHelper = useRef({
+		renderingFunction: "GridChart()",
+		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		renderCount: 1
+	});
 
 	useEffect(() => {
-		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "GridChart()", renderCount.current, verbosity);
+		printLogHelper.current.renderCount = printLogHelper.current.renderCount + 1;
+		printLog("RENDER", null, null, printLogHelper.current);
 	})
 	// == == == == == == == == == == == == == == == == == == == //
 
@@ -96,8 +98,8 @@ export default function GridChart({data}) {
 	const [gridData, setGridData] = useState(createGridData(data, numColumns, numRows));
 
 	useEffect(() => {
-		printLog("FUNCTION_CALL", "useEffect()", null, "GridChart()", renderCount.current, verbosity);
-		printLog("PRINT", "gridData: ", gridData, "GridChart()", renderCount.current, verbosity);
+		printLog("FUNCTION_CALL", "useEffect()", null, printLogHelper.current);
+		printLog("PRINT", "gridData: ", gridData, printLogHelper.current);
 
 		// if (!dimensions) return;
 		const grid = d3.select(svgRef.current);
@@ -128,8 +130,8 @@ export default function GridChart({data}) {
 			})
 			.style("stroke", "#F2F4F8")
 			.on("click", function (event, d) {
-				// printLog("PRINT", "Click data: ", d, "GridChart()", renderCount.current, verbosity);
-				// printLog("PRINT", "Click event: ", event, "GridChart()", renderCount.current, verbosity);
+				// printLog("PRINT", "Click data: ", d, printLogHelper.current);
+				// printLog("PRINT", "Click event: ", event, printLogHelper.current);
 				// 1. Make a shallow copy of the items
 				let temp_gridData = [...gridData];
 				// 2. Make a shallow copy of the item you want to mutate
@@ -143,7 +145,7 @@ export default function GridChart({data}) {
 			})
 			// tooltip on hover
 			.on("mouseenter", (event, d) => {
-				// printLog("PRINT", "on mousenter, d: ", d.document, "GridChart()", renderCount.current, verbosity);
+				// printLog("PRINT", "on mousenter, d: ", d.document, printLogHelper.current);
 				grid
 					.selectAll(".tooltip")
 					.data([d])

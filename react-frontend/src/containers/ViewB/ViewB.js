@@ -10,14 +10,15 @@ import GridChart from '../../components/GridChart/GridChart';
 function ViewB() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
-	const renderCount = useRef(1);
-	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
-	// const verbosity = [0, 0, 0, 0, 0];
-	const verbosity = [0, 0, 0, 0, 0];
+	const printLogHelper = useRef({
+		renderingFunction: "ViewB()",
+		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		renderCount: 1
+	});
 
 	useEffect(() => {
-		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "ViewB()", renderCount.current, verbosity);
+		printLogHelper.current.renderCount = printLogHelper.current.renderCount + 1;
+		printLog("RENDER", null, null, printLogHelper.current);
 	})
 	// == == == == == == == == == == == == == == == == == == == //
 	
@@ -27,12 +28,12 @@ function ViewB() {
 	// const url = '/api/mockdata/json/GridChart';
 
 	const [data, setData] = useState(null);
-	printLog("PRINT", "Data at render is", data, "ViewB()", renderCount.current, verbosity);
+	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
 
 	const updateData = useCallback(() => {
-		printLog("FUNCTION_CALL", "updateData()", null, "ViewB()", renderCount.current, verbosity);
+		printLog("FUNCTION_CALL", "updateData()", null, printLogHelper.current);
 
-		fetchAPI(verbosity, url, res => {
+		fetchAPI(printLogHelper.current, url, res => {
 			// const newdata = res.map(data => (data.score))
 			const newdata = res
 			setData(newdata);
@@ -40,7 +41,7 @@ function ViewB() {
 	}, [url]);
 
 	useEffect(() => {
-		printLog("HOOK", "useEffect([updateData])", null, "ViewB()", renderCount.current, verbosity);
+		printLog("HOOK", "useEffect([updateData])", null, printLogHelper.current);
 		updateData();
 	}, [updateData]);
 

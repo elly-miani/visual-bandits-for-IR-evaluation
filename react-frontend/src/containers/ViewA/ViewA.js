@@ -10,14 +10,15 @@ import ExampleChart2 from '../../components/ExampleChart/ExampleChart';
 function ViewA() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
-	const renderCount = useRef(1);
-	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
-	const verbosity = [0, 0, 0, 0, 0];
-	// const verbosity = [1, 1, 1, 1, 1];
+	const printLogHelper = useRef({
+		renderingFunction: "ViewA()",
+		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		renderCount: 1
+	});
 
 	useEffect(() => {
-		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "viewA()", renderCount.current, verbosity);
+		printLogHelper.current.renderCount = printLogHelper.current.renderCount + 1;
+		printLog("RENDER", null, null, printLogHelper.current);
 	})
 	// == == == == == == == == == == == == == == == == == == == //
 	
@@ -25,12 +26,12 @@ function ViewA() {
 	const [url, setUrl] = useState('/api/mockdata/fake_data1')
 	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState([]);
-	printLog("PRINT", "Data at render is", data, "viewA()", renderCount.current, verbosity);
+	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
 
 	const updateData = useCallback(() => {
-		printLog("FUNCTION_CALL", "updateData()", null, "ViewA()", renderCount.current, verbosity);
+		printLog("FUNCTION_CALL", "updateData()", null, printLogHelper.current);
 
-		fetchAPI(verbosity, url, res => {
+		fetchAPI(printLogHelper.current, url, res => {
 			const newdata = res.map(data => (data.score))
 			setData(newdata);
 		});
@@ -38,8 +39,8 @@ function ViewA() {
 
 
 	const onButtonClick = () => {
-		printLog("FUNCTION_CALL", "onButtonClick()", null, "ViewA()", renderCount.current, verbosity);
-		printLog("PRINT", "urlcontrol =", urlcontrol, "ViewA()", renderCount.current, verbosity);
+		printLog("FUNCTION_CALL", "onButtonClick()", null, printLogHelper.current);
+		printLog("PRINT", "urlcontrol =", urlcontrol, printLogHelper.current);
 
 		if(urlcontrol) {
 			setUrlControl(0);
@@ -52,7 +53,7 @@ function ViewA() {
 	};
 
 	useEffect(() => {
-		printLog("HOOK", "useEffect([updateData])", null, "ViewA()", renderCount.current, verbosity);
+		printLog("HOOK", "useEffect([updateData])", null, printLogHelper.current);
 		updateData();
 	}, [updateData]);
 

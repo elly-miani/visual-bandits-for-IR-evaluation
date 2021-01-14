@@ -4,16 +4,7 @@ import ResizeObserver from 'resize-observer-polyfill'
 
 import printLog from '../../core/helper/printLog.js';
 
-const useResizeObserver = (ref) => {
-
-	// == == == == == == == == PRINTLOG == == == == == == == == //
-  const renderCount = useRef(1);
-	const verbosity = 0; // 5 for HOOK
-
-	useEffect(() => {
-		renderCount.current = renderCount.current + 1;
-	})
-	// == == == == == == == == == == == == == == == == == == == //
+const useResizeObserver = (ref, printLogHelper) => {
 
 	const [dimensions, setDimensions] = useState(null);
 
@@ -21,7 +12,7 @@ const useResizeObserver = (ref) => {
 		const observeTarget = ref.current;
 		const resizeObserver = new ResizeObserver((entries) => {
 
-			printLog("HOOK", null, entries, "useResizeObserver()", renderCount.current, verbosity);
+			printLog("HOOK", "useResizeObserver()", entries, printLogHelper);
 
 			// set dimensions
 			entries.forEach(entry => {

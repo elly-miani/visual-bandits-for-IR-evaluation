@@ -9,23 +9,24 @@ import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 function ExampleChart({data}) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
-	const renderCount = useRef(1);
-	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
-	const verbosity = [0, 0, 0, 0, 0];
-	// const verbosity = [1, 1, 1, 1, 1];
+	const printLogHelper = useRef({
+		renderingFunction: "ExampleChart()",
+		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		renderCount: 1
+	});
 
 	useEffect(() => {
-		renderCount.current = renderCount.current + 1;
-		printLog("RENDER", null, null, "ExampleChart()", renderCount.current, verbosity);
+		printLogHelper.current.renderCount = printLogHelper.current.renderCount + 1;
+		printLog("RENDER", null, null, printLogHelper.current);
 	})
 	// == == == == == == == == == == == == == == == == == == == //
 
 	const svgRef = useRef();
 	const wrapperRef = useRef();
-	const dimensions = useResizeObserver(wrapperRef);
+	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
 	useEffect(() => {
-		printLog("HOOK", "useEffect([data,dimensions])", null, "ExampleChart()", renderCount.current, verbosity);
+		printLog("HOOK", "useEffect([data,dimensions])", null, printLogHelper.current);
 
 		const svg = d3.select(svgRef.current)
 
