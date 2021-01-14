@@ -9,18 +9,19 @@ def get_current_time():
 		return {'time': time.time()}
 
 
-@app.route('/api/data')
-def get_data():
-	return send_file('./data/data.json')
-
-@app.route('/api/data2')
-def get_data2():
-	return send_file('./data/data2.json')
+@app.route('/api/mockdata/fake_data1')
+def get_mockdata_fake_data1():
+	return send_file('./data/mockdata/fake_data1.json')
 
 
-@app.route('/api/json')
-def get_data_json():
-	return send_file('./data/mockdata_json/GridChart.json')
+@app.route('/api/mockdata/fake_data2')
+def get_mockdata_fake_data2():
+	return send_file('./data/mockdata/fake_data2.json')
+
+
+@app.route('/api/mockdata/json/GridChart')
+def get_mockdata_json():
+	return send_file('./data/mockdata/json_data/runs/GridChart.json')
 
 @app.route('/')
 def index():

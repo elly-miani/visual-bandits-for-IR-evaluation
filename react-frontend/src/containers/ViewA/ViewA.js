@@ -22,7 +22,7 @@ function ViewA() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [url, setUrl] = useState('/api/data')
+	const [url, setUrl] = useState('/api/mockdata/fake_data1')
 	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState([]);
 	printLog("PRINT", "Data at render is", data, "viewA()", renderCount.current, verbosity);
@@ -43,11 +43,11 @@ function ViewA() {
 
 		if(urlcontrol) {
 			setUrlControl(0);
-			setUrl('/api/data2'); 
+			setUrl('/api/mockdata/fake_data2'); 
 		}
 		else {
 			setUrlControl(1);
-			setUrl('/api/data');
+			setUrl('/api/mockdata/fake_data1');
 		}
 	};
 

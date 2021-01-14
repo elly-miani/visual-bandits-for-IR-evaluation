@@ -4,6 +4,7 @@ import re
 import os
 import json
 
+
 '''
 Parses space-separated files contained in a given directory
 and outputs the corresponding csv files in a given directory.
@@ -36,7 +37,7 @@ Load csv files in provided directory path and returns a pandas dataframe with al
                 [str]
 @PAR header   : List of strings containing the names of the dataframe columns
                 [list]
-@RETURNS data_frame : dataframe containing all the data parsed
+@RETURNS data_frame : Dataframe containing all the data parsed
                 [pd.DataFrame]
 '''
 def load_csv(dir_path, header):
@@ -55,25 +56,86 @@ def load_csv(dir_path, header):
   return data_frame
 
 
-# RUNS ############################################################################
+'''
+Write a json file in provided file path.
+@PAR outfile_path : The path to the file to write
+                [str]
+@PAR dataframe : Dataframe to turn into json
+                [pd.DataFrame]
+@PAR orientation : Orientation to pass to function .to_json
+'''
+def write_json_from_df(outfile_path, dataframe, orientation):
+	json_string = dataframe.to_json(orient=orientation)
 
-# path to the run files and where to store the csv files
-indir_path_runs = "./data/mockdata/runs"
-outdir_path_runs = "./data/mockdata_csv/runs"
+	print("➡️ Writing ", outfile_path, "...")
+	with open(outfile_path, "w") as f:
+		f.write(json_string)
+	print("✅ Writing complete\n")
+
+
+'''
+Print a dataframe in json format.
+@PAR dataframe : Dataframe to turn into json
+                [pd.DataFrame]
+@PAR orientation : Orientation to pass to function .to_json
+'''
+def print_json_from_df(dataframe, orientation):
+	json_string = dataframe.to_json(orient=orientation)
+	json_object = json.loads(json_string)
+	print("🖨  Printing dataframe in json format:\n")
+	print(json.dumps(json_object, indent=4))
+
+
+'''
+Write a json file from dict in provided file path.
+@PAR outfile_path : The path to the file to write
+                [str]
+@PAR dict : Dictionary to turn into json
+                [dict]
+'''
+def write_json_from_dict(outfile_path, dict):
+	print("➡️ Writing ", outfile_path, "...")
+	with open(outfile_path, "w") as f:
+		f.write(json.dumps(dict, sort_keys=True, indent=4))
+	print("✅ Writing complete\n")
+
+
+'''
+Print a dict in json format.
+@PAR dict : Dictionary to turn into json
+                [dict]
+'''
+def print_json_from_dict(dict):
+	print("🖨  Printing dict in json format:\n")
+	print(json.dumps(dict, sort_keys=True, indent=4))
+
+
+
+
+
+###################################################################################
+# RUNS ############################################################################
+###################################################################################
+
+
+# LOADING & PARSING DATA ##########################################################
+
+# path to the run files and where to store the csv+json files
+original_data_path_runs = "./data/mockdata/original_data/runs"
+csv_data_path_runs = "./data/mockdata/csv_data/runs"
+json_data_path_runs = "./data/mockdata/json_data/runs"
 
 # parse the txt files into csv files
-parse_into_csv(indir_path_runs, outdir_path_runs)
+parse_into_csv(original_data_path_runs, csv_data_path_runs)
 
 # load the csv files into a dataframe runs
-runs = load_csv(outdir_path_runs, ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
+runs = load_csv(csv_data_path_runs, ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
 
 
-'''
-Some useful functions with dataframes
-'''
+# SOME USEFUL FUNCTIONS FOR REFERENCE #############################################
 
 # print("\n📄 Select specific columns")
-# print(runs[['RANK', 'DOCUMENT', 'RUN', 'SCORE']], "\n")
+# print(runs[['RANK', 'DOCUMENT', 'RUN']], "\n")
 
 # print("\n📄 Filter specific rows")
 # print(runs[runs["RUN"] == "apl8c221"])
@@ -81,46 +143,41 @@ Some useful functions with dataframes
 # print("\n📄 Select specific rows & columns")
 # print(runs.loc[runs["RUN"] == "apl8c221", ["DOCUMENT", "RANK"]])
 
-print("\n📄 Trying for a multiIndex", "\n")
-filtered_runs = runs[['RANK', 'DOCUMENT', 'RUN']]
-print(filtered_runs, "\n")
 
-''' multiIndex from a dataframe '''
-# index = pd.MultiIndex.from_frame(temp_runs)
+# TRANSFORMING THE DF INTO SMTH USEFUL ############################################
 
-''' multiIndex from two lists of elemenets '''
-# iterables = [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], ["att99atc", "acsys8aln2", "apl8c221"]]
-# index = pd.MultiIndex.from_product(iterables, names=["RANK", "RUN"])
-# print(index, "\n")
-# temp_runs = filtered_runs.set_index(index)
+''' 
+Printing the dataframe with a multiIndex
+'''
+print("\n📄 Printing the dataframe with multiIndex", "\n")
+
+temp_runs = runs.set_index(['RANK', 'RUN'])
+temp_runs.sort_index(inplace=True)
 # print(temp_runs, "\n")
+# print(tabulate(temp_runs, headers='keys', tablefmt='psql'))
 
-''' printing the dataframe with a multiIndex, but without actually using a multiIndex '''
-# temp_runs = filtered_runs.set_index(['RUN', 'RANK'])
-temp_runs = filtered_runs.set_index(['RANK', 'RUN'])
-print(temp_runs, "\n")
-print(temp_runs.unstack(), "\n")
+# temp_runs_unstacked = temp_runs.unstack()
+# print(temp_runs_unstacked, "\n")
+# print(tabulate(temp_runs_unstacked, headers='keys', tablefmt='psql'))
 
-# json_runs = json.loads(temp_runs.unstack().to_json(orient="index"))
-json_runs_as_string = temp_runs.unstack().to_json(orient="records");
-json_runs = json.loads(json_runs_as_string)
-print(print(json.dumps(json_runs, indent=4)))
 
-json_path = "./data/mockdata_json/GridChart.json"
-with open(json_path, "w") as f:
-  f.write(json_runs_as_string)
+''' 
+Writing the corresponding json file from dictionary obtained from dataframe
+'''
+dict = {level: temp_runs.xs(level).to_dict('index')
+        for level in temp_runs.index.levels[0]}
 
-# print(tabulate(temp_runs.unstack(), headers='keys', tablefmt='psql'))
-
-# print(temp_runs.groupby(['RANK', 'RUN']).mean())
-
-# temp_runs.to_html('temp_runs.html')
+json_file = json_data_path_runs + "/GridChart.json"
+print_json_from_dict(dict)
+write_json_from_dict(json_file, dict)
 
 
 
-# print("\n", temp_runs.unstack(1))
-
-
-
-
-
+''' 
+Writing the corresponding json file from dataframe (DEPRECATED)
+'''
+# json_file = json_data_path_runs + "/GridChart.json"
+# orientation = "records"
+# orientation = "index"
+# write_json_from_df(json_file, temp_runs.unstack(), orientation)
+# print_json_from_df(temp_runs.unstack(), orientation)
