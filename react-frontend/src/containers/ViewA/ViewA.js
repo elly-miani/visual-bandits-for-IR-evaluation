@@ -6,13 +6,14 @@ import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
 
 import ExampleChart2 from '../../components/ExampleChart/ExampleChart';
-import GridChart from '../../components/GridChart/GridChart';
 
 function ViewA() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const renderCount = useRef(1);
-	const verbosity = 0;
+	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+	const verbosity = [0, 0, 0, 0, 0];
+	// const verbosity = [1, 1, 1, 1, 1];
 
 	useEffect(() => {
 		renderCount.current = renderCount.current + 1;
@@ -25,10 +26,11 @@ function ViewA() {
 	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState([]);
 	printLog("PRINT", "Data at render is", data, "viewA()", renderCount.current, verbosity);
-	
 
 	const updateData = useCallback(() => {
-		fetchAPI(url, res => {
+		printLog("FUNCTION_CALL", "updateData()", null, "ViewA()", renderCount.current, verbosity);
+
+		fetchAPI(verbosity, url, res => {
 			const newdata = res.map(data => (data.score))
 			setData(newdata);
 		});
@@ -36,7 +38,8 @@ function ViewA() {
 
 
 	const onButtonClick = () => {
-		printLog("PRINT", "urlcontrol =", urlcontrol, "onButtonClick()", renderCount.current, verbosity);
+		printLog("FUNCTION_CALL", "onButtonClick()", null, "ViewA()", renderCount.current, verbosity);
+		printLog("PRINT", "urlcontrol =", urlcontrol, "ViewA()", renderCount.current, verbosity);
 
 		if(urlcontrol) {
 			setUrlControl(0);
@@ -49,14 +52,12 @@ function ViewA() {
 	};
 
 	useEffect(() => {
+		printLog("HOOK", "useEffect([updateData])", null, "ViewA()", renderCount.current, verbosity);
 		updateData();
 	}, [updateData]);
 
 	return (
 		<Fragment>
-			<div id="container--viewA" className="offset">
-				<GridChart />
-			</div>
 			<div id="container--viewA" className="offset">
 				<ExampleChart2 data={data} />
 				<br />

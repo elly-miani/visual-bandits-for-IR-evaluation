@@ -1,7 +1,6 @@
 import printLog from '../helper/printLog.js';
 
-export default function useAPI(url, callback) {
-	const verbosity = 2;
+export default function useAPI(verbosity, url, callback) {
 
 	printLog("API", "Calling fetchAPI for", url, "useAPI()", 0, verbosity);
 

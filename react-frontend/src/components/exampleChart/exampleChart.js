@@ -10,7 +10,9 @@ function ExampleChart({data}) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const renderCount = useRef(1);
-	const verbosity = 0;
+	// verbosity = [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+	const verbosity = [0, 0, 0, 0, 0];
+	// const verbosity = [1, 1, 1, 1, 1];
 
 	useEffect(() => {
 		renderCount.current = renderCount.current + 1;
@@ -23,6 +25,7 @@ function ExampleChart({data}) {
 	const dimensions = useResizeObserver(wrapperRef);
 
 	useEffect(() => {
+		printLog("HOOK", "useEffect([data,dimensions])", null, "ExampleChart()", renderCount.current, verbosity);
 
 		const svg = d3.select(svgRef.current)
 
