@@ -9,59 +9,62 @@ import json
 Parses space-separated files contained in a given directory
 and outputs the corresponding csv files in a given directory.
 @PAR indir_path : The path to the directory containing the .txt files
-                  [str]
+									[str]
 @PAR outdir_path : The path to the directory where to save the .csv files
-                  [str]
+									[str]
 '''
 def parse_into_csv(indir_path, outdir_path):
-  print("Parsing all files in ", indir_path, "...")
+	print("Parsing all files in ", indir_path, "...")
 
-  for file in os.listdir(indir_path):
-    if file.endswith(".txt"):
-      infile_path = os.path.join(indir_path, file)
-      outfile_path = os.path.join(outdir_path, file.replace(".txt", ".csv"))
-      
-      if not os.path.isfile(outfile_path):
-        with open(infile_path) as infile, open(outfile_path, 'w') as outfile:
-          outfile.write(infile.read().replace("\t", ","))
-        print("└──", infile_path, " was parsed into csv file: ", outfile_path)
-      else:
-        print("❌", outfile_path, " already existed.")
-  
-  print("➡️ Parsing complete.\n")
+	for file in os.listdir(indir_path):
+		if file.endswith(".txt"):
+			infile_path = os.path.join(indir_path, file)
+			outfile_path = os.path.join(outdir_path, file.replace(".txt", ".csv"))
+			
+			# if not os.path.isfile(outfile_path):
+			#   with open(infile_path) as infile, open(outfile_path, 'w') as outfile:
+			#     outfile.write(infile.read().replace("\t", ","))
+			#   print("└──", infile_path, " was parsed into csv file: ", outfile_path)
+			# else:
+			#   print("❌", outfile_path, " already existed.")
+			with open(infile_path) as infile, open(outfile_path, 'w') as outfile:
+				outfile.write(infile.read().replace("\t", ","))
+			print("✅", infile_path, " was parsed into csv file: ", outfile_path)
+	
+	print("➡️ Parsing complete.\n")
 
 
 '''
 Load csv files in provided directory path and returns a pandas dataframe with all corresponding data.
 @PAR dir_path : The path to the directory containing the .csv files
-                [str]
+								[str]
 @PAR header   : List of strings containing the names of the dataframe columns
-                [list]
+								[list]
 @RETURNS data_frame : Dataframe containing all the data parsed
-                [pd.DataFrame]
+								[pd.DataFrame]
 '''
 def load_csv(dir_path, header):
-  print("Loading all csv files in ", dir_path, "...")
-  data_frame = pd.DataFrame(columns=['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
+	print("Loading all csv files in ", dir_path, "...")
+	data_frame = pd.DataFrame(columns=['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
 
-  for file in os.listdir(dir_path):
-    if file.endswith(".csv"):
-      file_path = os.path.join(dir_path, file)
-      
-      temp = pd.read_csv(file_path, header=None, names=header)
-      data_frame = data_frame.append(temp, ignore_index=True)
-      print("✅ Appending file ", file_path)
+	for file in os.listdir(dir_path):
+		if file.endswith(".csv"):
+			file_path = os.path.join(dir_path, file)
+			
+			temp = pd.read_csv(file_path, header=None, names=header)
+			data_frame = data_frame.append(temp, ignore_index=True)
+			print("✅ Appending file ", file_path)
 
-  print("➡️ Parsing of ", dir_path, " complete.\n")
-  return data_frame
+	print("➡️ Parsing of ", dir_path, " complete.\n")
+	return data_frame
 
 
 '''
 Write a json file in provided file path.
 @PAR outfile_path : The path to the file to write
-                [str]
+								[str]
 @PAR dataframe : Dataframe to turn into json
-                [pd.DataFrame]
+								[pd.DataFrame]
 @PAR orientation : Orientation to pass to function .to_json
 '''
 def write_json_from_df(outfile_path, dataframe, orientation):
@@ -76,7 +79,7 @@ def write_json_from_df(outfile_path, dataframe, orientation):
 '''
 Print a dataframe in json format.
 @PAR dataframe : Dataframe to turn into json
-                [pd.DataFrame]
+								[pd.DataFrame]
 @PAR orientation : Orientation to pass to function .to_json
 '''
 def print_json_from_df(dataframe, orientation):
@@ -89,9 +92,9 @@ def print_json_from_df(dataframe, orientation):
 '''
 Write a json file from dict in provided file path.
 @PAR outfile_path : The path to the file to write
-                [str]
+								[str]
 @PAR dict : Dictionary to turn into json
-                [dict]
+								[dict]
 '''
 def write_json_from_dict(outfile_path, dict):
 	print("➡️ Writing ", outfile_path, "...")
@@ -103,7 +106,7 @@ def write_json_from_dict(outfile_path, dict):
 '''
 Print a dict in json format.
 @PAR dict : Dictionary to turn into json
-                [dict]
+								[dict]
 '''
 def print_json_from_dict(dict):
 	print("🖨  Printing dict in json format:\n")
@@ -165,10 +168,10 @@ temp_runs.sort_index(inplace=True)
 Writing the corresponding json file from dictionary obtained from dataframe
 '''
 dict = {level: temp_runs.xs(level).to_dict('index')
-        for level in temp_runs.index.levels[0]}
+				for level in temp_runs.index.levels[0]}
 
 json_file = json_data_path_runs + "/GridChart.json"
-print_json_from_dict(dict)
+# print_json_from_dict(dict)
 write_json_from_dict(json_file, dict)
 
 
