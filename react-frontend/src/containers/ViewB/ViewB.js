@@ -12,7 +12,7 @@ function ViewB() {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewB()",
-		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 0, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -25,7 +25,6 @@ function ViewB() {
 
 	const [url, setUrl] = useState('/api/mockdata/json/GridChart')
 	// const [urlcontrol, setUrlControl] = useState(1);
-	// const url = '/api/mockdata/json/GridChart';
 
 	const [data, setData] = useState(null);
 	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
@@ -34,9 +33,7 @@ function ViewB() {
 		printLog("FUNCTION_CALL", "updateData()", null, printLogHelper.current);
 
 		fetchAPI(printLogHelper.current, url, res => {
-			// const newdata = res.map(data => (data.score))
-			const newdata = res
-			setData(newdata);
+			setData(res);
 		});
 	}, [url]);
 
@@ -64,13 +61,6 @@ function ViewB() {
 			</Fragment>
 		)
 	}
-	// return (
-	// 		<Fragment>
-	// 			<div id="container--viewB" className="offset">
-	// 				{JSON.stringify(data, null, 2)}
-	// 			</div>
-	// 		</Fragment>
-	// 	)
 }
 
 export default ViewB;

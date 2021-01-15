@@ -12,7 +12,7 @@ function ViewA() {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewA()",
-		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 0, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
