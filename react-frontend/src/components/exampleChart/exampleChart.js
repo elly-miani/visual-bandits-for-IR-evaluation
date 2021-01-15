@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, Fragment } from 'react'
+import React, { useEffect, useRef } from 'react'
 import * as d3 from 'd3'; 
 
 import './ExampleChart.css';
@@ -11,7 +11,7 @@ function ExampleChart({data}) {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ExampleChart()",
-		verbosity: [1, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 0, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
