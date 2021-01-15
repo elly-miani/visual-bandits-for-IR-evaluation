@@ -28,10 +28,16 @@ export default function GridChart({data}) {
 
 	const [gridState, setGridState] = useState(createGridData(data, printLogHelper.current));
 
+	// when data is updated, recreate the grid
 	useEffect(() => {
-		printLog("HOOK", "useEffect()", null, printLogHelper.current);
-		// printLog("PRINT", "gridData: ", gridState, printLogHelper.current);
+		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
+		setGridState(createGridData(data, printLogHelper.current));
+	}, [data]);
 
+	// when the grid is recreated, redraw the chart
+	useEffect(() => {
+		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
+		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
 		drawChart(gridState, setGridState, svgRef.current, printLogHelper.current);
 	}, [gridState]);
 

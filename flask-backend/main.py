@@ -23,6 +23,11 @@ def get_mockdata_fake_data2():
 def get_mockdata_json():
 	return send_file('./data/mockdata/json_data/runs/GridChart.json')
 
+
+@app.route('/api/mockdata/json/GridChart2')
+def get_mockdata_json2():
+	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
+
 @app.route('/')
 def index():
 		return app.send_static_file('index.html')

@@ -170,7 +170,7 @@ Writing the corresponding json file from dictionary obtained from dataframe
 dict = {level: temp_runs.xs(level).to_dict('index')
 				for level in temp_runs.index.levels[0]}
 
-json_file = json_data_path_runs + "/GridChart.json"
+json_file = json_data_path_runs + "/GridChart2.json"
 # print_json_from_dict(dict)
 write_json_from_dict(json_file, dict)
 

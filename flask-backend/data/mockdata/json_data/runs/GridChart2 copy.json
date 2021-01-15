@@ -1,0 +1,322 @@
+{
+    "1": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS3-20090",
+            "QUERY": "Q0",
+            "SCORE": 1.96713310726314,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT942-5131",
+            "QUERY": "Q0",
+            "SCORE": 0.429941,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FBIS3-39240",
+            "QUERY": "Q0",
+            "SCORE": 10014.111328,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT942-5131",
+            "QUERY": "Q0",
+            "SCORE": 4.3846,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS4-18372",
+            "QUERY": "Q0",
+            "SCORE": 24.482834,
+            "TOPIC": 401
+        }
+    },
+    "2": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS4-18182",
+            "QUERY": "Q0",
+            "SCORE": 1.90353348604871,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT942-5121",
+            "QUERY": "Q0",
+            "SCORE": 0.429941,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FT924-4470",
+            "QUERY": "Q0",
+            "SCORE": 10013.638672,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT942-5121",
+            "QUERY": "Q0",
+            "SCORE": 4.3846,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS4-18223",
+            "QUERY": "Q0",
+            "SCORE": 24.209427,
+            "TOPIC": 401
+        }
+    },
+    "3": {
+        "Flab8ax": {
+            "DOCUMENT": "FT924-4470",
+            "QUERY": "Q0",
+            "SCORE": 1.70782867424798,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT911-1796",
+            "QUERY": "Q0",
+            "SCORE": 0.427952,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FBIS4-18182",
+            "QUERY": "Q0",
+            "SCORE": 10013.591797,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT924-7558",
+            "QUERY": "Q0",
+            "SCORE": 3.6418,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS3-19290",
+            "QUERY": "Q0",
+            "SCORE": 23.598804,
+            "TOPIC": 401
+        }
+    },
+    "4": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS3-39117",
+            "QUERY": "Q0",
+            "SCORE": 1.65824763026864,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT924-4470",
+            "QUERY": "Q0",
+            "SCORE": 0.424569,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FBIS3-59055",
+            "QUERY": "Q0",
+            "SCORE": 10013.441406,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT924-5091",
+            "QUERY": "Q0",
+            "SCORE": 3.1765,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FT941-1403",
+            "QUERY": "Q0",
+            "SCORE": 23.300995,
+            "TOPIC": 401
+        }
+    },
+    "5": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS3-59436",
+            "QUERY": "Q0",
+            "SCORE": 1.59316049830319,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT931-10513",
+            "QUERY": "Q0",
+            "SCORE": 0.423479,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FBIS4-65434",
+            "QUERY": "Q0",
+            "SCORE": 10013.408203,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT931-10513",
+            "QUERY": "Q0",
+            "SCORE": 2.9957,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FT941-230",
+            "QUERY": "Q0",
+            "SCORE": 22.867599,
+            "TOPIC": 401
+        }
+    },
+    "6": {
+        "Flab8ax": {
+            "DOCUMENT": "FT924-5091",
+            "QUERY": "Q0",
+            "SCORE": 1.58811650604638,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT944-6909",
+            "QUERY": "Q0",
+            "SCORE": 0.422459,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FT942-5121",
+            "QUERY": "Q0",
+            "SCORE": 10013.34668,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FBIS3-38236",
+            "QUERY": "Q0",
+            "SCORE": 2.8478,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS4-65928",
+            "QUERY": "Q0",
+            "SCORE": 22.783833,
+            "TOPIC": 401
+        }
+    },
+    "7": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS3-18684",
+            "QUERY": "Q0",
+            "SCORE": 1.48502969006591,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT924-3284",
+            "QUERY": "Q0",
+            "SCORE": 0.421448,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FT942-5131",
+            "QUERY": "Q0",
+            "SCORE": 10013.202148,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT934-9441",
+            "QUERY": "Q0",
+            "SCORE": 2.797,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FT941-4640",
+            "QUERY": "Q0",
+            "SCORE": 21.572344,
+            "TOPIC": 401
+        }
+    },
+    "8": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS4-9582",
+            "QUERY": "Q0",
+            "SCORE": 1.48459444534606,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT924-4344",
+            "QUERY": "Q0",
+            "SCORE": 0.421398,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FBIS4-55036",
+            "QUERY": "Q0",
+            "SCORE": 10013.141602,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT934-12742",
+            "QUERY": "Q0",
+            "SCORE": 2.7414,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS3-19302",
+            "QUERY": "Q0",
+            "SCORE": 21.436178,
+            "TOPIC": 401
+        }
+    },
+    "9": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS4-55313",
+            "QUERY": "Q0",
+            "SCORE": 1.45113928905703,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT924-7558",
+            "QUERY": "Q0",
+            "SCORE": 0.420919,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FT934-12742",
+            "QUERY": "Q0",
+            "SCORE": 10013.125977,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT924-4344",
+            "QUERY": "Q0",
+            "SCORE": 2.7104,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FT911-1796",
+            "QUERY": "Q0",
+            "SCORE": 19.987349,
+            "TOPIC": 401
+        }
+    },
+    "10": {
+        "Flab8ax": {
+            "DOCUMENT": "FBIS4-55036",
+            "QUERY": "Q0",
+            "SCORE": 1.43918306485866,
+            "TOPIC": 401
+        },
+        "GE8ATDN2": {
+            "DOCUMENT": "FT911-225",
+            "QUERY": "Q0",
+            "SCORE": 0.420744,
+            "TOPIC": 401
+        },
+        "acsys8aln2": {
+            "DOCUMENT": "FT944-6909",
+            "QUERY": "Q0",
+            "SCORE": 10012.782227,
+            "TOPIC": 401
+        },
+        "apl8c221": {
+            "DOCUMENT": "FT944-6909",
+            "QUERY": "Q0",
+            "SCORE": 2.6541,
+            "TOPIC": 401
+        },
+        "att99atc": {
+            "DOCUMENT": "FBIS3-19702",
+            "QUERY": "Q0",
+            "SCORE": 19.966404,
+            "TOPIC": 401
+        }
+    }
+}

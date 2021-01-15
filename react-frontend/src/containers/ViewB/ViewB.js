@@ -12,7 +12,7 @@ function ViewB() {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewB()",
-		verbosity: [0, 0, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -24,23 +24,32 @@ function ViewB() {
 	
 
 	const [url, setUrl] = useState('/api/mockdata/json/GridChart')
-	// const [urlcontrol, setUrlControl] = useState(1);
-
+	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState(null);
 	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
 
-	const updateData = useCallback(() => {
-		printLog("FUNCTION_CALL", "updateData()", null, printLogHelper.current);
 
+	useEffect(() => {
 		fetchAPI(printLogHelper.current, url, res => {
 			setData(res);
 		});
-	}, [url]);
+	}, [url])
 
-	useEffect(() => {
-		printLog("HOOK", "useEffect([updateData])", null, printLogHelper.current);
-		updateData();
-	}, [updateData]);
+	
+	const onButtonClick = () => {
+		printLog("FUNCTION_CALL", "onButtonClick()", null, printLogHelper.current);
+		printLog("PRINT", "urlcontrol =", urlcontrol, printLogHelper.current);
+
+		if (urlcontrol) {
+			setUrlControl(0);
+			setUrl('/api/mockdata/json/GridChart2');
+		}
+		else {
+			setUrlControl(1);
+			setUrl('/api/mockdata/json/GridChart');
+		}
+	};
+
 
 	if (!data) {
 		return (
@@ -57,6 +66,12 @@ function ViewB() {
 				<div id="container--viewB" className="offset">
 					<GridChart data={data} />
 					{/* {JSON.stringify(data, null, 2)} */}
+					<br />
+					<div className="controls">
+						<button className="button--3d button--accent" onClick={onButtonClick}>
+							Update data
+						</button>
+					</div>
 				</div>
 			</Fragment>
 		)
