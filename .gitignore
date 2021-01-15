@@ -1,30 +1,55 @@
+# Node artifact files
+node_modules/
+# **/node_modules
+dist/
+
 # dependencies
-**/node_modules
 /.pnp
 .pnp.js
 
-# flask
-env/
-.flaskenv
+# Python & Flask
 dist/
 build/
 __pycache__
+*.py[cod]
 
-# testing
-/coverage
-
-# misc
-.DS_Store
-.vscode
-*.code-workspace
+.flaskenv
+env/
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# logs & caches
+# Unit test reports
+TEST*.xml
+/coverage
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode
+*.code-workspace
+
+# Log files & caches
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 *.eslintcache
+
+# Package files
+*.jar
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
