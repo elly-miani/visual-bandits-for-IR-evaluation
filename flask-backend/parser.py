@@ -52,6 +52,12 @@ def load_csv(dir_path, header):
 			file_path = os.path.join(dir_path, file)
 			
 			temp = pd.read_csv(file_path, header=None, names=header)
+			temp.sort_values('RANK', inplace=True)
+
+			# check if the ranks start from 1; if not, adjust accordingly
+			if temp['RANK'].iloc[0] == 0:
+				temp['RANK'] += 1
+			
 			data_frame = data_frame.append(temp, ignore_index=True)
 			print("✅ Appending file ", file_path)
 
@@ -149,12 +155,15 @@ runs = load_csv(csv_data_path_runs, ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCOR
 
 # TRANSFORMING THE DF INTO SMTH USEFUL ############################################
 
+# print(tabulate(runs, headers='keys', tablefmt='psql'))
+
 ''' 
 Printing the dataframe with a multiIndex
 '''
 print("\n📄 Printing the dataframe with multiIndex", "\n")
 
-temp_runs = runs.set_index(['RANK', 'RUN'])
+# temp_runs = runs.set_index(['RANK', 'RUN'])
+temp_runs = runs.set_index(['RUN', 'RANK'])
 temp_runs.sort_index(inplace=True)
 # print(temp_runs, "\n")
 # print(tabulate(temp_runs, headers='keys', tablefmt='psql'))
