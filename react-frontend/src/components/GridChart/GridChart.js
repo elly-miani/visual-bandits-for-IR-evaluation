@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 
 import printLog from '../../core/helper/printLog.js';
-// import useResizeObserver from '../../core/hooks/useResizeObserver.js';
+import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 import createGridData from './createGridData';
 import drawChart from './drawChart';
 
@@ -12,7 +12,7 @@ export default function GridChart({data}) {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "GridChart()",
-		verbosity: [1, 1, 1, 1, 1],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 1, 1],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -24,22 +24,24 @@ export default function GridChart({data}) {
 
 	const svgRef = useRef();
 	const wrapperRef = useRef();
-	// const dimensions = useResizeObserver(wrapperRef);
+	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
 	const [gridState, setGridState] = useState(createGridData(data, printLogHelper.current));
 
 	// when data is updated, recreate the grid
 	useEffect(() => {
 		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
+		// printLog("PRINT", "data: ", data, printLogHelper.current);
 		setGridState(createGridData(data, printLogHelper.current));
 	}, [data]);
 
 	// when the grid is recreated, redraw the chart
 	useEffect(() => {
+		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, setGridState, svgRef.current, printLogHelper.current);
-	}, [gridState]);
+		drawChart(gridState, setGridState, svgRef.current, dimensions, printLogHelper.current);
+	}, [gridState, dimensions]);
 
 	return (
 		<div id="wrapper--GridChart" ref={wrapperRef}>

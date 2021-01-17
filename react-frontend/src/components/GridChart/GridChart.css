@@ -1,4 +1,6 @@
 #wrapper--GridChart {
-	display: flex;
-	justify-content: center;
+	/* display: flex;
+	justify-content: center; */
+	/* height: 50vh; */
+	margin-bottom: 2em;
 }

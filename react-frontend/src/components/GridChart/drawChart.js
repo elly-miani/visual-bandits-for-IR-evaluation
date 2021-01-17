@@ -1,17 +1,32 @@
 import * as d3 from 'd3'; 
 
-export default function drawChart(gridState, setGridState, svgRef, printLogHelper) {
+export default function drawChart(gridState, setGridState, svgRef, dimensions, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
-	// if (!dimensions) return;
 	const grid = d3.select(svgRef);
-	grid.attr("height", gridState.totRanks * (50 + 10) + 10 + "px");
-	grid.attr("width", gridState.totRuns * (50 + 10) + 10 + "px");
+	console.log(dimensions);
 
+	// scales
+	const xScale = d3.scaleBand()
+		.domain(gridState.gridData[1].map((d,i) => i))
+		.range([0, dimensions.width])
+		.padding(0.1);
+	
 	const colorScale = d3.scaleLinear()
 		.domain([0, 1, 2, 3, 4])
 		.range(["#DDEAFD", "#02DFF4", "#28EADD", "#5DF1BD", "#94F5A6"])
 		.clamp(true);
+
+
+	grid.attr("height", function (d) {
+		if (xScale.bandwidth() > 50) {
+			return gridState.totRanks * (50 + 10) + 10 + "px";
+		}
+		else {
+			return gridState.totRanks * (xScale.bandwidth() + 10) + 10 + "px"
+		}
+	});
+	grid.attr("width", gridState.totRuns * (xScale.bandwidth() + 10) + 10 + "px");
 
 	var row = grid.selectAll(".row")
 		.data(gridState.gridData)
@@ -23,14 +38,6 @@ export default function drawChart(gridState, setGridState, svgRef, printLogHelpe
 		.data(function (d) { return d; })
 		.join("rect")
 		.attr("class", "square")
-		.attr("x", function (d) { return 1 + 10 + (50 + 10) * d.column; })
-		.attr("y", function (d) { return 1 + 10 + (50 + 10) * d.row; })
-		.attr("width", "50px")
-		.attr("height", "50px")
-		.style("fill", function (d) {
-			return colorScale(d.click);
-		})
-		.style("stroke", "#F2F4F8")
 		.on("click", function (event, d) {
 			// printLog("PRINT", "Click data: ", d, printLogHelper.current);
 			// printLog("PRINT", "Click event: ", event, printLogHelper.current);
@@ -53,11 +60,11 @@ export default function drawChart(gridState, setGridState, svgRef, printLogHelpe
 		.on("mouseenter", (event, d) => {
 			// printLog("PRINT", "on mousenter, d: ", d.document, printLogHelper.current);
 			grid
-				.selectAll(".tooltip")
+				.selectAll(".doc-info")
 				.data([d])
 				.join(enter => enter.append("text").attr("y", 0))
 				.attr("class", "tooltip")
-				.text("DOC: " + d.document + "  SCORE: " + d.score + "  QUERY: " + d.query + "  TOPIC: " + d.topic)
+				.text("DOC: " + d.document + "  RUN: " + d.run + "  SCORE: " + d.score + "  TOPIC: " + d.topic)
 				.attr("x", "200px")
 				.transition()
 				.attr("y", 0)
@@ -66,5 +73,27 @@ export default function drawChart(gridState, setGridState, svgRef, printLogHelpe
 		})
 		.on("mouseleave", () => {
 			grid.select(".tooltip").remove();
+		})
+		.style("fill", function (d) {
+			return colorScale(d.click);
+		})
+		.style("stroke", "#F2F4F8")
+		.attr("x", (d, i) => xScale(i))
+		.attr("y", function (d) { 
+			if (xScale.bandwidth() > 50) {
+				return 1 + 10 + (50 + 10) * d.row;
+			}
+			else {
+				return 1 + 10 + (xScale.bandwidth() + 10) * d.row;
+			}
+		})
+		.attr("width", xScale.bandwidth())
+		.attr("height", () => {
+			if (xScale.bandwidth() > 50) {
+				return "50px";
+			}
+			else{
+				return xScale.bandwidth();
+			}
 		});
 }

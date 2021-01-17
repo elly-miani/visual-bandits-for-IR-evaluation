@@ -1,3 +1,5 @@
+import printLog from "../../core/helper/printLog";
+
 export default function createGridData(data, printLogHelper) {
 	var gridData = [];
 	var click = 0;
@@ -14,6 +16,7 @@ export default function createGridData(data, printLogHelper) {
 		run_names.push(key);
 	}
 	var totRuns = run_names.length;
+	// printLog("PRINT", "run_names: ", run_names, printLogHelper);
 
 	// iterate for each rank (row in the grid)	
 	for (var rank = 0; rank < totRanks; rank++) {
@@ -29,9 +32,10 @@ export default function createGridData(data, printLogHelper) {
 					row: rank,
 					column: run,
 					document: null,
-					query: null,
+					run: run_names[run],
 					score: null,
 					topic: null,
+					query: null,
 					click: click
 				})
 			}
@@ -40,9 +44,10 @@ export default function createGridData(data, printLogHelper) {
 					row: rank,
 					column: run,
 					document: document_data.DOCUMENT,
-					query: document_data.QUERY,
+					run : run_names[run],
 					score: document_data.SCORE,
 					topic: document_data.TOPIC,
+					query: document_data.QUERY,
 					click: click
 				})
 			}
