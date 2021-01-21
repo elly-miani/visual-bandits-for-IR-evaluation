@@ -19,14 +19,18 @@ def get_mockdata_fake_data2():
 	return send_file('./data/mockdata/fake_data2.json')
 
 
-@app.route('/api/mockdata/json/GridChart')
+@app.route('/api/mockdata/GridChart')
 def get_mockdata_json():
 	return send_file('./data/mockdata/json_data/runs/GridChart.json')
 
 
-@app.route('/api/mockdata/json/GridChart2')
+@app.route('/api/mockdata/GridChart2')
 def get_mockdata_json2():
 	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
+
+@app.route('/api/mockdata/qrels_topic_401')
+def get_mockdata_qrels():
+	return send_file('./data/mockdata/json_data/qrels/qrels_topic_401.json')
 
 @app.route('/')
 def index():

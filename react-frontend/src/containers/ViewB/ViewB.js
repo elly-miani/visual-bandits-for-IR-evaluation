@@ -23,7 +23,7 @@ function ViewB() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [url, setUrl] = useState('/api/mockdata/json/GridChart')
+	const [url, setUrl] = useState('/api/mockdata/GridChart')
 	const [urlcontrol, setUrlControl] = useState(1);
 	const [data, setData] = useState(null);
 	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
@@ -42,11 +42,11 @@ function ViewB() {
 
 		if (urlcontrol) {
 			setUrlControl(0);
-			setUrl('/api/mockdata/json/GridChart2');
+			setUrl('/api/mockdata/GridChart2');
 		}
 		else {
 			setUrlControl(1);
-			setUrl('/api/mockdata/json/GridChart');
+			setUrl('/api/mockdata/GridChart');
 		}
 	};
 

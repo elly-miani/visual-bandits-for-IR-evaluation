@@ -63,13 +63,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS4-18182",
             "QUERY": "Q0",
-            "SCORE": 7473.0,
+            "SCORE": 7473,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FBIS3-39240",
+            "DOCUMENT": "FT944-6909",
             "QUERY": "Q0",
-            "SCORE": 10014.111328,
+            "SCORE": 10012.782227,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -87,7 +87,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS3-19212",
             "QUERY": "Q0",
-            "SCORE": 1684473.0,
+            "SCORE": 1684473,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -197,13 +197,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS3-39117",
             "QUERY": "Q0",
-            "SCORE": 6952.0,
+            "SCORE": 6952,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FT924-4470",
+            "DOCUMENT": "FBIS3-39240",
             "QUERY": "Q0",
-            "SCORE": 10013.638672,
+            "SCORE": 10014.111328,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -221,7 +221,7 @@
         "fub99a": {
             "DOCUMENT": "FT941-230",
             "QUERY": "Q0",
-            "SCORE": 1632786.0,
+            "SCORE": 1632786,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -331,13 +331,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS4-55036",
             "QUERY": "Q0",
-            "SCORE": 6533.0,
+            "SCORE": 6533,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FBIS4-18182",
+            "DOCUMENT": "FT924-4470",
             "QUERY": "Q0",
-            "SCORE": 10013.591797,
+            "SCORE": 10013.638672,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -355,7 +355,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS3-59436",
             "QUERY": "Q0",
-            "SCORE": 1596922.0,
+            "SCORE": 1596922,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -465,13 +465,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FT924-5091",
             "QUERY": "Q0",
-            "SCORE": 6435.0,
+            "SCORE": 6435,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FBIS3-59055",
+            "DOCUMENT": "FBIS4-18182",
             "QUERY": "Q0",
-            "SCORE": 10013.441406,
+            "SCORE": 10013.591797,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -489,7 +489,7 @@
         "fub99a": {
             "DOCUMENT": "FT941-1648",
             "QUERY": "Q0",
-            "SCORE": 1533193.0,
+            "SCORE": 1533193,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -599,13 +599,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS3-18684",
             "QUERY": "Q0",
-            "SCORE": 6114.0,
+            "SCORE": 6114,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FBIS4-65434",
+            "DOCUMENT": "FBIS3-59055",
             "QUERY": "Q0",
-            "SCORE": 10013.408203,
+            "SCORE": 10013.441406,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -623,7 +623,7 @@
         "fub99a": {
             "DOCUMENT": "FT941-4767",
             "QUERY": "Q0",
-            "SCORE": 1397079.0,
+            "SCORE": 1397079,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -733,13 +733,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS4-55980",
             "QUERY": "Q0",
-            "SCORE": 6022.0,
+            "SCORE": 6022,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FT942-5121",
+            "DOCUMENT": "FBIS4-65434",
             "QUERY": "Q0",
-            "SCORE": 10013.34668,
+            "SCORE": 10013.408203,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -757,7 +757,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS4-9057",
             "QUERY": "Q0",
-            "SCORE": 1375883.0,
+            "SCORE": 1375883,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -867,13 +867,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FT942-16369",
             "QUERY": "Q0",
-            "SCORE": 6017.0,
+            "SCORE": 6017,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FT942-5131",
+            "DOCUMENT": "FT942-5121",
             "QUERY": "Q0",
-            "SCORE": 10013.202148,
+            "SCORE": 10013.34668,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -891,7 +891,7 @@
         "fub99a": {
             "DOCUMENT": "FT942-17612",
             "QUERY": "Q0",
-            "SCORE": 1369465.0,
+            "SCORE": 1369465,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -1001,13 +1001,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FT924-4470",
             "QUERY": "Q0",
-            "SCORE": 5983.0,
+            "SCORE": 5983,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FBIS4-55036",
+            "DOCUMENT": "FT942-5131",
             "QUERY": "Q0",
-            "SCORE": 10013.141602,
+            "SCORE": 10013.202148,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -1025,7 +1025,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS4-9504",
             "QUERY": "Q0",
-            "SCORE": 1339199.0,
+            "SCORE": 1339199,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -1135,13 +1135,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS4-18659",
             "QUERY": "Q0",
-            "SCORE": 5901.0,
+            "SCORE": 5901,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FT934-12742",
+            "DOCUMENT": "FBIS4-55036",
             "QUERY": "Q0",
-            "SCORE": 10013.125977,
+            "SCORE": 10013.141602,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -1159,7 +1159,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS4-31704",
             "QUERY": "Q0",
-            "SCORE": 1324850.0,
+            "SCORE": 1324850,
             "TOPIC": 401
         },
         "ibmg99a": {
@@ -1269,13 +1269,13 @@
         "UniNET8Lg": {
             "DOCUMENT": "FBIS4-55313",
             "QUERY": "Q0",
-            "SCORE": 5889.0,
+            "SCORE": 5889,
             "TOPIC": 401
         },
         "acsys8aln2": {
-            "DOCUMENT": "FT944-6909",
+            "DOCUMENT": "FT934-12742",
             "QUERY": "Q0",
-            "SCORE": 10012.782227,
+            "SCORE": 10013.125977,
             "TOPIC": 401
         },
         "apl8c221": {
@@ -1293,7 +1293,7 @@
         "fub99a": {
             "DOCUMENT": "FBIS4-18223",
             "QUERY": "Q0",
-            "SCORE": 1313674.0,
+            "SCORE": 1313674,
             "TOPIC": 401
         },
         "ibmg99a": {
