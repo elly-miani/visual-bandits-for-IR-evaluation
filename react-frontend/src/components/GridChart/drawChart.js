@@ -13,8 +13,8 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, p
 		.padding(0.1);
 	
 	const colorScale = d3.scaleLinear()
-		.domain([0, 1, 2, 3, 4])
-		.range(["#DDEAFD", "#02DFF4", "#28EADD", "#5DF1BD", "#94F5A6"])
+		.domain([0, 1, 2])
+		.range(["#FFA0B8", "#5DF1BD", "#DDEAFD"])
 		.clamp(true);
 
 
@@ -38,44 +38,47 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, p
 		.data(function (d) { return d; })
 		.join("rect")
 		.attr("class", "square")
+		// .on("click", function (event, d) {
+		// 	// printLog("PRINT", "Click data: ", d, printLogHelper.current);
+		// 	// printLog("PRINT", "Click event: ", event, printLogHelper.current);
+
+		// 	// 1. Make a shallow copy of the items
+		// 	let temp_gridData = [...gridState.gridData];
+		// 	// 2. Make a shallow copy of the item you want to mutate
+		// 	let temp_cell = { ...temp_gridData[d.row][d.column] };
+		// 	// 3. Replace the property you're intested in
+		// 	temp_cell.click = temp_cell.click + 1;
+		// 	// 4. Put it back into our array. N.B. we *are* mutating the array here, but that's why we made a copy first
+		// 	temp_gridData[d.row][d.column] = temp_cell;
+		// 	// 5. Set the state to our new copy
+		// 	setGridState(prevState => {
+		// 		return { ...prevState, gridData: temp_gridData }
+		// 	});
+
+		// })
 		.on("click", function (event, d) {
-			// printLog("PRINT", "Click data: ", d, printLogHelper.current);
-			// printLog("PRINT", "Click event: ", event, printLogHelper.current);
-
-			// 1. Make a shallow copy of the items
-			let temp_gridData = [...gridState.gridData];
-			// 2. Make a shallow copy of the item you want to mutate
-			let temp_cell = { ...temp_gridData[d.row][d.column] };
-			// 3. Replace the property you're intested in
-			temp_cell.click = temp_cell.click + 1;
-			// 4. Put it back into our array. N.B. we *are* mutating the array here, but that's why we made a copy first
-			temp_gridData[d.row][d.column] = temp_cell;
-			// 5. Set the state to our new copy
-			setGridState(prevState => {
-				return { ...prevState, gridData: temp_gridData }
-			});
-
+			alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic);
 		})
 		// tooltip on hover
-		.on("mouseenter", (event, d) => {
-			// printLog("PRINT", "on mousenter, d: ", d.document, printLogHelper.current);
-			grid
-				.selectAll(".doc-info")
-				.data([d])
-				.join(enter => enter.append("text").attr("y", 0))
-				.attr("class", "tooltip")
-				.text("DOC: " + d.document + "  RUN: " + d.run + "  SCORE: " + d.score + "  TOPIC: " + d.topic)
-				.attr("x", "200px")
-				.transition()
-				.attr("y", 0)
-				.attr("text-anchor", "middle")
-				.attr("opacity", 1);
-		})
-		.on("mouseleave", () => {
-			grid.select(".tooltip").remove();
-		})
+		// .on("mouseenter", (event, d) => {
+		// 	// printLog("PRINT", "on mousenter, d: ", d.document, printLogHelper.current);
+		// 	grid
+		// 		.selectAll(".doc-info")
+		// 		.data([d])
+		// 		.join(enter => enter.append("text").attr("y", 0))
+		// 		.attr("class", "tooltip")
+		// 		.text("DOC: " + d.document + "  RUN: " + d.run + "  RELEVANCY: " + d.relevancy + "  SCORE: " + d.score + "  TOPIC: " + d.topic)
+		// 		.attr("x", "200px")
+		// 		.transition()
+		// 		.attr("y", 0)
+		// 		.attr("text-anchor", "middle")
+		// 		.attr("opacity", 1);
+		// })
+		// .on("mouseleave", () => {
+		// 	grid.select(".tooltip").remove();
+		// })
 		.style("fill", function (d) {
-			return colorScale(d.click);
+			return colorScale(d.relevancy);
 		})
 		.style("stroke", "#F2F4F8")
 		.attr("x", (d, i) => xScale(i))

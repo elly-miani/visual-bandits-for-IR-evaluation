@@ -12,7 +12,7 @@ function ViewB() {
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewB()",
-		verbosity: [0, 1, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -23,17 +23,34 @@ function ViewB() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [url, setUrl] = useState('/api/mockdata/GridChart')
-	const [urlcontrol, setUrlControl] = useState(1);
-	const [data, setData] = useState(null);
-	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
+	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart')
+	const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels_topic_401')
 
+	const [urlcontrol, setUrlControl] = useState(1);
+
+	const [state, setState] = useState({
+		"pool-depth": 10, 
+		"topic": 401, 
+		"show-qrels": 1
+	});
+
+	const [data, setData] = useState(null);
+	const [qrels, setQrels] = useState(null);
+
+	// printLog("PRINT", "Data at render is:", data, printLogHelper.current);
+	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
-		fetchAPI(printLogHelper.current, url, res => {
+		fetchAPI(printLogHelper.current, urlGridChart, res => {
 			setData(res);
 		});
-	}, [url])
+	}, [urlGridChart])
+
+	useEffect(() => {
+		fetchAPI(printLogHelper.current, urlQrels, res => {
+			setQrels(res);
+		});
+	}, [urlQrels])
 
 	
 	const onButtonClick = () => {
@@ -42,20 +59,26 @@ function ViewB() {
 
 		if (urlcontrol) {
 			setUrlControl(0);
-			setUrl('/api/mockdata/GridChart2');
+			setUrlGridChart('/api/mockdata/GridChart2');
 		}
 		else {
 			setUrlControl(1);
-			setUrl('/api/mockdata/GridChart');
+			setUrlGridChart('/api/mockdata/GridChart');
 		}
 	};
 
-
-	if (!data) {
+	if (data != null && qrels != null) {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset">
-					<div>Loading...</div>
+					<GridChart state={state} data={data} qrels={qrels}/>
+					{/* {JSON.stringify(data, null, 2)} */}
+					<br />
+					<div className="controls">
+						<button className="button--3d button--accent" onClick={onButtonClick}>
+							Update data
+						</button>
+					</div>
 				</div>
 			</Fragment>
 		)
@@ -64,14 +87,7 @@ function ViewB() {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset">
-					<GridChart data={data} />
-					{/* {JSON.stringify(data, null, 2)} */}
-					<br />
-					<div className="controls">
-						<button className="button--3d button--accent" onClick={onButtonClick}>
-							Update data
-						</button>
-					</div>
+					<div>Loading...</div>
 				</div>
 			</Fragment>
 		)

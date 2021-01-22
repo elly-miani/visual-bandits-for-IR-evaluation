@@ -7,12 +7,12 @@ import drawChart from './drawChart';
 
 import './GridChart.css';
 
-export default function GridChart({data}) {
+export default function GridChart(props) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "GridChart()",
-		verbosity: [0, 1, 1, 1, 1],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 1, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -26,14 +26,17 @@ export default function GridChart({data}) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
-	const [gridState, setGridState] = useState(createGridData(data, printLogHelper.current));
+	const [gridState, setGridState] = useState(createGridData(props.data, props.qrels, printLogHelper.current));
+
+	// printLog("PRINT", "props: ", props.data, printLogHelper.current);
 
 	// when data is updated, recreate the grid
 	useEffect(() => {
 		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
 		// printLog("PRINT", "data: ", data, printLogHelper.current);
-		setGridState(createGridData(data, printLogHelper.current));
-	}, [data]);
+		setGridState(createGridData(props.data, props.qrels, printLogHelper.current));
+	}, [props.data]);
+
 
 	// when the grid is recreated, redraw the chart
 	useEffect(() => {
