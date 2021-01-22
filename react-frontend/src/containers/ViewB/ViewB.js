@@ -7,6 +7,8 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 
+import { Toggle, Icon } from 'rsuite';
+
 function ViewB() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
@@ -23,15 +25,15 @@ function ViewB() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart')
+	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
 	const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels_topic_401')
 
-	const [urlcontrol, setUrlControl] = useState(1);
+	// const [urlcontrol, setUrlControl] = useState(1);
 
 	const [state, setState] = useState({
-		"pool-depth": 10, 
+		"poolDepth": 10, 
 		"topic": 401, 
-		"show-qrels": 1
+		"showQrels": 0
 	});
 
 	const [data, setData] = useState(null);
@@ -52,33 +54,51 @@ function ViewB() {
 		});
 	}, [urlQrels])
 
-	
-	const onButtonClick = () => {
-		printLog("FUNCTION_CALL", "onButtonClick()", null, printLogHelper.current);
-		printLog("PRINT", "urlcontrol =", urlcontrol, printLogHelper.current);
-
-		if (urlcontrol) {
-			setUrlControl(0);
-			setUrlGridChart('/api/mockdata/GridChart2');
-		}
-		else {
-			setUrlControl(1);
-			setUrlGridChart('/api/mockdata/GridChart');
-		}
-	};
 
 	if (data != null && qrels != null) {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset">
+					<div className="controls">
+						<span style={{ "marginRight": "1em" }}>Show Relevance Judgments</span>
+						<Toggle
+							size="md"
+							checkedChildren={<Icon icon="check" />}
+							unCheckedChildren={<Icon icon="close" />}
+							onChange={(checked, event) => {
+								if (checked) {
+									setState(prevState => {
+										return { ...prevState, "showQrels": 1 }
+									});
+								}
+								else {
+									setState(prevState => {
+										return { ...prevState, "showQrels": 0 }
+									});
+								}
+							}}
+						/>
+
+						<span style={{ "marginRight": "1em", "marginLeft": "1em", }}>Data displayed</span>
+						<Toggle
+							size="md"
+							checkedChildren={"GridChart"}
+							unCheckedChildren={"GridChart2"}
+							onChange={(checked, event) => {
+								if (checked) {
+									setUrlGridChart('/api/mockdata/GridChart');
+								}
+								else {
+									setUrlGridChart('/api/mockdata/GridChart2');
+								}
+							}}
+						/>
+					</div>
+
+					<br />
+
 					<GridChart state={state} data={data} qrels={qrels}/>
 					{/* {JSON.stringify(data, null, 2)} */}
-					<br />
-					<div className="controls">
-						<button className="button--3d button--accent" onClick={onButtonClick}>
-							Update data
-						</button>
-					</div>
 				</div>
 			</Fragment>
 		)

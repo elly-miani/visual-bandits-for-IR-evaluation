@@ -1,6 +1,6 @@
 import * as d3 from 'd3'; 
 
-export default function drawChart(gridState, setGridState, svgRef, dimensions, printLogHelper) {
+export default function drawChart(gridState, setGridState, svgRef, dimensions, state, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -77,9 +77,6 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, p
 		// .on("mouseleave", () => {
 		// 	grid.select(".tooltip").remove();
 		// })
-		.style("fill", function (d) {
-			return colorScale(d.relevancy);
-		})
 		.style("stroke", "#F2F4F8")
 		.attr("x", (d, i) => xScale(i))
 		.attr("y", function (d) { 
@@ -98,5 +95,11 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, p
 			else{
 				return xScale.bandwidth();
 			}
+		})
+		.style("fill", function (d) {
+			if (state.showQrels) {
+				return colorScale(d.relevancy);
+			}
+			return "#DDEAFD";
 		});
 }

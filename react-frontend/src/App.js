@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 // import logo from './assets/logo.svg';
 import './assets/App.css';
+import 'rsuite/dist/styles/rsuite-default.css'
 
 // import Time from './components/Time/Time'
 import Nav from './components/Nav/Nav'

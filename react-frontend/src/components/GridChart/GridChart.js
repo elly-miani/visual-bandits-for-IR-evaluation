@@ -43,8 +43,8 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, setGridState, svgRef.current, dimensions, printLogHelper.current);
-	}, [gridState, dimensions]);
+		drawChart(gridState, setGridState, svgRef.current, dimensions, props.state, printLogHelper.current);
+	}, [gridState, dimensions, props.state]);
 
 	return (
 		<div id="wrapper--GridChart" ref={wrapperRef}>
