@@ -1,4 +1,6 @@
 #wrapper--ExampleChart {
 	height: 50vh;
 	margin-bottom: 2em;
+	padding-left: 2%;
+	padding-right: 2%;
 }

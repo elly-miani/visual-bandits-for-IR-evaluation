@@ -53,7 +53,7 @@ function ExampleChart({data}) {
 
 		const yAxis = d3.axisLeft(yScale);
 		svg.select(".y-axis").call(yAxis);
-		
+		svg.attr("width", dimensions.width);
 
 		svg			
 			.selectAll(".bar")
