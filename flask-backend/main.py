@@ -1,8 +1,11 @@
 import time
-from flask import Flask, send_file
+from flask import Flask, jsonify, send_file
 from flaskwebgui import FlaskUI
 
-app = Flask(__name__, static_folder='../react-frontend/build', static_url_path='/')
+from components.qrels import *
+
+app = Flask(__name__, static_folder='../react-frontend/build',
+            static_url_path='/')
 
 @app.route('/api/time')
 def get_current_time():
@@ -28,9 +31,19 @@ def get_mockdata_json():
 def get_mockdata_json2():
 	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
 
-@app.route('/api/mockdata/qrels_topic_401')
-def get_mockdata_qrels():
-	return send_file('./data/mockdata/json_data/qrels/qrels_topic_401.json')
+
+@app.route("/api/mockdata/qrels/<int:topic_number>", methods=["GET"])
+def get_mock_qrels(topic_number):
+
+	# load the txt files into a dataframe qrels
+	qrels_path = "./data/mockdata/original_data/qrels"
+	qrels_df = load_dataframe(qrels_path, "QRELS")
+
+	# dataframe filtered by topic and indexed by the document
+	qrels_by_topic = get_qrels_by_topic(qrels_df, topic_number)
+	
+	return jsonify(return_dict_from_df(qrels_by_topic))
+
 
 @app.route('/')
 def index():

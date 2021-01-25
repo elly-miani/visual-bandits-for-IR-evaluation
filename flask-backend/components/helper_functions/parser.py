@@ -15,10 +15,16 @@ Parses files contained in a given directory and returns a pandas' dataframe with
 @RETURNS data_frame : Dataframe containing all the data parsed
 								[pd.DataFrame]
 '''
-def load_dataframe(dir_path, header, filetype):
+def load_dataframe(dir_path, filetype):
 	print("Loading all ", filetype, " files in ", dir_path, "...")
 
+	if filetype == "RUNS":
+		header = ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN']
+	if filetype == "QRELS":
+		header = ['TOPIC', 'ITERATION', 'DOCUMENT', 'RELEVANCY']
+	
 	data_frame = pd.DataFrame(columns=header)
+
 
 	for file in os.listdir(dir_path):
 		file_path = os.path.join(dir_path, file)
@@ -32,7 +38,7 @@ def load_dataframe(dir_path, header, filetype):
 			if temp['RANK'].iloc[0] == 0:
 				temp['RANK'] += 1
 
-		if filetype == "QRELS":
+		if filetype == "QRELS":			
 			# qrels files are space-separated
 			temp = pd.read_csv(file_path, sep=' ', header=None, names=header)
 
@@ -67,6 +73,16 @@ def write_json_from_df(dataframe, outfile_path, file_name):
 		f.write(json.dumps(dict, sort_keys=True, indent=4))
 	print("✅ Writing complete\n")
 
+
+def return_dict_from_df(dataframe):
+
+	if dataframe.index.nlevels > 1:
+		dict = {level: dataframe.xs(level).to_dict('index')
+					for level in dataframe.index.levels[0]}
+	else:
+		dict = dataframe.to_dict('index')
+
+	return dict
 
 
 '''

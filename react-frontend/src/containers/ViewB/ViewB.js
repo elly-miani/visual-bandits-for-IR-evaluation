@@ -26,7 +26,7 @@ function ViewB() {
 	
 
 	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
-	const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels_topic_401')
+	const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
 
 	// const [urlcontrol, setUrlControl] = useState(1);
 

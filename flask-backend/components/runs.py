@@ -12,9 +12,6 @@ from helper_functions.parser import *
 og_path = "../data/mockdata/original_data/runs"
 json_path = "../data/mockdata/json_data/runs"
 
-# header for the runs dataframe
-header = ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN']
-
 
 '''
 	MultiIndex: ['RANK', 'RUN']
