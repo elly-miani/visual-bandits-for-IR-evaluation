@@ -27,11 +27,14 @@ def load_dataframe(dir_path, filetype):
 
 
 	for file in os.listdir(dir_path):
+		if file == ".DS_Store":
+			break
+		
 		file_path = os.path.join(dir_path, file)
 
 		if filetype == "RUNS":
 			# runs files are tab-separated
-			temp = pd.read_csv(file_path, sep='\t', header=None, names=header)
+			temp = pd.read_csv(file_path, sep='\t', encoding="ISO-8859-1", header=None, names=header)
 			temp.sort_values('RANK', inplace=True)
 			
 			# check if the ranks start from 1; if not, adjust accordingly
