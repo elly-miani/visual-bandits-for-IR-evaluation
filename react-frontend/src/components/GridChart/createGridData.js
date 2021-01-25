@@ -26,7 +26,7 @@ export default function createGridData(data, qrels, printLogHelper) {
 		// iterate for each run (cell inside row)
 		for (var run = 0; run < totRuns; run++) {
 			var document_data = rank_data[run_names[run]];
-
+			console.log(document_data)
 			var curr_relevancy = (() => {
 				if (qrels[document_data.DOCUMENT] != null)
 					return qrels[document_data.DOCUMENT].RELEVANCY;

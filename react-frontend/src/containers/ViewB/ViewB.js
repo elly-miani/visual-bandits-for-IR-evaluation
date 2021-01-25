@@ -7,7 +7,7 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 
-import { Toggle, Icon } from 'rsuite';
+import { Toggle, Icon, SelectPicker } from 'rsuite';
 
 function ViewB() {
 
@@ -26,13 +26,13 @@ function ViewB() {
 	
 
 	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
-	const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
-
+	// const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
+	const urlQrels = '/api/mockdata/qrels/';
+	const [topic, setTopic] = useState('401');
 	// const [urlcontrol, setUrlControl] = useState(1);
 
 	const [state, setState] = useState({
 		"poolDepth": 10, 
-		"topic": 401, 
 		"showQrels": 0
 	});
 
@@ -49,10 +49,54 @@ function ViewB() {
 	}, [urlGridChart])
 
 	useEffect(() => {
-		fetchAPI(printLogHelper.current, urlQrels, res => {
+		fetchAPI(printLogHelper.current, urlQrels+topic, res => {
 			setQrels(res);
 		});
-	}, [urlQrels])
+	}, [topic])
+
+
+	const topicPicker = (
+		<SelectPicker 
+		
+			data={[
+				{
+					"label": "401",
+					"value": 401
+				},
+				{
+					"label": "402",
+					"value": 402
+				},
+				{
+					"label": "403",
+					"value": 403
+				},
+				{
+					"label": "404",
+					"value": 404
+				},
+				{
+					"label": "405",
+					"value": 405
+				},
+				{
+					"label": "406",
+					"value": 406
+				},
+				{
+					"label": "407",
+					"value": 407
+				}
+			]}
+			placeholder="Select topic"
+			defaultValue="401"
+			style={{ width: 100 }} 
+			size="xs"
+			onChange ={(value, event) => {
+				setTopic(value)
+			}}
+		/>
+	);
 
 
 	if (data != null && qrels != null) {
@@ -60,39 +104,45 @@ function ViewB() {
 			<Fragment>
 				<div id="container--viewB" className="offset">
 					<div className="controls">
-						<span style={{ "marginRight": "1em" }}>Show Relevance Judgments</span>
-						<Toggle
-							size="md"
-							checkedChildren={<Icon icon="check" />}
-							unCheckedChildren={<Icon icon="close" />}
-							onChange={(checked, event) => {
-								if (checked) {
-									setState(prevState => {
-										return { ...prevState, "showQrels": 1 }
-									});
-								}
-								else {
-									setState(prevState => {
-										return { ...prevState, "showQrels": 0 }
-									});
-								}
-							}}
-						/>
+						{topicPicker}
 
-						<span style={{ "marginRight": "1em", "marginLeft": "1em", }}>Data displayed</span>
-						<Toggle
-							size="md"
-							checkedChildren={"GridChart"}
-							unCheckedChildren={"GridChart2"}
-							onChange={(checked, event) => {
-								if (checked) {
-									setUrlGridChart('/api/mockdata/GridChart');
-								}
-								else {
-									setUrlGridChart('/api/mockdata/GridChart2');
-								}
-							}}
-						/>
+						<span>
+							<span className="toggle-label">Show Relevance Judgments</span>
+							<Toggle
+								size="md"
+								checkedChildren={<Icon icon="check" />}
+								unCheckedChildren={<Icon icon="close" />}
+								onChange={(checked, event) => {
+									if (checked) {
+										setState(prevState => {
+											return { ...prevState, "showQrels": 1 }
+										});
+									}
+									else {
+										setState(prevState => {
+											return { ...prevState, "showQrels": 0 }
+										});
+									}
+								}}
+							/>
+						</span>
+
+						<span>
+							<span className="toggle-label">Data displayed</span>
+							<Toggle
+								size="md"
+								checkedChildren={"GridChart"}
+								unCheckedChildren={"GridChart2"}
+								onChange={(checked, event) => {
+									if (checked) {
+										setUrlGridChart('/api/mockdata/GridChart');
+									}
+									else {
+										setUrlGridChart('/api/mockdata/GridChart2');
+									}
+								}}
+							/>
+						</span>
 					</div>
 
 					<br />

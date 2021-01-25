@@ -3,3 +3,14 @@
 	margin:2%;
 	background: #F2F4F8;
 }
+
+.controls {
+	display: flex;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+
+.toggle-label {
+	margin-right:1em;
+}

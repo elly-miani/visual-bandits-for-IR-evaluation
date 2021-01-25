@@ -35,7 +35,7 @@ export default function GridChart(props) {
 		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
 		// printLog("PRINT", "data: ", data, printLogHelper.current);
 		setGridState(createGridData(props.data, props.qrels, printLogHelper.current));
-	}, [props.data]);
+	}, [props.data, props.qrels]);
 
 
 	// when the grid is recreated, redraw the chart
