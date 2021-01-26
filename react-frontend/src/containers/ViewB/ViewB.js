@@ -7,14 +7,14 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 
-import { Toggle, Icon, SelectPicker } from 'rsuite';
+import { Toggle, Icon, SelectPicker, Placeholder, Loader } from 'rsuite';
 
 function ViewB() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewB()",
-		verbosity: [0, 1, 1, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 0, 1],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -28,36 +28,44 @@ function ViewB() {
 	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
 	// const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
 	const urlQrels = '/api/mockdata/qrels/';
+	const urlRuns = '/api/runs/'
+
 	const [topic, setTopic] = useState('401');
+	const [poolDepth, setPoolDepth] = useState('10');
 	// const [urlcontrol, setUrlControl] = useState(1);
 
 	const [state, setState] = useState({
-		"poolDepth": 10, 
 		"showQrels": 0
 	});
 
 	const [data, setData] = useState(null);
 	const [qrels, setQrels] = useState(null);
 
+
 	// printLog("PRINT", "Data at render is:", data, printLogHelper.current);
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
-		fetchAPI(printLogHelper.current, urlGridChart, res => {
+		let url = urlRuns + topic + "/" + poolDepth;
+
+		fetchAPI(printLogHelper.current, url, res => {
 			setData(res);
 		});
-	}, [urlGridChart])
+
+	}, [topic, poolDepth])
 
 	useEffect(() => {
-		fetchAPI(printLogHelper.current, urlQrels+topic, res => {
+		let url = urlQrels + topic;
+
+		fetchAPI(printLogHelper.current, url, res => {
 			setQrels(res);
 		});
+
 	}, [topic])
 
 
 	const topicPicker = (
 		<SelectPicker 
-		
 			data={[
 				{
 					"label": "401",
@@ -88,9 +96,9 @@ function ViewB() {
 					"value": 407
 				}
 			]}
-			placeholder="Select topic"
+			placeholder="Default: 401"
 			defaultValue="401"
-			style={{ width: 100 }} 
+			style={{ width: 150 }} 
 			size="xs"
 			onChange ={(value, event) => {
 				setTopic(value)
@@ -98,13 +106,76 @@ function ViewB() {
 		/>
 	);
 
+	const poolDepthPicker = (
+		<SelectPicker
+			data={[
+				{
+					"label": "1",
+					"value": 1
+				},
+				{
+					"label": "2",
+					"value": 2
+				},
+				{
+					"label": "3",
+					"value": 3
+				},
+				{
+					"label": "4",
+					"value": 4
+				},
+				{
+					"label": "5",
+					"value": 5
+				},
+				{
+					"label": "6",
+					"value": 6
+				},
+				{
+					"label": "7",
+					"value": 7
+				},
+				{
+					"label": "8",
+					"value": 8
+				},
+				{
+					"label": "9",
+					"value": 9
+				},
+				{
+					"label": "10",
+					"value": 10
+				}
+			]}
+			placeholder="Default: 10"
+			defaultValue="10"
+			style={{ width: 100 }}
+			size="xs"
+			onChange={(value, event) => {
+				setPoolDepth(value)
+			}}
+		/>
+	);
 
-	if (data != null && qrels != null) {
+
+	if (data !== null && qrels !== null) {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset">
 					<div className="controls">
-						{topicPicker}
+
+						<span>
+							<span className="toggle-label">Topic</span>
+							{topicPicker}
+						</span>
+
+						<span>
+							<span className="toggle-label">Pool Depth</span>
+							{poolDepthPicker}
+						</span>
 
 						<span>
 							<span className="toggle-label">Show Relevance Judgments</span>
@@ -126,23 +197,6 @@ function ViewB() {
 								}}
 							/>
 						</span>
-
-						<span>
-							<span className="toggle-label">Data displayed</span>
-							<Toggle
-								size="md"
-								checkedChildren={"GridChart"}
-								unCheckedChildren={"GridChart2"}
-								onChange={(checked, event) => {
-									if (checked) {
-										setUrlGridChart('/api/mockdata/GridChart');
-									}
-									else {
-										setUrlGridChart('/api/mockdata/GridChart2');
-									}
-								}}
-							/>
-						</span>
 					</div>
 
 					<br />
@@ -156,8 +210,10 @@ function ViewB() {
 	else {
 		return (
 			<Fragment>
-				<div id="container--viewB" className="offset">
-					<div>Loading...</div>
+				<div id="container--viewB" className="offset container-loading">
+					{/* <Placeholder.Paragraph rows={8}> */}
+						<Loader content="loading..." vertical />
+					{/* </Placeholder.Paragraph> */}
 				</div>
 			</Fragment>
 		)

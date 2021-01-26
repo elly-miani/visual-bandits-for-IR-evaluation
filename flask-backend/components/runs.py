@@ -52,6 +52,7 @@ def filter_runs_by_topic_number(runs, topic_number):
 # dataframe with index ['RANK', 'RUN']
 # runs_df_by_rank = get_runs_by_rank(runs_filtered)
 # print(runs_df_by_rank)
+# tabulate(runs_df_by_rank)
 
 
 # print_json_from_df(runs_df_by_rank)

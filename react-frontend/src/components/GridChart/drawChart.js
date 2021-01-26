@@ -7,7 +7,6 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, s
 	const grid = d3.select(svgRef);
 	var svgHeight = null;
 	var squareSize = null;
-	console.log(dimensions);
 
 	// scales
 	const xScale = d3.scaleBand()

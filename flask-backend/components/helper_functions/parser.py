@@ -25,10 +25,16 @@ def load_dataframe(dir_path, filetype):
 	
 	data_frame = pd.DataFrame(columns=header)
 
+	max_num_runs = 15
+	counter = 1
 
-	for file in os.listdir(dir_path):
+	for file in os.listdir(dir_path)[:max_num_runs]:
+		
+		print("[🧨#", counter , "] Trying to append file ", file, "...")
+		counter = counter + 1
+
 		if file == ".DS_Store":
-			break
+			continue
 		
 		file_path = os.path.join(dir_path, file)
 

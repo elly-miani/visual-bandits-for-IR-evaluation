@@ -39,6 +39,8 @@ def get_runs(topic_number, pool_depth):
 
 	# load the txt files into a dataframe runs
 	runs_path = "./data/runs"
+	# output_logs = "./data/output_logs/runs/"
+
 	runs_df = load_dataframe(runs_path, "RUNS")
 
 	# dataframe filtered by topic and pool depth 
@@ -47,6 +49,8 @@ def get_runs(topic_number, pool_depth):
 
 	# dataframe with index ['RANK', 'RUN']
 	runs_df_by_rank = get_runs_by_rank(runs_filtered)
+
+	# write_json_from_df(runs_df_by_rank, output_logs, "runs_"+str(topic_number)+"_"+str(pool_depth))
 
 	return jsonify(return_dict_from_df(runs_df_by_rank))
 

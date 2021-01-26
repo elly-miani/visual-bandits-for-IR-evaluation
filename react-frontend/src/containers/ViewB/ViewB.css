@@ -4,6 +4,12 @@
 	background: #F2F4F8;
 }
 
+.container-loading {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
 .controls {
 	display: flex;
 	flex-direction: row;
