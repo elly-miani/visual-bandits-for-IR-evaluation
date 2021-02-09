@@ -1,5 +1,4 @@
 import * as d3 from 'd3'; 
-import ReactDOM from 'react-dom';
 
 export default function drawChart(gridState, setGridState, svgRef, dimensions, state, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);

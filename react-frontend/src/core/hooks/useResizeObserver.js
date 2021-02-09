@@ -1,5 +1,5 @@
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import ResizeObserver from 'resize-observer-polyfill'
 
 import printLog from '../../core/helper/printLog.js';

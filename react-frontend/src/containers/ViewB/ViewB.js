@@ -25,31 +25,28 @@ function ViewB() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	// const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
-	// const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
-	const urlQrels = '/api/mockdata/qrels/';
+	const urlQrels = '/api/qrels/';
 	const urlRuns = '/api/runs/'
 
 	const [topic, setTopic] = useState('401');
 	const [poolDepth, setPoolDepth] = useState('10');
-	// const [urlcontrol, setUrlControl] = useState(1);
 
 	const [state, setState] = useState({
 		"showQrels": 0
 	});
 
-	const [data, setData] = useState(null);
+	const [runs, setRuns] = useState(null);
 	const [qrels, setQrels] = useState(null);
 
 
-	// printLog("PRINT", "Data at render is:", data, printLogHelper.current);
+	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
 		let url = urlRuns + topic + "/" + poolDepth;
 
 		fetchAPI(printLogHelper.current, url, res => {
-			setData(res);
+			setRuns(res);
 		});
 
 	}, [topic, poolDepth])
@@ -169,7 +166,7 @@ function ViewB() {
 	);
 
 
-	if (data !== null && qrels !== null) {
+	if (runs !== null && qrels !== null) {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset">
@@ -209,8 +206,8 @@ function ViewB() {
 
 					<br />
 
-					<GridChart state={state} data={data} qrels={qrels}/>
-					{/* {JSON.stringify(data, null, 2)} */}
+					<GridChart state={state} runs={runs} qrels={qrels}/>
+					{/* {JSON.stringify(runs, null, 2)} */}
 				</div>
 			</Fragment>
 		)
@@ -219,9 +216,7 @@ function ViewB() {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset container-loading">
-					{/* <Placeholder.Paragraph rows={8}> */}
 						<Loader content="loading..." vertical />
-					{/* </Placeholder.Paragraph> */}
 				</div>
 			</Fragment>
 		)
