@@ -25,15 +25,15 @@ def load_dataframe(dir_path, filetype):
 	
 	data_frame = pd.DataFrame(columns=header)
 
-	max_num_runs = 15
 	counter = 1
-
-	for file in os.listdir(dir_path)[:max_num_runs]:
+	
+	for file in os.listdir(dir_path):
 		
-		print("[🧨#", counter , "] Trying to append file ", file, "...")
+		print("Loading file ", "#", counter, ": ", file, "...", end='', sep='')
 		counter = counter + 1
 
 		if file == ".DS_Store":
+			print(" Skipped.")
 			continue
 		
 		file_path = os.path.join(dir_path, file)
@@ -52,7 +52,7 @@ def load_dataframe(dir_path, filetype):
 			temp = pd.read_csv(file_path, sep=' ', header=None, names=header)
 
 		data_frame = data_frame.append(temp, ignore_index=True)
-		print("✅ Appending file ", file_path)
+		print(" ✅")
 
 	print("➡️ Parsing of ", dir_path, " complete.\n")
 	return data_frame

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState, useCallback, useRef } from 'react';
+import React, { Fragment, useEffect, useState, useRef } from 'react';
 
 import './ViewB.css';
 
@@ -7,7 +7,7 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 
-import { Toggle, Icon, SelectPicker, Placeholder, Loader } from 'rsuite';
+import { Toggle, Icon, SelectPicker, Loader } from 'rsuite';
 
 function ViewB() {
 
@@ -25,7 +25,7 @@ function ViewB() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
+	// const [urlGridChart, setUrlGridChart] = useState('/api/mockdata/GridChart2')
 	// const [urlQrels, setUrlQrels] = useState('/api/mockdata/qrels/401')
 	const urlQrels = '/api/mockdata/qrels/';
 	const urlRuns = '/api/runs/'
@@ -148,6 +148,14 @@ function ViewB() {
 				{
 					"label": "10",
 					"value": 10
+				},
+				{
+					"label": "20",
+					"value": 20
+				},
+				{
+					"label": "30",
+					"value": 30
 				}
 			]}
 			placeholder="Default: 10"

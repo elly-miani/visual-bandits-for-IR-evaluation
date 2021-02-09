@@ -6,8 +6,8 @@ import pandas as pd
 from tabulate import tabulate
 import json
 
-from components.helper_functions.parser import *
-# from helper_functions.parser import *
+# from components.helper_functions.io_parser_functions import *
+# from helper_functions.io_parser_functions import *
 
 
 # paths to the original run files and where to store the json files
@@ -22,12 +22,12 @@ json_path = "../data/mockdata/json_data/runs"
 	JSON result: RANK -> RUN -> {DOCUMENT, QUERY, SCORE, TOPIC}
 '''
 def get_runs_by_rank(runs):
-	runs.set_index(['RANK', 'RUN'], inplace=True)
+	indexed_runs = runs.set_index(['RANK', 'RUN'])
 	# runs.set_index(['RUN', 'RANK'], inplace=True)
-	runs.sort_index(inplace=True)
+	indexed_runs.sort_index(inplace=True)
 	# print(tabulate(runs, headers='keys', tablefmt='psql'))
 
-	return runs
+	return indexed_runs
 
 def filter_runs_by_pool_depth(runs, pool_depth):
 	runs_filtered = runs[runs['RANK'] <= pool_depth]

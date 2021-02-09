@@ -6,7 +6,7 @@ import pandas as pd
 from tabulate import tabulate
 import json
 
-from components.helper_functions.parser import *
+# from components.helper_functions.io_parser_functions import *
 
 # paths to the original run files and where to store the json files
 og_path = "../data/mockdata/original_data/qrels"
