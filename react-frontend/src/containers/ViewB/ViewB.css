@@ -17,6 +17,23 @@
 	justify-content: space-between;
 }
 
+.controls div {
+	display: inline-flex;
+	align-items: center;
+}
+
+.controls inline-input-group {
+	display: inline-flex;
+}
+
 .toggle-label {
 	margin-right:1em;
+}
+
+.custom-input-number input {
+	text-align: center;
+}
+  
+.custom-input-number .rs-input-number-btn-group-vertical {
+	display: none;
 }

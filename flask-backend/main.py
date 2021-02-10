@@ -54,13 +54,14 @@ def get_mockdata_GridChart2():
 	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
 
 
-@app.route('/api/runs/<int:topic_number>/<int:pool_depth>', methods=["GET"])
-def get_runs(topic_number, pool_depth):
+@app.route('/api/runs/<int:topic_number>', methods=["GET"])
+def get_runs(topic_number):
 	global runs_df
 
-	# dataframe filtered by topic and pool depth 
+	# dataframe filtered by topic
 	runs_filtered = filter_runs_by_topic_number(runs_df, topic_number)
-	runs_filtered = filter_runs_by_pool_depth(runs_filtered, pool_depth)
+	# shorten the run size to avoid sending too large data
+	runs_filtered = select_run_size(runs_filtered, 100)
 
 	# dataframe with index ['RANK', 'RUN']
 	runs_df_by_rank = get_runs_by_rank(runs_filtered)

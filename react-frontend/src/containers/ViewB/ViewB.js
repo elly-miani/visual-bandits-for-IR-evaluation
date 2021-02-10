@@ -7,7 +7,7 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 
-import { Toggle, Icon, SelectPicker, Loader } from 'rsuite';
+import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber } from 'rsuite';
 
 function ViewB() {
 
@@ -29,7 +29,7 @@ function ViewB() {
 	const urlRuns = '/api/runs/'
 
 	const [topic, setTopic] = useState('401');
-	const [poolDepth, setPoolDepth] = useState('10');
+	const [runSize, setRunSize] = useState('10');
 
 	const [state, setState] = useState({
 		"showQrels": 0
@@ -38,18 +38,17 @@ function ViewB() {
 	const [runs, setRuns] = useState(null);
 	const [qrels, setQrels] = useState(null);
 
-
 	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
-		let url = urlRuns + topic + "/" + poolDepth;
+		let url = urlRuns + topic;
 
 		fetchAPI(printLogHelper.current, url, res => {
 			setRuns(res);
 		});
 
-	}, [topic, poolDepth])
+	}, [topic])
 
 	useEffect(() => {
 		let url = urlQrels + topic;
@@ -96,71 +95,61 @@ function ViewB() {
 			placeholder="Default: 401"
 			defaultValue="401"
 			style={{ width: 150 }} 
-			size="xs"
+			size="sm"
 			onChange ={(value, event) => {
 				setTopic(value)
 			}}
 		/>
 	);
 
-	const poolDepthPicker = (
-		<SelectPicker
-			data={[
-				{
-					"label": "1",
-					"value": 1
-				},
-				{
-					"label": "2",
-					"value": 2
-				},
-				{
-					"label": "3",
-					"value": 3
-				},
-				{
-					"label": "4",
-					"value": 4
-				},
-				{
-					"label": "5",
-					"value": 5
-				},
-				{
-					"label": "6",
-					"value": 6
-				},
-				{
-					"label": "7",
-					"value": 7
-				},
-				{
-					"label": "8",
-					"value": 8
-				},
-				{
-					"label": "9",
-					"value": 9
-				},
-				{
-					"label": "10",
-					"value": 10
-				},
-				{
-					"label": "20",
-					"value": 20
-				},
-				{
-					"label": "30",
-					"value": 30
+	const runSizePickerRef = React.createRef();
+
+	const runSizePicker = (
+		<InputGroup>
+			<InputGroup.Button 
+				onClick={() => {
+					runSizePickerRef.current.handleMinus();
+				}}
+				>-
+			</InputGroup.Button>
+			<InputNumber
+				className={'custom-input-number'}
+				ref={runSizePickerRef}
+				size="sm"
+				style={{ width: 100 }}
+				max={100}
+				min={10}
+				step={5}
+				defaultValue="10"
+				onChange={(value, event) => {
+					setRunSize(value)
+				}}
+			/>
+			<InputGroup.Button 
+				onClick={() => {
+					runSizePickerRef.current.handlePlus();
+				}}>
+				+
+			</InputGroup.Button>
+		</InputGroup>
+	);
+
+	const relJudgmentsToogle = (
+		<Toggle
+			size="md"
+			checkedChildren={<Icon icon="check" />}
+			unCheckedChildren={<Icon icon="close" />}
+			onChange={(checked, event) => {
+				if (checked) {
+					setState(prevState => {
+						return { ...prevState, "showQrels": 1 }
+					});
 				}
-			]}
-			placeholder="Default: 10"
-			defaultValue="10"
-			style={{ width: 100 }}
-			size="xs"
-			onChange={(value, event) => {
-				setPoolDepth(value)
+				else {
+					setState(prevState => {
+						return { ...prevState, "showQrels": 0 }
+					});
+				}
 			}}
 		/>
 	);
@@ -172,42 +161,27 @@ function ViewB() {
 				<div id="container--viewB" className="offset">
 					<div className="controls">
 
-						<span>
+						<div>
 							<span className="toggle-label">Topic</span>
 							{topicPicker}
-						</span>
+						</div>
 
-						<span>
-							<span className="toggle-label">Pool Depth</span>
-							{poolDepthPicker}
-						</span>
+						<div>
+							<span className="toggle-label">Run Size</span>
+							<div className="inline-input-group">
+								{runSizePicker}
+							</div>
+						</div>
 
-						<span>
+						<div>
 							<span className="toggle-label">Show Relevance Judgments</span>
-							<Toggle
-								size="md"
-								checkedChildren={<Icon icon="check" />}
-								unCheckedChildren={<Icon icon="close" />}
-								onChange={(checked, event) => {
-									if (checked) {
-										setState(prevState => {
-											return { ...prevState, "showQrels": 1 }
-										});
-									}
-									else {
-										setState(prevState => {
-											return { ...prevState, "showQrels": 0 }
-										});
-									}
-								}}
-							/>
-						</span>
+							{relJudgmentsToogle}
+						</div>
 					</div>
 
 					<br />
 
-					<GridChart state={state} runs={runs} qrels={qrels}/>
-					{/* {JSON.stringify(runs, null, 2)} */}
+					<GridChart state={state} runs={runs} qrels={qrels} runSize={runSize}/>
 				</div>
 			</Fragment>
 		)

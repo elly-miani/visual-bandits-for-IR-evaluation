@@ -63,7 +63,7 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, s
 
 	grid.attr("height", () => {
 		if (xScale.bandwidth() > 50) {
-			return gridState.totRanks * (squareSize + 10) + "px"
+			return gridState.runSize * (squareSize + 10) + "px"
 		}
 		else {
 			return svgHeight + xScale.bandwidth() + "px";

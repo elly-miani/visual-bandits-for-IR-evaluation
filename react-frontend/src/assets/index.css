@@ -67,10 +67,6 @@ button {
 	justify-content: center;
 }
 
-.controls button {
-	margin-bottom: 2em;
-}
-
 div.offset {
 	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06), -8px -8px 16px 0px #fff;
 	border-radius: 8px;

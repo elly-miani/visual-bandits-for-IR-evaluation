@@ -29,15 +29,16 @@ def get_runs_by_rank(runs):
 
 	return indexed_runs
 
-def filter_runs_by_pool_depth(runs, pool_depth):
-	runs_filtered = runs[runs['RANK'] <= pool_depth]
-	
-	return runs_filtered
-
 
 def filter_runs_by_topic_number(runs, topic_number):
 	runs_filtered = runs[runs['TOPIC'] == topic_number]
 
+	return runs_filtered
+
+
+def select_run_size(runs, run_size):
+	runs_filtered = runs[runs['RANK'] <= run_size]
+	
 	return runs_filtered
 
 

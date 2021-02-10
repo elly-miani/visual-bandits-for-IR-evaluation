@@ -26,7 +26,7 @@ export default function GridChart(props) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
-	const [gridState, setGridState] = useState(createGridData(props.runs, props.qrels, printLogHelper.current));
+	const [gridState, setGridState] = useState(createGridData(props.runs, props.qrels, props.runSize, printLogHelper.current));
 
 	// printLog("PRINT", "props: ", props.runs, printLogHelper.current);
 
@@ -34,8 +34,8 @@ export default function GridChart(props) {
 	useEffect(() => {
 		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
 		// printLog("PRINT", "data: ", data, printLogHelper.current);
-		setGridState(createGridData(props.runs, props.qrels, printLogHelper.current));
-	}, [props.runs, props.qrels]);
+		setGridState(createGridData(props.runs, props.qrels, props.runSize, printLogHelper.current));
+	}, [props.runs, props.qrels, props.runSize]);
 
 
 	// when the grid is recreated, redraw the chart
