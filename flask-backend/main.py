@@ -29,31 +29,17 @@ def before_first_request():
 	qrels_df = load_dataframe(qrels_path, "QRELS")
 
 
-@app.route('/api/time')
-def get_time():
-	return {'time': time.time()}
+'''
+MAIN ROUTE
+'''
+@app.route('/')
+def index():
+	return app.send_static_file('index.html')
 
 
-@app.route('/api/mockdata/fake_data1')
-def get_mockdata_fake_data1():
-	return send_file('./data/mockdata/fake_data1.json')
-
-
-@app.route('/api/mockdata/fake_data2')
-def get_mockdata_fake_data2():
-	return send_file('./data/mockdata/fake_data2.json')
-
-
-@app.route('/api/mockdata/GridChart')
-def get_mockdata_GridChart():
-	return send_file('./data/mockdata/json_data/runs/GridChart.json')
-
-
-@app.route('/api/mockdata/GridChart2')
-def get_mockdata_GridChart2():
-	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
-
-
+'''
+RUNS ROUTE
+'''
 @app.route('/api/runs/<int:topic_number>', methods=["GET"])
 def get_runs(topic_number):
 	global runs_df
@@ -69,6 +55,9 @@ def get_runs(topic_number):
 	return jsonify(return_dict_from_df(runs_df_by_rank))
 
 
+'''
+QRELS ROUTE
+'''
 @app.route('/api/qrels/<int:topic_number>', methods=["GET"])
 def get_qrels(topic_number):
 	global qrels_df
@@ -79,10 +68,34 @@ def get_qrels(topic_number):
 	return jsonify(return_dict_from_df(qrels_by_topic))
 
 
-@app.route('/')
-def index():
-		return app.send_static_file('index.html')
+@app.route('/api/mockdata/retrieved_docs_order')
+def get_mockdata_retrieved_docs_order():
+	return send_file('./data/mockdata/retrieved_docs_order.json')
 
+
+@app.route('/api/time')
+def get_time():
+	return {'time': time.time()}
+
+
+@app.route('/api/mockdata/fake_data1')
+def get_mockdata_fake_data1():
+	return send_file('./data/mockdata/fake_data1.json')
+
+
+@app.route('/api/mockdata/fake_data2')
+def get_mockdata_fake_data2():
+	return send_file('./data/mockdata/fake_data2.json')
+
+
+# @app.route('/api/mockdata/GridChart')
+# def get_mockdata_GridChart():
+# 	return send_file('./data/mockdata/json_data/runs/GridChart.json')
+
+
+# @app.route('/api/mockdata/GridChart2')
+# def get_mockdata_GridChart2():
+# 	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
 
 if __name__ == "__main__":
 	app.run()
