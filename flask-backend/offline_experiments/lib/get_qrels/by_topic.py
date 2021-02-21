@@ -7,7 +7,7 @@ import pandas as pd
 	Filtered rows: qrels['TOPIC'] == topic
 	JSON result: DOCUMENT -> {ITERATION, RELEVANCY, TOPIC}
 '''
-def get_qrels_by_topic(qrels, topic):
+def by_topic(qrels, topic):
 	qrels_filtered = qrels[qrels['TOPIC'] == topic]
 	# qrels_filtered.set_index('DOCUMENT', inplace=True)
 

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-def load_dataframe(dir_path, filetype, max_number_runs):
+def read_csv_into_df(dir_path, filetype, max_number_runs):
 	print("Loading all ", filetype, " files in ", dir_path, "...")
 
 	if filetype == "RUNS":
