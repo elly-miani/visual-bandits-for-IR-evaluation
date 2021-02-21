@@ -1,25 +1,30 @@
 import printLog from "../../core/helper/printLog";
 
-export default function createGridData(runs, qrels, runSize, printLogHelper) {
+export default function createGridData(runs, qrels, printLogHelper) {
 	var gridData = [];
-	var click = 0;
 
-	// identify how many runs there are and their names
-	var run_names = []
-	for (let key in runs[1]) {
-		run_names.push(key);
+	// identify the max rank value in the data
+	var maxRank = 0;
+	for (let key in runs) {
+		maxRank++;
 	}
-	var runsNumber = run_names.length;
-	// printLog("PRINT", "run_names: ", run_names, printLogHelper);
+	
+	// identify how many runs there are and their names
+	var runNames = []
+	for (let key in runs[1]) {
+		runNames.push(key);
+	}
+	var runsNumber = runNames.length;
+	// printLog("PRINT", "runNames: ", runNames, printLogHelper);
 
 	// iterate for each rank (row in the grid)	
-	for (var rank = 0; rank < runSize; rank++) {
+	for (var rank = 1; rank <= maxRank; rank++) {
 		gridData.push([]);
-		var rank_data = runs[rank + 1];									// +1 b/c the ranks start from 1
+		var rank_data = runs[rank];									// +1 b/c the ranks start from 1
 
 		// iterate for each run (cell inside row)
 		for (var run = 0; run < runsNumber; run++) {
-			var document_data = rank_data[run_names[run]];
+			var document_data = rank_data[runNames[run]];
 
 			var curr_relevancy = 2; // default: not evaluated
 			if (qrels[document_data.DOCUMENT] != null)
@@ -32,36 +37,39 @@ export default function createGridData(runs, qrels, runSize, printLogHelper) {
 			// })();
 
 			if (!document_data) {
-				gridData[rank].push({
-					row: rank,
-					column: run,
+				gridData[rank-1].push({
+					array_row: rank-1,
+					array_column: run,
 					document: null,
-					run: run_names[run],
+					rank: null,
+					run: runNames[run],
 					score: null,
 					topic: null,
 					query: null,
 					relevancy: curr_relevancy,
-					click: click
+					retrieved: 0
 				})
 			}
 			else {
-				gridData[rank].push({
-					row: rank,
-					column: run,
+				gridData[rank-1].push({
+					array_row: rank-1,
+					array_column: run,
 					document: document_data.DOCUMENT,
-					run : run_names[run],
+					rank: rank,
+					run : runNames[run],
 					score: document_data.SCORE,
 					topic: document_data.TOPIC,
 					query: document_data.QUERY,
 					relevancy: curr_relevancy,
-					click: click
+					retrieved: 0
 				})
 			}
 		}
 	}
 	return {
 		gridData: gridData,
-		runSize: runSize,
-		runsNumber: runsNumber
+		runSize: maxRank,
+		runsNumber: runsNumber,
+		runNames: runNames
 	};
 }

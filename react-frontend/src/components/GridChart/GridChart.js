@@ -4,6 +4,7 @@ import printLog from '../../core/helper/printLog.js';
 import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 import createGridData from './createGridData';
 import drawChart from './drawChart';
+import retrieveDocs from './retrieveDocs.js';
 
 import './GridChart.css';
 
@@ -26,7 +27,7 @@ export default function GridChart(props) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
-	const [gridState, setGridState] = useState(createGridData(props.runs, props.qrels, props.runSize, printLogHelper.current));
+	const [gridState, setGridState] = useState(createGridData(props.runs, props.qrels, printLogHelper.current));
 
 	// printLog("PRINT", "props: ", props.runs, printLogHelper.current);
 
@@ -34,8 +35,8 @@ export default function GridChart(props) {
 	useEffect(() => {
 		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
 		// printLog("PRINT", "data: ", data, printLogHelper.current);
-		setGridState(createGridData(props.runs, props.qrels, props.runSize, printLogHelper.current));
-	}, [props.runs, props.qrels, props.runSize]);
+		setGridState(createGridData(props.runs, props.qrels, printLogHelper.current));
+	}, [props.runs, props.qrels]);
 
 
 	// when the grid is recreated, redraw the chart
@@ -43,8 +44,12 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, setGridState, svgRef.current, dimensions, props.state, printLogHelper.current);
-	}, [gridState, dimensions, props.state]);
+		drawChart(gridState, setGridState, props.runSize, svgRef.current, dimensions, props.state, printLogHelper.current);
+	}, [gridState, dimensions, props.state, props.runSize]);
+
+	useEffect(() => {
+		retrieveDocs(gridState, setGridState, props.retrievedDocs, printLogHelper.current)
+	}, [props.retrievedDocs])
 
 	return (
 		<div id="wrapper--GridChart" ref={wrapperRef}>

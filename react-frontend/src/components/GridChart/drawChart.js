@@ -1,6 +1,7 @@
 import * as d3 from 'd3'; 
+import printLog from '../../core/helper/printLog';
 
-export default function drawChart(gridState, setGridState, svgRef, dimensions, state, printLogHelper) {
+export default function drawChart(gridState, setGridState, runSize, svgRef, dimensions, state, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -13,13 +14,18 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, s
 		.range([0, dimensions.width])
 		.padding(0.1);
 	
+	const colorScaleRetrieved = d3.scaleLinear()
+		.domain([0, 1, 2])
+		.range(["#FFA0B8", "#5DF1BD", "#78ADFD"])
+		.clamp(true);
+	
 	const colorScale = d3.scaleLinear()
 		.domain([0, 1, 2])
-		.range(["#FED9A0", "#5DF1BD", "#DDEAFD"])
+		.range(["#FFC5D3", "#B1F1DA", "#A9CAFD"])
 		.clamp(true);
 
 	var row = grid.selectAll(".row")
-		.data(gridState.gridData)
+		.data(gridState.gridData.slice(0, runSize))
 		.join("g")
 		.attr("class", "row");
 
@@ -29,7 +35,8 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, s
 		.join("rect")
 		.attr("class", "square")
 		.on("click", function (event, d) {
-			alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic);
+			alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic + "\n\nRETRIEVED: " + d.retrieved);
+			printLog("PRINT", "onClick()", d, printLogHelper);
 		})
 		.style("stroke", "#F2F4F8")
 		.attr("width", xScale.bandwidth())
@@ -46,16 +53,21 @@ export default function drawChart(gridState, setGridState, svgRef, dimensions, s
 		.attr("x", (d, i) => xScale(i))
 		.attr("y", (d, i) => {
 			if (xScale.bandwidth() > 50) {
-				return 1 + 10 + (50 + 10) * d.row;
+				return 1 + 10 + (50 + 10) * d.array_row;
 			}
 			else {
-				svgHeight = xScale(d.row);
-				return xScale(d.row);
+				svgHeight = xScale(d.array_row);
+				return xScale(d.array_row);
 			}
 		})
 		.style("fill", function (d) {
 			if (state.showQrels) {
-				return colorScale(d.relevancy);
+				if(d.retrieved == 1) {
+					return colorScaleRetrieved(d.relevancy);
+				}
+				if(d.retrieved == 2) {
+					return colorScale(d.relevancy);
+				}
 			}
 			return "#DDEAFD";
 		});

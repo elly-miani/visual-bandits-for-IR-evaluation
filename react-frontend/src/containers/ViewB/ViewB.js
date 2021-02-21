@@ -27,6 +27,7 @@ function ViewB() {
 
 	const urlQrels = '/api/qrels/';
 	const urlRuns = '/api/runs/'
+	const urlRetrievedDocsMockdata = '/api/mockdata/retrieved_docs_order'
 
 	const [topic, setTopic] = useState('401');
 	const [runSize, setRunSize] = useState('10');
@@ -37,6 +38,7 @@ function ViewB() {
 
 	const [runs, setRuns] = useState(null);
 	const [qrels, setQrels] = useState(null);
+	const [retrievedDocs, setRetrievedDocs] = useState(null);
 
 	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
@@ -55,6 +57,15 @@ function ViewB() {
 
 		fetchAPI(printLogHelper.current, url, res => {
 			setQrels(res);
+		});
+
+	}, [topic])
+
+	useEffect(() => {
+		let url = urlRetrievedDocsMockdata;
+
+		fetchAPI(printLogHelper.current, url, res => {
+			setRetrievedDocs(res);
 		});
 
 	}, [topic])
@@ -181,7 +192,7 @@ function ViewB() {
 
 					<br />
 
-					<GridChart state={state} runs={runs} qrels={qrels} runSize={runSize}/>
+					<GridChart state={state} runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs}/>
 				</div>
 			</Fragment>
 		)
