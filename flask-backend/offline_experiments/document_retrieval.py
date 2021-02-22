@@ -20,7 +20,7 @@ paths = {
 
 # parameters
 topic = 401
-pool_size = 500
+pool_size = 1000
 
 logging.basicConfig(filename=paths['output']+'tmp.log',
                     filemode='w',
@@ -30,7 +30,7 @@ logging.basicConfig(filename=paths['output']+'tmp.log',
 
 # load the txt files into a dataframe runs
 print("➡️ Loading runs from file.")
-runs_df = fileio.read_csv_into_df(paths['runs'], "RUNS", 4)
+runs_df = fileio.read_csv_into_df(paths['runs'], "RUNS", 1000)
 
 # load the txt files into a dataframe qrels
 print("➡️ Loading qrels from file.")

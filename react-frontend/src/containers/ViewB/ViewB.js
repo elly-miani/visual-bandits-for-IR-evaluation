@@ -6,6 +6,7 @@ import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
+import BarChart from '../../components/BarChart/BarChart';
 
 import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber } from 'rsuite';
 
@@ -28,6 +29,7 @@ function ViewB() {
 	const urlQrels = '/api/qrels/';
 	const urlRuns = '/api/runs/'
 	const urlRetrievedDocsMockdata = '/api/mockdata/retrieved_docs_order'
+	const urlRunRelevanciesMockdata = '/api/mockdata/run_relevancies_order'
 
 	const [topic, setTopic] = useState('401');
 	const [runSize, setRunSize] = useState('10');
@@ -39,6 +41,7 @@ function ViewB() {
 	const [runs, setRuns] = useState(null);
 	const [qrels, setQrels] = useState(null);
 	const [retrievedDocs, setRetrievedDocs] = useState(null);
+	const [runRelevancies, setRunRelevancies] = useState(null);
 
 	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
@@ -61,11 +64,13 @@ function ViewB() {
 
 	}, [topic])
 
-	useEffect(() => {
-		let url = urlRetrievedDocsMockdata;
-
-		fetchAPI(printLogHelper.current, url, res => {
+	useEffect(() => {		
+		fetchAPI(printLogHelper.current, urlRetrievedDocsMockdata, res => {
 			setRetrievedDocs(res);
+		});
+
+		fetchAPI(printLogHelper.current, urlRunRelevanciesMockdata, res => {
+			setRunRelevancies(res);
 		});
 
 	}, [topic])
@@ -194,6 +199,10 @@ function ViewB() {
 
 					<GridChart state={state} runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs}/>
 				</div>
+
+				<div id="container--viewB" className="offset">
+					<BarChart runRelevancies={runRelevancies}/>
+				</div>
 			</Fragment>
 		)
 	}
@@ -202,6 +211,9 @@ function ViewB() {
 			<Fragment>
 				<div id="container--viewB" className="offset container-loading">
 						<Loader content="loading..." vertical />
+				</div>
+				<div id="container--viewB" className="offset container-loading">
+					<Loader content="loading..." vertical />
 				</div>
 			</Fragment>
 		)

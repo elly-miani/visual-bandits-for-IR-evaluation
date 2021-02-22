@@ -72,6 +72,9 @@ def get_qrels(topic_number):
 def get_mockdata_retrieved_docs_order():
 	return send_file('./data/mockdata/retrieved_docs_order.json')
 
+@app.route('/api/mockdata/run_relevancies_order')
+def get_mockdata_run_relevancies_order():
+	return send_file('./data/mockdata/run_relevancies_order.json')
 
 @app.route('/api/time')
 def get_time():
