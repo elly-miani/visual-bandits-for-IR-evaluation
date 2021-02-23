@@ -2,6 +2,9 @@ import printLog from "../../core/helper/printLog";
 
 export default function updateRetrievedDocs(gridState, retrievedDocs, printLogHelper) {
 	printLog("FUNCTION_CALL", "updateRetrievedDocs()", null, printLogHelper);
+	if (retrievedDocs === null) {
+		return gridState.gridData;
+	}
 
 	// make a shallow copy of gridState to be able to update it
 	let updatedGridData = [...gridState.gridData];

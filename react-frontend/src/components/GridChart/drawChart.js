@@ -70,6 +70,9 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, state,
 					return colorScale(d.relevancy);
 				}
 			}
+			if(d.document === null) {
+				return "#F2F4F8"
+			}
 			return "#DDEAFD";
 		});
 

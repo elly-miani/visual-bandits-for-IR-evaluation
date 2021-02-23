@@ -28,6 +28,8 @@ function ViewB() {
 
 	const urlQrels = '/api/qrels/';
 	const urlRuns = '/api/runs/'
+	const urlAdjudication = '/api/adjudication/'
+
 	const urlRetrievedDocsMockdata = '/api/mockdata/retrieved_docs_order'
 	const urlRunRelevanciesMockdata = '/api/mockdata/run_relevancies_order'
 
@@ -35,7 +37,9 @@ function ViewB() {
 	const [runSize, setRunSize] = useState('10');
 
 	const [state, setState] = useState({
-		"showQrels": 0
+		"showQrels": 0,
+		"adjudicationMethod": "round_robin",
+		"pool_size": 200
 	});
 
 	const [runs, setRuns] = useState(null);
@@ -47,31 +51,23 @@ function ViewB() {
 	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
-		let url = urlRuns + topic;
-
-		fetchAPI(printLogHelper.current, url, res => {
+		fetchAPI(printLogHelper.current, urlRuns + topic, res => {
 			setRuns(res);
 		});
 
-	}, [topic])
-
-	useEffect(() => {
-		let url = urlQrels + topic;
-
-		fetchAPI(printLogHelper.current, url, res => {
+		fetchAPI(printLogHelper.current, urlQrels + topic, res => {
 			setQrels(res);
 		});
 
-	}, [topic])
 
-	useEffect(() => {		
-		fetchAPI(printLogHelper.current, urlRetrievedDocsMockdata, res => {
-			setRetrievedDocs(res);
+		let url = urlAdjudication + state.adjudicationMethod + '/' + topic + '/' + state.pool_size;
+
+		fetchAPI(printLogHelper.current, url, res => {
+			console.log(res.retrieved_docs_order);
+			setRetrievedDocs(res.retrieved_docs_order);
+			setRunRelevancies(res.run_relevancies_order);
 		});
 
-		fetchAPI(printLogHelper.current, urlRunRelevanciesMockdata, res => {
-			setRunRelevancies(res);
-		});
 
 	}, [topic])
 
@@ -209,8 +205,32 @@ function ViewB() {
 	else {
 		return (
 			<Fragment>
-				<div id="container--viewB" className="offset container-loading">
-					<Loader content="loading..." vertical size="md"/>
+				<div id="container--viewB" className="offset">
+					<div className="controls">
+
+						<div>
+							<span className="toggle-label">Topic</span>
+							{topicPicker}
+						</div>
+
+						<div>
+							<span className="toggle-label">Run Size</span>
+							<div className="inline-input-group">
+								{runSizePicker}
+							</div>
+						</div>
+
+						<div>
+							<span className="toggle-label">Show Relevance Judgments</span>
+							{relJudgmentsToogle}
+						</div>
+					</div>
+
+					<br />
+					<div className="container-loading">
+						<Loader content="loading..." vertical size="md" />
+					</div>
+					
 				</div>
 				<div id="container--viewB" className="offset container-loading">
 					<Loader content="loading..." vertical size="md"/>

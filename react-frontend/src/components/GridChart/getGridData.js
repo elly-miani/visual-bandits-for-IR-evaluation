@@ -26,16 +26,6 @@ export default function getGridData(runs, qrels, printLogHelper) {
 		for (var run = 0; run < runsNumber; run++) {
 			var document_data = rank_data[runNames[run]];
 
-			var curr_relevancy = 2; // default: not evaluated
-			if (qrels[document_data.DOCUMENT] != null)
-				curr_relevancy = qrels[document_data.DOCUMENT].RELEVANCY;
-
-			// var curr_relevancy = (() => {
-			// 	if (qrels[document_data.DOCUMENT] != null)
-			// 		return qrels[document_data.DOCUMENT].RELEVANCY;
-			// 	return 2; // default: not evaluated
-			// })();
-
 			if (!document_data) {
 				gridData[rank-1].push({
 					array_row: rank-1,
@@ -46,11 +36,16 @@ export default function getGridData(runs, qrels, printLogHelper) {
 					score: null,
 					topic: null,
 					query: null,
-					relevancy: curr_relevancy,
+					relevancy: 2,
 					retrieved: 0
 				})
 			}
 			else {
+				var curr_relevancy = 2; // default: not evaluated
+				if (qrels[document_data.DOCUMENT] != null) {
+					curr_relevancy = qrels[document_data.DOCUMENT].RELEVANCY;
+				}
+
 				gridData[rank-1].push({
 					array_row: rank-1,
 					array_column: run,

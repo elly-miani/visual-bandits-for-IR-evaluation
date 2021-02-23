@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { CheckboxGroup, Checkbox } from "rsuite";
+import { CheckboxGroup, Checkbox, Loader } from "rsuite";
 
 import './BarChart.css';
 
@@ -36,6 +36,7 @@ function BarChart(props) {
 
 	useEffect(() => {
 		printLog("HOOK", "useEffect([props.runRelevancies])", null, printLogHelper.current);
+		if (!props.runRelevancies) return;
 
 		setChartData(getChartData(props.runRelevancies, state, printLogHelper))
 		// console.log(JSON.stringify(chartData, null, 2))
@@ -47,6 +48,7 @@ function BarChart(props) {
 		printLog("HOOK", "useEffect([chartData, dimensions])", null, printLogHelper.current);
 
 		if(!dimensions) return;
+		if(!props.runRelevancies) return;
 
 		// identify how many runs there are and their names
 		var runNames = []
@@ -58,39 +60,73 @@ function BarChart(props) {
 	}, [chartData, dimensions])
 
 
+	if (props.runRelevancies === null) {
+		return (
+			<div id="wrapper--BarChart" ref={wrapperRef}>
+				<div className="container-loading">
+					<Loader content="loading..." vertical size="md" />
+				</div>
 
-	return (
-		<div id="wrapper--BarChart" ref={wrapperRef}>
-			<svg ref={svgRef}>
-				<g className="x-axis"></g>
-				<g className="y-axis"></g>
-			</svg>
-
-			<div className="controls">
-				<CheckboxGroup
-					inline
-					name="checkboxList"
-					value={state.value}
-					onChange={value => {
-						if(value.includes("REL-NONREL")) {
-							setState({ value });
-						}
-						else{
-							setState({ value: [] })
-						}
-					}}
-				>
-					Highlight:
-					<Checkbox value="REL-NONREL">
-						Relevant/Nonrelevant
-					</Checkbox>
-					<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
-						Unique Relevant
-					</Checkbox>
-				</CheckboxGroup>
+				<div className="controls">
+					<CheckboxGroup
+						inline
+						name="checkboxList"
+						value={state.value}
+						onChange={value => {
+							if (value.includes("REL-NONREL")) {
+								setState({ value });
+							}
+							else {
+								setState({ value: [] })
+							}
+						}}
+					>
+						Highlight:
+						<Checkbox value="REL-NONREL">
+							Relevant/Nonrelevant
+						</Checkbox>
+						<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
+							Unique Relevant
+						</Checkbox>
+					</CheckboxGroup>
+				</div>
 			</div>
-		</div>
-	)
+		)
+	}
+	else {
+		return (
+			<div id="wrapper--BarChart" ref={wrapperRef}>
+				<svg ref={svgRef}>
+					<g className="x-axis"></g>
+					<g className="y-axis"></g>
+				</svg>
+
+				<div className="controls">
+					<CheckboxGroup
+						inline
+						name="checkboxList"
+						value={state.value}
+						onChange={value => {
+							if(value.includes("REL-NONREL")) {
+								setState({ value });
+							}
+							else{
+								setState({ value: [] })
+							}
+						}}
+					>
+						Highlight:
+						<Checkbox value="REL-NONREL">
+							Relevant/Nonrelevant
+						</Checkbox>
+						<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
+							Unique Relevant
+						</Checkbox>
+					</CheckboxGroup>
+				</div>
+			</div>
+		)
+	}
 }
 
 export default BarChart;
