@@ -6,8 +6,9 @@ import 'rsuite/dist/styles/rsuite-default.css'
 
 // import Time from './components/Time/Time'
 import Nav from './components/Nav/Nav'
-import ViewA from './containers/ViewA/ViewA'
+// import ViewA from './containers/ViewA/ViewA'
 import ViewB from './containers/ViewB/ViewB'
+
 
 function App() {
 	console.log("➡️ Rendering App()");

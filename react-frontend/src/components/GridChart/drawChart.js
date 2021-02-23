@@ -1,7 +1,8 @@
 import * as d3 from 'd3'; 
 import printLog from '../../core/helper/printLog';
 
-export default function drawChart(gridState, setGridState, runSize, svgRef, dimensions, state, printLogHelper) {
+
+export default function drawChart(gridState, runSize, svgRef, dimensions, state, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -62,10 +63,10 @@ export default function drawChart(gridState, setGridState, runSize, svgRef, dime
 		})
 		.style("fill", function (d) {
 			if (state.showQrels) {
-				if(d.retrieved == 1) {
+				if(d.retrieved === 1) {
 					return colorScaleRetrieved(d.relevancy);
 				}
-				if(d.retrieved == 2) {
+				if(d.retrieved === 2) {
 					return colorScale(d.relevancy);
 				}
 			}
@@ -75,7 +76,7 @@ export default function drawChart(gridState, setGridState, runSize, svgRef, dime
 
 	grid.attr("height", () => {
 		if (xScale.bandwidth() > 50) {
-			return gridState.runSize * (squareSize + 10) + "px"
+			return runSize * (squareSize + 10) + "px"
 		}
 		else {
 			return svgHeight + xScale.bandwidth() + "px";

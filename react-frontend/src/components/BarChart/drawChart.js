@@ -1,5 +1,5 @@
 import * as d3 from 'd3';
-import printLog from '../../core/helper/printLog';
+// import printLog from '../../core/helper/printLog';
 
 export default function drawChart(chartData, runNames, svgRef, dimensions, printLogHelper) {
 

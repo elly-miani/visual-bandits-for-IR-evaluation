@@ -1,6 +1,6 @@
 import printLog from "../../core/helper/printLog";
 
-export default function createGridData(runs, qrels, printLogHelper) {
+export default function getGridData(runs, qrels, printLogHelper) {
 	var gridData = [];
 
 	// identify the max rank value in the data

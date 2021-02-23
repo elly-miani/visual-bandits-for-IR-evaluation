@@ -4,7 +4,7 @@ export default function getChartData(runRelevancies, state, printLogHelper) {
 	let runRelevanciesLast = runRelevancies[runRelevancies.length - 1];
 	let chartData;
 
-	if (state.value.length == 0) {
+	if (state.value.length === 0) {
 		chartData = Object.entries(runRelevanciesLast).map(d => {
 			return {
 				'RUN': d[0],
@@ -12,7 +12,7 @@ export default function getChartData(runRelevancies, state, printLogHelper) {
 			};
 		})
 	}
-	if (state.value.length == 1) {
+	if (state.value.length === 1) {
 		chartData = Object.entries(runRelevanciesLast).map(d => {
 			return {
 				'RUN': d[0],
@@ -21,7 +21,7 @@ export default function getChartData(runRelevancies, state, printLogHelper) {
 			};
 		})
 	}
-	if (state.value.length == 2) {
+	if (state.value.length === 2) {
 		chartData = Object.entries(runRelevanciesLast).map(d => {
 			return {
 				'RUN': d[0],

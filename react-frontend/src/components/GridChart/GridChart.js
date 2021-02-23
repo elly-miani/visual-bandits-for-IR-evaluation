@@ -1,12 +1,14 @@
 import React, { useRef, useEffect, useState } from 'react'
 
+import './GridChart.css';
+
 import printLog from '../../core/helper/printLog.js';
 import useResizeObserver from '../../core/hooks/useResizeObserver.js';
-import createGridData from './createGridData';
-import drawChart from './drawChart';
-import retrieveDocs from './retrieveDocs.js';
 
-import './GridChart.css';
+import drawChart from './drawChart';
+import getGridData from './getGridData';
+import updateRetrievedDocs from './updateRetrievedDocs.js';
+
 
 export default function GridChart(props) {
 
@@ -27,16 +29,26 @@ export default function GridChart(props) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
-	const [gridState, setGridState] = useState(createGridData(props.runs, props.qrels, printLogHelper.current));
+	const [gridState, setGridState] = useState(getGridData(props.runs, props.qrels, printLogHelper.current));
 
 	// printLog("PRINT", "props: ", props.runs, printLogHelper.current);
 
+
 	// when data is updated, recreate the grid
 	useEffect(() => {
-		// printLog("HOOK", "useEffect(), [data]", null, printLogHelper.current);
-		// printLog("PRINT", "data: ", data, printLogHelper.current);
-		setGridState(createGridData(props.runs, props.qrels, printLogHelper.current));
+		setGridState(getGridData(props.runs, props.qrels, printLogHelper.current));
 	}, [props.runs, props.qrels]);
+
+
+	// when the retrievedDocs list is updated, update the grid
+	useEffect(() => {
+		setGridState(prevState => {
+			return {
+				...prevState,
+				gridData: updateRetrievedDocs(gridState, props.retrievedDocs, printLogHelper.current)
+			}
+		});
+	}, [props.retrievedDocs])
 
 
 	// when the grid is recreated, redraw the chart
@@ -44,12 +56,9 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, setGridState, props.runSize, svgRef.current, dimensions, props.state, printLogHelper.current);
+		drawChart(gridState, props.runSize, svgRef.current, dimensions, props.state, printLogHelper.current);
 	}, [gridState, dimensions, props.state, props.runSize]);
 
-	useEffect(() => {
-		retrieveDocs(gridState, setGridState, props.retrievedDocs, printLogHelper.current)
-	}, [props.retrievedDocs])
 
 	return (
 		<div id="wrapper--GridChart" ref={wrapperRef}>
