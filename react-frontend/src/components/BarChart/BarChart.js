@@ -1,18 +1,21 @@
-import React, { useEffect, useRef } from 'react'
-import * as d3 from 'd3'; 
+import React, { useState, useEffect, useRef } from 'react'
+import { CheckboxGroup, Checkbox } from "rsuite";
 
 import './BarChart.css';
 
 import printLog from '../../core/helper/printLog.js';
 import useResizeObserver from '../../core/hooks/useResizeObserver.js';
+
 import drawChart from './drawChart.js'
+import getChartData from './getChartData.js'
+
 
 function BarChart(props) {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "BarChart()",
-		verbosity: [1, 1, 1, 1, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 1, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -26,28 +29,35 @@ function BarChart(props) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
+	const [chartData, setChartData] = useState(null);
+	const [state, setState] = useState({value: []})
+
+
 
 	useEffect(() => {
-		printLog("HOOK", "useEffect([props.runRelevancies, dimensions])", null, printLogHelper.current);
+		printLog("HOOK", "useEffect([props.runRelevancies])", null, printLogHelper.current);
+
+		setChartData(getChartData(props.runRelevancies, state, printLogHelper))
+		// console.log(JSON.stringify(chartData, null, 2))
+	}, [props.runRelevancies, state])
+
+
+
+	useEffect(() => {
+		printLog("HOOK", "useEffect([chartData, dimensions])", null, printLogHelper.current);
 
 		if(!dimensions) return;
 
-		let runRelevanciesLast = props.runRelevancies[props.runRelevancies.length - 1];
+		// identify how many runs there are and their names
+		var runNames = []
+		for (let key in props.runRelevancies[props.runRelevancies.length - 1]) {
+			runNames.push(key);
+		}
 
-		let chartData = Object.entries(runRelevanciesLast).map(d => {
-			return {
-				'RUN': d[0],
-				'REL_UNIQUE': d[1].REL_UNIQUE,
-				'REL_NON_UNIQUE': d[1].REL - d[1].REL_UNIQUE,
-				'NON_REL': d[1].NON_REL
-			};
-		})
+		drawChart(chartData, runNames, svgRef.current, dimensions, printLogHelper)
+	}, [chartData, dimensions])
 
-		// console.log(JSON.stringify(chartData, null, 2))
 
-		drawChart(chartData, runRelevanciesLast, svgRef.current, dimensions, printLogHelper)
-		
-	}, [props.runRelevancies, dimensions])
 
 	return (
 		<div id="wrapper--BarChart" ref={wrapperRef}>
@@ -55,6 +65,30 @@ function BarChart(props) {
 				<g className="x-axis"></g>
 				<g className="y-axis"></g>
 			</svg>
+
+			<div className="controls">
+				<CheckboxGroup
+					inline
+					name="checkboxList"
+					value={state.value}
+					onChange={value => {
+						if(value.includes("REL-NONREL")) {
+							setState({ value });
+						}
+						else{
+							setState({ value: [] })
+						}
+					}}
+				>
+					Highlight:
+					<Checkbox value="REL-NONREL">
+						Relevant/Nonrelevant
+					</Checkbox>
+					<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
+						Unique Relevant
+					</Checkbox>
+				</CheckboxGroup>
+			</div>
 		</div>
 	)
 }

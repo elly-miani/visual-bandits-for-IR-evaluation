@@ -1,17 +1,11 @@
 import * as d3 from 'd3';
 import printLog from '../../core/helper/printLog';
 
-export default function drawChart(chartData, runRelevanciesLast, svgRef, dimensions, printLogHelper) {
+export default function drawChart(chartData, runNames, svgRef, dimensions, printLogHelper) {
 
 	const svg = d3.select(svgRef)
 
-	// identify how many runs there are and their names
-	var runNames = []
-	for (let key in runRelevanciesLast) {
-		runNames.push(key);
-	}
-
-	const stackGenerator = d3.stack().keys(["REL_NON_UNIQUE", "REL_UNIQUE", "NON_REL"]);
+	const stackGenerator = d3.stack().keys(["DOCS_RETRIEVED", "REL", "REL_NON_UNIQUE", "REL_UNIQUE", "NON_REL"]);
 	const layers = stackGenerator(chartData)
 
 	// scales
@@ -26,8 +20,8 @@ export default function drawChart(chartData, runRelevanciesLast, svgRef, dimensi
 		.range([dimensions.height, 0]);
 
 	const colorScale = d3.scaleOrdinal()
-		.domain(["REL_NON_UNIQUE", "REL_UNIQUE", "NON_REL"])
-		.range(["#9EF3D9", "#94F5A6", "#FFC2D3"]);
+		.domain(["DOCS_RETRIEVED", "REL", "REL_NON_UNIQUE", "REL_UNIQUE", "NON_REL"])
+		.range(["#78ADFD", "#00F5B9", "#00F5B9", "#9EF3D9", "#FFC2D3"]);
 
 	// axis
 	// const xAxis = d3.axisBottom(xScale) 		//.ticks(data.length).tickFormat(i => i+1);

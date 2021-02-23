@@ -1,6 +1,9 @@
 #wrapper--BarChart {
 	height: 50vh;
 	margin-bottom: 2em;
-	/* padding-left: 2%; */
-	/* padding-right: 2%; */
+}
+
+#wrapper--BarChart .controls {
+	justify-content: center;
+	padding-top: 2em;
 }

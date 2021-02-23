@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect, useState, useRef } from 'react';
+import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber } from 'rsuite';
 
 import './ViewB.css';
 
@@ -8,7 +9,6 @@ import printLog from '../../core/helper/printLog.js';
 import GridChart from '../../components/GridChart/GridChart';
 import BarChart from '../../components/BarChart/BarChart';
 
-import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber } from 'rsuite';
 
 function ViewB() {
 
@@ -210,10 +210,10 @@ function ViewB() {
 		return (
 			<Fragment>
 				<div id="container--viewB" className="offset container-loading">
-						<Loader content="loading..." vertical />
+					<Loader content="loading..." vertical size="md"/>
 				</div>
 				<div id="container--viewB" className="offset container-loading">
-					<Loader content="loading..." vertical />
+					<Loader content="loading..." vertical size="md"/>
 				</div>
 			</Fragment>
 		)
