@@ -21,7 +21,7 @@ export default function drawChart(chartData, runNames, svgRef, dimensions, print
 
 	const colorScale = d3.scaleOrdinal()
 		.domain(["DOCS_RETRIEVED", "REL", "REL_NON_UNIQUE", "REL_UNIQUE", "NON_REL"])
-		.range(["#78ADFD", "#00F5B9", "#00F5B9", "#9EF3D9", "#FFC2D3"]);
+		.range(["#DDEAFD", "#2EC4B6", "#2EC4B6", "#8BE4DE", "#FFDCAD"]);
 
 	// axis
 	// const xAxis = d3.axisBottom(xScale) 		//.ticks(data.length).tickFormat(i => i+1);

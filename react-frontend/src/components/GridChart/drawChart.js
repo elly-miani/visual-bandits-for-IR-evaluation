@@ -16,12 +16,12 @@ export default function drawChart(gridState, setGridState, runSize, svgRef, dime
 	
 	const colorScaleRetrieved = d3.scaleLinear()
 		.domain([0, 1, 2])
-		.range(["#FFA0B8", "#5DF1BD", "#78ADFD"])
+		.range(["#FFAA33", "#2EC4B6", "#F49090"])
 		.clamp(true);
 	
 	const colorScale = d3.scaleLinear()
 		.domain([0, 1, 2])
-		.range(["#FFC5D3", "#B1F1DA", "#A9CAFD"])
+		.range(["#FFDCAD", "#8BE4DE", "#F9C8C8"])
 		.clamp(true);
 
 	var row = grid.selectAll(".row")

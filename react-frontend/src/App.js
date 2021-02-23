@@ -36,7 +36,6 @@ function App() {
 				<Nav />
 			</header>
 			<ViewB />
-			<ViewA />
 		</div>
 	);
 }
