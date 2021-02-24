@@ -6,8 +6,8 @@ import 'rsuite/dist/styles/rsuite-default.css'
 
 // import Time from './components/Time/Time'
 import Nav from './components/Nav/Nav'
-// import ViewA from './containers/ViewA/ViewA'
-import ViewB from './containers/ViewB/ViewB'
+// import ExampleView from './containers/ExampleView/ExampleView'
+import ViewA from './containers/ViewA/ViewA'
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
 			<header>
 				<Nav />
 			</header>
-			<ViewB />
+			<ViewA />
 		</div>
 	);
 }

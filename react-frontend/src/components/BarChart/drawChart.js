@@ -27,7 +27,12 @@ export default function drawChart(chartData, runNames, svgRef, dimensions, print
 	// const xAxis = d3.axisBottom(xScale) 		//.ticks(data.length).tickFormat(i => i+1);
 	// svg.select(".x-axis").style("transform", `translateY(${dimensions.height}px)`).call(xAxis);
 
-	const yAxis = d3.axisLeft(yScale);
+	const yAxisTicks = yScale.ticks()
+		.filter(tick => Number.isInteger(tick));
+	const yAxis = d3.axisLeft(yScale)
+		.tickValues(yAxisTicks)
+		.tickFormat(d3.format('d'));
+
 	svg.select(".y-axis").call(yAxis);
 
 	svg.attr("width", dimensions.width);

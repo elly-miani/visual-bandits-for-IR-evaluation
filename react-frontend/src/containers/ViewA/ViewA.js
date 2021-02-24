@@ -1,18 +1,21 @@
-import React, { Fragment, useEffect, useState, useCallback, useRef } from 'react';
+import React, { Fragment, useEffect, useState, useRef } from 'react';
+import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber } from 'rsuite';
 
 import './ViewA.css';
 
 import fetchAPI from '../../core/helper/fetchAPI.js'
 import printLog from '../../core/helper/printLog.js';
 
-import ExampleChart2 from '../../components/ExampleChart/ExampleChart';
+import GridChart from '../../components/GridChart/GridChart';
+import BarChart from '../../components/BarChart/BarChart';
+
 
 function ViewA() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
 	const printLogHelper = useRef({
 		renderingFunction: "ViewA()",
-		verbosity: [0, 0, 0, 0, 0],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
+		verbosity: [0, 1, 1, 0, 1],						// [RENDER, API, PRINT, FUNCTION_CALL, HOOK]
 		renderCount: 1
 	});
 
@@ -23,63 +26,218 @@ function ViewA() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-	const [url, setUrl] = useState('/api/mockdata/fake_data1')
-	const [urlcontrol, setUrlControl] = useState(1);
-	const [data, setData] = useState([]);
-	printLog("PRINT", "Data at render is:", data, printLogHelper.current);
+	const urlQrels = '/api/qrels/';
+	const urlRuns = '/api/runs/'
+	const urlAdjudication = '/api/adjudication/'
 
-	const updateData = useCallback(() => {
-		printLog("FUNCTION_CALL", "updateData()", null, printLogHelper.current);
+	const urlRetrievedDocsMockdata = '/api/mockdata/retrieved_docs_order'
+	const urlRunRelevanciesMockdata = '/api/mockdata/run_relevancies_order'
 
-		fetchAPI(printLogHelper.current, url, res => {
-			const newdata = res.map(data => (data.score))
-			setData(newdata);
-		});
-	}, [url]);
+	const [topic, setTopic] = useState('401');
+	const [runSize, setRunSize] = useState('10');
 
+	const [state, setState] = useState({
+		"showQrels": 0,
+		"adjudicationMethod": "round_robin",
+		"pool_size": 500
+	});
 
-	const onButtonClick = () => {
-		printLog("FUNCTION_CALL", "onButtonClick()", null, printLogHelper.current);
-		printLog("PRINT", "urlcontrol =", urlcontrol, printLogHelper.current);
+	const [runs, setRuns] = useState(null);
+	const [qrels, setQrels] = useState(null);
+	const [retrievedDocs, setRetrievedDocs] = useState(null);
+	const [runRelevancies, setRunRelevancies] = useState(null);
 
-		if(urlcontrol) {
-			setUrlControl(0);
-			setUrl('/api/mockdata/fake_data2'); 
-		}
-		else {
-			setUrlControl(1);
-			setUrl('/api/mockdata/fake_data1');
-		}
-	};
+	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
+	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
 	useEffect(() => {
-		printLog("HOOK", "useEffect([updateData])", null, printLogHelper.current);
-		updateData();
-	}, [updateData]);
+		fetchAPI(printLogHelper.current, urlRuns + topic, res => {
+			setRuns(res);
+		});
 
-	return (
-		<Fragment>
-			<div id="container--viewA" className="offset">
-				<ExampleChart2 data={data} />
-				<br />
-				<div className="controls">
-					<button className="button--3d button--accent" onClick={onButtonClick}>
-						Update data
-				</button>
-					<button className="button--3d" onClick={() => setData(data.map(value => value + 5))}>
-						Increment data
-				</button>
-					<button className="button--3d" onClick={() => setData(data.filter(value => value < Math.max(...data) / 2))}>
-						Filter data
-				</button>
-					<button className="button--3d" onClick={() => setData([...data, Math.round(Math.random() * 100)])}>
-						Add data
-				</button>
+		fetchAPI(printLogHelper.current, urlQrels + topic, res => {
+			setQrels(res);
+		});
+
+
+		let url = urlAdjudication + state.adjudicationMethod + '/' + topic + '/' + state.pool_size;
+
+		fetchAPI(printLogHelper.current, url, res => {
+			console.log(res.retrieved_docs_order);
+			setRetrievedDocs(res.retrieved_docs_order);
+			setRunRelevancies(res.run_relevancies_order);
+		});
+
+
+	}, [topic])
+
+
+	const topicPicker = (
+		<SelectPicker 
+			data={[
+				{
+					"label": "401",
+					"value": 401
+				},
+				{
+					"label": "402",
+					"value": 402
+				},
+				{
+					"label": "403",
+					"value": 403
+				},
+				{
+					"label": "404",
+					"value": 404
+				},
+				{
+					"label": "405",
+					"value": 405
+				},
+				{
+					"label": "406",
+					"value": 406
+				},
+				{
+					"label": "407",
+					"value": 407
+				}
+			]}
+			placeholder="Default: 401"
+			defaultValue="401"
+			style={{ width: 150 }} 
+			size="sm"
+			onChange ={(value, event) => {
+				setTopic(value)
+			}}
+		/>
+	);
+
+	const runSizePickerRef = React.createRef();
+
+	const runSizePicker = (
+		<InputGroup>
+			<InputGroup.Button 
+				onClick={() => {
+					runSizePickerRef.current.handleMinus();
+				}}
+				>-
+			</InputGroup.Button>
+			<InputNumber
+				className={'custom-input-number'}
+				ref={runSizePickerRef}
+				size="sm"
+				style={{ width: 100 }}
+				max={100}
+				min={10}
+				step={5}
+				defaultValue="10"
+				onChange={(value, event) => {
+					setRunSize(value)
+				}}
+			/>
+			<InputGroup.Button 
+				onClick={() => {
+					runSizePickerRef.current.handlePlus();
+				}}>
+				+
+			</InputGroup.Button>
+		</InputGroup>
+	);
+
+	const relJudgmentsToogle = (
+		<Toggle
+			size="md"
+			checkedChildren={<Icon icon="check" />}
+			unCheckedChildren={<Icon icon="close" />}
+			onChange={(checked, event) => {
+				if (checked) {
+					setState(prevState => {
+						return { ...prevState, "showQrels": 1 }
+					});
+				}
+				else {
+					setState(prevState => {
+						return { ...prevState, "showQrels": 0 }
+					});
+				}
+			}}
+		/>
+	);
+
+
+	if (runs !== null && qrels !== null) {
+		return (
+			<Fragment>
+				<div id="container--ViewA" className="offset">
+					<div className="controls">
+
+						<div>
+							<span className="toggle-label">Topic</span>
+							{topicPicker}
+						</div>
+
+						<div>
+							<span className="toggle-label">Run Size</span>
+							<div className="inline-input-group">
+								{runSizePicker}
+							</div>
+						</div>
+
+						<div>
+							<span className="toggle-label">Show Relevance Judgments</span>
+							{relJudgmentsToogle}
+						</div>
+					</div>
+
+					<br />
+
+					<GridChart state={state} runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs}/>
 				</div>
-			</div>
-			
-		</Fragment>
-	)
+
+				<div id="container--ViewA" className="offset">
+					<BarChart runRelevancies={runRelevancies}/>
+				</div>
+			</Fragment>
+		)
+	}
+	else {
+		return (
+			<Fragment>
+				<div id="container--ViewA" className="offset">
+					<div className="controls">
+
+						<div>
+							<span className="toggle-label">Topic</span>
+							{topicPicker}
+						</div>
+
+						<div>
+							<span className="toggle-label">Run Size</span>
+							<div className="inline-input-group">
+								{runSizePicker}
+							</div>
+						</div>
+
+						<div>
+							<span className="toggle-label">Show Relevance Judgments</span>
+							{relJudgmentsToogle}
+						</div>
+					</div>
+
+					<br />
+					<div className="container-loading">
+						<Loader content="loading..." vertical size="md" />
+					</div>
+					
+				</div>
+				<div id="container--ViewA" className="offset container-loading">
+					<Loader content="loading..." vertical size="md"/>
+				</div>
+			</Fragment>
+		)
+	}
 }
 
 export default ViewA;
