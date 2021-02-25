@@ -56,14 +56,16 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, props.runSize, svgRef.current, dimensions, props.state, printLogHelper.current);
-	}, [gridState, dimensions, props.state, props.runSize]);
+		drawChart(gridState, props.runSize, svgRef.current, dimensions, printLogHelper.current);
+	}, [gridState, dimensions, props.runSize]);
 
 
 	return (
-		<div id="wrapper--GridChart" ref={wrapperRef}>
-			<svg ref={svgRef}>
-			</svg>
+		<div className="container offset">
+			<div id="wrapper--GridChart" ref={wrapperRef}>
+				<svg ref={svgRef}>
+				</svg>
+			</div>
 		</div>
 	)
 }

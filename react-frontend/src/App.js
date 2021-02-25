@@ -33,9 +33,9 @@ function App() {
 
 				<Time />
 			</header> */}
-			<header>
+			{/* <header>
 				<Nav />
-			</header>
+			</header> */}
 			<ViewA />
 		</div>
 	);

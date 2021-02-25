@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import printLog from '../../core/helper/printLog';
 
 
-export default function drawChart(gridState, runSize, svgRef, dimensions, state, printLogHelper) {
+export default function drawChart(gridState, runSize, svgRef, dimensions, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -62,13 +62,11 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, state,
 			}
 		})
 		.style("fill", function (d) {
-			if (state.showQrels) {
-				if(d.retrieved === 1) {
-					return colorScaleRetrieved(d.relevancy);
-				}
-				if(d.retrieved === 2) {
-					return colorScale(d.relevancy);
-				}
+			if(d.retrieved === 1) {
+				return colorScaleRetrieved(d.relevancy);
+			}
+			if(d.retrieved === 2) {
+				return colorScale(d.relevancy);
 			}
 			if(d.document === null) {
 				return "#F2F4F8"

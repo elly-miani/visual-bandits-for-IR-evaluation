@@ -15,9 +15,8 @@ code {
 /* @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans&display=swap');
 @import url('http://fonts.cdnfonts.com/css/american-typewriter'); */
 
-
 body {
-	background: #F2F4F8;
+	background:#F2F4F8!important;
 	/* font-family: 'Open Sans', sans-serif; */
 	/* font-family: 'Courier Prime', monospace; */
 	/* font-family: 'American Typewriter', sans-serif;  */
@@ -60,6 +59,11 @@ button {
 	color: white;
 }
 
+.controls-container {
+	padding: 1.5em 2em 1.5em 2em;
+	margin: 2em 2em 2em 2em;
+}
+
 .controls {
 	display: flex;
 	flex-direction: row;
@@ -67,13 +71,19 @@ button {
 	justify-content: center;
 }
 
-div.offset {
-	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06), -8px -8px 16px 0px #fff;
-	border-radius: 8px;
-	background: #F2F4F8;
+.container {
+	padding:5%;
+	margin:2%;
 }
 
-div.inset {
-	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -3px -3px 6px 0px #fff;
+.offset {
+	border-radius: 8px;
+	background-color: #F2F4F8;
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06),-8px -8px 16px 0px #fff;
+}
+
+.inset {
 	background: #F2F4F8;
+	border-radius: 20px;
+	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06),inset -3px -3px 6px 0px #fff
 }

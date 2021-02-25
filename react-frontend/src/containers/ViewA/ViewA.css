@@ -1,8 +1,3 @@
-#container--ViewA {
-	padding:5%;
-	margin:2%;
-	background: #F2F4F8;
-}
 
 .container-loading {
 	display: flex;
@@ -18,14 +13,27 @@
 
 .controls div {
 	display: inline-flex;
+	/* flex-direction: column; */
 	align-items: center;
 }
 
 .controls inline-input-group {
-	display: inline-flex;
+	/* display: inline-flex; */
+	flex-direction: row;
+}
+
+.controls button {
+	border: 1px solid #E5E5EA;
+}
+
+.controls button:hover {
+	border: 1px solid #0075E8;
 }
 
 .toggle-label {
+	/* display:block; */
+	/* text-align: center; */
+	/* margin-bottom: 0.3em; */
 	margin-right:1em;
 }
 
@@ -36,3 +44,10 @@
 .custom-input-number .rs-input-number-btn-group-vertical {
 	display: none;
 }
+
+.loader-icon {
+	-webkit-animation: loaderSpin 0.6s infinite linear;
+	animation: loaderSpin 0.8s infinite linear;
+	background: transparent !important;
+}
+
