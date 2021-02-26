@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState, useRef } from 'react';
-import { Toggle, Icon, SelectPicker, Loader, InputGroup, InputNumber, IconButton, Button } from 'rsuite';
+import { Loader } from 'rsuite';
 
 import './ViewA.css';
 
@@ -8,7 +8,8 @@ import printLog from '../../core/helper/printLog.js';
 
 import GridChart from '../../components/GridChart/GridChart';
 import BarChart from '../../components/BarChart/BarChart';
-
+import Controls from '../../components/Controls/Controls';
+import StartAdjudicationButton from '../../components/Controls/StartAdjudicationButton';
 
 function ViewA() {
 
@@ -26,7 +27,7 @@ function ViewA() {
 	// == == == == == == == == == == == == == == == == == == == //
 	
 
-
+	// DATA STATUS
 	const [status, setStatus] = useState({
 		runs: 0,
 		qrels: 0,
@@ -50,10 +51,13 @@ function ViewA() {
 	const [retrievedDocs, setRetrievedDocs] = useState(null);
 	const [runRelevancies, setRunRelevancies] = useState(null);
 
-	// printLog("PRINT", "runs at render is:", runs, printLogHelper.current);
-	// printLog("PRINT", "qrels at render are:", qrels, printLogHelper.current);
 
+	// each time 'topic' is updated,
+	// automatically fetch runs & qrels data 
+	// and reset the adjudication data
 	useEffect(() => {
+
+		// udpate status
 		setStatus(prevState => {
 			return {
 				...prevState,
@@ -62,11 +66,12 @@ function ViewA() {
 				adjudication: 2
 			}
 		})
-
+		
+		// reset adjudication data
 		setRetrievedDocs(null);
 		setRunRelevancies(null);
 
-
+		// fetch runs data
 		fetchAPI(printLogHelper.current, urlRuns + topic, res => {
 			setRuns(res);
 
@@ -78,6 +83,7 @@ function ViewA() {
 			})
 		});
 
+		// fetch qrels data
 		fetchAPI(printLogHelper.current, urlQrels + topic, res => {
 			setQrels(res);
 
@@ -88,11 +94,29 @@ function ViewA() {
 				}
 			})
 		});
-
 		
 	}, [topic])
 
 
+
+	// function passed to <Controls /> component to handle states update
+	const updateParameter = (newValue, parameter) => {
+		if (parameter === 'topic') {
+			setTopic(newValue)
+		}
+		if (parameter === 'adjudication-method') {
+			setAdjudicationMethod(newValue)
+		}
+		if (parameter === 'pool-size') {
+			setPoolSize(newValue)
+		}
+		if (parameter === 'run-size') {
+			setRunSize(newValue)
+		}
+	}
+
+
+	// function passed to <Controls /> component to start the adjudication process
 	const computeAdjudication = () => {
 		setStatus(prevState => {
 			return {
@@ -100,14 +124,14 @@ function ViewA() {
 				adjudication: 0
 			}
 		})
-				
+
 		let url = urlAdjudication + adjudicationMethod + '/' + topic + '/' + poolSize;
 
 		fetchAPI(printLogHelper.current, url, res => {
 			console.log(res.retrieved_docs_order);
 			setRetrievedDocs(res.retrieved_docs_order);
 			setRunRelevancies(res.run_relevancies_order);
-			
+
 			setStatus(prevState => {
 				return {
 					...prevState,
@@ -117,223 +141,95 @@ function ViewA() {
 		});
 	}
 
-	const topicPicker = (
-		<SelectPicker 
-			data={[
-				{
-					"label": "401",
-					"value": 401
-				},
-				{
-					"label": "402",
-					"value": 402
-				},
-				{
-					"label": "403",
-					"value": 403
-				},
-				{
-					"label": "404",
-					"value": 404
-				},
-				{
-					"label": "405",
-					"value": 405
-				},
-				{
-					"label": "406",
-					"value": 406
-				},
-				{
-					"label": "407",
-					"value": 407
-				}
-			]}
-			placeholder="Default: 401"
-			defaultValue="401"
-			style={{ width: 150 }} 
-			size="sm"
-			onChange ={(value, event) => {
-				setTopic(value)
-			}}
-		/>
-	);
 
-	const runSizePickerRef = React.createRef();
-	const runSizePicker = (
-		<InputGroup>
-			<InputGroup.Button 
-				onClick={() => {
-					runSizePickerRef.current.handleMinus();
-				}}
-				>-
-			</InputGroup.Button>
-			<InputNumber
-				className={'custom-input-number'}
-				ref={runSizePickerRef}
-				size="sm"
-				style={{ width: 60 }}
-				max={100}
-				min={10}
-				step={5}
-				defaultValue="10"
-				onChange={(value, event) => {
-					setRunSize(value)
-				}}
-			/>
-			<InputGroup.Button 
-				onClick={() => {
-					runSizePickerRef.current.handlePlus();
-				}}>
-				+
-			</InputGroup.Button>
-		</InputGroup>
-	);
+	// CONDITIONAL RENDERING
 
-	const adjudicationMethodPicker = (
-		<SelectPicker
-			data={[
-				{
-					"label": "Round Robin",
-					"value": "round_robin"
-				},
-				{
-					"label": "x",
-					"value": "x"
-				}
-			]}
-			placeholder="Round Robin"
-			defaultValue="round_robin"
-			style={{ width: 150 }}
-			size="sm"
-			onChange={(value, event) => {
-				setAdjudicationMethod(value)
-			}}
-		/>
-	);
-
-	const poolSizePickerRef = React.createRef();
-	const poolSizePicker = (
-		<InputGroup>
-			<InputGroup.Button
-				onClick={() => {
-					poolSizePickerRef.current.handleMinus();
-				}}
-			>-
-			</InputGroup.Button>
-			<InputNumber
-				className={'custom-input-number'}
-				ref={poolSizePickerRef}
-				size="sm"
-				style={{ width: 60 }}
-				min={50}
-				step={50}
-				defaultValue="100"
-				onChange={(value, event) => {
-					setPoolSize(value)
-				}}
-			/>
-			<InputGroup.Button
-				onClick={() => {
-					poolSizePickerRef.current.handlePlus();
-				}}>
-				+
-			</InputGroup.Button>
-		</InputGroup>
-	);
-
-
-	function iconChooser(statusAdjudication) {
-		if (statusAdjudication === 1 || statusAdjudication === 2) {
-			return <Icon icon="rocket" />;
-		}
-		else {
-			// return <Icon icon="cog" className="loader-icon" />;
-			// return <Icon icon="refresh" className="loader-icon" />;
-			return <Icon icon="spinner" className="loader-icon" />;
-		}
-	}
-
-	const adjudicationButton = useRef();
-	const controls = (
-		<div className="controls-container inset">
-			<div className="controls">
-
-				<div>
-					<span className="toggle-label">Topic</span>
-					{topicPicker}
-				</div>
-
-				<div>
-					<span className="toggle-label">Run Size</span>
-					<div className="inline-input-group">
-						{runSizePicker}
-					</div>
-				</div>
-
-
-				<div>
-					<span className="toggle-label">Strategy</span>
-					{adjudicationMethodPicker}
-				</div>
-
-				<div>
-					<span className="toggle-label">Pool Size</span>
-					<div className="inline-input-group">
-						{poolSizePicker}
-					</div>
-				</div>
-
-				<IconButton ref={adjudicationButton}
-					icon={iconChooser(status.adjudication)}
-					appearance="default"
-					onClick={() => computeAdjudication()}
-				>
-					Compute Adjudication
-				</IconButton>
-
-			</div>
-		</div>
-	);
-
-
+	// when runs & qrels data has been fetched, but adjudication data has yet to be requested
 	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 2) {
 		return (
 			<Fragment>
-				{controls}
-				<GridChart runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs} />
+
+				<Controls 
+					status={status} 
+					computeAdjudication={computeAdjudication}
+					updateParameter={updateParameter}
+				/>
+
+				<GridChart 
+					runs={runs} 
+					qrels={qrels} 
+					runSize={runSize} 
+					retrievedDocs={retrievedDocs} 
+				/>
+
 				<div className="container container-loading offset">
-					<Button appearance="ghost" onClick={() => { window.scrollTo(0, 0) }}>
-						Compute adjudication to display chart.
-					</Button>
+					<StartAdjudicationButton status={status} handleClick={computeAdjudication} />
 				</div>
+
 			</Fragment>
 		)
 	}
+
+	// when runs, qrels & adjudication data has been fetched
 	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 1) {
 		return (
 			<Fragment>
-				{controls}
-				<GridChart runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs} />
+
+				<Controls
+					status={status}
+					computeAdjudication={computeAdjudication}
+					updateParameter={updateParameter}
+				/>
+
+				<GridChart 
+					runs={runs} 
+					qrels={qrels} 
+					runSize={runSize} 
+					retrievedDocs={retrievedDocs} 
+				/>
+
 				<BarChart runRelevancies={runRelevancies} />
+
 			</Fragment>
 		)
 	}
+
+	// when runs & qrels data has been fetched, but adjudication data is being retrieved
 	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 0) {
 		return (
 			<Fragment>
-				{controls}
-				<GridChart runs={runs} qrels={qrels} runSize={runSize} retrievedDocs={retrievedDocs} />
+
+				<Controls
+					status={status}
+					computeAdjudication={computeAdjudication}
+					updateParameter={updateParameter}
+				/>
+
+				<GridChart 
+					runs={runs} 
+					qrels={qrels} 
+					runSize={runSize} 
+					retrievedDocs={retrievedDocs} />
+				
 				<div className="container container-loading offset">
 					<Loader content="loading..." vertical size="md" />
 				</div>
+
 			</Fragment>
 		)
 	}
+
+	// when runs & qrels data has not yet been fetched
 	if (!status.runs || !status.qrels){
 		return (
 			<Fragment>
-				{controls}
+
+				<Controls
+					status={status}
+					computeAdjudication={computeAdjudication}
+					updateParameter={updateParameter}
+				/>
+
 				<div id="container--ViewA" className="container offset">
 					<div className="container-loading">
 						<Loader content="loading..." vertical size="md" />

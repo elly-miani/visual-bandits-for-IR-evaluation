@@ -20,7 +20,7 @@ def before_first_request():
 	global runs_df
 	global qrels_df
 
-	debug_max_files_loaded = 1000
+	debug_max_files_loaded = 10
 
 	# load the txt files into a dataframe runs
 	runs_path = "./data/runs"
