@@ -5,42 +5,6 @@
 	justify-content: center;
 }
 
-.controls {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.controls div {
-	display: inline-flex;
-	align-items: center;
-}
-
-.controls inline-input-group {
-	/* display: inline-flex; */
-	flex-direction: row;
-}
-
-.controls-button {
-	border: 1px solid #E5E5EA;
-}
-
-.controls-button:hover {
-	border: 1px solid #0075E8;
-}
-
-.toggle-label {
-	margin-right:1em;
-}
-
-.custom-input-number input {
-	text-align: center;
-}
-  
-.custom-input-number .rs-input-number-btn-group-vertical {
-	display: none;
-}
-
 .loader-icon {
 	-webkit-animation: loaderSpin 0.6s infinite linear;
 	animation: loaderSpin 0.8s infinite linear;

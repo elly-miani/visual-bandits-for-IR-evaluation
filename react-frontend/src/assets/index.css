@@ -59,17 +59,6 @@ button {
 	color: white;
 }
 
-.controls-container {
-	padding: 1.5em 2em 1.5em 2em;
-	margin: 2em 2em 2em 2em;
-}
-
-.controls {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 
 .container {
 	padding:5%;

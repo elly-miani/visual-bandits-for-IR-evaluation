@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './Controls.css';
+
 import UploadDataButton from './UploadDataButton';
 import StartAdjudicationButton from './StartAdjudicationButton';
 import PoolSizePicker from './PoolSizePicker';
@@ -14,8 +16,10 @@ export default function Controls(props) {
 			<div className="controls-container inset">
 				<div className="controls">
 
-					<UploadDataButton status={props.status} fetchData={props.fetchData}/>
-
+					<div>
+						<UploadDataButton status={props.status} fetchData={props.fetchData} />
+					</div>
+					
 					<div>
 						<span className="toggle-label">Topic</span>
 						<TopicPicker updateParameter={props.updateParameter}/>
@@ -41,7 +45,9 @@ export default function Controls(props) {
 						</div>
 					</div>
 
-					<StartAdjudicationButton status={props.status} handleClick={props.computeAdjudication}/>
+					<div>
+						<StartAdjudicationButton status={props.status} handleClick={props.computeAdjudication} />
+					</div>
 
 				</div>
 			</div>

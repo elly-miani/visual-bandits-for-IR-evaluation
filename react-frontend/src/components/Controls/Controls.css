@@ -1,0 +1,47 @@
+.controls-container {
+	padding: 1.5em 2em 1.5em 2em;
+	/* padding: 1.5em 5% 1.5em 5%; */
+	margin: 2em 2em 2em 2em;
+	/* margin: 2em 5% 2em 5%; */
+}
+
+.controls {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.controls>* {
+				margin: 0.3em 0.2em 0.3em 0.2em;
+      }
+
+.controls div {
+	display: inline-flex;
+	align-items: center;
+}
+
+.controls inline-input-group {
+	/* display: inline-flex; */
+	flex-direction: row;
+}
+
+.controls-button {
+	border: 1px solid #E5E5EA;
+}
+
+.controls-button:hover {
+	border: 1px solid #0075E8;
+}
+
+.toggle-label {
+	margin-right:1em;
+	margin-left:0.5em;
+}
+
+.custom-input-number input {
+	text-align: center;
+}
+  
+.custom-input-number .rs-input-number-btn-group-vertical {
+	display: none;
+}
