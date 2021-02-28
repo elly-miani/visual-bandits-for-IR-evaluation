@@ -11,6 +11,7 @@ import BarChart from '../../components/BarChart/BarChart';
 import Controls from '../../components/Controls/Controls';
 import StartAdjudicationButton from '../../components/Controls/StartAdjudicationButton';
 
+
 function ViewA() {
 
 	// == == == == == == == == PRINTLOG == == == == == == == == //
@@ -31,7 +32,8 @@ function ViewA() {
 	const [status, setStatus] = useState({
 		runs: 0,
 		qrels: 0,
-		adjudication: 2
+		adjudication: 2,
+		upload: 1
 	})
 
 	// URLs
@@ -52,11 +54,7 @@ function ViewA() {
 	const [runRelevancies, setRunRelevancies] = useState(null);
 
 
-	// each time 'topic' is updated,
-	// automatically fetch runs & qrels data 
-	// and reset the adjudication data
-	useEffect(() => {
-
+	const fetchData = () => {
 		// udpate status
 		setStatus(prevState => {
 			return {
@@ -66,7 +64,7 @@ function ViewA() {
 				adjudication: 2
 			}
 		})
-		
+
 		// reset adjudication data
 		setRetrievedDocs(null);
 		setRunRelevancies(null);
@@ -94,7 +92,14 @@ function ViewA() {
 				}
 			})
 		});
-		
+	}
+
+
+	// each time 'topic' is updated,
+	// automatically fetch runs & qrels data 
+	// and reset the adjudication data
+	useEffect(() => {
+		fetchData();
 	}, [topic])
 
 
@@ -145,7 +150,7 @@ function ViewA() {
 	// CONDITIONAL RENDERING
 
 	// when runs & qrels data has been fetched, but adjudication data has yet to be requested
-	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 2) {
+	if (status.runs === 1 && status.qrels === 1 && status.adjudication === 2) {
 		return (
 			<Fragment>
 
@@ -153,6 +158,7 @@ function ViewA() {
 					status={status} 
 					computeAdjudication={computeAdjudication}
 					updateParameter={updateParameter}
+					fetchData={fetchData}
 				/>
 
 				<GridChart 
@@ -171,7 +177,7 @@ function ViewA() {
 	}
 
 	// when runs, qrels & adjudication data has been fetched
-	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 1) {
+	if (status.runs === 1 && status.qrels === 1 && status.adjudication === 1) {
 		return (
 			<Fragment>
 
@@ -179,6 +185,7 @@ function ViewA() {
 					status={status}
 					computeAdjudication={computeAdjudication}
 					updateParameter={updateParameter}
+					fetchData={fetchData}
 				/>
 
 				<GridChart 
@@ -195,7 +202,7 @@ function ViewA() {
 	}
 
 	// when runs & qrels data has been fetched, but adjudication data is being retrieved
-	if (status.runs == 1 && status.qrels == 1 && status.adjudication == 0) {
+	if (status.runs === 1 && status.qrels === 1 && status.adjudication === 0) {
 		return (
 			<Fragment>
 
@@ -203,6 +210,7 @@ function ViewA() {
 					status={status}
 					computeAdjudication={computeAdjudication}
 					updateParameter={updateParameter}
+					fetchData={fetchData}
 				/>
 
 				<GridChart 
@@ -228,6 +236,7 @@ function ViewA() {
 					status={status}
 					computeAdjudication={computeAdjudication}
 					updateParameter={updateParameter}
+					fetchData={fetchData}
 				/>
 
 				<div id="container--ViewA" className="container offset">

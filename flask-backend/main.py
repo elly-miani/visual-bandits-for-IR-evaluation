@@ -1,36 +1,48 @@
 # import time
-from flask import Flask, jsonify, send_file
+from flask import Flask, jsonify, send_file, request
 from flaskwebgui import FlaskUI
+from werkzeug.utils import secure_filename
+
 import pandas as pd
+import os
 
 from lib import convert_data
 from lib import get_runs
 from lib import get_qrels
 from lib import round_robin
+from lib import file_handling
+
+UPLOAD_FOLDER = './data/uploaded/'
+DEFAULT_DATA_FOLDER = './data/default/'
+LOGS_PATH = './data/output_logs/'
+
+DEBUG_MAX_FILES_LOADED = 10
 
 app = Flask(__name__, static_folder='../react-frontend/build', static_url_path='/')
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 
 runs_df = pd.DataFrame(columns=['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
 qrels_df = pd.DataFrame(columns=['TOPIC', 'ITERATION', 'DOCUMENT', 'RELEVANCY'])
 
-log_path = './data/output_logs/'
+
 
 @app.before_first_request
 def before_first_request():
 	global runs_df
 	global qrels_df
-
-	debug_max_files_loaded = 10
-
+	
 	# load the txt files into a dataframe runs
-	runs_path = "./data/runs"
-	print("➡️ Loading runs from file.")
-	runs_df = convert_data.read_csv_into_df(runs_path, "RUNS", debug_max_files_loaded, 1)
+	print("➡️ Loading default runs from file.")
+	runs_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "runs", "RUNS", DEBUG_MAX_FILES_LOADED, 1)
 
 	# load the txt files into a dataframe qrels
-	qrels_path = "./data/qrels"
-	print("➡️ Loading qrels from file.")
-	qrels_df = convert_data.read_csv_into_df(qrels_path, "QRELS", debug_max_files_loaded, 1)
+	print("➡️ Loading default qrels from file.")
+	qrels_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "qrels", "QRELS", DEBUG_MAX_FILES_LOADED, 1)
+
+	# clear user-uploaded directories
+	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "runs" + '/')
+	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "qrels" + '/')
 
 
 
@@ -39,6 +51,10 @@ MAIN ROUTE
 '''
 @app.route('/')
 def index():
+	# clear user-uploaded directories
+	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "runs" + '/')
+	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "qrels" + '/')
+
 	return app.send_static_file('index.html')
 
 
@@ -87,46 +103,72 @@ ADJUDICATION ROUTE
 def get_adjudication_data_api(method, topic, pool_size):
 	global runs_df
 	global qrels_df
-	global log_path
+	global LOGS_PATH
 
 	runs_filtered = get_runs.by_topic(runs_df, topic)
 	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
 
-	return jsonify(round_robin.round_robin_alg(runs_filtered, qrels_filtered, pool_size, log_path))
+	return jsonify(round_robin.round_robin_alg(runs_filtered, qrels_filtered, pool_size, LOGS_PATH))
 
 
 
-@app.route('/api/mockdata/retrieved_docs_order')
-def get_mockdata_retrieved_docs_order():
-	return send_file('./data/mockdata/retrieved_docs_order.json')
-
-@app.route('/api/mockdata/run_relevancies_order')
-def get_mockdata_run_relevancies_order():
-	return send_file('./data/mockdata/run_relevancies_order.json')
-
-@app.route('/api/time')
-def get_time():
-	return {'time': time.time()}
-
-
-@app.route('/api/mockdata/fake_data1')
-def get_mockdata_fake_data1():
-	return send_file('./data/mockdata/fake_data1.json')
+'''
+UPLOAD FILE ROUTE
+'''
+@app.route('/api/upload/<string:type>', methods=["GET", "POST"])
+def upload_file(type):
+	if request.method == 'POST':
+		file = request.files['file']
+		filename = secure_filename(file.filename)
+		file.save(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
+		return 'file uploaded successfully'
 
 
-@app.route('/api/mockdata/fake_data2')
-def get_mockdata_fake_data2():
-	return send_file('./data/mockdata/fake_data2.json')
+
+'''
+DELETE FILE ROUTE
+'''
+@app.route('/api/delete/<string:type>/<string:filename>', methods=["DELETE"])
+def delete_file(type, filename):
+	if request.method == 'DELETE':
+		os.remove(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
+		return "file deleted successfully"
 
 
-# @app.route('/api/mockdata/GridChart')
-# def get_mockdata_GridChart():
-# 	return send_file('./data/mockdata/json_data/runs/GridChart.json')
+
+'''
+LOAD RUNS & QRELS DATA ROUTE
+'''
+@app.route('/api/loaddata/<string:type>')
+def load_data(type):
+	global runs_df
+	global qrels_df
+
+	if type == 'default':
+		# load the txt files into a dataframe runs
+		print("➡️ Loading default runs from file.")
+		runs_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "runs", "RUNS", DEBUG_MAX_FILES_LOADED, 1)
+
+		# load the txt files into a dataframe qrels
+		print("➡️ Loading default qrels from file.")
+		qrels_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "qrels", "QRELS", DEBUG_MAX_FILES_LOADED, 1)
+
+		file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "runs" + '/')
+		file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "qrels" + '/')
+
+	if type == 'custom':
+		# load the txt files into a dataframe runs
+		print("➡️ Loading custom runs from file.")
+		runs_df = convert_data.read_csv_into_df(UPLOAD_FOLDER + "runs", "RUNS", 1000, 1)
+
+		# load the txt files into a dataframe qrels
+		print("➡️ Loading custom qrels from file.")
+		qrels_df = convert_data.read_csv_into_df(UPLOAD_FOLDER + "qrels", "QRELS", 1000, 1)
+	
+	return jsonify("Successful")
 
 
-# @app.route('/api/mockdata/GridChart2')
-# def get_mockdata_GridChart2():
-# 	return send_file('./data/mockdata/json_data/runs/GridChart2.json')
+
 
 if __name__ == "__main__":
 	app.run()

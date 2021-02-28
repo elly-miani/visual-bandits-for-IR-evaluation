@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { CheckboxGroup, Checkbox, Loader } from "rsuite";
+import { CheckboxGroup, Checkbox } from "rsuite";
 
 import './BarChart.css';
 
@@ -60,76 +60,40 @@ function BarChart(props) {
 	}, [chartData, dimensions])
 
 
-	// if (props.runRelevancies === null) {
-	// 	return (
-	// 		<div id="wrapper--BarChart" ref={wrapperRef}>
-	// 			<div className="container-loading">
-	// 				<Loader content="loading..." vertical size="md" />
-	// 			</div>
+	return (
+		<div className="container offset">
+			<div id="wrapper--BarChart" ref={wrapperRef}>
+				<svg ref={svgRef}>
+					<g className="x-axis"></g>
+					<g className="y-axis"></g>
+				</svg>
 
-	// 			<div className="controls">
-	// 				<CheckboxGroup
-	// 					inline
-	// 					name="checkboxList"
-	// 					defaultValue={["REL-NONREL"]}
-	// 					value={state.value}
-	// 					onChange={value => {
-	// 						if (value.includes("REL-NONREL")) {
-	// 							setState({ value });
-	// 						}
-	// 						else {
-	// 							setState({ value: [] })
-	// 						}
-	// 					}}
-	// 				>
-	// 					Highlight:
-	// 					<Checkbox defaultChecked="true" value="REL-NONREL">
-	// 						Relevant/Nonrelevant
-	// 					</Checkbox>
-	// 					<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
-	// 						Unique Relevant
-	// 					</Checkbox>
-	// 				</CheckboxGroup>
-	// 			</div>
-	// 		</div>
-	// 	)
-	// }
-	// else {
-		return (
-			<div className="container offset">
-				<div id="wrapper--BarChart" ref={wrapperRef}>
-					<svg ref={svgRef}>
-						<g className="x-axis"></g>
-						<g className="y-axis"></g>
-					</svg>
-
-					<div className="controls">
-						<CheckboxGroup
-							inline
-							name="checkboxList"
-							value={state.value}
-							onChange={value => {
-								if (value.includes("REL-NONREL")) {
-									setState({ value });
-								}
-								else {
-									setState({ value: [] })
-								}
-							}}
-						>
-							Highlight:
-						<Checkbox defaultChecked="true" value="REL-NONREL">
-								Relevant/Nonrelevant
-						</Checkbox>
-							<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
-								Unique Relevant
-						</Checkbox>
-						</CheckboxGroup>
-					</div>
+				<div className="controls">
+					<CheckboxGroup
+						inline
+						name="checkboxList"
+						value={state.value}
+						onChange={value => {
+							if (value.includes("REL-NONREL")) {
+								setState({ value });
+							}
+							else {
+								setState({ value: [] })
+							}
+						}}
+					>
+						Highlight:
+					<Checkbox defaultChecked="true" value="REL-NONREL">
+							Relevant/Nonrelevant
+					</Checkbox>
+						<Checkbox value="UNIQUE-REL" disabled={!state.value.includes("REL-NONREL")}>
+							Unique Relevant
+					</Checkbox>
+					</CheckboxGroup>
 				</div>
 			</div>
-		)
-	}
-// }
+		</div>
+	)
+}
 
 export default BarChart;

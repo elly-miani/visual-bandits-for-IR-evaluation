@@ -1,5 +1,6 @@
 import React from 'react'
 
+import UploadDataButton from './UploadDataButton';
 import StartAdjudicationButton from './StartAdjudicationButton';
 import PoolSizePicker from './PoolSizePicker';
 import AdjudicationMethodPicker from './AdjudicationMethodPicker';
@@ -8,13 +9,12 @@ import TopicPicker from './TopicPicker';
 
 export default function Controls(props) {
 
-	// props.status
-	// props.computeAdjudication
-	// props.updateParameter
 
 	return (
 			<div className="controls-container inset">
 				<div className="controls">
+
+					<UploadDataButton status={props.status} fetchData={props.fetchData}/>
 
 					<div>
 						<span className="toggle-label">Topic</span>
