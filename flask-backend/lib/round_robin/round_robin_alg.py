@@ -33,7 +33,7 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 	print("➡️ Retrieving documents to be adjudicated...")
 	for i in range(1, pool_size+1):
 		# repeat the process until we have retrieved the desired number of documents
-		# print("Retrieving document", i, "\n")
+		print("Retrieving document", i, "\n")
 
 		next_run = round_robin.get_next_run(runs_ids)
 		next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
@@ -44,7 +44,6 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 			'RANK': next_doc.iloc[0].RANK
 		}
 
-
 		while next_doc_info['DOCUMENT'] in retrieved_docs:
 			# if document was already retrieved
 
@@ -53,6 +52,13 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 
 			# find new proposed next_doc
 			next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
+
+			while(next_doc.empty):
+				# print("run", next_run, "is empty. Trying again.")
+				# current next_run must have run out of documents
+				runs_ids.pop(len(runs_ids)-1)
+				next_run = round_robin.get_next_run(runs_ids)
+				next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
 
 			next_doc_info = {
 				'DOCUMENT': next_doc.iloc[0].DOCUMENT,

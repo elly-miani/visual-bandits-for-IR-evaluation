@@ -37,6 +37,8 @@ yarn-debug.log*
 yarn-error.log*
 output_logs/
 experiments/
+**/data/uploaded/qrels/**
+**/data/uploaded/runs/**
 
 *.eslintcache
 
