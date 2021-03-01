@@ -57,6 +57,8 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 				return 1 + 10 + (50 + 10) * d.array_row;
 			}
 			else {
+				// console.log(d.array_row)
+				// console.log("svgHeight=xScale(d.array_row):", xScale(d.array_row))
 				svgHeight = xScale(d.array_row);
 				return xScale(d.array_row);
 			}
@@ -72,14 +74,34 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 				return "#F2F4F8"
 			}
 			return "#DDEAFD";
+		})
+		.on("mouseenter", (event, d) => {
+			grid
+				.selectAll(".tooltip")
+				.data([d])
+				.join(enter => enter.append("text"))
+				.attr("class", "tooltip")
+				.text(d.run)
+				.attr("x", (d) => xScale(d.array_column) + xScale.bandwidth() / 2)
+				.attr("y", (d) => -10)
+				.transition()
+				.attr("text-anchor", "middle")
+				.attr("opacity", 1);
+		})
+		.on("mouseleave", () => {
+			grid.select(".tooltip").attr("opacity", 0);
 		});
 
 
 	grid.attr("height", () => {
 		if (xScale.bandwidth() > 50) {
+			// console.log(runSize * (squareSize + 10) + "px")
 			return runSize * (squareSize + 10) + "px"
 		}
 		else {
+			// console.log("svgHeight:", svgHeight)
+			// console.log("xScale.bandwidth():", xScale.bandwidth())
+
 			return svgHeight + xScale.bandwidth() + "px";
 		}
 	});
