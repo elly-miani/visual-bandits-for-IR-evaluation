@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 // import printLog from '../../core/helper/printLog';
 
-export default function drawChart(chartData, runNames, svgRef, dimensions, printLogHelper) {
+export default function drawChart(chartData, runsList, svgRef, dimensions, printLogHelper) {
 
 	const svg = d3.select(svgRef)
 
@@ -10,7 +10,7 @@ export default function drawChart(chartData, runNames, svgRef, dimensions, print
 
 	// scales
 	const xScale = d3.scaleBand()
-		.domain(runNames)
+		.domain(runsList)
 		.range([0, dimensions.width])
 		.padding(0.2);
 

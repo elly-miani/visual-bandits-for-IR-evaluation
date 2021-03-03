@@ -3,46 +3,32 @@ import React from 'react'
 import { SelectPicker } from 'rsuite';
 
 export default function TopicPicker(props) {
+	let topicsList = props.datasetParam.topicsList.map(x => ({ label: x, value: x }));
 
-	return (
-		<SelectPicker
-			data={[
-				{
-					"label": "401",
-					"value": 401
-				},
-				{
-					"label": "402",
-					"value": 402
-				},
-				{
-					"label": "403",
-					"value": 403
-				},
-				{
-					"label": "404",
-					"value": 404
-				},
-				{
-					"label": "405",
-					"value": 405
-				},
-				{
-					"label": "406",
-					"value": 406
-				},
-				{
-					"label": "407",
-					"value": 407
-				}
-			]}
-			placeholder="Default: 401"
-			defaultValue="401"
-			style={{ width: 150 }}
-			size="sm"
-			onChange={(value, event) => {
-				props.updateParameter(value, 'topic')
-			}}
-		/>
-	);
+	if (topicsList.length !== 0) {
+		return (
+			<SelectPicker
+				data={topicsList}
+				placeholder={"Default: " + topicsList[0].value}
+				defaultValue={topicsList[0]}
+				style={{ width: 150 }}
+				size="sm"
+				onChange={(value, event) => {
+					props.updateParameter(value, 'topic')
+				}}
+			/>
+		);
+	}
+	else {
+		return (
+			<SelectPicker
+				data={[]}
+				placeholder={"Loading topics..."}
+				defaultValue={[]}
+				style={{ width: 150 }}
+				size="sm"
+			/>
+		);
+	}
+
 }

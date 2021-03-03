@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect, Fragment } from 'react';
 import { Icon, IconButton, Modal, Button, Uploader } from 'rsuite';
 
+import loadData from '../../core/helper/loadData'
 
 export default function UploadDataButton(props) {
 	const uploadDataButton = useRef();
@@ -26,15 +27,6 @@ export default function UploadDataButton(props) {
 			method: 'DELETE'
 		});
 	}
-	
-	const loadNewData = async (type) => {
-		const res = await fetch('/api/loaddata/' + type, {
-			method: "GET"
-		});
-		const response = await res.json();
-		console.log("response is:", response)
-		return response;
-	};
 
 	const checkLoading = () => {
 		if (runsFiles.file.length > 0 && qrelsFiles.file.length === 1) {
@@ -130,7 +122,8 @@ export default function UploadDataButton(props) {
 						icon={iconChooser(loadingStatus)}
 						onClick={async () => {
 							setLoadingStatus(0);
-							const data = await loadNewData('default');
+							const param = await loadData('default');
+							props.updateParameter(param, 'dataset-param');
 							setLoadingStatus(1);
 							setShowModal(false);
 							props.fetchData();
@@ -148,7 +141,8 @@ export default function UploadDataButton(props) {
 						icon={iconChooser(loadingStatus)}
 						onClick={async () => {
 							setLoadingStatus(0);
-							const data = await loadNewData('custom');
+							const param = await loadData('custom');
+							props.updateParameter(param, 'dataset-param');
 							setLoadingStatus(1);
 							setShowModal(false);
 							props.fetchData();

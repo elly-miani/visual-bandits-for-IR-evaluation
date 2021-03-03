@@ -15,6 +15,11 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 		.range([0, dimensions.width])
 		.padding(0.1);
 	
+	const yScale = d3.scaleBand()
+		.domain(gridState.gridData.map((d, i) => i))
+		.range([0, dimensions.height])
+		.padding(0.1);
+	
 	const colorScaleRetrieved = d3.scaleLinear()
 		.domain([0, 1, 2])
 		.range(["#FFAA33", "#2EC4B6", "#F49090"])
@@ -57,10 +62,8 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 				return 1 + 10 + (50 + 10) * d.array_row;
 			}
 			else {
-				// console.log(d.array_row)
-				// console.log("svgHeight=xScale(d.array_row):", xScale(d.array_row))
-				svgHeight = xScale(d.array_row);
-				return xScale(d.array_row);
+				svgHeight = xScale(d.array_row % 10) - xScale(0)*10 + xScale(Math.floor(d.array_row / 10))*10;
+				return svgHeight;
 			}
 		})
 		.style("fill", function (d) {
@@ -95,13 +98,9 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 
 	grid.attr("height", () => {
 		if (xScale.bandwidth() > 50) {
-			// console.log(runSize * (squareSize + 10) + "px")
 			return runSize * (squareSize + 10) + "px"
 		}
 		else {
-			// console.log("svgHeight:", svgHeight)
-			// console.log("xScale.bandwidth():", xScale.bandwidth())
-
 			return svgHeight + xScale.bandwidth() + "px";
 		}
 	});

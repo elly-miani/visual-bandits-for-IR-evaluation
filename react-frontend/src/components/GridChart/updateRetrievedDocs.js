@@ -1,6 +1,6 @@
 import printLog from "../../core/helper/printLog";
 
-export default function updateRetrievedDocs(gridState, retrievedDocs, printLogHelper) {
+export default function updateRetrievedDocs(gridState, retrievedDocs, runsList, printLogHelper) {
 	printLog("FUNCTION_CALL", "updateRetrievedDocs()", null, printLogHelper);
 	if (retrievedDocs === null) {
 		return gridState.gridData;
@@ -13,7 +13,7 @@ export default function updateRetrievedDocs(gridState, retrievedDocs, printLogHe
 		// for each document in retrievedDocs
 		
 		let retrievedRunName = retrievedDocs[index].RETRIEVED_FROM;
-		let retrievedRunIndex = gridState.runNames.indexOf(retrievedRunName);
+		let retrievedRunIndex = runsList.indexOf(retrievedRunName);
 		let retrievedRank = retrievedDocs[index].RANK;
 
 		if (updatedGridData[retrievedRank+1] != null) {		
@@ -25,7 +25,7 @@ export default function updateRetrievedDocs(gridState, retrievedDocs, printLogHe
 					// for each document occurrence
 
 					let occurrencesRunName = retrievedDocs[index].OCCURRENCES[occurrencesRank][occurrencesIndex];
-					let occurrencesRunIndex = gridState.runNames.indexOf(occurrencesRunName);
+					let occurrencesRunIndex = runsList.indexOf(occurrencesRunName);
 
 					if (updatedGridData[occurrencesRank-1] != null) {
 						// update updateGridData by setting retrieved = 2 for each occurrence of the current document

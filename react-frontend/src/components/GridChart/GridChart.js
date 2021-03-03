@@ -29,14 +29,12 @@ export default function GridChart(props) {
 	const wrapperRef = useRef();
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
-	const [gridState, setGridState] = useState(getGridData(props.runs, props.qrels, printLogHelper.current));
-
-	// printLog("PRINT", "props: ", props.runs, printLogHelper.current);
+	const [gridState, setGridState] = useState(getGridData(props.runs, props.qrels, props.runsList, printLogHelper.current));
 
 
 	// when data is updated, recreate the grid
 	useEffect(() => {
-		setGridState(getGridData(props.runs, props.qrels, printLogHelper.current));
+		setGridState(getGridData(props.runs, props.qrels, props.runsList, printLogHelper.current));
 	}, [props.runs, props.qrels]);
 
 
@@ -45,7 +43,7 @@ export default function GridChart(props) {
 		setGridState(prevState => {
 			return {
 				...prevState,
-				gridData: updateRetrievedDocs(gridState, props.retrievedDocs, printLogHelper.current)
+				gridData: updateRetrievedDocs(gridState, props.retrievedDocs, props.runsList, printLogHelper.current)
 			}
 		});
 	}, [props.retrievedDocs])

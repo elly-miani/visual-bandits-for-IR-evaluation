@@ -17,14 +17,14 @@ def read_csv_into_df(dir_path, filetype, debug_max_files_loaded, verbose):
 
 	for file in os.listdir(dir_path):
 
+		if file == ".DS_Store":
+			# print(".DS_Store Skipped.")
+			continue
+
 		if verbose:
 			print("Loading file ", "#", counter, ": ", file, "...", end='', sep='')
-		
+	
 		counter = counter + 1
-
-		if file == ".DS_Store":
-			print(" Skipped.")
-			continue
 
 		file_path = os.path.join(dir_path, file)
 

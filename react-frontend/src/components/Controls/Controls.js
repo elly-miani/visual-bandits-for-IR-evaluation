@@ -17,12 +17,12 @@ export default function Controls(props) {
 				<div className="controls">
 
 					<div>
-						<UploadDataButton status={props.status} fetchData={props.fetchData} />
+					<UploadDataButton status={props.status} fetchData={props.fetchData} updateParameter={props.updateParameter}/>
 					</div>
 					
 					<div>
 						<span className="toggle-label">Topic</span>
-						<TopicPicker updateParameter={props.updateParameter}/>
+						<TopicPicker datasetParam={props.datasetParam} updateParameter={props.updateParameter}/>
 					</div>
 
 					<div>

@@ -1,5 +1,5 @@
 # import time
-from flask import Flask, jsonify, send_file, request
+from flask import Flask, jsonify, send_file, request, make_response
 from flaskwebgui import FlaskUI
 from werkzeug.utils import secure_filename
 
@@ -27,22 +27,22 @@ qrels_df = pd.DataFrame(columns=['TOPIC', 'ITERATION', 'DOCUMENT', 'RELEVANCY'])
 
 
 
-@app.before_first_request
-def before_first_request():
-	global runs_df
-	global qrels_df
+# @app.before_first_request
+# def before_first_request():
+# 	global runs_df
+# 	global qrels_df
 	
-	# load the txt files into a dataframe runs
-	print("➡️ Loading default runs from file.")
-	runs_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "runs", "RUNS", DEBUG_MAX_FILES_LOADED, 1)
+# 	# load the txt files into a dataframe runs
+# 	print("➡️ Loading default runs from file.")
+# 	runs_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "runs", "RUNS", DEBUG_MAX_FILES_LOADED, 1)
 
-	# load the txt files into a dataframe qrels
-	print("➡️ Loading default qrels from file.")
-	qrels_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "qrels", "QRELS", DEBUG_MAX_FILES_LOADED, 1)
+# 	# load the txt files into a dataframe qrels
+# 	print("➡️ Loading default qrels from file.")
+# 	qrels_df = convert_data.read_csv_into_df(DEFAULT_DATA_FOLDER + "qrels", "QRELS", DEBUG_MAX_FILES_LOADED, 1)
 
-	# clear user-uploaded directories
-	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "runs" + '/')
-	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "qrels" + '/')
+# 	# clear user-uploaded directories
+# 	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "runs" + '/')
+# 	file_handling.delete_all_files_in_dir(app.config['UPLOAD_FOLDER'] + "qrels" + '/')
 
 
 
@@ -66,16 +66,27 @@ RUNS ROUTE
 def get_runs_api(topic):
 	global runs_df
 
-	# dataframe filtered by topic
-	runs_filtered = get_runs.by_topic(runs_df, topic)
+	if(runs_df.empty):
+		return make_response("", 404,)
+	else:
+		# dataframe filtered by topic
+		runs_filtered = get_runs.by_topic(runs_df, topic)
 
-	# shorten the run size to avoid sending too large data
-	runs_filtered = get_runs.by_run_size(runs_filtered, 100)
+		# shorten the run size to avoid sending too large data
+		runs_filtered = get_runs.by_run_size(runs_filtered, 100)
 
-	# dataframe with index ['RANK', 'RUN']
-	runs_by_rank = get_runs.indexed_by_rank(runs_filtered)
+		# dataframe with index ['RANK', 'RUN']
+		runs_by_rank = get_runs.indexed_by_rank(runs_filtered)
 
-	return jsonify(convert_data.get_dict_from_df(runs_by_rank))
+
+		response = make_response(
+															jsonify(convert_data.get_dict_from_df(runs_by_rank)),
+															200,
+														)
+		response.headers["Content-Type"] = "application/json"
+		return response
+
+
 
 
 
@@ -86,13 +97,21 @@ QRELS ROUTE
 def get_qrels_api(topic):
 	global qrels_df
 
-	# dataframe filtered by topic and indexed by the document
-	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
+	if(qrels_df.empty):
+		return make_response("", 404,)
+	else:
+		# dataframe filtered by topic and indexed by the document
+		qrels_filtered = get_qrels.by_topic(qrels_df, topic)
 
-	# dataframe with index ['DOCUMENT']
-	qrels_by_rank = get_qrels.indexed_by_document(qrels_filtered)
-	
-	return jsonify(convert_data.get_dict_from_df(qrels_by_rank))
+		# dataframe with index ['DOCUMENT']
+		qrels_by_rank = get_qrels.indexed_by_document(qrels_filtered)
+		
+		response = make_response(
+															jsonify(convert_data.get_dict_from_df(qrels_by_rank)),
+															200,
+														)
+		response.headers["Content-Type"] = "application/json"
+		return response
 
 
 
@@ -108,7 +127,13 @@ def get_adjudication_data_api(method, topic, pool_size):
 	runs_filtered = get_runs.by_topic(runs_df, topic)
 	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
 
-	return jsonify(round_robin.round_robin_alg(runs_filtered, qrels_filtered, pool_size, LOGS_PATH))
+	response = make_response(
+														jsonify(round_robin.round_robin_alg(
+															runs_filtered, qrels_filtered, pool_size, LOGS_PATH)),
+														200,
+													)
+	response.headers["Content-Type"] = "application/json"
+	return response
 
 
 
@@ -121,7 +146,8 @@ def upload_file(type):
 		file = request.files['file']
 		filename = secure_filename(file.filename)
 		file.save(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
-		return 'file uploaded successfully'
+
+		return make_response('', 204)
 
 
 
@@ -131,8 +157,12 @@ DELETE FILE ROUTE
 @app.route('/api/delete/<string:type>/<string:filename>', methods=["DELETE"])
 def delete_file(type, filename):
 	if request.method == 'DELETE':
-		os.remove(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
-		return "file deleted successfully"
+		try:
+			os.remove(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
+			return make_response('', 204)
+		except OSError:
+			return make_response("File doesn't exists", 404)
+
 
 
 
@@ -143,6 +173,9 @@ LOAD RUNS & QRELS DATA ROUTE
 def load_data(type):
 	global runs_df
 	global qrels_df
+
+	runs_df = pd.DataFrame(columns=['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN'])
+	qrels_df = pd.DataFrame(columns=['TOPIC', 'ITERATION', 'DOCUMENT', 'RELEVANCY'])
 
 	if type == 'default':
 		# load the txt files into a dataframe runs
@@ -165,7 +198,13 @@ def load_data(type):
 		print("➡️ Loading custom qrels from file.")
 		qrels_df = convert_data.read_csv_into_df(UPLOAD_FOLDER + "qrels", "QRELS", 1000, 1)
 	
-	return jsonify("Successful")
+
+	response = make_response(
+														jsonify(get_runs.params(runs_df)),
+														200,
+													)
+	response.headers["Content-Type"] = "application/json"
+	return response
 
 
 

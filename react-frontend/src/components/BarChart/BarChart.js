@@ -50,13 +50,7 @@ function BarChart(props) {
 		if(!dimensions) return;
 		if(!props.runRelevancies) return;
 
-		// identify how many runs there are and their names
-		var runNames = []
-		for (let key in props.runRelevancies[props.runRelevancies.length - 1]) {
-			runNames.push(key);
-		}
-
-		drawChart(chartData, runNames, svgRef.current, dimensions, printLogHelper)
+		drawChart(chartData, props.runsList, svgRef.current, dimensions, printLogHelper)
 	}, [chartData, dimensions])
 
 

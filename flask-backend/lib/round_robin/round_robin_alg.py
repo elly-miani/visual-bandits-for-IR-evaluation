@@ -33,7 +33,7 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 	print("➡️ Retrieving documents to be adjudicated...")
 	for i in range(1, pool_size+1):
 		# repeat the process until we have retrieved the desired number of documents
-		print("Retrieving document", i, "\n")
+		# print("Retrieving document", i, "\n")
 
 		next_run = round_robin.get_next_run(runs_ids)
 		next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
