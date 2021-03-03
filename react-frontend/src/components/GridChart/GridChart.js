@@ -54,7 +54,7 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, props.runSize, svgRef.current, dimensions, printLogHelper.current);
+		drawChart(gridState, props.runSize, props.runsList, svgRef.current, dimensions, printLogHelper.current);
 	}, [gridState, dimensions, props.runSize]);
 
 

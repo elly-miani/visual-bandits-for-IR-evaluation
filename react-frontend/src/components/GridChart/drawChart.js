@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import printLog from '../../core/helper/printLog';
 
 
-export default function drawChart(gridState, runSize, svgRef, dimensions, printLogHelper) {
+export default function drawChart(gridState, runSize, runsList, svgRef, dimensions, printLogHelper) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -62,7 +62,7 @@ export default function drawChart(gridState, runSize, svgRef, dimensions, printL
 				return 1 + 10 + (50 + 10) * d.array_row;
 			}
 			else {
-				svgHeight = xScale(d.array_row % 10) - xScale(0)*10 + xScale(Math.floor(d.array_row / 10))*10;
+				svgHeight = xScale(0) + (xScale(1) - xScale(0)) * d.array_row;
 				return svgHeight;
 			}
 		})
