@@ -2,8 +2,10 @@ import pandas as pd
 
 from lib import convert_data
 from lib import get_doc_info
+from lib import adjudication
 from lib import round_robin
 
+import logging
 
 def round_robin_alg(runs, qrels, pool_size, log_path):
 
@@ -12,8 +14,14 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 	runs_ids.sort()
 	runs_count = len(runs_ids)
 
+	# keep track of which run we're retrieving from
+	next_run_index = -1
+
 
 	### HELPER STRUCTURES
+	# dict containing all occurrences of all documents
+	docs_occurrences = adjudication.get_occurrences(runs, log_path)
+
 	# dict keeping track of which docs have been retrieved from where, and if they are unique
 	retrieved_docs = {}
 
@@ -30,40 +38,67 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 	retrieved_docs_order = []			# ordered array of each doc retrieved at each step
 	run_relevancies_order = []		# ordered array of the relevancies status at each step
 
+
 	print("➡️ Retrieving documents to be adjudicated...")
 	for i in range(1, pool_size+1):
 		# repeat the process until we have retrieved the desired number of documents
-		# print("Retrieving document", i, "\n")
 
-		next_run = round_robin.get_next_run(runs_ids)
-		next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
+		# print("\n### DOCUMENT", i)																												### LOGGING
+		# logging.debug("\n#### DOCUMENT %d", i)																						### LOGGING
 
-		# proposed next_doc
-		next_doc_info = {
-			'DOCUMENT': next_doc.iloc[0].DOCUMENT,
-			'RANK': next_doc.iloc[0].RANK
-		}
 
-		while next_doc_info['DOCUMENT'] in retrieved_docs:
-			# if document was already retrieved
+		next_doc_found = False
+		while not next_doc_found:
+			# find next_run
+			next_run, next_run_index = round_robin.get_next_run(runs_ids, runs_status, next_run_index)
 
-			# update run_relevancies to track which documents are unique relevants
-			round_robin.check_for_unique_relevants(next_doc_info, retrieved_docs, run_relevancies)
 
-			# find new proposed next_doc
-			next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
+			# print("next_run", next_run)																											### LOGGING
+			# logging.debug("next_run:: %s", next_run)																				### LOGGING
 
-			while(next_doc.empty):
-				print("run", next_run, "is empty. Trying again.")
-				# current next_run must have run out of documents
-				runs_ids.pop(len(runs_ids)-1)
-				next_run = round_robin.get_next_run(runs_ids)
-				next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
 
-			next_doc_info = {
-				'DOCUMENT': next_doc.iloc[0].DOCUMENT,
-				'RANK': next_doc.iloc[0].RANK
-			}
+			while True:
+				# find next_doc
+				next_doc = adjudication.get_next_doc(runs, next_run, runs_status, retrieved_docs)
+
+				if next_doc.empty:
+					# if it's empty, next_run must have run out of documents
+
+					# update runs_status to track that
+					runs_status[next_run] = -1
+
+					# print("Run", next_run, "is empty. Trying again.")														### LOGGING
+					# logging.debug("Run %s appears to be empty. Trying again.", next_run)				### LOGGING
+
+					# break to go look for another run
+					break
+			
+
+				# since the proposed next_doc is not empty, we can gather its info
+				next_doc_info = {
+					'DOCUMENT': next_doc.iloc[0].DOCUMENT,
+					'RANK': next_doc.iloc[0].RANK
+				}
+
+				''' LOGGING ''' ''' LOGGING ''' ''' LOGGING '''
+				# print("next_doc:: DOCUMENT:", next_doc_info['DOCUMENT'], "RANK:", next_doc_info['RANK'] )
+				# logging.debug("next_doc:: DOCUMENT: %s RANK %s", next_doc_info['DOCUMENT'], next_doc_info['RANK'])
+				''' LOGGING ''' ''' LOGGING ''' ''' LOGGING '''
+
+				if next_doc_info['DOCUMENT'] not in retrieved_docs:
+					# if the document found has not been retrieved before
+					next_doc_found = True
+					break
+
+				# otherwise doc has already been retrieved
+
+				# print("This document is already retrieved. Retrieving a new one:")							### LOGGING
+				# logging.debug("This document is already retrieved. Retrieving a new one:")			### LOGGING
+
+				# update run_relevancies to track which documents are unique relevants
+				adjudication.check_for_unique_relevants(next_doc_info, retrieved_docs, run_relevancies)
+					
+				# loop to look for another next_doc
 
 		# finally new document is retrieved
 
@@ -83,28 +118,28 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 			"RANK": next_doc_info['RANK'],
 			"RELEVANCY": next_doc_info['RELEVANCY'],
 			"RETRIEVED_FROM": next_run,
-			"OCCURRENCES": get_doc_info.occurrences(runs, next_doc_info['DOCUMENT'])
+			"OCCURRENCES": docs_occurrences[next_doc_info['DOCUMENT']]
 		})
 
 		# update info for second graph
-		run_relevancies = round_robin.update_run_relevancies(run_relevancies, next_run, next_doc_info)
+		run_relevancies = adjudication.update_run_relevancies(run_relevancies, next_run, next_doc_info)
 		run_relevancies_order.append(convert_data.get_dict_from_df(run_relevancies))
 
 
 	convert_data.write_dict_into_json(runs_status, 
-																		log_path+'adjudication/', 
+																		log_path+'adjudication/round_robin/', 
 																		"runs_status.json", 0)
 	convert_data.write_dict_into_json(retrieved_docs, 
-																		log_path+'adjudication/', 
+																		log_path+'adjudication/round_robin/', 
 																		"retrieved_docs.json", 0)
 	convert_data.write_dict_into_json(retrieved_docs_order, 
-																		log_path+'adjudication/', 
+																		log_path+'adjudication/round_robin/', 
 																		"retrieved_docs_order.json", 0)
 	convert_data.write_dict_into_json(convert_data.get_dict_from_df(run_relevancies), 
-																		log_path+'adjudication/', 
+																		log_path+'adjudication/round_robin/', 
 																		"run_relevancies.json", 0)
 	convert_data.write_dict_into_json(run_relevancies_order, 
-																		log_path+'adjudication/', 
+																		log_path+'adjudication/round_robin/', 
 																		"run_relevancies_order.json", 0)
 	
 	print("✅ Complete.")
