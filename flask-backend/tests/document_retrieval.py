@@ -37,12 +37,11 @@ pd.set_option("display.max_rows", None,
 
 # load the txt files into a dataframe runs
 # print("➡️ Loading runs from file.")
-runs_df = convert_data.read_csv_into_df(RUNS_PATH, "RUNS", 10, 1)
-# 60
+runs_df = convert_data.read_csv_into_df(RUNS_PATH, "RUNS", 1000, 0)
 
 # load the txt files into a dataframe qrels
 # print("➡️ Loading qrels from file.")
-qrels_df = convert_data.read_csv_into_df(QRELS_PATH, "QRELS", 1, 1)
+qrels_df = convert_data.read_csv_into_df(QRELS_PATH, "QRELS", 1, 0)
 
 # filter both runs & qrels by topic
 runs_filtered = get_runs.by_topic(runs_df, topic)

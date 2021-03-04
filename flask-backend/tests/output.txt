@@ -1,0 +1,14031 @@
+➡️ Writing  ./outputs/adjudication/occurrences.json ...
+✅ Writing complete
+
+➡️ Retrieving documents to be adjudicated...
+
+### DOCUMENT 1
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6666666666666666,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 2
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6666666666666666
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.75,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 3
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.75
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 4
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8333333333333334,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 5
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8333333333333334
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    6,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8571428571428571,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 6
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8571428571428571
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.875,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 7
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.875
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8888888888888888,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 8
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8888888888888888
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    9,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.9,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 9
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.9
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    9,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8181818181818182,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 10
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8181818181818182
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    10,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8333333333333334,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 11
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8333333333333334
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    11,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8461538461538461,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 12
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8461538461538461
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8571428571428571,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 13
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8571428571428571
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 14
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    13,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8125,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 15
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8125
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    14,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.8235294117647058,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 16
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.8235294117647058
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    14,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7777777777777778,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 17
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7777777777777778
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    14,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7368421052631579,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 18
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7368421052631579
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    15,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.75,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 19
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.75
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    16,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7619047619047619,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 20
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7619047619047619
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    17,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    5,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7727272727272727,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 21
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7727272727272727
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    17,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    6,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7391304347826086,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 22
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7391304347826086
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    17,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    7,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7083333333333334,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 23
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7083333333333334
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    17,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.68,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 24
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.68
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    18,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6923076923076923,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 25
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6923076923076923
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    8,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.7037037037037037,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 26
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.7037037037037037
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    9,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6785714285714286,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 27
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6785714285714286
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    10,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6551724137931034,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 28
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6551724137931034
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    11,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6333333333333333,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 29
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6333333333333333
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    12,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6129032258064516,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 30
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6129032258064516
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    13,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.59375,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 31
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.59375
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    20,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    13,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.6060606060606061,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 32
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.6060606060606061
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    20,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    14,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5882352941176471,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 33
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5882352941176471
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    20,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    15,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5714285714285714,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 34
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5714285714285714
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    15,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5833333333333334,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 35
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5833333333333334
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    16,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5675675675675675,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 36
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5675675675675675
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    17,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5526315789473685,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 37
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5526315789473685
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    18,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5384615384615384,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 38
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5384615384615384
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    19,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.525,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 39
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.525
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    20,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5121951219512195,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 40
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5121951219512195
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 41
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 42
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 43
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 44
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 45
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 46
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 47
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5,
+    0.5
+  ]
+}
+
+### DOCUMENT 48
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.5
+  ]
+}
+
+### DOCUMENT 49
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.5
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    22,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.4883720930232558,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 50
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.4883720930232558
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    23,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.4772727272727273,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 51
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.4772727272727273
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    24,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.4666666666666667,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 52
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.4666666666666667
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    25,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.45652173913043476,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 53
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.45652173913043476
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    26,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.44680851063829785,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 54
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.44680851063829785
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    27,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.4375,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 55
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.4375
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    28,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.42857142857142855,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 56
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.42857142857142855
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    29,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.42,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 57
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.42
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    30,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.4117647058823529,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 58
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.4117647058823529
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    31,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.40384615384615385,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 59
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.40384615384615385
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    32,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.39622641509433965,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 60
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.39622641509433965
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    33,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3888888888888889,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 61
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3888888888888889
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    34,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.38181818181818183,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 62
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.38181818181818183
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    35,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.375,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 63
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.375
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    36,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3684210526315789,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 64
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3684210526315789
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    37,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3620689655172414,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 65
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3620689655172414
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    38,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3559322033898305,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 66
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3559322033898305
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    39,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.35,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 67
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.35
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    40,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3442622950819672,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 68
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3442622950819672
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    41,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3387096774193548,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 69
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3387096774193548
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    42,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 70
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 71
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 72
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 73
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 74
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 75
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 76
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.3333333333333333,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 77
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.3333333333333333
+  ]
+}
+
+### DOCUMENT 78
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3333333333333333
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    43,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.328125,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 79
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.328125
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    44,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3230769230769231,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 80
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3230769230769231
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    45,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3181818181818182,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 81
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3181818181818182
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    21,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    46,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.31343283582089554,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 82
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.31343283582089554
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 1 --> 1
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    46,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3235294117647059,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 83
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3235294117647059
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    47,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3188405797101449,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 84
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3188405797101449
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    48,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3142857142857143,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 85
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3142857142857143
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    49,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.30985915492957744,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 86
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.30985915492957744
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    50,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3055555555555556,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 87
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3055555555555556
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    51,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.3013698630136986,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 88
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.3013698630136986
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    52,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2972972972972973,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 89
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2972972972972973
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    53,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.29333333333333333,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 90
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.29333333333333333
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    54,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2894736842105263,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 91
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2894736842105263
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    55,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2857142857142857,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 92
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2857142857142857
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    56,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.28205128205128205,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 93
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.28205128205128205
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    57,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.27848101265822783,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 94
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.27848101265822783
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    58,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.275,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 95
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.275
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    59,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2716049382716049,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 96
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2716049382716049
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    60,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2682926829268293,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 97
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2682926829268293
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    61,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.26506024096385544,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 98
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.26506024096385544
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    62,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2619047619047619,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 99
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2619047619047619
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    63,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.25882352941176473,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 100
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25882352941176473
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    64,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.2558139534883721,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 101
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2558139534883721
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    65,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.25287356321839083,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 102
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25287356321839083
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    66,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 103
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 104
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 105
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 106
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 107
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 108
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.25,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 109
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.25,
+    0.25
+  ]
+}
+
+### DOCUMENT 110
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    3
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.25
+  ]
+}
+
+### DOCUMENT 111
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.25
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    67,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.24719101123595505,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 112
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.24719101123595505
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    68,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.24444444444444444,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 113
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.24444444444444444
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    69,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.24175824175824176,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 114
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.24175824175824176
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    70,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2391304347826087,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 115
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2391304347826087
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    71,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.23655913978494625,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 116
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.23655913978494625
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    72,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.23404255319148937,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 117
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.23404255319148937
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    73,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.23157894736842105,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 118
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.23157894736842105
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    74,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.22916666666666666,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 119
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.22916666666666666
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    75,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2268041237113402,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 120
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2268041237113402
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    76,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.22448979591836735,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 121
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.22448979591836735
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    77,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2222222222222222,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 122
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2222222222222222
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    78,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.22,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 123
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.22
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    79,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.21782178217821782,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 124
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.21782178217821782
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    80,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.21568627450980393,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 125
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.21568627450980393
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    81,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.21359223300970873,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 126
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.21359223300970873
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    82,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.21153846153846154,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 127
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.21153846153846154
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    83,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.20952380952380953,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 128
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.20952380952380953
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    84,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.20754716981132076,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 129
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.20754716981132076
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    85,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.205607476635514,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 130
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.205607476635514
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    86,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2037037037037037,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 131
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2037037037037037
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    87,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2018348623853211,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 132
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2018348623853211
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    88,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 133
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 134
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 135
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 136
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 137
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 138
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 139
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2,
+    0.2
+  ]
+}
+
+### DOCUMENT 140
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    4
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.2
+  ]
+}
+
+### DOCUMENT 141
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.2
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    89,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1981981981981982,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 142
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1981981981981982
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    90,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.19642857142857142,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 143
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.19642857142857142
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    91,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.19469026548672566,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 144
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.19469026548672566
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    92,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.19298245614035087,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 145
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.19298245614035087
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    93,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.19130434782608696,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 146
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.19130434782608696
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    94,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1896551724137931,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 147
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1896551724137931
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    95,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.18803418803418803,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 148
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.18803418803418803
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    96,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1864406779661017,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 149
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1864406779661017
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    97,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.18487394957983194,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 150
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.18487394957983194
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    98,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.18333333333333332,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 151
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.18333333333333332
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    99,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.18181818181818182,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 152
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.18181818181818182
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    100,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.18032786885245902,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 153
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.18032786885245902
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    101,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.17886178861788618,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 154
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.17886178861788618
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    102,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1774193548387097,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 155
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1774193548387097
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    103,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.176,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 156
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.176
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    104,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1746031746031746,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 157
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1746031746031746
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    105,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.1732283464566929,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 158
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1732283464566929
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    106,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.171875,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 159
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.171875
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    107,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.17054263565891473,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 160
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.17054263565891473
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    108,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16923076923076924,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 161
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16923076923076924
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    109,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16793893129770993,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 162
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16793893129770993
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    110,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 163
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 164
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 165
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 166
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 167
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    6,
+    5,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 168
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 169
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 170
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    5
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.16666666666666666
+  ]
+}
+
+### DOCUMENT 171
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16666666666666666
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    111,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.16541353383458646,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 172
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16541353383458646
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    112,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.16417910447761194,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 173
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16417910447761194
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    113,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.16296296296296298,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 174
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16296296296296298
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    114,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.16176470588235295,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 175
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16176470588235295
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    115,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.16058394160583941,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 176
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.16058394160583941
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    116,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15942028985507245,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 177
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15942028985507245
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    117,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15827338129496402,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 178
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15827338129496402
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    118,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15714285714285714,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 179
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15714285714285714
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    119,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15602836879432624,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 180
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15602836879432624
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    120,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15492957746478872,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 181
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15492957746478872
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    121,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15384615384615385,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 182
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15384615384615385
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    122,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.1527777777777778,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 183
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1527777777777778
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    123,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.15172413793103448,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 184
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.15172413793103448
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    124,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.1506849315068493,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 185
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1506849315068493
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    125,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14965986394557823,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 186
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14965986394557823
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    126,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14864864864864866,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 187
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14864864864864866
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    127,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.1476510067114094,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 188
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1476510067114094
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    128,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14666666666666667,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 189
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14666666666666667
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    129,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.1456953642384106,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 190
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1456953642384106
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    130,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14473684210526316,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 191
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14473684210526316
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    131,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.1437908496732026,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 192
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1437908496732026
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    132,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 193
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 194
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 195
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 196
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 197
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 198
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 199
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.14285714285714285,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 200
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    6
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.14285714285714285
+  ]
+}
+
+### DOCUMENT 201
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14285714285714285
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    133,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.14193548387096774,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 202
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14193548387096774
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    134,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.14102564102564102,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 203
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14102564102564102
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    135,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.14012738853503184,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 204
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.14012738853503184
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    136,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13924050632911392,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 205
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13924050632911392
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    137,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13836477987421383,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 206
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13836477987421383
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    138,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.1375,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 207
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1375
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    139,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13664596273291926,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 208
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13664596273291926
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    140,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13580246913580246,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 209
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13580246913580246
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    141,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13496932515337423,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 210
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13496932515337423
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    142,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13414634146341464,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 211
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13414634146341464
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    143,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13333333333333333,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 212
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13333333333333333
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    144,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13253012048192772,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 213
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13253012048192772
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    145,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.1317365269461078,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 214
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1317365269461078
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    146,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.13095238095238096,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 215
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.13095238095238096
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    147,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.1301775147928994,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 216
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1301775147928994
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    148,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12941176470588237,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 217
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.12941176470588237
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    149,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.1286549707602339,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 218
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.1286549707602339
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    150,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12790697674418605,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 219
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.12790697674418605
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    151,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12716763005780346,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 220
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.12716763005780346
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    152,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12643678160919541,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 221
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.12643678160919541
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    153,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12571428571428572,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 222
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.12571428571428572
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    154,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 223
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 224
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 225
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 226
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 227
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    8,
+    8,
+    7,
+    7,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.125,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 228
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 👍
+-----------------------
+next_run:: plt8ah1 (index:  5 )
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.125
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    7,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.125,
+    0.125
+  ]
+}
+
+### DOCUMENT 229
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.125
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    7
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125
+  ]
+}
+
+### DOCUMENT 230
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.125
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    155,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12429378531073447,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 231
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12429378531073447
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    156,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12359550561797752,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 232
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12359550561797752
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    157,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12290502793296089,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 233
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12290502793296089
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    158,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12222222222222222,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 234
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12222222222222222
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    159,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12154696132596685,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 235
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12154696132596685
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    160,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12087912087912088,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 236
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12087912087912088
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    161,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.12021857923497267,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 237
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.12021857923497267
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    162,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11956521739130435,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 238
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11956521739130435
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    163,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11891891891891893,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 239
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11891891891891893
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    164,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11827956989247312,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 240
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11827956989247312
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    165,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11764705882352941,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 241
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11764705882352941
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    166,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11702127659574468,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 242
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11702127659574468
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    167,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.1164021164021164,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 243
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1164021164021164
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    168,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11578947368421053,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 244
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11578947368421053
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    169,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11518324607329843,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 245
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11518324607329843
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    170,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11458333333333333,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 246
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11458333333333333
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    171,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11398963730569948,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 247
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11398963730569948
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    172,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.1134020618556701,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 248
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1134020618556701
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    173,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11282051282051282,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 249
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11282051282051282
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    174,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11224489795918367,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 250
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11224489795918367
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    175,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.1116751269035533,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 251
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1116751269035533
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    176,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 252
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    8,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 253
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    8,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 254
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    8,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 255
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    9,
+    8,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1,
+    0.1111111111111111,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 256
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    9,
+    9,
+    7,
+    8,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1111111111111111,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 257
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    8,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1111111111111111,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 258
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    8
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1111111111111111
+  ]
+}
+
+### DOCUMENT 259
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1111111111111111
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    177,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.11055276381909548,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 260
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11055276381909548
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    178,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.11,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 261
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.11
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    179,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10945273631840796,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 262
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10945273631840796
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    180,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10891089108910891,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 263
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10891089108910891
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    181,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10837438423645321,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 264
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10837438423645321
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    182,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10784313725490197,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 265
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10784313725490197
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    183,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.1073170731707317,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 266
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1073170731707317
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    184,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10679611650485436,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 267
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10679611650485436
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    185,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10628019323671498,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 268
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10628019323671498
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    186,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10576923076923077,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 269
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10576923076923077
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    187,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10526315789473684,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 270
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10526315789473684
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    188,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10476190476190476,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 271
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10476190476190476
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    189,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10426540284360189,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 272
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10426540284360189
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    190,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10377358490566038,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 273
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10377358490566038
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    191,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10328638497652583,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 274
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10328638497652583
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    192,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.102803738317757,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 275
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.102803738317757
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    193,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10232558139534884,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 276
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10232558139534884
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    194,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10185185185185185,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 277
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10185185185185185
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    195,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10138248847926268,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 278
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10138248847926268
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    196,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.10091743119266056,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 279
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.10091743119266056
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    197,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.1004566210045662,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 280
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1004566210045662
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    198,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 281
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    9,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 282
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 1
+Proposed next_run: UT803 👍
+-----------------------
+next_run:: UT803 (index:  1 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    9,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.1,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 283
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 2
+Proposed next_run: fub99a 👍
+-----------------------
+next_run:: fub99a (index:  2 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    9,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.1,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 284
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 3
+Proposed next_run: nttd8am 👍
+-----------------------
+next_run:: nttd8am (index:  3 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    10,
+    9,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.1,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 285
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 4
+Proposed next_run: pir9Aatd 👍
+-----------------------
+next_run:: pir9Aatd (index:  4 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    10,
+    10,
+    7,
+    9,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.1,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 286
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 6
+Proposed next_run: plt8ah2 👍
+-----------------------
+next_run:: plt8ah2 (index:  6 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    9,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.1,
+    0.1
+  ]
+}
+
+### DOCUMENT 287
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 7
+Proposed next_run: plt8ah3 👍
+-----------------------
+next_run:: plt8ah3 (index:  7 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    9
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.1
+  ]
+}
+
+### DOCUMENT 288
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.1
+max_mean_index: 8
+Proposed next_run: surffal2 👍
+-----------------------
+next_run:: surffal2 (index:  8 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    199,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09954751131221719,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 289
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09954751131221719
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    200,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.0990990990990991,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 290
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.0990990990990991
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    201,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09865470852017937,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 291
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09865470852017937
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    202,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09821428571428571,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 292
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09821428571428571
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    203,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09777777777777778,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 293
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09777777777777778
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    204,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09734513274336283,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 294
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09734513274336283
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    205,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09691629955947137,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 295
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09691629955947137
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    206,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09649122807017543,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 296
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09649122807017543
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    207,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09606986899563319,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 297
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09606986899563319
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    208,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09565217391304348,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 298
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09565217391304348
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    209,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09523809523809523,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 299
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09523809523809523
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 2 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    210,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.09482758620689655,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+
+### DOCUMENT 300
+-----------------------
+GETTING NEW RUN--
+max_mean_value: 0.125
+max_mean_index: 5
+Proposed next_run: plt8ah1 ❌
+max_mean_value: 0.09482758620689655
+max_mean_index: 0
+Proposed next_run: Flab8at 👍
+-----------------------
+next_run:: Flab8at (index:  0 )
+next_doc_relevancy: 0 --> 0
+Updated parameters::
+{
+  "alpha": [
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "beta": [
+    211,
+    10,
+    10,
+    10,
+    10,
+    7,
+    10,
+    10,
+    10
+  ],
+  "mean": [
+    0.0944206008583691,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.125,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.09090909090909091
+  ]
+}
+✅ Complete.

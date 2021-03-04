@@ -65,7 +65,7 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 					# if it's empty, next_run must have run out of documents
 
 					# update runs_status to track that
-					runs_status[runs_ids[next_run_index]] = -1
+					runs_status[next_run] = -1
 
 					# print("Run", next_run, "is empty. Trying again.")														### LOGGING
 					# logging.debug("Run %s appears to be empty. Trying again.", next_run)				### LOGGING
