@@ -125,9 +125,6 @@ function ViewA() {
 		if (parameter === 'dataset-param') {
 			setDatasetParam(newValue);
 		}
-		if (parameter === 'dataset-param') {
-			setDatasetParam(newValue);
-		}
 	}
 
 

@@ -10,6 +10,7 @@ from lib import convert_data
 from lib import get_runs
 from lib import get_qrels
 from lib import round_robin
+from lib import max_mean
 from lib import file_handling
 
 UPLOAD_FOLDER = './data/uploaded/'
@@ -127,11 +128,12 @@ def get_adjudication_data_api(method, topic, pool_size):
 	runs_filtered = get_runs.by_topic(runs_df, topic)
 	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
 
-	response = make_response(
-														jsonify(round_robin.round_robin_alg(
-															runs_filtered, qrels_filtered, pool_size, LOGS_PATH)),
-														200,
-													)
+	if method == 'round_robin':
+		adjudication_result = round_robin.round_robin_alg(runs_filtered, qrels_filtered, pool_size, LOGS_PATH)
+	if method == 'max_mean':
+		adjudication_result = max_mean.max_mean_alg(runs_filtered, qrels_filtered, pool_size, LOGS_PATH)
+
+	response = make_response(jsonify(adjudication_result), 200,)
 	response.headers["Content-Type"] = "application/json"
 	return response
 

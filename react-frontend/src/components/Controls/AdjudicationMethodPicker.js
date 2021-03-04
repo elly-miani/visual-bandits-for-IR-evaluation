@@ -12,8 +12,8 @@ export default function AdjudicationMethodPicker(props) {
 					"value": "round_robin"
 				},
 				{
-					"label": "x",
-					"value": "x"
+					"label": "Max Mean",
+					"value": "max_mean"
 				}
 			]}
 			placeholder="Round Robin"
