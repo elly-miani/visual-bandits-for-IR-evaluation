@@ -1,0 +1,3502 @@
+{
+  "FBIS3-1424": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FBIS3-21217": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 1
+  },
+  "FBIS3-22119": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 1
+  },
+  "FBIS3-23849": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 1
+  },
+  "FBIS3-25965": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 1
+  },
+  "FBIS3-26145": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FBIS3-3921": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 1
+  },
+  "FBIS3-40194": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 1
+  },
+  "FBIS3-40338": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FBIS3-40340": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "FBIS3-40377": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "FBIS3-40473": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FBIS3-40501": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 1
+  },
+  "FBIS3-41609": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "FBIS3-41666": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 0
+  },
+  "FBIS3-41754": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 1
+  },
+  "FBIS3-41810": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "FBIS3-42996": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 0
+  },
+  "FBIS3-43034": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 0
+  },
+  "FBIS3-43068": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FBIS3-43075": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "FBIS3-4463": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "FBIS3-46142": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 1
+  },
+  "FBIS3-50580": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 0
+  },
+  "FBIS3-5100": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 1
+  },
+  "FBIS3-56188": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FBIS3-5642": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 1
+  },
+  "FBIS3-58": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FBIS3-5872": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 1
+  },
+  "FBIS3-59753": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 0
+  },
+  "FBIS3-59776": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 0
+  },
+  "FBIS3-59837": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 1
+  },
+  "FBIS3-60323": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 0
+  },
+  "FBIS3-61373": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "FBIS3-67": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FBIS4-10326": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8t2",
+    "UNIQUE": 0
+  },
+  "FBIS4-2030": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "FBIS4-20472": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 0
+  },
+  "FBIS4-22502": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FBIS4-22918": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "FBIS4-22920": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FBIS4-25261": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 1
+  },
+  "FBIS4-25287": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 0
+  },
+  "FBIS4-2753": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FBIS4-33295": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 0
+  },
+  "FBIS4-38131": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "FBIS4-44527": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 1
+  },
+  "FBIS4-44913": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 0
+  },
+  "FBIS4-45041": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FBIS4-45045": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 0
+  },
+  "FBIS4-45642": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "FBIS4-45862": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 0
+  },
+  "FBIS4-46469": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FBIS4-46649": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 1
+  },
+  "FBIS4-46801": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FBIS4-47284": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 1
+  },
+  "FBIS4-47413": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 0
+  },
+  "FBIS4-47573": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "FBIS4-47581": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 0
+  },
+  "FBIS4-47583": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 0
+  },
+  "FBIS4-49351": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 1
+  },
+  "FBIS4-50011": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 1
+  },
+  "FBIS4-50570": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "FBIS4-52446": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "FBIS4-53078": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 0
+  },
+  "FBIS4-53665": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 0
+  },
+  "FBIS4-53862": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 1
+  },
+  "FBIS4-54007": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 0
+  },
+  "FBIS4-61231": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 0
+  },
+  "FBIS4-6389": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 1
+  },
+  "FBIS4-66382": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 1
+  },
+  "FBIS4-67349": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 0
+  },
+  "FBIS4-68893": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00032": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00033": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00034": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00035": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "FR940104-0-00036": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 0
+  },
+  "FR940104-1-00050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 0
+  },
+  "FR940104-2-00032": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 1
+  },
+  "FR940104-2-00081": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 0
+  },
+  "FR940104-2-00082": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "FR940112-1-00044": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi1",
+    "UNIQUE": 0
+  },
+  "FR940128-1-00085": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 1
+  },
+  "FR940202-1-00055": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 0
+  },
+  "FR940202-2-00110": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 0
+  },
+  "FR940202-2-00111": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FR940203-1-00035": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 1
+  },
+  "FR940204-1-00053": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "FR940214-2-00155": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 0
+  },
+  "FR940223-2-00070": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "FR940228-0-00002": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 1
+  },
+  "FR940302-0-00024": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "FR940302-1-00022": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 1
+  },
+  "FR940303-1-00031": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 1
+  },
+  "FR940303-1-00037": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00038": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00039": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00040": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00041": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00042": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00043": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00047": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00049": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00051": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00052": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00053": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00055": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00056": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00057": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00058": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00060": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00061": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00062": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00063": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00064": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 0
+  },
+  "FR940303-1-00065": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR940304-0-00076": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "FR940314-1-00043": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 0
+  },
+  "FR940314-1-00044": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 0
+  },
+  "FR940314-1-00058": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR940314-1-00059": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "FR940314-2-00066": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 1
+  },
+  "FR940317-0-00022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 0
+  },
+  "FR940318-0-00138": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR940324-2-00042": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FR940325-1-00005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940405-1-00081": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "FR940407-1-00011": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940412-1-00081": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 1
+  },
+  "FR940412-2-00023": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 1
+  },
+  "FR940426-2-00005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 0
+  },
+  "FR940429-0-00032": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FR940503-0-00074": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 1
+  },
+  "FR940506-0-00003": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940506-2-00094": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a0",
+    "UNIQUE": 0
+  },
+  "FR940513-2-00068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 0
+  },
+  "FR940513-2-00080": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "FR940513-2-00108": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Scai8Adhoc",
+    "UNIQUE": 0
+  },
+  "FR940523-0-00038": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "FR940523-2-00062": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 1
+  },
+  "FR940525-1-00046": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00048": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00049": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00050": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00051": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00052": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00053": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Scai8Adhoc",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00055": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 1
+  },
+  "FR940525-1-00056": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 1
+  },
+  "FR940525-1-00057": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00058": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00059": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00060": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00062": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00063": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00064": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00065": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00066": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00067": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00069": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00070": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00071": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00072": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00073": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00074": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00075": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00076": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00078": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00079": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00080": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00081": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00082": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00083": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00084": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00085": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00086": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00087": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "FR940525-1-00088": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "FR940526-2-00031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 0
+  },
+  "FR940526-2-00032": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "FR940526-2-00063": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 0
+  },
+  "FR940603-0-00134": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR940603-0-00135": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR940603-0-00153": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR940603-2-00065": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00051": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00053": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00055": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00056": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8p",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00060": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00063": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 1
+  },
+  "FR940610-1-00069": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00076": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00082": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00088": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00089": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00090": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00091": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00092": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "FR940610-1-00095": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 0
+  },
+  "FR940627-2-00087": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 0
+  },
+  "FR940628-2-00059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 1
+  },
+  "FR940705-2-00083": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "FR940713-0-00029": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 0
+  },
+  "FR940713-2-00046": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FR940719-1-00091": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 1
+  },
+  "FR940719-2-00089": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FR940721-1-00013": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "FR940721-2-00042": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 0
+  },
+  "FR940725-0-00049": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "FR940725-2-00141": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 1
+  },
+  "FR940727-1-00022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 1
+  },
+  "FR940802-1-00013": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "FR940804-2-00126": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "FR940816-2-00051": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "FR940817-2-00009": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 0
+  },
+  "FR940817-2-00074": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 1
+  },
+  "FR940817-2-00228": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 0
+  },
+  "FR940822-0-00067": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 0
+  },
+  "FR940825-0-00006": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 0
+  },
+  "FR940825-0-00009": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 0
+  },
+  "FR940825-0-00012": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 0
+  },
+  "FR940825-1-00044": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 1
+  },
+  "FR940831-0-00059": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99T",
+    "UNIQUE": 1
+  },
+  "FR940902-1-00048": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR940902-2-00004": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "FR940906-2-00060": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 1
+  },
+  "FR940906-2-00104": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 0
+  },
+  "FR940912-2-00087": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 0
+  },
+  "FR940912-2-00088": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR940912-2-00090": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 0
+  },
+  "FR940912-2-00091": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 0
+  },
+  "FR940912-2-00112": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 0
+  },
+  "FR940913-2-00059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 0
+  },
+  "FR940928-0-00033": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 1
+  },
+  "FR940928-1-00051": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00106": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00107": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00121": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00123": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00129": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "FR941006-1-00145": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 1
+  },
+  "FR941006-1-00153": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 1
+  },
+  "FR941007-0-00005": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "FR941017-1-00031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 0
+  },
+  "FR941019-2-00074": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 0
+  },
+  "FR941019-2-00083": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "FR941025-1-00002": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 0
+  },
+  "FR941025-1-00003": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 0
+  },
+  "FR941025-1-00005": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 0
+  },
+  "FR941025-1-00008": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 0
+  },
+  "FR941102-2-00041": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 1
+  },
+  "FR941107-0-00034": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 1
+  },
+  "FR941107-2-00010": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00012": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00016": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00017": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00021": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00022": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 0
+  },
+  "FR941107-2-00023": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 0
+  },
+  "FR941130-0-00122": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00002": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00003": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00004": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00006": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "umd99a1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00007": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00008": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00009": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00010": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00011": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00012": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00013": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00014": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00015": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00016": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00018": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00019": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "FR941206-0-00058": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "surffal2",
+    "UNIQUE": 1
+  },
+  "FR941206-1-00002": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00007": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00008": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00009": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00011": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00012": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00013": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8aln2",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00014": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99a",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00016": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00017": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00018": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d3",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00019": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00020": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00025": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "FR941206-1-00134": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "AntHoc1",
+    "UNIQUE": 0
+  },
+  "FR941212-0-00021": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tf",
+    "UNIQUE": 0
+  },
+  "FR941221-0-00065": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 0
+  },
+  "FR941221-0-00068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8NbnR",
+    "UNIQUE": 1
+  },
+  "FR941221-0-00070": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 1
+  },
+  "FR941221-0-00072": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8Nbn",
+    "UNIQUE": 1
+  },
+  "FR941222-0-00064": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 1
+  },
+  "FT911-2078": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 0
+  },
+  "FT911-805": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 1
+  },
+  "FT921-11237": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 0
+  },
+  "FT921-13251": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 0
+  },
+  "FT921-13614": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "FT921-739": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 0
+  },
+  "FT922-11327": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah4",
+    "UNIQUE": 0
+  },
+  "FT922-12131": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "FT922-12417": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 1
+  },
+  "FT922-13688": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 1
+  },
+  "FT922-14199": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "FT923-11546": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 1
+  },
+  "FT923-12060": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "FT923-12236": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "FT923-15034": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a1",
+    "UNIQUE": 0
+  },
+  "FT923-453": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 0
+  },
+  "FT924-10901": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50t",
+    "UNIQUE": 0
+  },
+  "FT924-12958": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 1
+  },
+  "FT924-14004": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FT924-8330": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 0
+  },
+  "FT924-8427": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 1
+  },
+  "FT924-979": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 0
+  },
+  "FT931-12081": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "FT931-2736": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a2",
+    "UNIQUE": 0
+  },
+  "FT932-10267": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 1
+  },
+  "FT932-10384": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 1
+  },
+  "FT932-1044": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 0
+  },
+  "FT932-12525": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "FT932-16762": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "FT932-7262": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 0
+  },
+  "FT933-10469": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803",
+    "UNIQUE": 0
+  },
+  "FT933-2692": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 1
+  },
+  "FT933-7304": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 1
+  },
+  "FT933-8376": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 0
+  },
+  "FT934-10438": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 1
+  },
+  "FT934-15411": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 0
+  },
+  "FT934-211": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "FT934-4626": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 0
+  },
+  "FT934-9029": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 1
+  },
+  "FT934-9040": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "FT941-10275": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 1
+  },
+  "FT941-11881": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 1
+  },
+  "FT941-16616": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 0
+  },
+  "FT941-1820": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 0
+  },
+  "FT941-255": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 1
+  },
+  "FT941-2976": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FT941-8374": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "FT942-10162": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 0
+  },
+  "FT942-1353": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 0
+  },
+  "FT942-1384": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 0
+  },
+  "FT942-17527": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 1
+  },
+  "FT942-4764": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "FT942-8138": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 0
+  },
+  "FT943-10531": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah1",
+    "UNIQUE": 0
+  },
+  "FT943-10535": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 0
+  },
+  "FT943-1260": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "FT943-13654": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 1
+  },
+  "FT943-13948": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "FT943-14521": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "FT943-14522": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "FT943-1503": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25",
+    "UNIQUE": 0
+  },
+  "FT943-206": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 1
+  },
+  "FT943-2634": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 1
+  },
+  "FT943-2971": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 1
+  },
+  "FT943-4578": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "FT943-5755": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 1
+  },
+  "FT943-9068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "FT944-10279": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 1
+  },
+  "FT944-10310": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "FT944-10311": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "FT944-12240": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8tpn",
+    "UNIQUE": 0
+  },
+  "FT944-12394": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "FT944-13995": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 1
+  },
+  "FT944-17268": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 0
+  },
+  "FT944-18385": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 0
+  },
+  "FT944-2249": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 0
+  },
+  "FT944-2254": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 1
+  },
+  "FT944-2261": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 0
+  },
+  "FT944-2266": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 0
+  },
+  "FT944-252": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 0
+  },
+  "FT944-2690": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 0
+  },
+  "FT944-2695": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 1
+  },
+  "FT944-2697": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 1
+  },
+  "FT944-2702": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 0
+  },
+  "FT944-2707": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 0
+  },
+  "FT944-3521": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "FT944-865": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpn",
+    "UNIQUE": 0
+  },
+  "FT944-9646": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 1
+  },
+  "LA010190-0022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "LA010390-0067": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "LA010490-0046": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA010490-0049": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 0
+  },
+  "LA010490-0218": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 0
+  },
+  "LA010589-0059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "LA010589-0063": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 0
+  },
+  "LA010689-0040": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "iit99au2",
+    "UNIQUE": 0
+  },
+  "LA010790-0103": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "LA010790-0212": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 1
+  },
+  "LA010889-0121": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 1
+  },
+  "LA010990-0035": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 1
+  },
+  "LA011089-0043": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "LA011190-0074": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "LA011289-0149": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA011389-0029": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "LA011589-0005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "surfahi2",
+    "UNIQUE": 0
+  },
+  "LA011589-0048": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "LA011590-0054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "LA011690-0025": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 0
+  },
+  "LA011789-0106": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 1
+  },
+  "LA011890-0021": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "LA011890-0027": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 1
+  },
+  "LA011890-0124": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 0
+  },
+  "LA011989-0027": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "LA011989-0197": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "LA011989-0205": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ603",
+    "UNIQUE": 0
+  },
+  "LA012289-0059": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 1
+  },
+  "LA012390-0028": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "LA012590-0010": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "LA012590-0014": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "LA012990-0041": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99tt",
+    "UNIQUE": 0
+  },
+  "LA012990-0059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 0
+  },
+  "LA020190-0029": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA020190-0031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "LA020289-0035": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 0
+  },
+  "LA020390-0025": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "LA020490-0136": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "LA020589-0078": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 0
+  },
+  "LA020590-0052": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 0
+  },
+  "LA020690-0094": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "LA020889-0141": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 1
+  },
+  "LA020890-0082": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 0
+  },
+  "LA020890-0085": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 0
+  },
+  "LA020890-0210": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 0
+  },
+  "LA020989-0063": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 0
+  },
+  "LA020990-0100": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 0
+  },
+  "LA021289-0055": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "LA021390-0054": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA021390-0111": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "LA021590-0062": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8alo2",
+    "UNIQUE": 0
+  },
+  "LA021590-0067": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "LA021590-0069": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 0
+  },
+  "LA021689-0018": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 1
+  },
+  "LA021790-0120": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 0
+  },
+  "LA021890-0038": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "LA021890-0066": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 1
+  },
+  "LA022089-0038": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 1
+  },
+  "LA022090-0116": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 1
+  },
+  "LA022090-0119": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "LA022290-0150": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "LA022290-0240": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 0
+  },
+  "LA022589-0081": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 1
+  },
+  "LA022790-0099": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah1",
+    "UNIQUE": 0
+  },
+  "LA030190-0066": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8c221",
+    "UNIQUE": 0
+  },
+  "LA030190-0169": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "LA030289-0054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 0
+  },
+  "LA030289-0077": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 0
+  },
+  "LA030290-0067": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 0
+  },
+  "LA030590-0053": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 1
+  },
+  "LA030689-0082": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 0
+  },
+  "LA030890-0001": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA030890-0003": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA030890-0166": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 1
+  },
+  "LA031190-0011": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 1
+  },
+  "LA031289-0047": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 1
+  },
+  "LA031290-0132": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 0
+  },
+  "LA031489-0136": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "LA031589-0043": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 1
+  },
+  "LA031590-0014": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 0
+  },
+  "LA031590-0018": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 0
+  },
+  "LA031689-0009": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 0
+  },
+  "LA031689-0099": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 1
+  },
+  "LA031690-0019": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 0
+  },
+  "LA031989-0012": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 1
+  },
+  "LA031989-0112": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 0
+  },
+  "LA031990-0076": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa50",
+    "UNIQUE": 1
+  },
+  "LA032290-0096": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA032290-0151": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "acsys8alo",
+    "UNIQUE": 0
+  },
+  "LA032389-0113": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "LA032390-0070": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtnd3",
+    "UNIQUE": 0
+  },
+  "LA032489-0093": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "LA032590-0006": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "LA032990-0031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 0
+  },
+  "LA032990-0034": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 0
+  },
+  "LA032990-0035": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "LA033089-0013": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "LA033089-0019": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a1",
+    "UNIQUE": 0
+  },
+  "LA040490-0011": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 1
+  },
+  "LA040590-0003": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 0
+  },
+  "LA040590-0004": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "LA040590-0094": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA040789-0126": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kuadhoc",
+    "UNIQUE": 0
+  },
+  "LA041189-0121": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 0
+  },
+  "LA041289-0022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "LA041290-0081": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "LA041389-0022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA041390-0058": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 1
+  },
+  "LA041489-0158": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 1
+  },
+  "LA041690-0042": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "LA041690-0043": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "LA041990-0068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFidf",
+    "UNIQUE": 0
+  },
+  "LA041990-0072": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA042189-0027": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 0
+  },
+  "LA042389-0079": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 0
+  },
+  "LA042589-0052": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "LA042689-0065": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "iit99au1",
+    "UNIQUE": 0
+  },
+  "LA042690-0002": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "iit99au2",
+    "UNIQUE": 0
+  },
+  "LA042690-0180": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UB99SW",
+    "UNIQUE": 0
+  },
+  "LA042789-0022": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 1
+  },
+  "LA042790-0080": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 0
+  },
+  "LA042990-0024": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 0
+  },
+  "LA050290-0050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 0
+  },
+  "LA050390-0018": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "LA050790-0059": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 0
+  },
+  "LA050889-0050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 0
+  },
+  "LA051090-0023": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA051090-0030": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "LA051090-0036": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "LA051290-0077": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "fub99td",
+    "UNIQUE": 0
+  },
+  "LA051490-0120": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 0
+  },
+  "LA051790-0065": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "LA051790-0068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Attd",
+    "UNIQUE": 0
+  },
+  "LA051790-0076": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "LA051889-0006": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "LA052290-0110": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "LA052490-0120": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 1
+  },
+  "LA052589-0038": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "LA052589-0039": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 0
+  },
+  "LA052589-0044": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8as",
+    "UNIQUE": 0
+  },
+  "LA052790-0101": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 1
+  },
+  "LA052990-0096": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "LA053190-0034": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA053190-0196": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah5",
+    "UNIQUE": 0
+  },
+  "LA060189-0041": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 0
+  },
+  "LA060189-0044": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 0
+  },
+  "LA060490-0010": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 1
+  },
+  "LA060790-0018": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA060790-0025": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8alx",
+    "UNIQUE": 0
+  },
+  "LA060990-0081": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A3",
+    "UNIQUE": 1
+  },
+  "LA061490-0022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "LA061490-0025": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA061490-0026": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "LA061589-0028": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA061589-0029": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 0
+  },
+  "LA061589-0030": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "LA061589-0128": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ604",
+    "UNIQUE": 0
+  },
+  "LA061889-0112": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "LA062190-0031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "LA062190-0053": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA062289-0203": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "apl8ctd",
+    "UNIQUE": 0
+  },
+  "LA062390-0024": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "LA062690-0083": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 0
+  },
+  "LA062790-0115": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "LA062889-0101": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 0
+  },
+  "LA062890-0066": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 0
+  },
+  "LA062989-0030": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 0
+  },
+  "LA063090-0103": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "LA070590-0006": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "LA070689-0037": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd2",
+    "UNIQUE": 0
+  },
+  "LA070690-0011": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "LA071290-0133": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "LA071389-0089": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 1
+  },
+  "LA071389-0198": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99b",
+    "UNIQUE": 0
+  },
+  "LA071690-0003": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 1
+  },
+  "LA071789-0041": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 0
+  },
+  "LA072089-0050": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a3",
+    "UNIQUE": 0
+  },
+  "LA072089-0054": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 0
+  },
+  "LA072089-0177": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 1
+  },
+  "LA072189-0016": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a2",
+    "UNIQUE": 0
+  },
+  "LA072289-0144": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA072290-0075": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 1
+  },
+  "LA072690-0056": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 0
+  },
+  "LA072690-0067": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "LA072789-0159": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8atd2",
+    "UNIQUE": 0
+  },
+  "LA072790-0167": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 1
+  },
+  "LA072890-0147": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver2",
+    "UNIQUE": 1
+  },
+  "LA080189-0025": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A4",
+    "UNIQUE": 0
+  },
+  "LA080189-0050": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "LA080190-0135": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 0
+  },
+  "LA080289-0067": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "LA080290-0231": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 0
+  },
+  "LA080690-0070": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 1
+  },
+  "LA080890-0068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 0
+  },
+  "LA080990-0082": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8n",
+    "UNIQUE": 0
+  },
+  "LA081089-0068": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "MITSLStdn",
+    "UNIQUE": 0
+  },
+  "LA081289-0099": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 1
+  },
+  "LA081290-0084": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8ax",
+    "UNIQUE": 1
+  },
+  "LA081389-0032": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 0
+  },
+  "LA081389-0035": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 0
+  },
+  "LA081589-0070": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 0
+  },
+  "LA081590-0161": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 0
+  },
+  "LA081789-0076": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 1
+  },
+  "LA082390-0077": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA082390-0082": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd1",
+    "UNIQUE": 0
+  },
+  "LA082390-0094": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8amn",
+    "UNIQUE": 0
+  },
+  "LA082490-0015": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ic99dafb",
+    "UNIQUE": 1
+  },
+  "LA082889-0040": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "LA082890-0074": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "LA083089-0024": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 0
+  },
+  "LA083189-0067": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "LA090189-0093": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 1
+  },
+  "LA090390-0030": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Flab8atdn",
+    "UNIQUE": 0
+  },
+  "LA090690-0071": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "plt8ah3",
+    "UNIQUE": 0
+  },
+  "LA090690-0080": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 1
+  },
+  "LA090789-0019": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8alx",
+    "UNIQUE": 0
+  },
+  "LA091189-0069": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "LA091289-0027": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 0
+  },
+  "LA091389-0010": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "LA091390-0122": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA091390-0125": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "LA091489-0029": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "LA091489-0031": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 0
+  },
+  "LA091489-0033": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "plt8ah2",
+    "UNIQUE": 0
+  },
+  "LA092089-0038": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99ate",
+    "UNIQUE": 0
+  },
+  "LA092189-0071": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA092689-0080": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 0
+  },
+  "LA092689-0104": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 0
+  },
+  "LA092689-0119": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "uwmt8a1",
+    "UNIQUE": 1
+  },
+  "LA092889-0069": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dnx",
+    "UNIQUE": 0
+  },
+  "LA092889-0071": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT803b",
+    "UNIQUE": 0
+  },
+  "LA092890-0010": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 0
+  },
+  "LA092890-0067": {
+    "RELEVANCY": 1,
+    "RETRIEVED_FROM": "GE8ATDN1",
+    "UNIQUE": 0
+  },
+  "LA100589-0072": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "LA100589-0118": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8ale",
+    "UNIQUE": 0
+  },
+  "LA100790-0252": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8ame",
+    "UNIQUE": 0
+  },
+  "LA100889-0039": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 0
+  },
+  "LA100889-0042": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 0
+  },
+  "LA100889-0044": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 0
+  },
+  "LA100990-0140": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 1
+  },
+  "LA101090-0036": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 1
+  },
+  "LA101190-0037": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "LA101289-0068": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 0
+  },
+  "LA101289-0194": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 0
+  },
+  "LA101490-0183": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9Aa1",
+    "UNIQUE": 1
+  },
+  "LA101490-0212": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8asxc",
+    "UNIQUE": 1
+  },
+  "LA101890-0267": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibms99a",
+    "UNIQUE": 0
+  },
+  "LA101989-0136": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al42",
+    "UNIQUE": 1
+  },
+  "LA102189-0147": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT810",
+    "UNIQUE": 1
+  },
+  "LA102590-0199": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "LA102789-0141": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "unc8al32",
+    "UNIQUE": 1
+  },
+  "LA102790-0147": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99c",
+    "UNIQUE": 0
+  },
+  "LA103090-0134": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "pir9At0",
+    "UNIQUE": 0
+  },
+  "LA103189-0088": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibms99b",
+    "UNIQUE": 1
+  },
+  "LA110189-0018": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "acsys8asn",
+    "UNIQUE": 0
+  },
+  "LA110289-0001": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "mds08a5",
+    "UNIQUE": 0
+  },
+  "LA110289-0037": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 0
+  },
+  "LA110290-0126": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATDN2",
+    "UNIQUE": 0
+  },
+  "LA110490-0084": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 1
+  },
+  "LA110490-0091": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA110589-0189": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "unc8al52",
+    "UNIQUE": 1
+  },
+  "LA110689-0058": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8qe01",
+    "UNIQUE": 0
+  },
+  "LA110890-0217": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 0
+  },
+  "LA110989-0061": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 0
+  },
+  "LA110989-0062": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Aatd",
+    "UNIQUE": 0
+  },
+  "LA111089-0085": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Flab8at",
+    "UNIQUE": 0
+  },
+  "LA111289-0077": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atdc",
+    "UNIQUE": 0
+  },
+  "LA111490-0026": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "nttd8am",
+    "UNIQUE": 1
+  },
+  "LA111589-0004": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT813",
+    "UNIQUE": 0
+  },
+  "LA111589-0014": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 1
+  },
+  "LA111590-0227": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "att99atc",
+    "UNIQUE": 0
+  },
+  "LA111689-0025": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ric8dpx",
+    "UNIQUE": 1
+  },
+  "LA111689-0032": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8Lg",
+    "UNIQUE": 0
+  },
+  "LA111890-0119": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "apl8c621",
+    "UNIQUE": 1
+  },
+  "LA111989-0048": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UT800",
+    "UNIQUE": 0
+  },
+  "LA112389-0201": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "tno8d4",
+    "UNIQUE": 0
+  },
+  "LA112390-0017": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 0
+  },
+  "LA112489-0116": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "Sab8A2",
+    "UNIQUE": 0
+  },
+  "LA112789-0001": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "pir9Atd0",
+    "UNIQUE": 0
+  },
+  "LA120390-0005": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "iit99au1",
+    "UNIQUE": 0
+  },
+  "LA120489-0057": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "ibmg99c",
+    "UNIQUE": 0
+  },
+  "LA120490-0022": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 0
+  },
+  "LA120490-0023": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "isa25t",
+    "UNIQUE": 0
+  },
+  "LA120689-0026": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "att99atde",
+    "UNIQUE": 0
+  },
+  "LA120689-0083": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ibmg99a",
+    "UNIQUE": 0
+  },
+  "LA120690-0133": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8sh16",
+    "UNIQUE": 1
+  },
+  "LA120789-0066": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Mer8Adtd4",
+    "UNIQUE": 0
+  },
+  "LA120889-0165": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "mds08a4",
+    "UNIQUE": 0
+  },
+  "LA121190-0080": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Sab8A1",
+    "UNIQUE": 1
+  },
+  "LA121389-0121": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ok8amxc",
+    "UNIQUE": 0
+  },
+  "LA121390-0162": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "nttd8al",
+    "UNIQUE": 0
+  },
+  "LA121489-0052": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "ric8tpx",
+    "UNIQUE": 0
+  },
+  "LA121689-0043": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "kdd8ps16",
+    "UNIQUE": 0
+  },
+  "LA121690-0078": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "MITSLStd",
+    "UNIQUE": 0
+  },
+  "LA121990-0118": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "UniNET8St",
+    "UNIQUE": 0
+  },
+  "LA122089-0062": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "GE8ATD3",
+    "UNIQUE": 0
+  },
+  "LA122089-0147": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ601",
+    "UNIQUE": 1
+  },
+  "LA122189-0065": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "weaver1",
+    "UNIQUE": 0
+  },
+  "LA122390-0203": {
+    "RELEVANCY": 0,
+    "RETRIEVED_FROM": "Dm8TFbn",
+    "UNIQUE": 0
+  },
+  "LA122889-0168": {
+    "RELEVANCY": 2,
+    "RETRIEVED_FROM": "INQ602",
+    "UNIQUE": 0
+  }
+}

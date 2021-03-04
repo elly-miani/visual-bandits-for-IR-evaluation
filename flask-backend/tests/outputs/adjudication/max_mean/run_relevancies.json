@@ -1,0 +1,56 @@
+{
+  "Flab8at": {
+    "DOCS_RETRIEVED": 12,
+    "NON_REL": 10,
+    "REL": 2,
+    "REL_UNIQUE": 2
+  },
+  "UT803": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 5,
+    "REL": 6,
+    "REL_UNIQUE": 6
+  },
+  "fub99a": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 11,
+    "REL": 0,
+    "REL_UNIQUE": 0
+  },
+  "nttd8am": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 10,
+    "REL": 1,
+    "REL_UNIQUE": 1
+  },
+  "pir9Aatd": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 11,
+    "REL": 0,
+    "REL_UNIQUE": 0
+  },
+  "plt8ah1": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 11,
+    "REL": 0,
+    "REL_UNIQUE": 0
+  },
+  "plt8ah2": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 11,
+    "REL": 0,
+    "REL_UNIQUE": 0
+  },
+  "plt8ah3": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 10,
+    "REL": 1,
+    "REL_UNIQUE": 1
+  },
+  "surffal2": {
+    "DOCS_RETRIEVED": 11,
+    "NON_REL": 11,
+    "REL": 0,
+    "REL_UNIQUE": 0
+  }
+}

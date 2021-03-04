@@ -1,8 +1,10 @@
 import pandas as pd
 import os
 
-def read_csv_into_df(dir_path, filetype, debug_max_files_loaded):
-	print("Loading all ", filetype, " files in ", dir_path, "...")
+
+def read_csv_into_df(dir_path, filetype, debug_max_files_loaded, verbose):
+	if verbose:
+		print("Loading all ", filetype, " files in ", dir_path, "...")
 
 	if filetype == "RUNS":
 		header = ['TOPIC', 'QUERY', 'DOCUMENT', 'RANK', 'SCORE', 'RUN']
@@ -15,12 +17,14 @@ def read_csv_into_df(dir_path, filetype, debug_max_files_loaded):
 
 	for file in os.listdir(dir_path):
 
-		print("Loading file ", "#", counter, ": ", file, "...", end='', sep='')
-		counter = counter + 1
-
 		if file == ".DS_Store":
-			print(" Skipped.")
+			# print(".DS_Store Skipped.")
 			continue
+
+		if verbose:
+			print("Loading file ", "#", counter, ": ", file, "...", end='', sep='')
+	
+		counter = counter + 1
 
 		file_path = os.path.join(dir_path, file)
 
@@ -38,10 +42,14 @@ def read_csv_into_df(dir_path, filetype, debug_max_files_loaded):
 			temp = pd.read_csv(file_path, sep=' ', header=None, names=header)
 
 		data_frame = data_frame.append(temp, ignore_index=True)
-		print(" ✅")
+		
+		if verbose:
+			print(" ✅")
 
 		if counter == debug_max_files_loaded:
 			break
 
-	print("➡️ Parsing of ", dir_path, " complete.\n")
+	if verbose:
+		print("➡️ Parsing of ", dir_path, " complete.\n")
+	
 	return data_frame

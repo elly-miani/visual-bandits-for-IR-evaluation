@@ -54,7 +54,7 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 			next_doc = round_robin.get_next_doc(runs, next_run, runs_status, retrieved_docs)
 
 			while(next_doc.empty):
-				# print("run", next_run, "is empty. Trying again.")
+				print("run", next_run, "is empty. Trying again.")
 				# current next_run must have run out of documents
 				runs_ids.pop(len(runs_ids)-1)
 				next_run = round_robin.get_next_run(runs_ids)
