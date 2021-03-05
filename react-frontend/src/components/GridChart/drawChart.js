@@ -11,13 +11,8 @@ export default function drawChart(gridState, runSize, runsList, svgRef, dimensio
 
 	// scales
 	const xScale = d3.scaleBand()
-		.domain(gridState.gridData[1].map((d,i) => i))
+		.domain(gridState[1].map((d,i) => i))
 		.range([0, dimensions.width])
-		.padding(0.1);
-	
-	const yScale = d3.scaleBand()
-		.domain(gridState.gridData.map((d, i) => i))
-		.range([0, dimensions.height])
 		.padding(0.1);
 	
 	const colorScaleRetrieved = d3.scaleLinear()
@@ -31,7 +26,7 @@ export default function drawChart(gridState, runSize, runsList, svgRef, dimensio
 		.clamp(true);
 
 	var row = grid.selectAll(".row")
-		.data(gridState.gridData.slice(0, runSize))
+		.data(gridState.slice(0, runSize))
 		.join("g")
 		.attr("class", "row");
 

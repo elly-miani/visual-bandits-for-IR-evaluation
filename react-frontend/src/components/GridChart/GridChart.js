@@ -40,12 +40,7 @@ export default function GridChart(props) {
 
 	// when the retrievedDocs list is updated, update the grid
 	useEffect(() => {
-		setGridState(prevState => {
-			return {
-				...prevState,
-				gridData: updateRetrievedDocs(gridState, props.retrievedDocs, props.runsList, printLogHelper.current)
-			}
-		});
+		setGridState(updateRetrievedDocs(gridState, props.retrievedDocs, props.runsList, printLogHelper.current));
 	}, [props.retrievedDocs])
 
 

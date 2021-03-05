@@ -48,7 +48,5 @@ export default function getGridData(runs, qrels, runsList, printLogHelper) {
 			}
 		}
 	}
-	return {
-		gridData: gridData,
-	};
+	return gridData;
 }

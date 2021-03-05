@@ -3,11 +3,11 @@ import printLog from "../../core/helper/printLog";
 export default function updateRetrievedDocs(gridState, retrievedDocs, runsList, printLogHelper) {
 	printLog("FUNCTION_CALL", "updateRetrievedDocs()", null, printLogHelper);
 	if (retrievedDocs === null) {
-		return gridState.gridData;
+		return gridState;
 	}
 
 	// make a shallow copy of gridState to be able to update it
-	let updatedGridData = [...gridState.gridData];
+	let updatedGridData = [...gridState];
 
 	for (let index in retrievedDocs) {
 		// for each document in retrievedDocs
