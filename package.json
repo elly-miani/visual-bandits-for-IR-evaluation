@@ -6,16 +6,17 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "lodash.clonedeep": "^4.5.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-		"start": "cd react-frontend && BROWSER=none react-scripts start",
-		"start-server": "cd flask-backend && flask run --no-debugger",
-		"build": "cd react-frontend && react-scripts build",
-		"test": "cd react-frontend && react-scripts test"
+    "start": "cd react-frontend && BROWSER=none react-scripts start",
+    "start-server": "cd flask-backend && flask run --no-debugger",
+    "build": "cd react-frontend && react-scripts build",
+    "test": "cd react-frontend && react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -30,10 +31,10 @@
       "not op_mini all"
     ],
     "development": [
-			"last 1 firefox version",
+      "last 1 firefox version",
       "last 1 chrome version",
       "last 1 safari version"
     ]
-	},
-	"proxy": "http://localhost:5000"
+  },
+  "proxy": "http://localhost:5000"
 }

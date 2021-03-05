@@ -8,6 +8,7 @@ import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 import drawChart from './drawChart';
 import getGridData from './getGridData';
 import updateRetrievedDocs from './updateRetrievedDocs.js';
+import updateRetrievedDoc from './updateRetrievedDoc.js';
 
 
 export default function GridChart(props) {
@@ -31,6 +32,8 @@ export default function GridChart(props) {
 
 	const [gridState, setGridState] = useState(getGridData(props.runs, props.qrels, props.runsList, printLogHelper.current));
 
+	const [history, setHistory] = useState([]);
+	var cloneDeep = require('lodash.clonedeep');
 
 	// when data is updated, recreate the grid
 	useEffect(() => {
@@ -40,7 +43,41 @@ export default function GridChart(props) {
 
 	// when the retrievedDocs list is updated, update the grid
 	useEffect(() => {
-		setGridState(updateRetrievedDocs(gridState, props.retrievedDocs, props.runsList, printLogHelper.current));
+		if (!props.retrievedDocs) return;
+
+		if (props.adjudicationProgress.type === 'increment') {
+			if (history.length <= props.adjudicationProgress.value) {
+
+				let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationProgress.value], props.runsList, printLogHelper.current);
+
+				setHistory(history => {
+					history.push(cloneDeep(grid))
+					return history
+				})
+
+				setGridState(cloneDeep(grid));
+			}
+			else {
+				setGridState(history[props.adjudicationProgress.value])
+			}
+		}
+		else {
+			setGridState(history[props.adjudicationProgress.value])
+		}
+	}, [props.adjudicationProgress])
+
+
+	useEffect(() => {
+		if (!props.retrievedDocs) return;
+
+		let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationProgress.value], props.runsList, printLogHelper.current);
+
+		let history = []
+		history.push(cloneDeep(grid))
+		setHistory(history)
+
+		setGridState(cloneDeep(grid));
+
 	}, [props.retrievedDocs])
 
 

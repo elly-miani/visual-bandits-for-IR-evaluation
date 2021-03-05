@@ -1,11 +1,10 @@
 import printLog from '../../core/helper/printLog';
 
 export default function getChartData(runRelevancies, state, printLogHelper) {
-	let runRelevanciesLast = runRelevancies[runRelevancies.length - 1];
 	let chartData;
 
 	if (state.value.length === 0) {
-		chartData = Object.entries(runRelevanciesLast).map(d => {
+		chartData = Object.entries(runRelevancies).map(d => {
 			return {
 				'RUN': d[0],
 				'DOCS_RETRIEVED': d[1].DOCS_RETRIEVED
@@ -13,7 +12,7 @@ export default function getChartData(runRelevancies, state, printLogHelper) {
 		})
 	}
 	if (state.value.length === 1) {
-		chartData = Object.entries(runRelevanciesLast).map(d => {
+		chartData = Object.entries(runRelevancies).map(d => {
 			return {
 				'RUN': d[0],
 				'REL': d[1].REL,
@@ -22,7 +21,7 @@ export default function getChartData(runRelevancies, state, printLogHelper) {
 		})
 	}
 	if (state.value.length === 2) {
-		chartData = Object.entries(runRelevanciesLast).map(d => {
+		chartData = Object.entries(runRelevancies).map(d => {
 			return {
 				'RUN': d[0],
 				'REL_UNIQUE': d[1].REL_UNIQUE,

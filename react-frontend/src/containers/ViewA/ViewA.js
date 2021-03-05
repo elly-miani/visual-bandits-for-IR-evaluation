@@ -9,6 +9,7 @@ import printLog from '../../core/helper/printLog.js';
 import GridChart from '../../components/GridChart/GridChart';
 import BarChart from '../../components/BarChart/BarChart';
 import Controls from '../../components/Controls/Controls';
+import Sidebar from '../../components/Sidebar/Sidebar';
 import StartAdjudicationButton from '../../components/Controls/StartAdjudicationButton';
 import loadData from '../../core/helper/loadData';
 
@@ -46,6 +47,11 @@ function ViewA() {
 	const [poolSize, setPoolSize] = useState('100');
 	const [adjudicationMethod, setAdjudicationMethod] = useState('round_robin')
 
+	const [adjudicationProgress, setAdjudicationProgress] = useState({
+		value: 0,
+		type: 'increment'
+	});
+
 
 	// DATA STATUS
 	const [status, setStatus] = useState({
@@ -76,6 +82,11 @@ function ViewA() {
 				adjudication: 2
 			}
 		})
+
+		setAdjudicationProgress({
+			value: 0,
+			type: 'increment'
+		});
 
 		// reset adjudication data
 		setRetrievedDocs(null);
@@ -127,6 +138,22 @@ function ViewA() {
 		}
 	}
 
+	
+
+	const updateAdjudicationProgress = (type) => {
+		if (type === 'increment') {
+			
+			setAdjudicationProgress(prevState => {
+				return { value: prevState.value + 1, type: 'increment'}
+			})
+							
+		}
+		if (type === 'decrement') {
+			setAdjudicationProgress(prevState => {
+				return { value: prevState.value - 1, type: 'decrement' }
+			})
+		}
+	}
 
 
 	// function passed to <Controls /> component to start the adjudication process
@@ -136,6 +163,11 @@ function ViewA() {
 				...prevState,
 				adjudication: 0
 			}
+		});
+
+		setAdjudicationProgress({
+			value: 0,
+			type: 'increment'
 		});
 
 		let url = urlAdjudication + adjudicationMethod + '/' + topic + '/' + poolSize;
@@ -204,12 +236,19 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
+				<Sidebar
+					adjudicationProgress={adjudicationProgress}
+					updateAdjudicationProgress={updateAdjudicationProgress}
+					poolSize={poolSize}
+				/>
+
 				<GridChart 
 					runs={runs} 
 					qrels={qrels} 
 					runSize={runSize} 
 					runsList={datasetParam.runsList}
 					retrievedDocs={retrievedDocs} 
+					adjudicationProgress={adjudicationProgress}
 				/>
 
 				<div className="container container-loading offset">
@@ -233,17 +272,25 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
+				<Sidebar
+					adjudicationProgress={adjudicationProgress}
+					updateAdjudicationProgress={updateAdjudicationProgress}
+					poolSize={poolSize}
+				/>
+
 				<GridChart 
 					runs={runs} 
 					qrels={qrels} 
 					runSize={runSize}
 					runsList={datasetParam.runsList}
 					retrievedDocs={retrievedDocs} 
+					adjudicationProgress={adjudicationProgress}
 				/>
 
 				<BarChart 
 					runRelevancies={runRelevancies}
 					runsList={datasetParam.runsList}
+					adjudicationProgress={adjudicationProgress}
 				/>
 
 			</Fragment>
@@ -263,12 +310,20 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
+				<Sidebar
+					adjudicationProgress={adjudicationProgress}
+					updateAdjudicationProgress={updateAdjudicationProgress}
+					poolSize={poolSize}
+				/>
+
 				<GridChart 
 					runs={runs} 
 					qrels={qrels} 
 					runSize={runSize}
 					runsList={datasetParam.runsList}
-					retrievedDocs={retrievedDocs} />
+					retrievedDocs={retrievedDocs} 
+					adjudicationProgress={adjudicationProgress}
+				/>
 				
 				<div className="container container-loading offset">
 					<Loader content="loading..." vertical size="md" />
@@ -289,6 +344,12 @@ function ViewA() {
 					computeAdjudication={computeAdjudication}
 					updateParameter={updateParameter}
 					fetchData={fetchData}
+				/>
+
+				<Sidebar
+					adjudicationProgress={adjudicationProgress}
+					updateAdjudicationProgress={updateAdjudicationProgress}
+					poolSize={poolSize}
 				/>
 
 				<div id="container--ViewA" className="container offset">
