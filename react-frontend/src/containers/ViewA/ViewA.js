@@ -236,23 +236,30 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
-				<Sidebar
-					adjudicationProgress={adjudicationProgress}
-					updateAdjudicationProgress={updateAdjudicationProgress}
-					poolSize={poolSize}
-				/>
+				<div id="main-layout">
+					<div id="charts">
+						<GridChart
+							runs={runs}
+							qrels={qrels}
+							runSize={runSize}
+							runsList={datasetParam.runsList}
+							retrievedDocs={retrievedDocs}
+							adjudicationProgress={adjudicationProgress}
+						/>
 
-				<GridChart 
-					runs={runs} 
-					qrels={qrels} 
-					runSize={runSize} 
-					runsList={datasetParam.runsList}
-					retrievedDocs={retrievedDocs} 
-					adjudicationProgress={adjudicationProgress}
-				/>
+						<div className="container container-loading offset">
+							<StartAdjudicationButton status={status} handleClick={computeAdjudication} />
+						</div>
 
-				<div className="container container-loading offset">
-					<StartAdjudicationButton status={status} handleClick={computeAdjudication} />
+					</div>
+					<div id="sidebar">
+						<Sidebar
+							adjudicationProgress={adjudicationProgress}
+							updateAdjudicationProgress={updateAdjudicationProgress}
+							poolSize={poolSize}
+						/>
+
+					</div>
 				</div>
 
 			</Fragment>
@@ -272,26 +279,31 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
-				<Sidebar
-					adjudicationProgress={adjudicationProgress}
-					updateAdjudicationProgress={updateAdjudicationProgress}
-					poolSize={poolSize}
-				/>
+				<div id="main-layout">
+					<div id="charts">
+						<GridChart
+							runs={runs}
+							qrels={qrels}
+							runSize={runSize}
+							runsList={datasetParam.runsList}
+							retrievedDocs={retrievedDocs}
+							adjudicationProgress={adjudicationProgress}
+						/>
 
-				<GridChart 
-					runs={runs} 
-					qrels={qrels} 
-					runSize={runSize}
-					runsList={datasetParam.runsList}
-					retrievedDocs={retrievedDocs} 
-					adjudicationProgress={adjudicationProgress}
-				/>
-
-				<BarChart 
-					runRelevancies={runRelevancies}
-					runsList={datasetParam.runsList}
-					adjudicationProgress={adjudicationProgress}
-				/>
+						<BarChart
+							runRelevancies={runRelevancies}
+							runsList={datasetParam.runsList}
+							adjudicationProgress={adjudicationProgress}
+						/>
+					</div>
+					<div id="sidebar">
+						<Sidebar
+							adjudicationProgress={adjudicationProgress}
+							updateAdjudicationProgress={updateAdjudicationProgress}
+							poolSize={poolSize}
+						/>
+					</div>
+				</div>
 
 			</Fragment>
 		)
@@ -310,23 +322,28 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
-				<Sidebar
-					adjudicationProgress={adjudicationProgress}
-					updateAdjudicationProgress={updateAdjudicationProgress}
-					poolSize={poolSize}
-				/>
+				<div id="main-layout">
+					<div id="charts">
+						<GridChart
+							runs={runs}
+							qrels={qrels}
+							runSize={runSize}
+							runsList={datasetParam.runsList}
+							retrievedDocs={retrievedDocs}
+							adjudicationProgress={adjudicationProgress}
+						/>
 
-				<GridChart 
-					runs={runs} 
-					qrels={qrels} 
-					runSize={runSize}
-					runsList={datasetParam.runsList}
-					retrievedDocs={retrievedDocs} 
-					adjudicationProgress={adjudicationProgress}
-				/>
-				
-				<div className="container container-loading offset">
-					<Loader content="loading..." vertical size="md" />
+						<div className="container container-loading offset">
+							<Loader content="loading..." vertical size="md" />
+						</div>
+					</div>
+					<div id="sidebar">
+						<Sidebar
+							adjudicationProgress={adjudicationProgress}
+							updateAdjudicationProgress={updateAdjudicationProgress}
+							poolSize={poolSize}
+						/>
+					</div>
 				</div>
 
 			</Fragment>
@@ -346,16 +363,25 @@ function ViewA() {
 					fetchData={fetchData}
 				/>
 
-				<Sidebar
-					adjudicationProgress={adjudicationProgress}
-					updateAdjudicationProgress={updateAdjudicationProgress}
-					poolSize={poolSize}
-				/>
+				<div id="main-layout">
+					<div id="charts">
 
-				<div id="container--ViewA" className="container offset">
-					<div className="container-loading">
-						<Loader content="loading..." vertical size="md" />
-					</div>				
+						<div id="container--ViewA" className="container offset">
+							<div className="container-loading">
+								<Loader content="loading..." vertical size="md" />
+							</div>
+						</div>
+
+					</div>
+					<div id="sidebar">
+
+						<Sidebar
+							adjudicationProgress={adjudicationProgress}
+							updateAdjudicationProgress={updateAdjudicationProgress}
+							poolSize={poolSize}
+						/>
+
+					</div>
 				</div>
 
 			</Fragment>

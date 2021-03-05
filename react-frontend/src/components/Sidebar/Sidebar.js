@@ -19,7 +19,7 @@ export default function Sidebar(props) {
 	// const backIsEnabled = props.adjudicationProgress.value === 0;
 
 	return (
-		<div className="controls-container inset">
+		<div className="inset">
 			<div className="controls">
 
 				<ButtonToolbar>
@@ -29,17 +29,23 @@ export default function Sidebar(props) {
 						disabled={props.adjudicationProgress.value === 0}
 						onClick={() => props.updateAdjudicationProgress('decrement')}
 					/>
-					{/* <IconButton icon={<Icon icon="play" />} placement="left" /> */}
-					<Button appearance="subtle">{props.adjudicationProgress.value}</Button>
-					{/* <Button appearance="subtle">{history[props.adjudicationProgress.value]}</Button> */}
+					<IconButton icon={<Icon icon="play" />} placement="left" />
 					{/* <IconButton icon={<Icon icon="pause" />} placement="left" /> */}
+					<IconButton icon={<Icon icon="stop" />} placement="left" />
 					<IconButton 
 						icon={<Icon icon="arrow-right" />} 
 						placement="right" 
-						disabled={props.adjudicationProgress.value >= props.poolSize}
+						disabled={props.adjudicationProgress.value >= props.poolSize -1}
 						onClick={() => props.updateAdjudicationProgress('increment')}
 					/>
+
+					{/* <Button appearance="subtle">{history[props.adjudicationProgress.value]}</Button> */}
+					{/* <Button appearance="subtle">{props.adjudicationProgress.value}</Button> */}
+
 				</ButtonToolbar>
+				<div id="retrieved-document">
+					Retrieved document #{props.adjudicationProgress.value}
+				</div>
 
 			</div>
 		</div>

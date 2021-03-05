@@ -19,7 +19,7 @@ export default function AdjudicationMethodPicker(props) {
 			placeholder="Round Robin"
 			defaultValue="round_robin"
 			style={{ width: 150 }}
-			size="sm"
+			size="m"
 			onChange={(value, event) => {
 				props.updateParameter(value, 'adjudication-method')
 			}}

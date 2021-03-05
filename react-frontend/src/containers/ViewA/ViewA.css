@@ -10,3 +10,40 @@
 	animation: loaderSpin 0.8s infinite linear;
 	background: transparent !important;
 }
+
+
+#main-layout {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* align-items: stretch; */
+}
+
+#sidebar {
+	flex-basis: 25%;	
+}
+
+#sidebar > div {
+	padding: 1.5em 2em 1.5em 2em;
+	margin: 0 2em 2em 2em;
+	height:100%;
+}
+
+#charts {
+	flex-basis: 75%;
+}
+
+#retrieved-document {
+	letter-spacing: 0.9px;
+	background: #F2F4F8;
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
+	padding: 0 20px;
+	margin: 0 10px;
+	height: 44px;
+	border-radius: 8px;
+	border: 0px solid #F2F4F8;
+	margin: 2em 0 2em 0;
+}
+
+
+

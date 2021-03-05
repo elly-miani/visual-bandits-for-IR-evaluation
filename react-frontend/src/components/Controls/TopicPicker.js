@@ -12,7 +12,7 @@ export default function TopicPicker(props) {
 				placeholder={"Default: " + topicsList[0].value}
 				defaultValue={topicsList[0]}
 				style={{ width: 150 }}
-				size="sm"
+				size="m"
 				onChange={(value, event) => {
 					props.updateParameter(value, 'topic')
 				}}
@@ -26,7 +26,7 @@ export default function TopicPicker(props) {
 				placeholder={"Loading topics..."}
 				defaultValue={[]}
 				style={{ width: 150 }}
-				size="sm"
+				size="m"
 			/>
 		);
 	}

@@ -33,7 +33,15 @@ button {
 	font-weight: 600;
 	font-size: 0.8em;
 	letter-spacing: 0.9px;
-	text-transform: uppercase;
+	transition: all 0.3s ease!important;
+	/* text-transform: uppercase; */
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
+}
+
+button:hover{
+	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
+	/* background: #FEEBC3!important; */
+	background: #EAECF0!important;
 }
 
 .button--3d {
@@ -62,7 +70,11 @@ button {
 
 .container {
 	padding:5%;
-	margin:2%;
+	margin:0 2% 0 2%;
+}
+
+.container:first-child {
+	margin:0 2% 2% 2%;
 }
 
 .offset {

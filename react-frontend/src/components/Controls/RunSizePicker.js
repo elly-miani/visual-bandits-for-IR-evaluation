@@ -16,7 +16,7 @@ export default function RunSizePicker(props) {
 			<InputNumber
 				className={'custom-input-number'}
 				ref={runSizePickerRef}
-				size="sm"
+				size="m"
 				style={{ width: 60 }}
 				max={100}
 				min={10}

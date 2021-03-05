@@ -15,9 +15,9 @@ export default function PoolSizePicker(props) {
 			<InputNumber
 				className={'custom-input-number'}
 				ref={poolSizePickerRef}
-				size="sm"
+				size="m"
 				style={{ width: 60 }}
-				min={50}
+				min={10}
 				step={50}
 				defaultValue="100"
 				onChange={(value, event) => {
