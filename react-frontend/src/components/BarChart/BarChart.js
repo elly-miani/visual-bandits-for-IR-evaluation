@@ -39,7 +39,6 @@ function BarChart(props) {
 		if (!props.runRelevancies) return;
 
 		setChartData(getChartData(props.runRelevancies[props.adjudicationAutoplay.status], state, printLogHelper))
-		// console.log(JSON.stringify(chartData, null, 2))
 	}, [props.runRelevancies, props.adjudicationAutoplay, state])
 
 
@@ -48,10 +47,9 @@ function BarChart(props) {
 		printLog("HOOK", "useEffect([chartData, dimensions])", null, printLogHelper.current);
 
 		if(!dimensions) return;
-		if(!props.runRelevancies) return;
 
 		drawChart(chartData, props.runsList, svgRef.current, dimensions, printLogHelper)
-	}, [chartData, dimensions])
+	}, [chartData, dimensions, props.runsList])
 
 
 	return (

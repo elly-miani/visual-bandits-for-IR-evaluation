@@ -1,4 +1,4 @@
-import printLog from "../../core/helper/printLog";
+// import printLog from "../../core/helper/printLog";
 
 export default function getGridData(runs, qrels, runsList, printLogHelper) {
 	var gridData = [];

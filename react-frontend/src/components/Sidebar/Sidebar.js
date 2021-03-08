@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import './Sidebar.css';
+
 import AdjudicationAutoplayControls from './AdjudicationAutoplayControls';
+import AdjudicationStats from './AdjudicationStats'
+import RetrievedDocs from './RetrievedDocs';
 
 
 export default function Sidebar(props) {
+	const [stats, setStats] = useState(null);
+
+	const getStats = (status, runRelevancies) => {
+		if (!runRelevancies) return null;
+
+		var relDocs = 0;
+		var nonRelDocs = 0;
+		var relUniqueDocs = 0;
+
+		for (let run in runRelevancies[status]) {
+			relDocs += runRelevancies[status][run]['REL'];
+			nonRelDocs += runRelevancies[status][run]['NON_REL'];
+			relUniqueDocs = + runRelevancies[status][run]['REL_UNIQUE'];
+		}
+		return { relDocs, nonRelDocs, relUniqueDocs };
+	}
+
+
+
+	useEffect(() => {
+		setStats(getStats(props.adjudicationAutoplay.status, props.runRelevancies));
+	}, [props.adjudicationAutoplay.status, props.runRelevancies])
+
 
 	return (
 		<div className="inset">
@@ -17,14 +43,17 @@ export default function Sidebar(props) {
 					disable={props.retrievedDocs === null}
 				/>
 
-				<div id="retrieved-document">
-					<p>
-						Documents retrieved: <strong>{ props.retrievedDocs ? props.adjudicationAutoplay.status+1 : 0}</strong>
-					</p>
-					<p>
-						Relevant documents: <strong>boh</strong>
-					</p>
-				</div>
+				<AdjudicationStats 
+					adjudicationStatus={props.adjudicationAutoplay.status}
+					retrievedDocs={props.retrievedDocs}
+					runRelevancies={props.runRelevancies}
+					stats={stats}
+				/>
+
+				<RetrievedDocs 
+					adjudicationStatus={props.adjudicationAutoplay.status}
+					retrievedDocs={props.retrievedDocs}
+				/>
 
 			</div>
 		</div>

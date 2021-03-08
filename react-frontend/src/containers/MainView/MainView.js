@@ -97,7 +97,7 @@ function MainView() {
 				break;
 
 			case 'all':
-				if (value === 'default') {
+				if (value === 'default')
 					setStatus(prevState => {
 						return {
 							...prevState,
@@ -106,7 +106,10 @@ function MainView() {
 							adjudication: 'idle'
 						}
 					})
-				}
+				break;
+				
+			default:
+				break;
 		}
 	}
 
@@ -141,6 +144,8 @@ function MainView() {
 				break;
 			case 'data-parameters':
 				setDataParameters(value);
+				break;
+			default:
 				break;
 		}
 	}
@@ -186,6 +191,8 @@ function MainView() {
 					lastStep: 'next',
 					paused: true
 				});
+				break;
+			default:
 				break;
 		}
 	}
@@ -296,8 +303,8 @@ function MainView() {
 							updateAdjudicationAutoplay={updateAdjudicationAutoplay}
 							poolSize={poolSize}
 							retrievedDocs={retrievedDocs}
+							runRelevancies={runRelevancies}
 						/>
-
 					</div>
 				</div>
 
@@ -342,6 +349,7 @@ function MainView() {
 							updateAdjudicationAutoplay={updateAdjudicationAutoplay}
 							poolSize={poolSize}
 							retrievedDocs={retrievedDocs}
+							runRelevancies={runRelevancies}
 						/>
 					</div>
 				</div>
@@ -384,6 +392,7 @@ function MainView() {
 							updateAdjudicationAutoplay={updateAdjudicationAutoplay}
 							poolSize={poolSize}
 							retrievedDocs={retrievedDocs}
+							runRelevancies={runRelevancies}
 						/>
 					</div>
 				</div>
@@ -422,6 +431,7 @@ function MainView() {
 							updateAdjudicationAutoplay={updateAdjudicationAutoplay}
 							poolSize={poolSize}
 							retrievedDocs={retrievedDocs}
+							runRelevancies={runRelevancies}
 						/>
 
 					</div>

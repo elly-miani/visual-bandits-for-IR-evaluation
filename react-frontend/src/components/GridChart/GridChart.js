@@ -7,7 +7,7 @@ import useResizeObserver from '../../core/hooks/useResizeObserver.js';
 
 import drawChart from './drawChart';
 import getGridData from './getGridData';
-import updateRetrievedDocs from './updateRetrievedDocs.js';
+// import updateRetrievedDocs from './updateRetrievedDocs.js';
 import updateRetrievedDoc from './updateRetrievedDoc.js';
 
 
@@ -38,7 +38,7 @@ export default function GridChart(props) {
 	// when data is updated, recreate the grid
 	useEffect(() => {
 		setGridState(getGridData(props.runs, props.qrels, props.runsList, printLogHelper.current));
-	}, [props.runs, props.qrels]);
+	}, [props.runs, props.qrels, props.runsList]);
 
 
 	// when the retrievedDocs list is updated, update the grid

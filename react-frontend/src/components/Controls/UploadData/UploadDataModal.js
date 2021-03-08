@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { IconButton, Modal, Button, Uploader } from 'rsuite';
+import { IconButton, Modal, Uploader } from 'rsuite';
 
 import './UploadDataModal.css';
-
 import loadData from '../../../core/helper/loadData'
-import iconChooser from '../../../core/helper/iconChooser'
 
 export default function UploadDataModal(props) {
 
@@ -20,6 +18,8 @@ export default function UploadDataModal(props) {
 				break;
 			case 'qrels':
 				setQrelsFiles({ file });
+				break;
+			default:
 				break;
 		}
 	}

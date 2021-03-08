@@ -1,4 +1,4 @@
-import printLog from '../../core/helper/printLog';
+// import printLog from '../../core/helper/printLog';
 
 export default function getChartData(runRelevancies, state, printLogHelper) {
 	let chartData;

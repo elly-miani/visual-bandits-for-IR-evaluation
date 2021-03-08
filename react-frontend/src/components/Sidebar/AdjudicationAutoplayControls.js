@@ -53,7 +53,7 @@ export default function AdjudicationAutoplayControls(props) {
 				<IconButton
 					icon={<Icon icon="arrow-right" />}
 					disabled={
-						props.adjudicationAutoplay.value >= props.poolSize - 1
+						props.adjudicationAutoplay.status >= props.poolSize - 1
 						|| props.adjudicationAutoplay.paused === false
 						|| props.disable
 					}

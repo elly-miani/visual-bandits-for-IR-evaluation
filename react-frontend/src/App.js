@@ -5,7 +5,7 @@ import React from 'react'
 import 'rsuite/dist/styles/rsuite-default.css'
 
 // import Time from './components/Time/Time'
-import Nav from './components/Nav/Nav'
+// import Nav from './components/Nav/Nav'
 // import ExampleView from './containers/ExampleView/ExampleView'
 import MainView from './containers/MainView/MainView'
 

@@ -46,7 +46,7 @@ button:hover {
 }
 
 button.rs-modal-header-close {
-	box-shadow:none;
+	box-shadow:none!important;
 }
 
 button.rs-btn-primary:not(.rs-btn-disabled):hover {
