@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import printLog from '../../core/helper/printLog';
 
 
-export default function drawChart(gridState, runSize, runsList, svgRef, dimensions, printLogHelper) {
+export default function drawChart(gridState, runSize, runsList, svgRef, dimensions, printLogHelper, setModal) {
 	// printLog("FUNCTION_CALL", "drawGridData()", null, printLogHelper);
 
 	const grid = d3.select(svgRef);
@@ -36,8 +36,21 @@ export default function drawChart(gridState, runSize, runsList, svgRef, dimensio
 		.join("rect")
 		.attr("class", "square")
 		.on("click", function (event, d) {
-			alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic + "\n\nRETRIEVED: " + d.retrieved);
+			setModal(prevState => {
+				return {
+					show: true,
+					document: d.document,
+					run: d.run,
+					relevancy: d.relevancy,
+					score: d.score,
+					topic: d.topic,
+					retrieved: d.retrieved,
+					retrievedFrom: d.retrievedFrom
+				}
+			});
+			// alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic + "\n\nRETRIEVED: " + d.retrieved);
 			printLog("PRINT", "onClick()", d, printLogHelper);
+
 		})
 		.style("stroke", "#F2F4F8")
 		.attr("width", xScale.bandwidth())

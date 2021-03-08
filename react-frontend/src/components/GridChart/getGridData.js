@@ -24,7 +24,8 @@ export default function getGridData(runs, qrels, runsList, printLogHelper) {
 					topic: null,
 					query: null,
 					relevancy: 2,
-					retrieved: 0
+					retrieved: 0,
+					retrievedFrom: null
 				})
 			}
 			else {
@@ -43,7 +44,8 @@ export default function getGridData(runs, qrels, runsList, printLogHelper) {
 					topic: document_data.TOPIC,
 					query: document_data.QUERY,
 					relevancy: curr_relevancy,
-					retrieved: 0
+					retrieved: 0,
+					retrievedFrom: null
 				})
 			}
 		}

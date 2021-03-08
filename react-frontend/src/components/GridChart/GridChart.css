@@ -1,0 +1,11 @@
+#modal-document {
+	padding: 0em 2em;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#modal-document > h5 {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom:0.5em;
+}

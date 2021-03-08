@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState, Fragment } from 'react'
 
 import './GridChart.css';
 
@@ -9,6 +9,7 @@ import drawChart from './drawChart';
 import getGridData from './getGridData';
 // import updateRetrievedDocs from './updateRetrievedDocs.js';
 import updateRetrievedDoc from './updateRetrievedDoc.js';
+import ModalDocument from './ModalDocument'
 
 
 export default function GridChart(props) {
@@ -31,6 +32,16 @@ export default function GridChart(props) {
 	const dimensions = useResizeObserver(wrapperRef, printLogHelper.current);
 
 	const [gridState, setGridState] = useState(getGridData(props.runs, props.qrels, props.runsList, printLogHelper.current));
+
+	const [modal, setModal] = useState({
+		show: false,
+		document: null,
+		run: null,
+		relevancy: null,
+		score: null,
+		topic: null,
+		retrieved: null
+	})
 
 	const [history, setHistory] = useState([]);
 	var cloneDeep = require('lodash.clonedeep');
@@ -86,16 +97,26 @@ export default function GridChart(props) {
 		if (!dimensions) return;
 		// printLog("HOOK", "useEffect(), [gridState]", null, printLogHelper.current);
 		// printLog("PRINT", "gridState: ", gridState, printLogHelper.current);
-		drawChart(gridState, props.runSize, props.runsList, svgRef.current, dimensions, printLogHelper.current);
+		drawChart(gridState, props.runSize, props.runsList, svgRef.current, dimensions, printLogHelper.current, setModal);
 	}, [gridState, dimensions, props.runSize]);
 
 
 	return (
-		<div className="container offset">
-			<div id="wrapper--GridChart" ref={wrapperRef}>
-				<svg ref={svgRef}>
-				</svg>
+		<Fragment>
+
+			<div className="container offset">
+				<div id="wrapper--GridChart" ref={wrapperRef}>
+					<svg ref={svgRef}>
+					</svg>
+				</div>
 			</div>
-		</div>
+
+			<ModalDocument 
+				modal={modal}
+				setModal={setModal}
+			/>
+
+		</Fragment>
+
 	)
 }

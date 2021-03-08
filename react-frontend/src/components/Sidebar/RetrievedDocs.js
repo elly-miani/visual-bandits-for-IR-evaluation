@@ -4,13 +4,10 @@ export default function RetrievedDocs(props) {
 		switch (relevancy) {
 			case 0:
 				return "#FFAA33";
-				break;
 			case 1:
 				return "#2EC4B6";
-				break;
 			case 2:
 				return "#F49090";
-				break;
 			default:
 				break;
 		}

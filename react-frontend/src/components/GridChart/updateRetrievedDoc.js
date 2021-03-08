@@ -31,6 +31,7 @@ export default function updateRetrievedDoc(gridState, retrievedDocs, runsList, p
 
 						let updatedDoc = { ...updatedGridData[occurrencesRank - 1][occurrencesRunIndex] };
 						updatedDoc.retrieved = 2;
+						updatedDoc.retrievedFrom = retrievedRunName;
 						updatedGridData[occurrencesRank - 1][occurrencesRunIndex] = updatedDoc;
 					}
 				}
