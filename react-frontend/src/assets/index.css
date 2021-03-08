@@ -30,21 +30,39 @@ svg {
 }
 
 button {
-	font-weight: 600;
-	font-size: 0.8em;
+	/* font-weight: 600; */
+	/* font-size: 0.8em; */
 	letter-spacing: 0.9px;
-	transition: all 0.3s ease!important;
-	/* text-transform: uppercase; */
-	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
+	/* transition: all 0.3s ease!important; */
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff !important;
+	-webkit-appearance: none !important;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff !important;
 }
 
-button:hover{
+button:hover {
 	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
-	/* background: #FEEBC3!important; */
+	-webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
 	background: #EAECF0!important;
 }
 
-.button--3d {
+button.rs-modal-header-close {
+	box-shadow:none;
+}
+
+button.rs-btn-primary:not(.rs-btn-disabled):hover {
+	background-color: #2589f5!important;
+}
+
+button.rs-btn-primary.rs-btn-disabled:hover {
+	background-color: #2589f5!important;
+}
+
+button.rs-btn-default:not(.rs-btn-disabled):hover.rs-btn-icon.rs-btn-icon-with-text > .rs-icon {
+	box-shadow:none;
+	background: transparent!important;
+}
+
+/* .button--3d {
 	background: #F2F4F8;
 	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
 	padding: 0 20px;
@@ -61,30 +79,8 @@ button:hover{
 }
 
 .button--3d:hover {
-	/* box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06), -8px -8px 16px 0px #fff; */
+	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06), -8px -8px 16px 0px #fff;
 	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
 	background: #FFA0B8;
 	color: white;
-}
-
-
-.container {
-	padding:5%;
-	margin:0 2% 0 2%;
-}
-
-.container:first-child {
-	margin:0 2% 2% 2%;
-}
-
-.offset {
-	border-radius: 8px;
-	background-color: #F2F4F8;
-	box-shadow: 8px 8px 16px 0px rgba(0,0,0,0.06),-8px -8px 16px 0px #fff;
-}
-
-.inset {
-	background: #F2F4F8;
-	border-radius: 20px;
-	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06),inset -3px -3px 6px 0px #fff
-}
+} */

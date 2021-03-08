@@ -3,7 +3,7 @@ import React from 'react'
 import { SelectPicker } from 'rsuite';
 
 export default function TopicPicker(props) {
-	let topicsList = props.datasetParam.topicsList.map(x => ({ label: x, value: x }));
+	let topicsList = props.dataParameters.topicsList.map(x => ({ label: x, value: x }));
 
 	if (topicsList.length !== 0) {
 		return (

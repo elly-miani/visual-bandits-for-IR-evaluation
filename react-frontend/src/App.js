@@ -1,13 +1,13 @@
 import React from 'react'
 
 // import logo from './assets/logo.svg';
-import './assets/App.css';
+// import './assets/App.css';
 import 'rsuite/dist/styles/rsuite-default.css'
 
 // import Time from './components/Time/Time'
 import Nav from './components/Nav/Nav'
 // import ExampleView from './containers/ExampleView/ExampleView'
-import ViewA from './containers/ViewA/ViewA'
+import MainView from './containers/MainView/MainView'
 
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
 			{/* <header>
 				<Nav />
 			</header> */}
-			<ViewA />
+			<MainView />
 		</div>
 	);
 }

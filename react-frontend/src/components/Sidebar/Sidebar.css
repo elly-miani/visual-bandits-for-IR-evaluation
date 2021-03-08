@@ -1,0 +1,16 @@
+#retrieved-document {
+	flex-direction: column;
+	height: fit-content;
+	letter-spacing: 0.9px;
+	background: #F2F4F8;
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
+	padding: 0.9em 20px;
+	margin: 0 10px;
+	border-radius: 8px;
+	margin: 2em 0 2em 0;
+}
+
+#autoplay-controls {
+	justify-content: space-between;
+	width: 12em;
+}

@@ -1,0 +1,6 @@
+.loader-icon {
+	-webkit-animation: loaderSpin 0.6s infinite linear;
+	animation: loaderSpin 0.8s infinite linear;
+	background: transparent !important;
+	box-shadow: none;
+}

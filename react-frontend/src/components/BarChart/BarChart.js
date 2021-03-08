@@ -38,9 +38,9 @@ function BarChart(props) {
 		printLog("HOOK", "useEffect([props.runRelevancies])", null, printLogHelper.current);
 		if (!props.runRelevancies) return;
 
-		setChartData(getChartData(props.runRelevancies[props.adjudicationProgress.value], state, printLogHelper))
+		setChartData(getChartData(props.runRelevancies[props.adjudicationAutoplay.status], state, printLogHelper))
 		// console.log(JSON.stringify(chartData, null, 2))
-	}, [props.runRelevancies, props.adjudicationProgress, state])
+	}, [props.runRelevancies, props.adjudicationAutoplay, state])
 
 
 

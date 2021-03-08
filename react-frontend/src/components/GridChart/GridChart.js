@@ -45,10 +45,10 @@ export default function GridChart(props) {
 	useEffect(() => {
 		if (!props.retrievedDocs) return;
 
-		if (props.adjudicationProgress.type === 'increment') {
-			if (history.length <= props.adjudicationProgress.value) {
+		if (props.adjudicationAutoplay.lastStep === 'next') {
+			if (history.length <= props.adjudicationAutoplay.status) {
 
-				let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationProgress.value], props.runsList, printLogHelper.current);
+				let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationAutoplay.status], props.runsList, printLogHelper.current);
 
 				setHistory(history => {
 					history.push(cloneDeep(grid))
@@ -58,19 +58,19 @@ export default function GridChart(props) {
 				setGridState(cloneDeep(grid));
 			}
 			else {
-				setGridState(history[props.adjudicationProgress.value])
+				setGridState(history[props.adjudicationAutoplay.status])
 			}
 		}
 		else {
-			setGridState(history[props.adjudicationProgress.value])
+			setGridState(history[props.adjudicationAutoplay.status])
 		}
-	}, [props.adjudicationProgress])
+	}, [props.adjudicationAutoplay])
 
 
 	useEffect(() => {
 		if (!props.retrievedDocs) return;
 
-		let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationProgress.value], props.runsList, printLogHelper.current);
+		let grid = updateRetrievedDoc(gridState, props.retrievedDocs[props.adjudicationAutoplay.status], props.runsList, printLogHelper.current);
 
 		let history = []
 		history.push(cloneDeep(grid))

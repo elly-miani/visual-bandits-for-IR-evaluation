@@ -19,17 +19,8 @@
 }
 
 .controls inline-input-group {
-	/* display: inline-flex; */
 	flex-direction: row;
 }
-
-/* .controls-button {
-	border: 1px solid #E5E5EA;
-} */
-
-/* .controls-button:hover {
-	border: 1px solid #0075E8;
-} */
 
 .toggle-label {
 	margin-right:1em;
@@ -44,13 +35,11 @@
 	display: none;
 }
 
-
 .rs-picker-default .rs-picker-toggle {
 	border: none;
 	background: #f2f4f8!important;
 	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;	
 }
-
 
 .rs-picker-toggle > span {
 	transition: all 0.3s ease!important;
@@ -66,6 +55,7 @@
 
 .rs-picker-select-menu-item:not(.rs-picker-select-menu-item-disabled):hover, .rs-picker-select-menu-item.rs-picker-select-menu-item-focus {
 	background-color: #FEEBC3!important;
+	color:#575757;
 }
 
 
@@ -108,7 +98,8 @@
 }
 
 .rs-input-group:not(.rs-input-number) {
-	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff;
+	box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff !important;
+	-webkit-box-shadow: 4px 4px 8px 0px rgba(0,0,0,0.06), -4px -4px 8px 0px #fff !important;	
 }
 
 .rs-input-number{
@@ -117,7 +108,4 @@
 
 .rs-input-number:hover {
 		box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 2px 0px rgba(255, 255, 255, 0.4);
-
 }
-
-
