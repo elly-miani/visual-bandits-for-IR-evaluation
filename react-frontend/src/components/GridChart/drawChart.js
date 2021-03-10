@@ -30,14 +30,12 @@ export default function drawChart(gridState, runSize, runsList, svgRef, dimensio
 		.join("g")
 		.attr("class", "row");
 
-	// var column = 
 	row.selectAll(".square")
 		.data(function (d) { return d; })
 		.join("rect")
 		.attr("class", "square")
 		.on("click", function (event, d) {
-			setModal(prevState => {
-				return {
+			setModal({
 					show: true,
 					document: d.document,
 					run: d.run,
@@ -46,11 +44,7 @@ export default function drawChart(gridState, runSize, runsList, svgRef, dimensio
 					topic: d.topic,
 					retrieved: d.retrieved,
 					retrievedFrom: d.retrievedFrom
-				}
-			});
-			// alert("DOC: " + d.document + "\n\nRUN: " + d.run + "\n\nRELEVANCY: " + d.relevancy + "\n\nSCORE: " + d.score + "\n\nTOPIC: " + d.topic + "\n\nRETRIEVED: " + d.retrieved);
-			printLog("PRINT", "onClick()", d, printLogHelper);
-
+				});
 		})
 		.style("stroke", "#F2F4F8")
 		.attr("width", xScale.bandwidth())
