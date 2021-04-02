@@ -17,7 +17,7 @@ UPLOAD_FOLDER = './data/uploaded/'
 DEFAULT_DATA_FOLDER = './data/default/'
 LOGS_PATH = './data/output_logs/'
 
-DEBUG_MAX_FILES_LOADED = 30
+DEBUG_MAX_FILES_LOADED = 10
 
 app = Flask(__name__, static_folder='../react-frontend/build', static_url_path='/')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -63,16 +63,18 @@ def index():
 '''
 RUNS ROUTE
 '''
-@app.route('/api/runs/<int:topic>', methods=["GET"])
-def get_runs_api(topic):
+@app.route('/api/runs', methods=["GET"])
+def get_runs_api():
 	global runs_df
 
-	if(runs_df.empty):
+	if(runs_df.empty or request.args.get('topic') is None):
 		return make_response("", 404,)
 	else:
+		topic = int(request.args.get('topic'))
+
 		# dataframe filtered by topic
 		runs_filtered = get_runs.by_topic(runs_df, topic)
-
+			
 		# shorten the run size to avoid sending too large data
 		runs_filtered = get_runs.by_run_size(runs_filtered, 100)
 
@@ -94,13 +96,15 @@ def get_runs_api(topic):
 '''
 QRELS ROUTE
 '''
-@app.route('/api/qrels/<int:topic>', methods=["GET"])
-def get_qrels_api(topic):
+@app.route('/api/qrels', methods=["GET"])
+def get_qrels_api():
 	global qrels_df
 
-	if(qrels_df.empty):
+	if(qrels_df.empty or request.args.get('topic') is None):
 		return make_response("", 404,)
 	else:
+		topic = int(request.args.get('topic'))
+
 		# dataframe filtered by topic and indexed by the document
 		qrels_filtered = get_qrels.by_topic(qrels_df, topic)
 
@@ -118,12 +122,20 @@ def get_qrels_api(topic):
 
 '''
 ADJUDICATION ROUTE
+?method=round_robin?topic=401?poolSize=100
 '''
-@app.route('/api/adjudication/<string:method>/<int:topic>/<int:pool_size>', methods=["GET"])
-def get_adjudication_data_api(method, topic, pool_size):
+@app.route('/api/adjudication', methods=["GET"])
+def get_adjudication_data_api():
 	global runs_df
 	global qrels_df
 	global LOGS_PATH
+
+	# print(request.args.get('method'))
+	# print(request.args.get('topic'))
+	# print(request.args.get('poolSize'))
+	method = request.args.get('method')
+	topic = int(request.args.get('topic'))
+	pool_size = int(request.args.get('poolSize'))
 
 	runs_filtered = get_runs.by_topic(runs_df, topic)
 	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
@@ -140,38 +152,33 @@ def get_adjudication_data_api(method, topic, pool_size):
 
 
 '''
-UPLOAD FILE ROUTE
+	CUSTOM DATA ROUTE TO UPLOAD AND DELETE FILES
 '''
-@app.route('/api/upload/<string:type>', methods=["GET", "POST"])
-def upload_file(type):
+@app.route('/api/custom-data/<string:type>', methods=["POST", "DELETE"])
+def custom_data(type):
 	if request.method == 'POST':
 		file = request.files['file']
 		filename = secure_filename(file.filename)
 		file.save(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
 
 		return make_response('', 204)
-
-
-
-'''
-DELETE FILE ROUTE
-'''
-@app.route('/api/delete/<string:type>/<string:filename>', methods=["DELETE"])
-def delete_file(type, filename):
+	
 	if request.method == 'DELETE':
+		if (request.args.get('filename') is None):
+			return make_response("Filename not specified", 404)
+
 		try:
+			filename = request.args.get('filename')
 			os.remove(os.path.join(app.config['UPLOAD_FOLDER'] + type + '/', filename))
 			return make_response('', 204)
 		except OSError:
 			return make_response("File doesn't exists", 404)
 
 
-
-
 '''
 LOAD RUNS & QRELS DATA ROUTE
 '''
-@app.route('/api/loaddata/<string:type>')
+@app.route('/api/load-data/<string:type>')
 def load_data(type):
 	global runs_df
 	global qrels_df

@@ -32,9 +32,9 @@ function MainView() {
 	
 
 	// URLs
-	const urlQrels = '/api/qrels/';
-	const urlRuns = '/api/runs/'
-	const urlAdjudication = '/api/adjudication/'
+	const urlQrels = '/api/qrels';
+	const urlRuns = '/api/runs'
+	const urlAdjudication = '/api/adjudication'
 
 
 
@@ -216,13 +216,13 @@ function MainView() {
 		setRunRelevancies(null);
 
 		// fetch runs data
-		fetchAPI(printLogHelper.current, urlRuns + topic, res => {
+		fetchAPI(printLogHelper.current, urlRuns + '?topic=' + topic, res => {
 			setRuns(res);
 			updateStatus('runs', 'done');
 		});
 
 		// fetch qrels data
-		fetchAPI(printLogHelper.current, urlQrels + topic, res => {
+		fetchAPI(printLogHelper.current, urlQrels + '?topic=' + topic, res => {
 			setQrels(res);
 			updateStatus('qrels', 'done');
 		});
@@ -234,7 +234,7 @@ function MainView() {
 		updateStatus('adjudication', 'inProgress');
 		updateAdjudicationAutoplay('stop');
 
-		let url = urlAdjudication + adjudicationMethod + '/' + topic + '/' + poolSize;
+		let url = urlAdjudication + "?method=" + adjudicationMethod + '&topic=' + topic + '&poolSize=' + poolSize;
 
 		fetchAPI(printLogHelper.current, url, res => {
 			setRetrievedDocs(res.retrieved_docs_order);

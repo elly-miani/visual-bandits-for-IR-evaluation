@@ -40,8 +40,8 @@ button {
 }
 
 button:hover {
-	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
-	-webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4);
+	box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4)!important;
+	-webkit-box-shadow: inset 3px 3px 6px 0px rgba(0,0,0,0.06), inset -2px -2px 3px 0px rgba(255, 255, 255, 0.4)!important;
 	background: #EAECF0!important;
 }
 

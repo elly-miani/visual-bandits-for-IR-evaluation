@@ -25,7 +25,7 @@ export default function UploadDataModal(props) {
 	}
 
 	const deleteFile = (fileType, file) => {
-		fetch("/api/delete/" + fileType + "/" + file, {
+		fetch("/api/custom-data/" + fileType + "?filename=" + file, {
 			method: 'DELETE'
 		});
 	}
@@ -80,7 +80,7 @@ export default function UploadDataModal(props) {
 			<Modal.Body>
 
 				<Uploader draggable removable multiple
-					action="/api/upload/runs"
+					action="/api/custom-data/runs"
 					fileList={runsFiles.file}
 					onChange={(file) => addFile('runs', file)}
 					onRemove={(file) => deleteFile('runs', file.name)}
@@ -95,7 +95,7 @@ export default function UploadDataModal(props) {
 				</Uploader>
 
 				<Uploader draggable removable multiple
-					action="/api/upload/qrels"
+					action="/api/custom-data/qrels"
 					fileList={qrelsFiles.file}
 					onChange={(file) => addFile('qrels', file)}
 					onRemove={(file) => deleteFile('qrels', file.name)}
