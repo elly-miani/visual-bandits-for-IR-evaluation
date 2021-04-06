@@ -47,7 +47,7 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 	for i in range(1, pool_size+1):
 		# repeat the process until we have retrieved the desired number of documents
 
-		print("\n### DOCUMENT", i)																												### LOGGING
+		# print("\n### DOCUMENT", i)																												### LOGGING
 		# logging.debug("\n#### DOCUMENT %d", i)																						### LOGGING
 
 
@@ -56,7 +56,7 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 			# find next_run
 			next_run, next_run_index = max_mean.get_next_run(runs_ids, runs_status, max_mean_params)
 
-			print("next_run::", next_run, "(index: ", next_run_index, ")")  								### LOGGING
+			# print("next_run::", next_run, "(index: ", next_run_index, ")")  								### LOGGING
 			# logging.debug("next_run:: %s", next_run)																				### LOGGING
 
 
@@ -70,7 +70,7 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 					# update runs_status to track that
 					runs_status[next_run] = -1
 
-					print("Run", next_run, "is empty. Trying again.")														### LOGGING
+					# print("Run", next_run, "is empty. Trying again.")														### LOGGING
 					# logging.debug("Run %s appears to be empty. Trying again.", next_run)				### LOGGING
 
 					# break to go look for another run
@@ -84,7 +84,7 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 				}
 
 				''' LOGGING ''' ''' LOGGING ''' ''' LOGGING '''
-				print("next_doc:: DOCUMENT:", next_doc_info['DOCUMENT'], "RANK:", next_doc_info['RANK'] )
+				# print("next_doc:: DOCUMENT:", next_doc_info['DOCUMENT'], "RANK:", next_doc_info['RANK'] )
 				# logging.debug("next_doc:: DOCUMENT: %s RANK %s", next_doc_info['DOCUMENT'], next_doc_info['RANK'])
 				''' LOGGING ''' ''' LOGGING ''' ''' LOGGING '''
 
@@ -96,7 +96,7 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 
 				# otherwise doc has already been retrieved
 
-				print("This document is already retrieved. Retrieving a new one:")							### LOGGING
+				# print("This document is already retrieved. Retrieving a new one:")							### LOGGING
 				# logging.debug("This document is already retrieved. Retrieving a new one:")			### LOGGING
 
 				# update run_relevancies to track which documents are unique relevants

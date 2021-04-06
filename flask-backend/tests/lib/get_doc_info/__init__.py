@@ -1,2 +1,2 @@
-from .occurrences import occurrences #deprecated
+from .occurrences import occurrences
 from .relevancy import relevancy

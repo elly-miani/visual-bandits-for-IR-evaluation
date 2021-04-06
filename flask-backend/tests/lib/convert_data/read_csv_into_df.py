@@ -31,7 +31,9 @@ def read_csv_into_df(dir_path, filetype, debug_max_files_loaded, verbose):
 		if filetype == "RUNS":
 			# runs files are tab-separated
 			temp = pd.read_csv(file_path, sep='\t', encoding="ISO-8859-1", header=None, names=header)
-			temp.sort_values('RANK', inplace=True)
+
+			if (not temp['RANK'].is_monotonic_increasing):
+				temp.sort_values('RANK', inplace=True)
 
 			# check if the ranks start from 1; if not, adjust accordingly
 			if temp['RANK'].iloc[0] == 0:

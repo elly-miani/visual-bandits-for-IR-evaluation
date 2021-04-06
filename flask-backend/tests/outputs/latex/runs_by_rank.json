@@ -1,0 +1,5602 @@
+{
+  "1": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-20090",
+      "QUERY": "Q0",
+      "SCORE": 9165.601562,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940602-1-00023",
+      "QUERY": "Q0",
+      "SCORE": 1.49998,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-3931",
+      "QUERY": "Q0",
+      "SCORE": 1689680,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-39506",
+      "QUERY": "Q0",
+      "SCORE": 21.79214,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-31715",
+      "QUERY": "Q0",
+      "SCORE": 1.0,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 8.96435,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-9582",
+      "QUERY": "Q0",
+      "SCORE": 13.814581,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-65434",
+      "QUERY": "Q0",
+      "SCORE": 21.256971,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR941202-2-00121",
+      "QUERY": "Q0",
+      "SCORE": 0.201553,
+      "TOPIC": 401
+    }
+  },
+  "2": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-624",
+      "QUERY": "Q0",
+      "SCORE": 8290.635742,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940112-1-00044",
+      "QUERY": "Q0",
+      "SCORE": 0.435326,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19212",
+      "QUERY": "Q0",
+      "SCORE": 1684473,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-9104",
+      "QUERY": "Q0",
+      "SCORE": 14.63023,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9582",
+      "QUERY": "Q0",
+      "SCORE": 0.9391,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT944-8184",
+      "QUERY": "Q0",
+      "SCORE": 8.312113,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT932-10861",
+      "QUERY": "Q0",
+      "SCORE": 13.342205,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR940719-0-00032",
+      "QUERY": "Q0",
+      "SCORE": 20.56591,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940711-2-00008",
+      "QUERY": "Q0",
+      "SCORE": 0.15088,
+      "TOPIC": 401
+    }
+  },
+  "3": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-476",
+      "QUERY": "Q0",
+      "SCORE": 8121.12793,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940719-1-00056",
+      "QUERY": "Q0",
+      "SCORE": 0.380454,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-230",
+      "QUERY": "Q0",
+      "SCORE": 1632786,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT932-10861",
+      "QUERY": "Q0",
+      "SCORE": 13.24992,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-8767",
+      "QUERY": "Q0",
+      "SCORE": 0.7617,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-18372",
+      "QUERY": "Q0",
+      "SCORE": 8.185923,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 12.389992,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT943-15609",
+      "QUERY": "Q0",
+      "SCORE": 18.780857,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940228-2-00008",
+      "QUERY": "Q0",
+      "SCORE": 0.101145,
+      "TOPIC": 401
+    }
+  },
+  "4": {
+    "Flab8at": {
+      "DOCUMENT": "FT923-3137",
+      "QUERY": "Q0",
+      "SCORE": 7430.759766,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-4470",
+      "QUERY": "Q0",
+      "SCORE": 0.361521,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-59436",
+      "QUERY": "Q0",
+      "SCORE": 1596922,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-59436",
+      "QUERY": "Q0",
+      "SCORE": 13.04522,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA123089-0101",
+      "QUERY": "Q0",
+      "SCORE": 0.6616,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT921-624",
+      "QUERY": "Q0",
+      "SCORE": 8.17701,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-9104",
+      "QUERY": "Q0",
+      "SCORE": 12.071641,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA092889-0105",
+      "QUERY": "Q0",
+      "SCORE": 18.558172,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940228-2-00013",
+      "QUERY": "Q0",
+      "SCORE": 0.100347,
+      "TOPIC": 401
+    }
+  },
+  "5": {
+    "Flab8at": {
+      "DOCUMENT": "FT931-9969",
+      "QUERY": "Q0",
+      "SCORE": 7365.824707,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-4344",
+      "QUERY": "Q0",
+      "SCORE": 0.346159,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-1648",
+      "QUERY": "Q0",
+      "SCORE": 1533193,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-18833",
+      "QUERY": "Q0",
+      "SCORE": 12.30803,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-62200",
+      "QUERY": "Q0",
+      "SCORE": 0.6088,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-64410",
+      "QUERY": "Q0",
+      "SCORE": 8.106841,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT941-15167",
+      "QUERY": "Q0",
+      "SCORE": 11.571873,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA021389-0087",
+      "QUERY": "Q0",
+      "SCORE": 18.440536,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR941013-2-00161",
+      "QUERY": "Q0",
+      "SCORE": 0.0511,
+      "TOPIC": 401
+    }
+  },
+  "6": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-18783",
+      "QUERY": "Q0",
+      "SCORE": 6674.879395,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT932-5884",
+      "QUERY": "Q0",
+      "SCORE": 0.344876,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-4767",
+      "QUERY": "Q0",
+      "SCORE": 1397079,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 12.09544,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-31340",
+      "QUERY": "Q0",
+      "SCORE": 0.5767,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-35592",
+      "QUERY": "Q0",
+      "SCORE": 8.05521,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FR940719-0-00032",
+      "QUERY": "Q0",
+      "SCORE": 11.167719,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA091390-0268",
+      "QUERY": "Q0",
+      "SCORE": 18.296875,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940705-2-00015",
+      "QUERY": "Q0",
+      "SCORE": 0.050815,
+      "TOPIC": 401
+    }
+  },
+  "7": {
+    "Flab8at": {
+      "DOCUMENT": "LA082789-0152",
+      "QUERY": "Q0",
+      "SCORE": 6607.938965,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-6909",
+      "QUERY": "Q0",
+      "SCORE": 0.333913,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-9057",
+      "QUERY": "Q0",
+      "SCORE": 1375883,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-31659",
+      "QUERY": "Q0",
+      "SCORE": 12.00959,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT941-15167",
+      "QUERY": "Q0",
+      "SCORE": 0.574,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-18916",
+      "QUERY": "Q0",
+      "SCORE": 7.962522,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-17708",
+      "QUERY": "Q0",
+      "SCORE": 11.035489,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 18.163254,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940616-2-00133",
+      "QUERY": "Q0",
+      "SCORE": 0.050598,
+      "TOPIC": 401
+    }
+  },
+  "8": {
+    "Flab8at": {
+      "DOCUMENT": "FT922-12767",
+      "QUERY": "Q0",
+      "SCORE": 6418.793457,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT911-1796",
+      "QUERY": "Q0",
+      "SCORE": 0.332967,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-17612",
+      "QUERY": "Q0",
+      "SCORE": 1369465,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-7690",
+      "QUERY": "Q0",
+      "SCORE": 11.41558,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-57153",
+      "QUERY": "Q0",
+      "SCORE": 0.5351,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA070989-0055",
+      "QUERY": "Q0",
+      "SCORE": 7.915155,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-62200",
+      "QUERY": "Q0",
+      "SCORE": 11.00836,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA012589-0081",
+      "QUERY": "Q0",
+      "SCORE": 18.052183,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR941222-0-00045",
+      "QUERY": "Q0",
+      "SCORE": 0.050542,
+      "TOPIC": 401
+    }
+  },
+  "9": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-4102",
+      "QUERY": "Q0",
+      "SCORE": 6335.564453,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT931-10513",
+      "QUERY": "Q0",
+      "SCORE": 0.330726,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-9504",
+      "QUERY": "Q0",
+      "SCORE": 1339199,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT932-10867",
+      "QUERY": "Q0",
+      "SCORE": 11.40096,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA121190-0075",
+      "QUERY": "Q0",
+      "SCORE": 0.5305,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 7.906112,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT944-11506",
+      "QUERY": "Q0",
+      "SCORE": 10.775352,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA081989-0049",
+      "QUERY": "Q0",
+      "SCORE": 17.977062,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940705-2-00016",
+      "QUERY": "Q0",
+      "SCORE": 0.050514,
+      "TOPIC": 401
+    }
+  },
+  "10": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-20329",
+      "QUERY": "Q0",
+      "SCORE": 6286.248535,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-9582",
+      "QUERY": "Q0",
+      "SCORE": 0.328868,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-31704",
+      "QUERY": "Q0",
+      "SCORE": 1324850,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 11.3333,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-55442",
+      "QUERY": "Q0",
+      "SCORE": 0.5213,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-4506",
+      "QUERY": "Q0",
+      "SCORE": 7.90416,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 10.762938,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA022490-0167",
+      "QUERY": "Q0",
+      "SCORE": 17.222996,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR941221-2-00091",
+      "QUERY": "Q0",
+      "SCORE": 0.050331,
+      "TOPIC": 401
+    }
+  },
+  "11": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-55037",
+      "QUERY": "Q0",
+      "SCORE": 6164.141602,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-5091",
+      "QUERY": "Q0",
+      "SCORE": 0.328781,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-18223",
+      "QUERY": "Q0",
+      "SCORE": 1313674,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 11.22088,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-55638",
+      "QUERY": "Q0",
+      "SCORE": 0.5018,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT933-4768",
+      "QUERY": "Q0",
+      "SCORE": 7.863666,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA110690-0075",
+      "QUERY": "Q0",
+      "SCORE": 10.734178,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT944-8200",
+      "QUERY": "Q0",
+      "SCORE": 17.017895,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940228-0-00005",
+      "QUERY": "Q0",
+      "SCORE": 0.050238,
+      "TOPIC": 401
+    }
+  },
+  "12": {
+    "Flab8at": {
+      "DOCUMENT": "FT934-2528",
+      "QUERY": "Q0",
+      "SCORE": 6142.332031,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT943-14463",
+      "QUERY": "Q0",
+      "SCORE": 0.328022,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-31659",
+      "QUERY": "Q0",
+      "SCORE": 1274486,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT911-1796",
+      "QUERY": "Q0",
+      "SCORE": 11.15128,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-49712",
+      "QUERY": "Q0",
+      "SCORE": 0.5014,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19881",
+      "QUERY": "Q0",
+      "SCORE": 7.842587,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-23811",
+      "QUERY": "Q0",
+      "SCORE": 10.671576,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-32990",
+      "QUERY": "Q0",
+      "SCORE": 17.006451,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940128-2-00030",
+      "QUERY": "Q0",
+      "SCORE": 0.050165,
+      "TOPIC": 401
+    }
+  },
+  "13": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-15100",
+      "QUERY": "Q0",
+      "SCORE": 6078.541504,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-1528",
+      "QUERY": "Q0",
+      "SCORE": 0.327027,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19702",
+      "QUERY": "Q0",
+      "SCORE": 1270407,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19290",
+      "QUERY": "Q0",
+      "SCORE": 11.063,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-31745",
+      "QUERY": "Q0",
+      "SCORE": 0.4967,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-18223",
+      "QUERY": "Q0",
+      "SCORE": 7.803277,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-31704",
+      "QUERY": "Q0",
+      "SCORE": 10.66815,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA083189-0054",
+      "QUERY": "Q0",
+      "SCORE": 16.708233,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940721-2-00146",
+      "QUERY": "Q0",
+      "SCORE": 0.050163,
+      "TOPIC": 401
+    }
+  },
+  "14": {
+    "Flab8at": {
+      "DOCUMENT": "FT934-17322",
+      "QUERY": "Q0",
+      "SCORE": 6039.263672,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-20090",
+      "QUERY": "Q0",
+      "SCORE": 0.326635,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT933-3792",
+      "QUERY": "Q0",
+      "SCORE": 1255034,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-59042",
+      "QUERY": "Q0",
+      "SCORE": 11.05889,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-30880",
+      "QUERY": "Q0",
+      "SCORE": 0.4963,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19080",
+      "QUERY": "Q0",
+      "SCORE": 7.757613,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18684",
+      "QUERY": "Q0",
+      "SCORE": 10.650906,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-40881",
+      "QUERY": "Q0",
+      "SCORE": 16.640335,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940425-1-00003",
+      "QUERY": "Q0",
+      "SCORE": 0.050104,
+      "TOPIC": 401
+    }
+  },
+  "15": {
+    "Flab8at": {
+      "DOCUMENT": "FT931-10090",
+      "QUERY": "Q0",
+      "SCORE": 6005.869629,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT942-16369",
+      "QUERY": "Q0",
+      "SCORE": 0.32534,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-7882",
+      "QUERY": "Q0",
+      "SCORE": 1253988,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT933-2163",
+      "QUERY": "Q0",
+      "SCORE": 11.0377,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-49639",
+      "QUERY": "Q0",
+      "SCORE": 0.4871,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT921-15094",
+      "QUERY": "Q0",
+      "SCORE": 7.740527,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT924-3751",
+      "QUERY": "Q0",
+      "SCORE": 10.648108,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT933-15285",
+      "QUERY": "Q0",
+      "SCORE": 16.519873,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR940706-0-00071",
+      "QUERY": "Q0",
+      "SCORE": 0.050085,
+      "TOPIC": 401
+    }
+  },
+  "16": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-4470",
+      "QUERY": "Q0",
+      "SCORE": 5974.94873,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940902-1-00048",
+      "QUERY": "Q0",
+      "SCORE": 0.324446,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-5827",
+      "QUERY": "Q0",
+      "SCORE": 1237437,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT941-15167",
+      "QUERY": "Q0",
+      "SCORE": 10.98616,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-55784",
+      "QUERY": "Q0",
+      "SCORE": 0.4839,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-15890",
+      "QUERY": "Q0",
+      "SCORE": 7.731508,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT922-6294",
+      "QUERY": "Q0",
+      "SCORE": 10.594097,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-59055",
+      "QUERY": "Q0",
+      "SCORE": 16.477468,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FR941011-2-00020",
+      "QUERY": "Q0",
+      "SCORE": 0.050084,
+      "TOPIC": 401
+    }
+  },
+  "17": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-9670",
+      "QUERY": "Q0",
+      "SCORE": 5851.685547,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-8162",
+      "QUERY": "Q0",
+      "SCORE": 0.324396,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-30898",
+      "QUERY": "Q0",
+      "SCORE": 1234724,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 10.97398,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-15890",
+      "QUERY": "Q0",
+      "SCORE": 0.4799,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT934-15967",
+      "QUERY": "Q0",
+      "SCORE": 7.72758,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-38677",
+      "QUERY": "Q0",
+      "SCORE": 10.569047,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-18024",
+      "QUERY": "Q0",
+      "SCORE": 16.411724,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA032090-0006",
+      "QUERY": "Q0",
+      "SCORE": 0.011111,
+      "TOPIC": 401
+    }
+  },
+  "18": {
+    "Flab8at": {
+      "DOCUMENT": "LA122190-0057",
+      "QUERY": "Q0",
+      "SCORE": 5830.557129,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-8767",
+      "QUERY": "Q0",
+      "SCORE": 0.323196,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-528",
+      "QUERY": "Q0",
+      "SCORE": 1234522,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT932-8398",
+      "QUERY": "Q0",
+      "SCORE": 10.88886,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9057",
+      "QUERY": "Q0",
+      "SCORE": 0.4786,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT911-1796",
+      "QUERY": "Q0",
+      "SCORE": 7.710483,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT934-15047",
+      "QUERY": "Q0",
+      "SCORE": 10.550145,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-9582",
+      "QUERY": "Q0",
+      "SCORE": 16.29645,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA041990-0144",
+      "QUERY": "Q0",
+      "SCORE": 0.011111,
+      "TOPIC": 401
+    }
+  },
+  "19": {
+    "Flab8at": {
+      "DOCUMENT": "LA072790-0172",
+      "QUERY": "Q0",
+      "SCORE": 5829.666016,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-16407",
+      "QUERY": "Q0",
+      "SCORE": 0.322216,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-4640",
+      "QUERY": "Q0",
+      "SCORE": 1231385,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-24149",
+      "QUERY": "Q0",
+      "SCORE": 10.82924,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-54440",
+      "QUERY": "Q0",
+      "SCORE": 0.4641,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-4640",
+      "QUERY": "Q0",
+      "SCORE": 7.708174,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 10.520539,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 16.279493,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA030789-0072",
+      "QUERY": "Q0",
+      "SCORE": 0.010714,
+      "TOPIC": 401
+    }
+  },
+  "20": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 5786.655762,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-8195",
+      "QUERY": "Q0",
+      "SCORE": 0.321416,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-3436",
+      "QUERY": "Q0",
+      "SCORE": 1230170,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-9057",
+      "QUERY": "Q0",
+      "SCORE": 10.82735,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-107",
+      "QUERY": "Q0",
+      "SCORE": 0.4634,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT921-476",
+      "QUERY": "Q0",
+      "SCORE": 7.699155,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-61307",
+      "QUERY": "Q0",
+      "SCORE": 10.445339,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA011589-0096",
+      "QUERY": "Q0",
+      "SCORE": 16.240891,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT924-713",
+      "QUERY": "Q0",
+      "SCORE": 0.010526,
+      "TOPIC": 401
+    }
+  },
+  "21": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-9508",
+      "QUERY": "Q0",
+      "SCORE": 5766.221191,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940405-1-00047",
+      "QUERY": "Q0",
+      "SCORE": 0.321378,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-526",
+      "QUERY": "Q0",
+      "SCORE": 1230131,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT921-13792",
+      "QUERY": "Q0",
+      "SCORE": 10.81316,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-32758",
+      "QUERY": "Q0",
+      "SCORE": 0.4536,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-31288",
+      "QUERY": "Q0",
+      "SCORE": 7.680922,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-8767",
+      "QUERY": "Q0",
+      "SCORE": 10.405369,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA020589-0189",
+      "QUERY": "Q0",
+      "SCORE": 16.181946,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT943-16110",
+      "QUERY": "Q0",
+      "SCORE": 0.01,
+      "TOPIC": 401
+    }
+  },
+  "22": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-3931",
+      "QUERY": "Q0",
+      "SCORE": 5757.48877,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940719-1-00055",
+      "QUERY": "Q0",
+      "SCORE": 0.321227,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19302",
+      "QUERY": "Q0",
+      "SCORE": 1225503,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-15890",
+      "QUERY": "Q0",
+      "SCORE": 10.78115,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA031889-0009",
+      "QUERY": "Q0",
+      "SCORE": 0.4486,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT942-5570",
+      "QUERY": "Q0",
+      "SCORE": 7.634313,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-59436",
+      "QUERY": "Q0",
+      "SCORE": 10.403946,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA052590-0090",
+      "QUERY": "Q0",
+      "SCORE": 16.16231,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA071090-0145",
+      "QUERY": "Q0",
+      "SCORE": 0.01,
+      "TOPIC": 401
+    }
+  },
+  "23": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-19212",
+      "QUERY": "Q0",
+      "SCORE": 5747.510254,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-12651",
+      "QUERY": "Q0",
+      "SCORE": 0.319197,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-19134",
+      "QUERY": "Q0",
+      "SCORE": 1220385,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-59415",
+      "QUERY": "Q0",
+      "SCORE": 10.77443,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA061590-0052",
+      "QUERY": "Q0",
+      "SCORE": 0.4463,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-65928",
+      "QUERY": "Q0",
+      "SCORE": 7.631362,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-49468",
+      "QUERY": "Q0",
+      "SCORE": 10.377011,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT932-10861",
+      "QUERY": "Q0",
+      "SCORE": 16.130251,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT933-13606",
+      "QUERY": "Q0",
+      "SCORE": 0.009756,
+      "TOPIC": 401
+    }
+  },
+  "24": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 5737.745117,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-31745",
+      "QUERY": "Q0",
+      "SCORE": 0.317546,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-55980",
+      "QUERY": "Q0",
+      "SCORE": 1214996,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-18684",
+      "QUERY": "Q0",
+      "SCORE": 10.74927,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-31811",
+      "QUERY": "Q0",
+      "SCORE": 0.4289,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT921-1103",
+      "QUERY": "Q0",
+      "SCORE": 7.544868,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 10.362009,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT932-11529",
+      "QUERY": "Q0",
+      "SCORE": 16.084375,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT941-5484",
+      "QUERY": "Q0",
+      "SCORE": 0.009375,
+      "TOPIC": 401
+    }
+  },
+  "25": {
+    "Flab8at": {
+      "DOCUMENT": "FT943-12593",
+      "QUERY": "Q0",
+      "SCORE": 5716.32959,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-32758",
+      "QUERY": "Q0",
+      "SCORE": 0.31729,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-4556",
+      "QUERY": "Q0",
+      "SCORE": 1210430,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-17077",
+      "QUERY": "Q0",
+      "SCORE": 10.73211,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-7802",
+      "QUERY": "Q0",
+      "SCORE": 0.4288,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT942-828",
+      "QUERY": "Q0",
+      "SCORE": 7.526648,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-40017",
+      "QUERY": "Q0",
+      "SCORE": 10.355764,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA041890-0034",
+      "QUERY": "Q0",
+      "SCORE": 16.081264,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT941-13608",
+      "QUERY": "Q0",
+      "SCORE": 0.009091,
+      "TOPIC": 401
+    }
+  },
+  "26": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-1403",
+      "QUERY": "Q0",
+      "SCORE": 5711.27832,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-7558",
+      "QUERY": "Q0",
+      "SCORE": 0.316546,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-12704",
+      "QUERY": "Q0",
+      "SCORE": 1200697,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19212",
+      "QUERY": "Q0",
+      "SCORE": 10.71644,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT932-10861",
+      "QUERY": "Q0",
+      "SCORE": 0.4243,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT943-10703",
+      "QUERY": "Q0",
+      "SCORE": 7.498155,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA121190-0075",
+      "QUERY": "Q0",
+      "SCORE": 10.340939,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-11261",
+      "QUERY": "Q0",
+      "SCORE": 16.065832,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA112589-0077",
+      "QUERY": "Q0",
+      "SCORE": 0.008917,
+      "TOPIC": 401
+    }
+  },
+  "27": {
+    "Flab8at": {
+      "DOCUMENT": "FT911-1796",
+      "QUERY": "Q0",
+      "SCORE": 5694.870605,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT933-8639",
+      "QUERY": "Q0",
+      "SCORE": 0.315959,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-64261",
+      "QUERY": "Q0",
+      "SCORE": 1194937,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT924-3663",
+      "QUERY": "Q0",
+      "SCORE": 10.66942,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-49380",
+      "QUERY": "Q0",
+      "SCORE": 0.4204,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-17077",
+      "QUERY": "Q0",
+      "SCORE": 7.485419,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT941-2903",
+      "QUERY": "Q0",
+      "SCORE": 10.299142,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-38236",
+      "QUERY": "Q0",
+      "SCORE": 16.042925,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT931-15073",
+      "QUERY": "Q0",
+      "SCORE": 0.00873,
+      "TOPIC": 401
+    }
+  },
+  "28": {
+    "Flab8at": {
+      "DOCUMENT": "LA022690-0069",
+      "QUERY": "Q0",
+      "SCORE": 5618.306641,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT922-14939",
+      "QUERY": "Q0",
+      "SCORE": 0.315562,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19520",
+      "QUERY": "Q0",
+      "SCORE": 1194711,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19951",
+      "QUERY": "Q0",
+      "SCORE": 10.61341,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT923-3883",
+      "QUERY": "Q0",
+      "SCORE": 0.4185,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT933-10979",
+      "QUERY": "Q0",
+      "SCORE": 7.459599,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-64139",
+      "QUERY": "Q0",
+      "SCORE": 10.288607,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-39889",
+      "QUERY": "Q0",
+      "SCORE": 15.979345,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA070390-0163",
+      "QUERY": "Q0",
+      "SCORE": 0.008696,
+      "TOPIC": 401
+    }
+  },
+  "29": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-230",
+      "QUERY": "Q0",
+      "SCORE": 5566.815918,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-11400",
+      "QUERY": "Q0",
+      "SCORE": 0.315347,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-42986",
+      "QUERY": "Q0",
+      "SCORE": 1191283,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-32713",
+      "QUERY": "Q0",
+      "SCORE": 10.59483,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 0.4157,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT923-6219",
+      "QUERY": "Q0",
+      "SCORE": 7.458757,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT933-10979",
+      "QUERY": "Q0",
+      "SCORE": 10.287658,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA080590-0099",
+      "QUERY": "Q0",
+      "SCORE": 15.978162,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT911-4810",
+      "QUERY": "Q0",
+      "SCORE": 0.008571,
+      "TOPIC": 401
+    }
+  },
+  "30": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-14875",
+      "QUERY": "Q0",
+      "SCORE": 5547.743164,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT934-15047",
+      "QUERY": "Q0",
+      "SCORE": 0.315237,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 1190052,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-17460",
+      "QUERY": "Q0",
+      "SCORE": 10.55827,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT944-8635",
+      "QUERY": "Q0",
+      "SCORE": 0.4121,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA032590-0082",
+      "QUERY": "Q0",
+      "SCORE": 7.454022,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-44443",
+      "QUERY": "Q0",
+      "SCORE": 10.245426,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA050789-0068",
+      "QUERY": "Q0",
+      "SCORE": 15.972263,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA120689-0035",
+      "QUERY": "Q0",
+      "SCORE": 0.008497,
+      "TOPIC": 401
+    }
+  },
+  "31": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-1346",
+      "QUERY": "Q0",
+      "SCORE": 5506.016113,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT932-12956",
+      "QUERY": "Q0",
+      "SCORE": 0.315054,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-6254",
+      "QUERY": "Q0",
+      "SCORE": 1185550,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT941-3931",
+      "QUERY": "Q0",
+      "SCORE": 10.52336,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-7265",
+      "QUERY": "Q0",
+      "SCORE": 0.4043,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-31166",
+      "QUERY": "Q0",
+      "SCORE": 7.450821,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA100289-0059",
+      "QUERY": "Q0",
+      "SCORE": 10.243089,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA050290-0108",
+      "QUERY": "Q0",
+      "SCORE": 15.942039,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-42622",
+      "QUERY": "Q0",
+      "SCORE": 0.008451,
+      "TOPIC": 401
+    }
+  },
+  "32": {
+    "Flab8at": {
+      "DOCUMENT": "FT911-225",
+      "QUERY": "Q0",
+      "SCORE": 5481.064453,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT933-2163",
+      "QUERY": "Q0",
+      "SCORE": 0.314312,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 1181538,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-31704",
+      "QUERY": "Q0",
+      "SCORE": 10.52093,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT934-16374",
+      "QUERY": "Q0",
+      "SCORE": 0.399,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT924-11397",
+      "QUERY": "Q0",
+      "SCORE": 7.415227,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-9057",
+      "QUERY": "Q0",
+      "SCORE": 10.186388,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT944-8162",
+      "QUERY": "Q0",
+      "SCORE": 15.87176,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-42079",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "33": {
+    "Flab8at": {
+      "DOCUMENT": "FT911-1738",
+      "QUERY": "Q0",
+      "SCORE": 5468.845703,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT934-12743",
+      "QUERY": "Q0",
+      "SCORE": 0.314293,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-13454",
+      "QUERY": "Q0",
+      "SCORE": 1180744,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19702",
+      "QUERY": "Q0",
+      "SCORE": 10.51488,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT923-1528",
+      "QUERY": "Q0",
+      "SCORE": 0.3977,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-18101",
+      "QUERY": "Q0",
+      "SCORE": 7.413407,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT942-16048",
+      "QUERY": "Q0",
+      "SCORE": 10.172659,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT924-7265",
+      "QUERY": "Q0",
+      "SCORE": 15.867702,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT921-7703",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "34": {
+    "Flab8at": {
+      "DOCUMENT": "FT944-16431",
+      "QUERY": "Q0",
+      "SCORE": 5446.229492,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-1403",
+      "QUERY": "Q0",
+      "SCORE": 0.313417,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-31475",
+      "QUERY": "Q0",
+      "SCORE": 1178820,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19881",
+      "QUERY": "Q0",
+      "SCORE": 10.51148,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT942-15501",
+      "QUERY": "Q0",
+      "SCORE": 0.3949,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-18833",
+      "QUERY": "Q0",
+      "SCORE": 7.396029,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FR940328-2-00119",
+      "QUERY": "Q0",
+      "SCORE": 10.145764,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-31357",
+      "QUERY": "Q0",
+      "SCORE": 15.834421,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT922-12155",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "35": {
+    "Flab8at": {
+      "DOCUMENT": "LA110990-0013",
+      "QUERY": "Q0",
+      "SCORE": 5395.827637,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT931-15073",
+      "QUERY": "Q0",
+      "SCORE": 0.31339,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-31426",
+      "QUERY": "Q0",
+      "SCORE": 1176406,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-50017",
+      "QUERY": "Q0",
+      "SCORE": 10.49961,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-6217",
+      "QUERY": "Q0",
+      "SCORE": 0.3894,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT934-1230",
+      "QUERY": "Q0",
+      "SCORE": 7.38875,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-19951",
+      "QUERY": "Q0",
+      "SCORE": 10.114906,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT911-3399",
+      "QUERY": "Q0",
+      "SCORE": 15.800929,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT922-6885",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "36": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-9099",
+      "QUERY": "Q0",
+      "SCORE": 5338.523926,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-68773",
+      "QUERY": "Q0",
+      "SCORE": 0.312431,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-4307",
+      "QUERY": "Q0",
+      "SCORE": 1173996,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA032590-0082",
+      "QUERY": "Q0",
+      "SCORE": 10.44759,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-59436",
+      "QUERY": "Q0",
+      "SCORE": 0.3886,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT923-1931",
+      "QUERY": "Q0",
+      "SCORE": 7.313438,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18916",
+      "QUERY": "Q0",
+      "SCORE": 10.094028,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR940328-2-00119",
+      "QUERY": "Q0",
+      "SCORE": 15.732696,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT923-1528",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "37": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-19768",
+      "QUERY": "Q0",
+      "SCORE": 5271.373047,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-230",
+      "QUERY": "Q0",
+      "SCORE": 0.310779,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-6234",
+      "QUERY": "Q0",
+      "SCORE": 1173507,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-9582",
+      "QUERY": "Q0",
+      "SCORE": 10.42391,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT911-1796",
+      "QUERY": "Q0",
+      "SCORE": 0.3874,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-20329",
+      "QUERY": "Q0",
+      "SCORE": 7.303993,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-9438",
+      "QUERY": "Q0",
+      "SCORE": 10.018311,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-24361",
+      "QUERY": "Q0",
+      "SCORE": 15.611505,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT933-10906",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "38": {
+    "Flab8at": {
+      "DOCUMENT": "FT922-3227",
+      "QUERY": "Q0",
+      "SCORE": 5264.668945,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-1732",
+      "QUERY": "Q0",
+      "SCORE": 0.310542,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19951",
+      "QUERY": "Q0",
+      "SCORE": 1172359,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-18916",
+      "QUERY": "Q0",
+      "SCORE": 10.35525,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-49719",
+      "QUERY": "Q0",
+      "SCORE": 0.3869,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT923-3137",
+      "QUERY": "Q0",
+      "SCORE": 7.291936,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-9157",
+      "QUERY": "Q0",
+      "SCORE": 10.018311,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA111889-0168",
+      "QUERY": "Q0",
+      "SCORE": 15.494982,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA122090-0162",
+      "QUERY": "Q0",
+      "SCORE": 0.008333,
+      "TOPIC": 401
+    }
+  },
+  "39": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-6217",
+      "QUERY": "Q0",
+      "SCORE": 5219.496582,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT932-5626",
+      "QUERY": "Q0",
+      "SCORE": 0.310524,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19290",
+      "QUERY": "Q0",
+      "SCORE": 1172093,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT941-1648",
+      "QUERY": "Q0",
+      "SCORE": 10.32976,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9261",
+      "QUERY": "Q0",
+      "SCORE": 0.3843,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT932-10861",
+      "QUERY": "Q0",
+      "SCORE": 7.266981,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-40881",
+      "QUERY": "Q0",
+      "SCORE": 9.988359,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-55337",
+      "QUERY": "Q0",
+      "SCORE": 15.469234,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-20002",
+      "QUERY": "Q0",
+      "SCORE": 0.008271,
+      "TOPIC": 401
+    }
+  },
+  "40": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-5091",
+      "QUERY": "Q0",
+      "SCORE": 5216.100098,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-2329",
+      "QUERY": "Q0",
+      "SCORE": 0.309768,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 1171115,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-9316",
+      "QUERY": "Q0",
+      "SCORE": 10.3158,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-7481",
+      "QUERY": "Q0",
+      "SCORE": 0.3784,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA110690-0075",
+      "QUERY": "Q0",
+      "SCORE": 7.25155,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT924-7265",
+      "QUERY": "Q0",
+      "SCORE": 9.971333,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR940720-2-00020",
+      "QUERY": "Q0",
+      "SCORE": 15.392086,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-57904",
+      "QUERY": "Q0",
+      "SCORE": 0.008242,
+      "TOPIC": 401
+    }
+  },
+  "41": {
+    "Flab8at": {
+      "DOCUMENT": "LA022790-0091",
+      "QUERY": "Q0",
+      "SCORE": 5211.92334,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-17077",
+      "QUERY": "Q0",
+      "SCORE": 0.309488,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-9591",
+      "QUERY": "Q0",
+      "SCORE": 1168905,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-55313",
+      "QUERY": "Q0",
+      "SCORE": 10.30393,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA010689-0066",
+      "QUERY": "Q0",
+      "SCORE": 0.3775,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-2284",
+      "QUERY": "Q0",
+      "SCORE": 7.244509,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA081989-0049",
+      "QUERY": "Q0",
+      "SCORE": 9.958489,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-34124",
+      "QUERY": "Q0",
+      "SCORE": 15.32297,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT924-3665",
+      "QUERY": "Q0",
+      "SCORE": 0.008197,
+      "TOPIC": 401
+    }
+  },
+  "42": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-19953",
+      "QUERY": "Q0",
+      "SCORE": 5204.539062,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT911-2306",
+      "QUERY": "Q0",
+      "SCORE": 0.30928,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-18659",
+      "QUERY": "Q0",
+      "SCORE": 1165526,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT941-230",
+      "QUERY": "Q0",
+      "SCORE": 10.28533,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-35788",
+      "QUERY": "Q0",
+      "SCORE": 0.3774,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT924-9115",
+      "QUERY": "Q0",
+      "SCORE": 7.242611,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-30642",
+      "QUERY": "Q0",
+      "SCORE": 9.917041,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA100789-0155",
+      "QUERY": "Q0",
+      "SCORE": 15.25472,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-58533",
+      "QUERY": "Q0",
+      "SCORE": 0.00819,
+      "TOPIC": 401
+    }
+  },
+  "43": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-55036",
+      "QUERY": "Q0",
+      "SCORE": 5198.208496,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT911-225",
+      "QUERY": "Q0",
+      "SCORE": 0.30905,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19462",
+      "QUERY": "Q0",
+      "SCORE": 1164980,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-43093",
+      "QUERY": "Q0",
+      "SCORE": 10.26533,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-8488",
+      "QUERY": "Q0",
+      "SCORE": 0.3757,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-56108",
+      "QUERY": "Q0",
+      "SCORE": 7.232389,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT921-13792",
+      "QUERY": "Q0",
+      "SCORE": 9.905903,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT934-12742",
+      "QUERY": "Q0",
+      "SCORE": 15.226153,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT921-6164",
+      "QUERY": "Q0",
+      "SCORE": 0.008163,
+      "TOPIC": 401
+    }
+  },
+  "44": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-15890",
+      "QUERY": "Q0",
+      "SCORE": 5197.687988,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-5394",
+      "QUERY": "Q0",
+      "SCORE": 0.30865,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-19996",
+      "QUERY": "Q0",
+      "SCORE": 1164968,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT924-4470",
+      "QUERY": "Q0",
+      "SCORE": 10.22625,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-30863",
+      "QUERY": "Q0",
+      "SCORE": 0.3754,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-230",
+      "QUERY": "Q0",
+      "SCORE": 7.230515,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-37190",
+      "QUERY": "Q0",
+      "SCORE": 9.881617,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-62200",
+      "QUERY": "Q0",
+      "SCORE": 15.138885,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT924-14033",
+      "QUERY": "Q0",
+      "SCORE": 0.008108,
+      "TOPIC": 401
+    }
+  },
+  "45": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-4640",
+      "QUERY": "Q0",
+      "SCORE": 5190.462891,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-2903",
+      "QUERY": "Q0",
+      "SCORE": 0.308629,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-19303",
+      "QUERY": "Q0",
+      "SCORE": 1162887,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-7981",
+      "QUERY": "Q0",
+      "SCORE": 10.22306,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT944-11506",
+      "QUERY": "Q0",
+      "SCORE": 0.3747,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-20335",
+      "QUERY": "Q0",
+      "SCORE": 7.194365,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT941-5413",
+      "QUERY": "Q0",
+      "SCORE": 9.847013,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA042290-0201",
+      "QUERY": "Q0",
+      "SCORE": 15.102905,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA052489-0078",
+      "QUERY": "Q0",
+      "SCORE": 0.008108,
+      "TOPIC": 401
+    }
+  },
+  "46": {
+    "Flab8at": {
+      "DOCUMENT": "FT931-14226",
+      "QUERY": "Q0",
+      "SCORE": 5188.548828,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-9504",
+      "QUERY": "Q0",
+      "SCORE": 0.3086,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-42879",
+      "QUERY": "Q0",
+      "SCORE": 1159108,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-55980",
+      "QUERY": "Q0",
+      "SCORE": 10.21676,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-30223",
+      "QUERY": "Q0",
+      "SCORE": 0.3718,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19290",
+      "QUERY": "Q0",
+      "SCORE": 7.190287,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-20098",
+      "QUERY": "Q0",
+      "SCORE": 9.844243,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA071590-0148",
+      "QUERY": "Q0",
+      "SCORE": 15.087542,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-42221",
+      "QUERY": "Q0",
+      "SCORE": 0.008088,
+      "TOPIC": 401
+    }
+  },
+  "47": {
+    "Flab8at": {
+      "DOCUMENT": "FT922-14939",
+      "QUERY": "Q0",
+      "SCORE": 5148.436523,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR941202-2-00139",
+      "QUERY": "Q0",
+      "SCORE": 0.308203,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19831",
+      "QUERY": "Q0",
+      "SCORE": 1157699,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT933-3792",
+      "QUERY": "Q0",
+      "SCORE": 10.19841,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-30284",
+      "QUERY": "Q0",
+      "SCORE": 0.3718,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19831",
+      "QUERY": "Q0",
+      "SCORE": 7.163373,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT943-15609",
+      "QUERY": "Q0",
+      "SCORE": 9.814474,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA012190-0117",
+      "QUERY": "Q0",
+      "SCORE": 15.075234,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-64738",
+      "QUERY": "Q0",
+      "SCORE": 0.008081,
+      "TOPIC": 401
+    }
+  },
+  "48": {
+    "Flab8at": {
+      "DOCUMENT": "FT923-1528",
+      "QUERY": "Q0",
+      "SCORE": 5142.20459,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-31802",
+      "QUERY": "Q0",
+      "SCORE": 0.30817,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-59034",
+      "QUERY": "Q0",
+      "SCORE": 1155017,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-66148",
+      "QUERY": "Q0",
+      "SCORE": 10.15557,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-4470",
+      "QUERY": "Q0",
+      "SCORE": 0.3716,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-59042",
+      "QUERY": "Q0",
+      "SCORE": 7.159603,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-31715",
+      "QUERY": "Q0",
+      "SCORE": 9.800135,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT933-2237",
+      "QUERY": "Q0",
+      "SCORE": 14.926132,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA031390-0088",
+      "QUERY": "Q0",
+      "SCORE": 0.008,
+      "TOPIC": 401
+    }
+  },
+  "49": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-1648",
+      "QUERY": "Q0",
+      "SCORE": 5136.114258,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-11408",
+      "QUERY": "Q0",
+      "SCORE": 0.307964,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-5289",
+      "QUERY": "Q0",
+      "SCORE": 1153702,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT942-6335",
+      "QUERY": "Q0",
+      "SCORE": 10.15428,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-54812",
+      "QUERY": "Q0",
+      "SCORE": 0.3683,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT932-12882",
+      "QUERY": "Q0",
+      "SCORE": 7.144881,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-68653",
+      "QUERY": "Q0",
+      "SCORE": 9.787531,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-40017",
+      "QUERY": "Q0",
+      "SCORE": 14.897677,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA111089-0193",
+      "QUERY": "Q0",
+      "SCORE": 0.008,
+      "TOPIC": 401
+    }
+  },
+  "50": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-727",
+      "QUERY": "Q0",
+      "SCORE": 5131.855469,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT934-17339",
+      "QUERY": "Q0",
+      "SCORE": 0.307774,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-55313",
+      "QUERY": "Q0",
+      "SCORE": 1145804,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-30898",
+      "QUERY": "Q0",
+      "SCORE": 10.14563,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-50327",
+      "QUERY": "Q0",
+      "SCORE": 0.3683,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA022790-0091",
+      "QUERY": "Q0",
+      "SCORE": 7.129961,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-64863",
+      "QUERY": "Q0",
+      "SCORE": 9.763661,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA082189-0045",
+      "QUERY": "Q0",
+      "SCORE": 14.801027,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-19004",
+      "QUERY": "Q0",
+      "SCORE": 0.007965,
+      "TOPIC": 401
+    }
+  },
+  "51": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-59443",
+      "QUERY": "Q0",
+      "SCORE": 5131.443848,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-13569",
+      "QUERY": "Q0",
+      "SCORE": 0.307613,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-8570",
+      "QUERY": "Q0",
+      "SCORE": 1143792,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT924-3751",
+      "QUERY": "Q0",
+      "SCORE": 10.11513,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA081989-0049",
+      "QUERY": "Q0",
+      "SCORE": 0.368,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT942-9727",
+      "QUERY": "Q0",
+      "SCORE": 7.129961,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-24149",
+      "QUERY": "Q0",
+      "SCORE": 9.76226,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-52284",
+      "QUERY": "Q0",
+      "SCORE": 14.783643,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT911-5230",
+      "QUERY": "Q0",
+      "SCORE": 0.007895,
+      "TOPIC": 401
+    }
+  },
+  "52": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-18109",
+      "QUERY": "Q0",
+      "SCORE": 5098.249023,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT934-2531",
+      "QUERY": "Q0",
+      "SCORE": 0.307437,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-4007",
+      "QUERY": "Q0",
+      "SCORE": 1141481,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-8767",
+      "QUERY": "Q0",
+      "SCORE": 10.11191,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FR940825-2-00175",
+      "QUERY": "Q0",
+      "SCORE": 0.368,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19768",
+      "QUERY": "Q0",
+      "SCORE": 7.08357,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA060389-0035",
+      "QUERY": "Q0",
+      "SCORE": 9.736091,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-44443",
+      "QUERY": "Q0",
+      "SCORE": 14.736013,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT923-6452",
+      "QUERY": "Q0",
+      "SCORE": 0.007895,
+      "TOPIC": 401
+    }
+  },
+  "53": {
+    "Flab8at": {
+      "DOCUMENT": "FR940314-2-00029",
+      "QUERY": "Q0",
+      "SCORE": 5083.362305,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-5413",
+      "QUERY": "Q0",
+      "SCORE": 0.307025,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-20335",
+      "QUERY": "Q0",
+      "SCORE": 1141336,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-49386",
+      "QUERY": "Q0",
+      "SCORE": 10.09555,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-10751",
+      "QUERY": "Q0",
+      "SCORE": 0.3662,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-44377",
+      "QUERY": "Q0",
+      "SCORE": 7.082147,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18833",
+      "QUERY": "Q0",
+      "SCORE": 9.733773,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-45071",
+      "QUERY": "Q0",
+      "SCORE": 14.70704,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA042189-0084",
+      "QUERY": "Q0",
+      "SCORE": 0.007843,
+      "TOPIC": 401
+    }
+  },
+  "54": {
+    "Flab8at": {
+      "DOCUMENT": "FT911-1225",
+      "QUERY": "Q0",
+      "SCORE": 5083.044922,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT943-1340",
+      "QUERY": "Q0",
+      "SCORE": 0.306822,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-6406",
+      "QUERY": "Q0",
+      "SCORE": 1137991,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-31715",
+      "QUERY": "Q0",
+      "SCORE": 10.09282,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT934-11312",
+      "QUERY": "Q0",
+      "SCORE": 0.3636,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT911-1225",
+      "QUERY": "Q0",
+      "SCORE": 7.055153,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FR941013-2-00161",
+      "QUERY": "Q0",
+      "SCORE": 9.671596,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT944-13933",
+      "QUERY": "Q0",
+      "SCORE": 14.698504,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA091790-0117",
+      "QUERY": "Q0",
+      "SCORE": 0.007812,
+      "TOPIC": 401
+    }
+  },
+  "55": {
+    "Flab8at": {
+      "DOCUMENT": "FT942-811",
+      "QUERY": "Q0",
+      "SCORE": 5068.006348,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-1648",
+      "QUERY": "Q0",
+      "SCORE": 0.306364,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-18387",
+      "QUERY": "Q0",
+      "SCORE": 1135976,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-38677",
+      "QUERY": "Q0",
+      "SCORE": 10.08791,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA091490-0080",
+      "QUERY": "Q0",
+      "SCORE": 0.3626,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-66065",
+      "QUERY": "Q0",
+      "SCORE": 7.054815,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT932-10867",
+      "QUERY": "Q0",
+      "SCORE": 9.669579,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR941205-2-00164",
+      "QUERY": "Q0",
+      "SCORE": 14.674994,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-3102",
+      "QUERY": "Q0",
+      "SCORE": 0.007746,
+      "TOPIC": 401
+    }
+  },
+  "56": {
+    "Flab8at": {
+      "DOCUMENT": "FT944-8195",
+      "QUERY": "Q0",
+      "SCORE": 5064.34082,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT911-1225",
+      "QUERY": "Q0",
+      "SCORE": 0.30624,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-43420",
+      "QUERY": "Q0",
+      "SCORE": 1133410,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA060389-0035",
+      "QUERY": "Q0",
+      "SCORE": 10.07353,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-32589",
+      "QUERY": "Q0",
+      "SCORE": 0.3588,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-10979",
+      "QUERY": "Q0",
+      "SCORE": 7.03081,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18442",
+      "QUERY": "Q0",
+      "SCORE": 9.652215,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-5033",
+      "QUERY": "Q0",
+      "SCORE": 14.633539,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-19471",
+      "QUERY": "Q0",
+      "SCORE": 0.007724,
+      "TOPIC": 401
+    }
+  },
+  "57": {
+    "Flab8at": {
+      "DOCUMENT": "LA030690-0168",
+      "QUERY": "Q0",
+      "SCORE": 5057.132812,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 0.306189,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-6335",
+      "QUERY": "Q0",
+      "SCORE": 1132216,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-9504",
+      "QUERY": "Q0",
+      "SCORE": 10.06307,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA100590-0009",
+      "QUERY": "Q0",
+      "SCORE": 0.3572,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT924-1346",
+      "QUERY": "Q0",
+      "SCORE": 7.030061,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-25436",
+      "QUERY": "Q0",
+      "SCORE": 9.644988,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA022689-0167",
+      "QUERY": "Q0",
+      "SCORE": 14.632042,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT921-2590",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "58": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-38684",
+      "QUERY": "Q0",
+      "SCORE": 5056.072266,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-4847",
+      "QUERY": "Q0",
+      "SCORE": 0.305998,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-1403",
+      "QUERY": "Q0",
+      "SCORE": 1131913,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19756",
+      "QUERY": "Q0",
+      "SCORE": 10.03103,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9504",
+      "QUERY": "Q0",
+      "SCORE": 0.3495,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-54799",
+      "QUERY": "Q0",
+      "SCORE": 7.026823,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-5584",
+      "QUERY": "Q0",
+      "SCORE": 9.634294,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA040590-0119",
+      "QUERY": "Q0",
+      "SCORE": 14.629471,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT921-3258",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "59": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-9697",
+      "QUERY": "Q0",
+      "SCORE": 5053.879395,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT921-13979",
+      "QUERY": "Q0",
+      "SCORE": 0.305604,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-49716",
+      "QUERY": "Q0",
+      "SCORE": 1127628,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-20090",
+      "QUERY": "Q0",
+      "SCORE": 10.00559,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FR940906-2-00148",
+      "QUERY": "Q0",
+      "SCORE": 0.3483,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-1403",
+      "QUERY": "Q0",
+      "SCORE": 7.024865,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA101689-0009",
+      "QUERY": "Q0",
+      "SCORE": 9.618961,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA041689-0061",
+      "QUERY": "Q0",
+      "SCORE": 14.625006,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT921-3266",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "60": {
+    "Flab8at": {
+      "DOCUMENT": "FT923-14570",
+      "QUERY": "Q0",
+      "SCORE": 5029.160645,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-31704",
+      "QUERY": "Q0",
+      "SCORE": 0.305339,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-13408",
+      "QUERY": "Q0",
+      "SCORE": 1125313,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-8502",
+      "QUERY": "Q0",
+      "SCORE": 9.99769,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-17708",
+      "QUERY": "Q0",
+      "SCORE": 0.3449,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT932-10867",
+      "QUERY": "Q0",
+      "SCORE": 7.006254,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-7690",
+      "QUERY": "Q0",
+      "SCORE": 9.607685,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR941011-2-00137",
+      "QUERY": "Q0",
+      "SCORE": 14.588755,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT932-15812",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "61": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-11781",
+      "QUERY": "Q0",
+      "SCORE": 5026.097656,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-18833",
+      "QUERY": "Q0",
+      "SCORE": 0.304965,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-20182",
+      "QUERY": "Q0",
+      "SCORE": 1124781,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT922-2274",
+      "QUERY": "Q0",
+      "SCORE": 9.96776,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-32182",
+      "QUERY": "Q0",
+      "SCORE": 0.3395,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 6.996511,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA061790-0128",
+      "QUERY": "Q0",
+      "SCORE": 9.604967,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-68349",
+      "QUERY": "Q0",
+      "SCORE": 14.576849,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA072090-0152",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "62": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-19357",
+      "QUERY": "Q0",
+      "SCORE": 5009.975586,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-44443",
+      "QUERY": "Q0",
+      "SCORE": 0.304535,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT922-2274",
+      "QUERY": "Q0",
+      "SCORE": 1123143,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT921-624",
+      "QUERY": "Q0",
+      "SCORE": 9.95859,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT922-221",
+      "QUERY": "Q0",
+      "SCORE": 0.3382,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-8502",
+      "QUERY": "Q0",
+      "SCORE": 6.988937,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA091490-0080",
+      "QUERY": "Q0",
+      "SCORE": 9.575602,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-21846",
+      "QUERY": "Q0",
+      "SCORE": 14.569201,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA092589-0037",
+      "QUERY": "Q0",
+      "SCORE": 0.007692,
+      "TOPIC": 401
+    }
+  },
+  "63": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-44376",
+      "QUERY": "Q0",
+      "SCORE": 5005.808594,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940516-1-00119",
+      "QUERY": "Q0",
+      "SCORE": 0.304172,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-6192",
+      "QUERY": "Q0",
+      "SCORE": 1122656,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19589",
+      "QUERY": "Q0",
+      "SCORE": 9.94494,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-20329",
+      "QUERY": "Q0",
+      "SCORE": 0.3355,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-14939",
+      "QUERY": "Q0",
+      "SCORE": 6.982815,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-9504",
+      "QUERY": "Q0",
+      "SCORE": 9.523074,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-44",
+      "QUERY": "Q0",
+      "SCORE": 14.568418,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA020790-0096",
+      "QUERY": "Q0",
+      "SCORE": 0.007619,
+      "TOPIC": 401
+    }
+  },
+  "64": {
+    "Flab8at": {
+      "DOCUMENT": "FT932-3450",
+      "QUERY": "Q0",
+      "SCORE": 4995.525391,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-15966",
+      "QUERY": "Q0",
+      "SCORE": 0.30398,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-15864",
+      "QUERY": "Q0",
+      "SCORE": 1122527,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT942-16369",
+      "QUERY": "Q0",
+      "SCORE": 9.93894,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT924-15118",
+      "QUERY": "Q0",
+      "SCORE": 0.3312,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-46959",
+      "QUERY": "Q0",
+      "SCORE": 6.965216,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-17087",
+      "QUERY": "Q0",
+      "SCORE": 9.511269,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-9157",
+      "QUERY": "Q0",
+      "SCORE": 14.567823,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA082389-0142",
+      "QUERY": "Q0",
+      "SCORE": 0.007619,
+      "TOPIC": 401
+    }
+  },
+  "65": {
+    "Flab8at": {
+      "DOCUMENT": "LA120389-0087",
+      "QUERY": "Q0",
+      "SCORE": 4981.897949,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT921-14215",
+      "QUERY": "Q0",
+      "SCORE": 0.303211,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-31197",
+      "QUERY": "Q0",
+      "SCORE": 1120716,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-20335",
+      "QUERY": "Q0",
+      "SCORE": 9.89277,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-7584",
+      "QUERY": "Q0",
+      "SCORE": 0.3292,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-27159",
+      "QUERY": "Q0",
+      "SCORE": 6.964641,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT932-8398",
+      "QUERY": "Q0",
+      "SCORE": 9.504479,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-9438",
+      "QUERY": "Q0",
+      "SCORE": 14.567823,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-4631",
+      "QUERY": "Q0",
+      "SCORE": 0.007576,
+      "TOPIC": 401
+    }
+  },
+  "66": {
+    "Flab8at": {
+      "DOCUMENT": "FT922-9647",
+      "QUERY": "Q0",
+      "SCORE": 4963.521484,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-10834",
+      "QUERY": "Q0",
+      "SCORE": 0.302849,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-10203",
+      "QUERY": "Q0",
+      "SCORE": 1111102,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA092790-0028",
+      "QUERY": "Q0",
+      "SCORE": 9.8642,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA090589-0082",
+      "QUERY": "Q0",
+      "SCORE": 0.3283,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA122190-0057",
+      "QUERY": "Q0",
+      "SCORE": 6.961495,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT942-6335",
+      "QUERY": "Q0",
+      "SCORE": 9.490497,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA030489-0031",
+      "QUERY": "Q0",
+      "SCORE": 14.551847,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-18874",
+      "QUERY": "Q0",
+      "SCORE": 0.007534,
+      "TOPIC": 401
+    }
+  },
+  "67": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-54812",
+      "QUERY": "Q0",
+      "SCORE": 4955.745117,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-18182",
+      "QUERY": "Q0",
+      "SCORE": 0.302818,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-59415",
+      "QUERY": "Q0",
+      "SCORE": 1110843,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-38390",
+      "QUERY": "Q0",
+      "SCORE": 9.83819,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-64139",
+      "QUERY": "Q0",
+      "SCORE": 0.3258,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 6.954167,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18651",
+      "QUERY": "Q0",
+      "SCORE": 9.480207,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT943-2087",
+      "QUERY": "Q0",
+      "SCORE": 14.498549,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-19176",
+      "QUERY": "Q0",
+      "SCORE": 0.007519,
+      "TOPIC": 401
+    }
+  },
+  "68": {
+    "Flab8at": {
+      "DOCUMENT": "LA030189-0139",
+      "QUERY": "Q0",
+      "SCORE": 4946.008789,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT933-3792",
+      "QUERY": "Q0",
+      "SCORE": 0.302559,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19829",
+      "QUERY": "Q0",
+      "SCORE": 1106244,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-64261",
+      "QUERY": "Q0",
+      "SCORE": 9.78656,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA050389-0018",
+      "QUERY": "Q0",
+      "SCORE": 0.3248,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-59443",
+      "QUERY": "Q0",
+      "SCORE": 6.951794,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-42766",
+      "QUERY": "Q0",
+      "SCORE": 9.47309,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-58944",
+      "QUERY": "Q0",
+      "SCORE": 14.427798,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-15310",
+      "QUERY": "Q0",
+      "SCORE": 0.0075,
+      "TOPIC": 401
+    }
+  },
+  "69": {
+    "Flab8at": {
+      "DOCUMENT": "LA041290-0088",
+      "QUERY": "Q0",
+      "SCORE": 4942.542969,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-7265",
+      "QUERY": "Q0",
+      "SCORE": 0.302412,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-42985",
+      "QUERY": "Q0",
+      "SCORE": 1102751,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-31541",
+      "QUERY": "Q0",
+      "SCORE": 9.77499,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-54740",
+      "QUERY": "Q0",
+      "SCORE": 0.3208,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA110389-0063",
+      "QUERY": "Q0",
+      "SCORE": 6.921526,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA042789-0185",
+      "QUERY": "Q0",
+      "SCORE": 9.444466,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-4201",
+      "QUERY": "Q0",
+      "SCORE": 14.426936,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-15195",
+      "QUERY": "Q0",
+      "SCORE": 0.007432,
+      "TOPIC": 401
+    }
+  },
+  "70": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-43851",
+      "QUERY": "Q0",
+      "SCORE": 4932.746582,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-7690",
+      "QUERY": "Q0",
+      "SCORE": 0.301636,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19879",
+      "QUERY": "Q0",
+      "SCORE": 1101413,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT932-4940",
+      "QUERY": "Q0",
+      "SCORE": 9.76941,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-18651",
+      "QUERY": "Q0",
+      "SCORE": 0.3199,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT944-18562",
+      "QUERY": "Q0",
+      "SCORE": 6.916821,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-25615",
+      "QUERY": "Q0",
+      "SCORE": 9.43755,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-17708",
+      "QUERY": "Q0",
+      "SCORE": 14.417249,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-39839",
+      "QUERY": "Q0",
+      "SCORE": 0.007426,
+      "TOPIC": 401
+    }
+  },
+  "71": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-45897",
+      "QUERY": "Q0",
+      "SCORE": 4920.226074,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT932-8398",
+      "QUERY": "Q0",
+      "SCORE": 0.301548,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-43034",
+      "QUERY": "Q0",
+      "SCORE": 1101240,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA110690-0075",
+      "QUERY": "Q0",
+      "SCORE": 9.7532,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FR941205-2-00174",
+      "QUERY": "Q0",
+      "SCORE": 0.3166,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-39506",
+      "QUERY": "Q0",
+      "SCORE": 6.910085,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT923-12651",
+      "QUERY": "Q0",
+      "SCORE": 9.43024,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-18410",
+      "QUERY": "Q0",
+      "SCORE": 14.409211,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-18699",
+      "QUERY": "Q0",
+      "SCORE": 0.007407,
+      "TOPIC": 401
+    }
+  },
+  "72": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-18916",
+      "QUERY": "Q0",
+      "SCORE": 4920.15625,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT942-12755",
+      "QUERY": "Q0",
+      "SCORE": 0.301448,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT943-1025",
+      "QUERY": "Q0",
+      "SCORE": 1100244,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-9297",
+      "QUERY": "Q0",
+      "SCORE": 9.75077,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA110690-0075",
+      "QUERY": "Q0",
+      "SCORE": 0.3156,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19879",
+      "QUERY": "Q0",
+      "SCORE": 6.879873,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-31751",
+      "QUERY": "Q0",
+      "SCORE": 9.421445,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT942-15909",
+      "QUERY": "Q0",
+      "SCORE": 14.386031,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT924-14114",
+      "QUERY": "Q0",
+      "SCORE": 0.007407,
+      "TOPIC": 401
+    }
+  },
+  "73": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-59042",
+      "QUERY": "Q0",
+      "SCORE": 4915.957031,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT931-13815",
+      "QUERY": "Q0",
+      "SCORE": 0.301187,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-3572",
+      "QUERY": "Q0",
+      "SCORE": 1099298,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-19989",
+      "QUERY": "Q0",
+      "SCORE": 9.74213,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA060390-0070",
+      "QUERY": "Q0",
+      "SCORE": 0.3132,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-2232",
+      "QUERY": "Q0",
+      "SCORE": 6.879873,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT931-16878",
+      "QUERY": "Q0",
+      "SCORE": 9.421378,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA100790-0056",
+      "QUERY": "Q0",
+      "SCORE": 14.368339,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-9626",
+      "QUERY": "Q0",
+      "SCORE": 0.007335,
+      "TOPIC": 401
+    }
+  },
+  "74": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-5827",
+      "QUERY": "Q0",
+      "SCORE": 4913.740234,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-5288",
+      "QUERY": "Q0",
+      "SCORE": 0.30103,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-18483",
+      "QUERY": "Q0",
+      "SCORE": 1098912,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT944-8195",
+      "QUERY": "Q0",
+      "SCORE": 9.74108,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-7126",
+      "QUERY": "Q0",
+      "SCORE": 0.3118,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT943-8326",
+      "QUERY": "Q0",
+      "SCORE": 6.873522,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-38390",
+      "QUERY": "Q0",
+      "SCORE": 9.418553,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA052489-0042",
+      "QUERY": "Q0",
+      "SCORE": 14.356833,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-19577",
+      "QUERY": "Q0",
+      "SCORE": 0.007317,
+      "TOPIC": 401
+    }
+  },
+  "75": {
+    "Flab8at": {
+      "DOCUMENT": "FT933-2163",
+      "QUERY": "Q0",
+      "SCORE": 4912.956055,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT932-6272",
+      "QUERY": "Q0",
+      "SCORE": 0.30064,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-5286",
+      "QUERY": "Q0",
+      "SCORE": 1098446,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT923-13484",
+      "QUERY": "Q0",
+      "SCORE": 9.73495,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-31775",
+      "QUERY": "Q0",
+      "SCORE": 0.3115,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT931-978",
+      "QUERY": "Q0",
+      "SCORE": 6.872429,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-39406",
+      "QUERY": "Q0",
+      "SCORE": 9.398521,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA061090-0195",
+      "QUERY": "Q0",
+      "SCORE": 14.356424,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-19032",
+      "QUERY": "Q0",
+      "SCORE": 0.007285,
+      "TOPIC": 401
+    }
+  },
+  "76": {
+    "Flab8at": {
+      "DOCUMENT": "FT943-7552",
+      "QUERY": "Q0",
+      "SCORE": 4911.395508,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT941-3931",
+      "QUERY": "Q0",
+      "SCORE": 0.300339,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-39881",
+      "QUERY": "Q0",
+      "SCORE": 1097958,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT922-221",
+      "QUERY": "Q0",
+      "SCORE": 9.72218,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9475",
+      "QUERY": "Q0",
+      "SCORE": 0.3114,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT924-11730",
+      "QUERY": "Q0",
+      "SCORE": 6.870627,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-31659",
+      "QUERY": "Q0",
+      "SCORE": 9.357635,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA121690-0207",
+      "QUERY": "Q0",
+      "SCORE": 14.353889,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-18759",
+      "QUERY": "Q0",
+      "SCORE": 0.007229,
+      "TOPIC": 401
+    }
+  },
+  "77": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-19459",
+      "QUERY": "Q0",
+      "SCORE": 4898.246094,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-44437",
+      "QUERY": "Q0",
+      "SCORE": 0.300199,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-18833",
+      "QUERY": "Q0",
+      "SCORE": 1096115,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT942-17612",
+      "QUERY": "Q0",
+      "SCORE": 9.70133,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-50280",
+      "QUERY": "Q0",
+      "SCORE": 0.3113,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT944-12772",
+      "QUERY": "Q0",
+      "SCORE": 6.864642,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-32713",
+      "QUERY": "Q0",
+      "SCORE": 9.349593,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT924-7558",
+      "QUERY": "Q0",
+      "SCORE": 14.316161,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-59229",
+      "QUERY": "Q0",
+      "SCORE": 0.007203,
+      "TOPIC": 401
+    }
+  },
+  "78": {
+    "Flab8at": {
+      "DOCUMENT": "FT932-7336",
+      "QUERY": "Q0",
+      "SCORE": 4897.388184,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-11506",
+      "QUERY": "Q0",
+      "SCORE": 0.29948,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-18997",
+      "QUERY": "Q0",
+      "SCORE": 1095909,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-17595",
+      "QUERY": "Q0",
+      "SCORE": 9.68625,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA012190-0068",
+      "QUERY": "Q0",
+      "SCORE": 0.3108,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19830",
+      "QUERY": "Q0",
+      "SCORE": 6.860743,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-17077",
+      "QUERY": "Q0",
+      "SCORE": 9.336081,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT924-7858",
+      "QUERY": "Q0",
+      "SCORE": 14.27972,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-42635",
+      "QUERY": "Q0",
+      "SCORE": 0.007194,
+      "TOPIC": 401
+    }
+  },
+  "79": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-40834",
+      "QUERY": "Q0",
+      "SCORE": 4887.981934,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-9119",
+      "QUERY": "Q0",
+      "SCORE": 0.29947,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-5906",
+      "QUERY": "Q0",
+      "SCORE": 1091677,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-8570",
+      "QUERY": "Q0",
+      "SCORE": 9.68497,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT943-14463",
+      "QUERY": "Q0",
+      "SCORE": 0.3097,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-42453",
+      "QUERY": "Q0",
+      "SCORE": 6.858127,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-59212",
+      "QUERY": "Q0",
+      "SCORE": 9.314485,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT924-655",
+      "QUERY": "Q0",
+      "SCORE": 14.273289,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-39203",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "80": {
+    "Flab8at": {
+      "DOCUMENT": "FT931-2176",
+      "QUERY": "Q0",
+      "SCORE": 4868.124512,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT934-13518",
+      "QUERY": "Q0",
+      "SCORE": 0.299324,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-3808",
+      "QUERY": "Q0",
+      "SCORE": 1090266,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT931-2176",
+      "QUERY": "Q0",
+      "SCORE": 9.64211,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT921-13792",
+      "QUERY": "Q0",
+      "SCORE": 0.3064,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT943-14463",
+      "QUERY": "Q0",
+      "SCORE": 6.840872,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA011389-0015",
+      "QUERY": "Q0",
+      "SCORE": 9.313688,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FR940616-2-00141",
+      "QUERY": "Q0",
+      "SCORE": 14.249682,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT922-3865",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "81": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-61367",
+      "QUERY": "Q0",
+      "SCORE": 4850.654785,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT943-12593",
+      "QUERY": "Q0",
+      "SCORE": 0.29926,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19213",
+      "QUERY": "Q0",
+      "SCORE": 1089459,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT944-8635",
+      "QUERY": "Q0",
+      "SCORE": 9.60209,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT934-12728",
+      "QUERY": "Q0",
+      "SCORE": 0.3064,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT923-7457",
+      "QUERY": "Q0",
+      "SCORE": 6.832129,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA050290-0108",
+      "QUERY": "Q0",
+      "SCORE": 9.300221,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-60307",
+      "QUERY": "Q0",
+      "SCORE": 14.234877,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT923-5490",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "82": {
+    "Flab8at": {
+      "DOCUMENT": "FT921-9293",
+      "QUERY": "Q0",
+      "SCORE": 4843.462402,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-7584",
+      "QUERY": "Q0",
+      "SCORE": 0.298892,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-3933",
+      "QUERY": "Q0",
+      "SCORE": 1087744,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-18223",
+      "QUERY": "Q0",
+      "SCORE": 9.59656,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-56052",
+      "QUERY": "Q0",
+      "SCORE": 0.3055,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT933-2163",
+      "QUERY": "Q0",
+      "SCORE": 6.831089,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-61296",
+      "QUERY": "Q0",
+      "SCORE": 9.298138,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT934-15047",
+      "QUERY": "Q0",
+      "SCORE": 14.209541,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT924-12761",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "83": {
+    "Flab8at": {
+      "DOCUMENT": "FT932-5884",
+      "QUERY": "Q0",
+      "SCORE": 4836.083984,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT924-3284",
+      "QUERY": "Q0",
+      "SCORE": 0.298849,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-2610",
+      "QUERY": "Q0",
+      "SCORE": 1086386,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19645",
+      "QUERY": "Q0",
+      "SCORE": 9.56832,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT933-8708",
+      "QUERY": "Q0",
+      "SCORE": 0.3028,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA021890-0100",
+      "QUERY": "Q0",
+      "SCORE": 6.826542,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-46959",
+      "QUERY": "Q0",
+      "SCORE": 9.290806,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA052090-0077",
+      "QUERY": "Q0",
+      "SCORE": 14.182846,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT931-11049",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "84": {
+    "Flab8at": {
+      "DOCUMENT": "FT943-13233",
+      "QUERY": "Q0",
+      "SCORE": 4828.650879,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-5188",
+      "QUERY": "Q0",
+      "SCORE": 0.298779,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT944-10162",
+      "QUERY": "Q0",
+      "SCORE": 1086316,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-15509",
+      "QUERY": "Q0",
+      "SCORE": 9.56566,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA072490-0038",
+      "QUERY": "Q0",
+      "SCORE": 0.3018,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-43851",
+      "QUERY": "Q0",
+      "SCORE": 6.822059,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT934-12728",
+      "QUERY": "Q0",
+      "SCORE": 9.271981,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-64139",
+      "QUERY": "Q0",
+      "SCORE": 14.165478,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT934-11214",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "85": {
+    "Flab8at": {
+      "DOCUMENT": "FT942-7373",
+      "QUERY": "Q0",
+      "SCORE": 4826.013184,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-14738",
+      "QUERY": "Q0",
+      "SCORE": 0.298648,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-5012",
+      "QUERY": "Q0",
+      "SCORE": 1085357,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-30880",
+      "QUERY": "Q0",
+      "SCORE": 9.55363,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA032490-0033",
+      "QUERY": "Q0",
+      "SCORE": 0.3014,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-4007",
+      "QUERY": "Q0",
+      "SCORE": 6.809628,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-19042",
+      "QUERY": "Q0",
+      "SCORE": 9.268315,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-62723",
+      "QUERY": "Q0",
+      "SCORE": 14.16301,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT941-10535",
+      "QUERY": "Q0",
+      "SCORE": 0.007143,
+      "TOPIC": 401
+    }
+  },
+  "86": {
+    "Flab8at": {
+      "DOCUMENT": "LA110489-0075",
+      "QUERY": "Q0",
+      "SCORE": 4820.280762,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT942-5417",
+      "QUERY": "Q0",
+      "SCORE": 0.29806,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT932-1948",
+      "QUERY": "Q0",
+      "SCORE": 1085150,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-35592",
+      "QUERY": "Q0",
+      "SCORE": 9.54288,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-8054",
+      "QUERY": "Q0",
+      "SCORE": 0.2994,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-31541",
+      "QUERY": "Q0",
+      "SCORE": 6.801655,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA061290-0074",
+      "QUERY": "Q0",
+      "SCORE": 9.267179,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA040190-0127",
+      "QUERY": "Q0",
+      "SCORE": 14.141146,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-2695",
+      "QUERY": "Q0",
+      "SCORE": 0.007097,
+      "TOPIC": 401
+    }
+  },
+  "87": {
+    "Flab8at": {
+      "DOCUMENT": "FT932-13685",
+      "QUERY": "Q0",
+      "SCORE": 4820.279297,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-54880",
+      "QUERY": "Q0",
+      "SCORE": 0.297992,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-9316",
+      "QUERY": "Q0",
+      "SCORE": 1084886,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-18659",
+      "QUERY": "Q0",
+      "SCORE": 9.53381,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9157",
+      "QUERY": "Q0",
+      "SCORE": 0.2988,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-221",
+      "QUERY": "Q0",
+      "SCORE": 6.796494,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-18364",
+      "QUERY": "Q0",
+      "SCORE": 9.242941,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-46959",
+      "QUERY": "Q0",
+      "SCORE": 14.139743,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-58018",
+      "QUERY": "Q0",
+      "SCORE": 0.00709,
+      "TOPIC": 401
+    }
+  },
+  "88": {
+    "Flab8at": {
+      "DOCUMENT": "FT923-4502",
+      "QUERY": "Q0",
+      "SCORE": 4797.098633,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT942-5121",
+      "QUERY": "Q0",
+      "SCORE": 0.297885,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19898",
+      "QUERY": "Q0",
+      "SCORE": 1083197,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-57289",
+      "QUERY": "Q0",
+      "SCORE": 9.52925,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-9438",
+      "QUERY": "Q0",
+      "SCORE": 0.2988,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-18109",
+      "QUERY": "Q0",
+      "SCORE": 6.786303,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-17595",
+      "QUERY": "Q0",
+      "SCORE": 9.236454,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT923-3134",
+      "QUERY": "Q0",
+      "SCORE": 14.110476,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-58048",
+      "QUERY": "Q0",
+      "SCORE": 0.00709,
+      "TOPIC": 401
+    }
+  },
+  "89": {
+    "Flab8at": {
+      "DOCUMENT": "LA072590-0049",
+      "QUERY": "Q0",
+      "SCORE": 4796.90332,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT942-5131",
+      "QUERY": "Q0",
+      "SCORE": 0.297885,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-54799",
+      "QUERY": "Q0",
+      "SCORE": 1082520,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FT941-4767",
+      "QUERY": "Q0",
+      "SCORE": 9.52871,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA022490-0167",
+      "QUERY": "Q0",
+      "SCORE": 0.2986,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-9297",
+      "QUERY": "Q0",
+      "SCORE": 6.782212,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-68774",
+      "QUERY": "Q0",
+      "SCORE": 9.21513,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-19644",
+      "QUERY": "Q0",
+      "SCORE": 14.088347,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-18797",
+      "QUERY": "Q0",
+      "SCORE": 0.007075,
+      "TOPIC": 401
+    }
+  },
+  "90": {
+    "Flab8at": {
+      "DOCUMENT": "LA072390-0039",
+      "QUERY": "Q0",
+      "SCORE": 4796.788574,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-32713",
+      "QUERY": "Q0",
+      "SCORE": 0.297712,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-49917",
+      "QUERY": "Q0",
+      "SCORE": 1079858,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-31747",
+      "QUERY": "Q0",
+      "SCORE": 9.50753,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS4-47142",
+      "QUERY": "Q0",
+      "SCORE": 0.2985,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-15552",
+      "QUERY": "Q0",
+      "SCORE": 6.780825,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-38668",
+      "QUERY": "Q0",
+      "SCORE": 9.208944,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA061290-0074",
+      "QUERY": "Q0",
+      "SCORE": 14.056458,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-18040",
+      "QUERY": "Q0",
+      "SCORE": 0.007065,
+      "TOPIC": 401
+    }
+  },
+  "91": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-15799",
+      "QUERY": "Q0",
+      "SCORE": 4770.621582,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT923-15771",
+      "QUERY": "Q0",
+      "SCORE": 0.297278,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT942-16369",
+      "QUERY": "Q0",
+      "SCORE": 1079603,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA050789-0068",
+      "QUERY": "Q0",
+      "SCORE": 9.5059,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT921-3278",
+      "QUERY": "Q0",
+      "SCORE": 0.2984,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT941-3268",
+      "QUERY": "Q0",
+      "SCORE": 6.778334,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-31745",
+      "QUERY": "Q0",
+      "SCORE": 9.195131,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-42630",
+      "QUERY": "Q0",
+      "SCORE": 14.055525,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-19803",
+      "QUERY": "Q0",
+      "SCORE": 0.007062,
+      "TOPIC": 401
+    }
+  },
+  "92": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-9115",
+      "QUERY": "Q0",
+      "SCORE": 4766.162598,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT944-12043",
+      "QUERY": "Q0",
+      "SCORE": 0.297272,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-49374",
+      "QUERY": "Q0",
+      "SCORE": 1078282,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-20074",
+      "QUERY": "Q0",
+      "SCORE": 9.49237,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT933-10979",
+      "QUERY": "Q0",
+      "SCORE": 0.2967,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-44262",
+      "QUERY": "Q0",
+      "SCORE": 6.771717,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FT944-8162",
+      "QUERY": "Q0",
+      "SCORE": 9.19342,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FT933-10979",
+      "QUERY": "Q0",
+      "SCORE": 13.95574,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-19130",
+      "QUERY": "Q0",
+      "SCORE": 0.007031,
+      "TOPIC": 401
+    }
+  },
+  "93": {
+    "Flab8at": {
+      "DOCUMENT": "FT924-752",
+      "QUERY": "Q0",
+      "SCORE": 4758.17627,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-18651",
+      "QUERY": "Q0",
+      "SCORE": 0.297169,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-19303",
+      "QUERY": "Q0",
+      "SCORE": 1077526,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-9157",
+      "QUERY": "Q0",
+      "SCORE": 9.48539,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT942-7385",
+      "QUERY": "Q0",
+      "SCORE": 0.2966,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-40566",
+      "QUERY": "Q0",
+      "SCORE": 6.771444,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA070690-0008",
+      "QUERY": "Q0",
+      "SCORE": 9.188818,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA051589-0043",
+      "QUERY": "Q0",
+      "SCORE": 13.933849,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA101689-0096",
+      "QUERY": "Q0",
+      "SCORE": 0.007031,
+      "TOPIC": 401
+    }
+  },
+  "94": {
+    "Flab8at": {
+      "DOCUMENT": "FT942-16369",
+      "QUERY": "Q0",
+      "SCORE": 4757.475586,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-46649",
+      "QUERY": "Q0",
+      "SCORE": 0.296837,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-6196",
+      "QUERY": "Q0",
+      "SCORE": 1077174,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-40566",
+      "QUERY": "Q0",
+      "SCORE": 9.48414,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-44441",
+      "QUERY": "Q0",
+      "SCORE": 0.2949,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA110990-0013",
+      "QUERY": "Q0",
+      "SCORE": 6.719927,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-42872",
+      "QUERY": "Q0",
+      "SCORE": 9.182826,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-55746",
+      "QUERY": "Q0",
+      "SCORE": 13.928024,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT931-12739",
+      "QUERY": "Q0",
+      "SCORE": 0.006977,
+      "TOPIC": 401
+    }
+  },
+  "95": {
+    "Flab8at": {
+      "DOCUMENT": "FT934-2907",
+      "QUERY": "Q0",
+      "SCORE": 4755.974121,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR941230-0-00120",
+      "QUERY": "Q0",
+      "SCORE": 0.296252,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-49468",
+      "QUERY": "Q0",
+      "SCORE": 1077143,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-19829",
+      "QUERY": "Q0",
+      "SCORE": 9.48214,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA021389-0004",
+      "QUERY": "Q0",
+      "SCORE": 0.2943,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT922-9686",
+      "QUERY": "Q0",
+      "SCORE": 6.718378,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-35788",
+      "QUERY": "Q0",
+      "SCORE": 9.167326,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA090790-0122",
+      "QUERY": "Q0",
+      "SCORE": 13.898952,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS3-20825",
+      "QUERY": "Q0",
+      "SCORE": 0.006962,
+      "TOPIC": 401
+    }
+  },
+  "96": {
+    "Flab8at": {
+      "DOCUMENT": "LA091089-0174",
+      "QUERY": "Q0",
+      "SCORE": 4753.569336,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS3-39117",
+      "QUERY": "Q0",
+      "SCORE": 0.296217,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS4-65928",
+      "QUERY": "Q0",
+      "SCORE": 1076259,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS4-9438",
+      "QUERY": "Q0",
+      "SCORE": 9.47375,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-48948",
+      "QUERY": "Q0",
+      "SCORE": 0.2933,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FT911-225",
+      "QUERY": "Q0",
+      "SCORE": 6.716941,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA110990-0013",
+      "QUERY": "Q0",
+      "SCORE": 9.165046,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "LA073089-0019",
+      "QUERY": "Q0",
+      "SCORE": 13.890881,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-65380",
+      "QUERY": "Q0",
+      "SCORE": 0.006936,
+      "TOPIC": 401
+    }
+  },
+  "97": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-19302",
+      "QUERY": "Q0",
+      "SCORE": 4753.169434,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-49862",
+      "QUERY": "Q0",
+      "SCORE": 0.296138,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT922-4634",
+      "QUERY": "Q0",
+      "SCORE": 1075813,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-31475",
+      "QUERY": "Q0",
+      "SCORE": 9.46142,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "LA072990-0210",
+      "QUERY": "Q0",
+      "SCORE": 0.2916,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-19302",
+      "QUERY": "Q0",
+      "SCORE": 6.712957,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-59042",
+      "QUERY": "Q0",
+      "SCORE": 9.161497,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-40625",
+      "QUERY": "Q0",
+      "SCORE": 13.876517,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-18287",
+      "QUERY": "Q0",
+      "SCORE": 0.006897,
+      "TOPIC": 401
+    }
+  },
+  "98": {
+    "Flab8at": {
+      "DOCUMENT": "FT941-11510",
+      "QUERY": "Q0",
+      "SCORE": 4745.363281,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FR940203-0-00084",
+      "QUERY": "Q0",
+      "SCORE": 0.296096,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-20183",
+      "QUERY": "Q0",
+      "SCORE": 1074545,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-30469",
+      "QUERY": "Q0",
+      "SCORE": 9.45221,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FT943-12593",
+      "QUERY": "Q0",
+      "SCORE": 0.2915,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS3-20078",
+      "QUERY": "Q0",
+      "SCORE": 6.712773,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS4-18659",
+      "QUERY": "Q0",
+      "SCORE": 9.158119,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS3-19589",
+      "QUERY": "Q0",
+      "SCORE": 13.861617,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FT934-15682",
+      "QUERY": "Q0",
+      "SCORE": 0.006897,
+      "TOPIC": 401
+    }
+  },
+  "99": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS3-58832",
+      "QUERY": "Q0",
+      "SCORE": 4736.250977,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FT933-16953",
+      "QUERY": "Q0",
+      "SCORE": 0.29557,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FBIS3-30679",
+      "QUERY": "Q0",
+      "SCORE": 1074130,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "FBIS3-8720",
+      "QUERY": "Q0",
+      "SCORE": 9.42716,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-37947",
+      "QUERY": "Q0",
+      "SCORE": 0.2853,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "FBIS4-19244",
+      "QUERY": "Q0",
+      "SCORE": 6.678997,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "FBIS3-19459",
+      "QUERY": "Q0",
+      "SCORE": 9.14597,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-56407",
+      "QUERY": "Q0",
+      "SCORE": 13.85652,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "LA032190-0155",
+      "QUERY": "Q0",
+      "SCORE": 0.006897,
+      "TOPIC": 401
+    }
+  },
+  "100": {
+    "Flab8at": {
+      "DOCUMENT": "FBIS4-65928",
+      "QUERY": "Q0",
+      "SCORE": 4735.114258,
+      "TOPIC": 401
+    },
+    "UT803": {
+      "DOCUMENT": "FBIS4-32200",
+      "QUERY": "Q0",
+      "SCORE": 0.295466,
+      "TOPIC": 401
+    },
+    "fub99a": {
+      "DOCUMENT": "FT941-2087",
+      "QUERY": "Q0",
+      "SCORE": 1073887,
+      "TOPIC": 401
+    },
+    "nttd8am": {
+      "DOCUMENT": "LA123089-0101",
+      "QUERY": "Q0",
+      "SCORE": 9.39188,
+      "TOPIC": 401
+    },
+    "pir9Aatd": {
+      "DOCUMENT": "FBIS3-49379",
+      "QUERY": "Q0",
+      "SCORE": 0.2852,
+      "TOPIC": 401
+    },
+    "plt8ah1": {
+      "DOCUMENT": "LA030690-0168",
+      "QUERY": "Q0",
+      "SCORE": 6.66296,
+      "TOPIC": 401
+    },
+    "plt8ah2": {
+      "DOCUMENT": "LA052590-0090",
+      "QUERY": "Q0",
+      "SCORE": 9.136044,
+      "TOPIC": 401
+    },
+    "plt8ah3": {
+      "DOCUMENT": "FBIS4-18412",
+      "QUERY": "Q0",
+      "SCORE": 13.842992,
+      "TOPIC": 401
+    },
+    "surffal2": {
+      "DOCUMENT": "FBIS4-54510",
+      "QUERY": "Q0",
+      "SCORE": 0.006894,
+      "TOPIC": 401
+    }
+  }
+}

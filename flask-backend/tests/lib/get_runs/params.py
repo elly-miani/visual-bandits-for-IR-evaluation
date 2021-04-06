@@ -7,5 +7,5 @@ def params(runs):
 
 	return {
 		'runsList': runs_list,
-		'topic_list': topic_list
+		'topicsList': topic_list
 	}

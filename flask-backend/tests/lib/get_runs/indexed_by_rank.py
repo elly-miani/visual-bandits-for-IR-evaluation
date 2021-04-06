@@ -7,9 +7,9 @@ import pandas as pd
 	JSON result: RANK -> RUN -> {DOCUMENT, QUERY, SCORE, TOPIC}
 '''
 def indexed_by_rank(runs):
-	indexed_runs = runs.set_index(['RANK', 'RUN'])
+	runs_indexed = runs.set_index(['RANK', 'RUN'])
 	# runs.set_index(['RUN', 'RANK'], inplace=True)
-	indexed_runs.sort_index(inplace=True)
+	runs_indexed.sort_index(inplace=True)
 	# print(tabulate(runs, headers='keys', tablefmt='psql'))
 
-	return indexed_runs
+	return runs_indexed
