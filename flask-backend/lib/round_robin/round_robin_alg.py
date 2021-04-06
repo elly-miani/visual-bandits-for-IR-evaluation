@@ -4,10 +4,11 @@ from lib import convert_data
 from lib import get_doc_info
 from lib import adjudication
 from lib import round_robin
+from lib import get_runs
 
 import logging
 
-def round_robin_alg(runs, qrels, pool_size, log_path):
+def round_robin_alg(runs, qrels, pool_depth, log_path):
 
 	# identify the names of all unique runs, and how many there are
 	runs_ids = runs["RUN"].unique().tolist()
@@ -39,8 +40,11 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 	run_relevancies_order = []		# ordered array of the relevancies status at each step
 
 
+	runs = get_runs.by_run_size(runs, pool_depth)
+
 	print("➡️ Retrieving documents to be adjudicated...")
-	for i in range(1, pool_size+1):
+	while not all(i == -1 for i in runs_status.values()):
+	# for i in range(1, pool_depth+1):
 		# repeat the process until we have retrieved the desired number of documents
 
 		# print("\n### DOCUMENT", i)																												### LOGGING
@@ -49,6 +53,11 @@ def round_robin_alg(runs, qrels, pool_size, log_path):
 
 		next_doc_found = False
 		while not next_doc_found:
+
+			if all(i == -1 for i in runs_status.values()):
+				# print("All runs have no more values.")
+				break
+
 			# find next_run
 			next_run, next_run_index = round_robin.get_next_run(runs_ids, runs_status, next_run_index)
 

@@ -39,7 +39,7 @@ export default function Sidebar(props) {
 				<AdjudicationAutoplayControls 
 					updateAdjudicationAutoplay={props.updateAdjudicationAutoplay}
 					adjudicationAutoplay={props.adjudicationAutoplay}
-					poolSize={props.poolSize}
+					poolSize={props.retrievedDocs !== null ? props.retrievedDocs.length : 0}
 					disable={props.retrievedDocs === null}
 				/>
 

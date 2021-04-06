@@ -198,7 +198,7 @@ function MainView() {
 	}
 
 	useInterval(() => {
-		if (adjudicationAutoplay.status < poolSize - 1)
+		if (adjudicationAutoplay.status < retrievedDocs.length - 1)
 			updateAdjudicationAutoplay('next');
 		else
 			updateAdjudicationAutoplay('pause')
@@ -234,7 +234,7 @@ function MainView() {
 		updateStatus('adjudication', 'inProgress');
 		updateAdjudicationAutoplay('stop');
 
-		let url = urlAdjudication + "?method=" + adjudicationMethod + '&topic=' + topic + '&poolSize=' + poolSize;
+		let url = urlAdjudication + "?method=" + adjudicationMethod + '&topic=' + topic + '&poolDepth=' + poolSize;
 
 		fetchAPI(printLogHelper.current, url, res => {
 			setRetrievedDocs(res.retrieved_docs_order);

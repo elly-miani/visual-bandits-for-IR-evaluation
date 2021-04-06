@@ -48,7 +48,7 @@ export default function Controls(props) {
 				</div>
 
 				<div>
-					<span className="toggle-label">Pool Size</span>
+					<span className="toggle-label">Pool Depth</span>
 					<div className="inline-input-group">
 						<PoolSizePicker 
 							updateParameter={props.updateParameter}

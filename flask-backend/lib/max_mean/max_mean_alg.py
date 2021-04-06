@@ -4,10 +4,11 @@ from lib import convert_data
 from lib import get_doc_info
 from lib import adjudication
 from lib import max_mean
+from lib import get_runs
 
 import logging
 
-def max_mean_alg(runs, qrels, pool_size, log_path):
+def max_mean_alg(runs, qrels, pool_depth, log_path):
 
 	# identify the names of all unique runs, and how many there are
 	runs_ids = runs["RUN"].unique().tolist()
@@ -43,16 +44,25 @@ def max_mean_alg(runs, qrels, pool_size, log_path):
 	run_relevancies_order = []		# ordered array of the relevancies status at each step
 
 
-	print("➡️ Retrieving documents to be adjudicated...")
-	for i in range(1, pool_size+1):
-		# repeat the process until we have retrieved the desired number of documents
+	runs = get_runs.by_run_size(runs, pool_depth)
 
+	# i = 0
+	print("➡️ Retrieving documents to be adjudicated...")
+	while not all(i == -1 for i in runs_status.values()):
+	# for i in range(1, pool_depth*10):
+		# repeat the process until we have retrieved the desired number of documents
+		
+		# i += 1
 		# print("\n### DOCUMENT", i)																												### LOGGING
 		# logging.debug("\n#### DOCUMENT %d", i)																						### LOGGING
 
-
 		next_doc_found = False
 		while not next_doc_found:
+
+			if all(i == -1 for i in runs_status.values()):
+				# print("All runs have no more values.")
+				break
+
 			# find next_run
 			next_run, next_run_index = max_mean.get_next_run(runs_ids, runs_status, max_mean_params)
 

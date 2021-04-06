@@ -122,7 +122,6 @@ def get_qrels_api():
 
 '''
 ADJUDICATION ROUTE
-?method=round_robin?topic=401?poolSize=100
 '''
 @app.route('/api/adjudication', methods=["GET"])
 def get_adjudication_data_api():
@@ -130,12 +129,9 @@ def get_adjudication_data_api():
 	global qrels_df
 	global LOGS_PATH
 
-	# print(request.args.get('method'))
-	# print(request.args.get('topic'))
-	# print(request.args.get('poolSize'))
 	method = request.args.get('method')
 	topic = int(request.args.get('topic'))
-	pool_size = int(request.args.get('poolSize'))
+	pool_size = int(request.args.get('poolDepth'))
 
 	runs_filtered = get_runs.by_topic(runs_df, topic)
 	qrels_filtered = get_qrels.by_topic(qrels_df, topic)
