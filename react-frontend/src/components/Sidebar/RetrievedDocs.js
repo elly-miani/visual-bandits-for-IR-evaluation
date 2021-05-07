@@ -18,7 +18,7 @@ export default function RetrievedDocs(props) {
 			<div id="retrieved-documents-list">
 				{
 					props.retrievedDocs
-						.slice(props.adjudicationStatus >= 10 ? props.adjudicationStatus - 10 : 0, props.adjudicationStatus+1)
+						.slice(props.adjudicationStatus >= 5 ? props.adjudicationStatus - 4 : 0, props.adjudicationStatus+1)
 						.reverse()
 						.map(function (d, idx) {
 							return (

@@ -17,7 +17,7 @@ UPLOAD_FOLDER = './data/uploaded/'
 DEFAULT_DATA_FOLDER = './data/default/'
 LOGS_PATH = './data/output_logs/'
 
-DEBUG_MAX_FILES_LOADED = 30
+DEBUG_MAX_FILES_LOADED = 30000
 
 app = Flask(__name__, static_folder='../react-frontend/build', static_url_path='/')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER

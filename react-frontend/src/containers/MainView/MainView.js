@@ -202,7 +202,7 @@ function MainView() {
 			updateAdjudicationAutoplay('next');
 		else
 			updateAdjudicationAutoplay('pause')
-	}, !adjudicationAutoplay.paused ? 500 : null);
+	}, !adjudicationAutoplay.paused ? 200 : null);
 
 
 

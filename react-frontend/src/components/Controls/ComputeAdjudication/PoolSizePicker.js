@@ -17,9 +17,9 @@ export default function PoolSizePicker(props) {
 				ref={poolSizePickerRef}
 				size="m"
 				style={{ width: 60 }}
-				min={20}
-				step={20}
-				defaultValue="100"
+				min={10}
+				step={10}
+				defaultValue="10"
 				onChange={(value, event) => {
 					props.updateParameter(value, 'pool-size')
 				}}
