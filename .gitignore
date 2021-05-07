@@ -20,6 +20,8 @@ env/
 .env.test.local
 .env.production.local
 
+*/tests/
+
 # Unit test reports
 TEST*.xml
 /coverage
